@@ -1,0 +1,38 @@
+---
+/**
+ * Nav — fixed navigation bar with planned portfolio sections.
+ *
+ * ## Planned Sections
+ *
+ * 1. About — Personal bio, philosophy, and technical identity.
+ * 2. Projects — Data platforms, pipelines, dashboards, and analytics tools built at scale.
+ * 3. Writing — Technical blog posts on data engineering, analytics, and architecture.
+ * 4. Open Source — Libraries, tools, and community contributions.
+ * 5. Experience — Career timeline with roles, companies, and measurable impact.
+ * 6. Contact — Direct outreach for collaboration, speaking, or hiring.
+ */
+
+const sections = [
+  { label: 'About', href: '#about' },
+  { label: 'Projects', href: '#projects' },
+  { label: 'Writing', href: '#writing' },
+  { label: 'Open Source', href: '#open-source' },
+  { label: 'Experience', href: '#experience' },
+  { label: 'Contact', href: '#contact' },
+];
+---
+
+<nav class="nav" aria-label="Main navigation">
+  <a href="/" class="nav-logo" aria-label="Thiago Panini — Home">TP</a>
+  <ul class="nav-links" role="list">
+    {sections.map(({ label, href }) => (
+      <li>
+        <a href={href} class="nav-link">{label}</a>
+      </li>
+    ))}
+  </ul>
+</nav>
+
+<style>
+  @import '../styles/nav.css';
+</style>

@@ -1,0 +1,166 @@
+---
+/**
+ * Hero — full-viewport hero section with animated entrance,
+ * visual effects (orbs, grid, dots, cursor glow), and profile photo.
+ */
+---
+
+<section class="hero" id="hero">
+  <!-- Ambient gradient orbs -->
+  <div class="hero-orb hero-orb--primary" aria-hidden="true"></div>
+  <div class="hero-orb hero-orb--secondary" aria-hidden="true"></div>
+
+  <!-- Neural network canvas -->
+  <canvas class="hero-neural-canvas" aria-hidden="true"></canvas>
+
+  <!-- Geometric grid lines -->
+  <div class="hero-grid" aria-hidden="true">
+    <div class="hero-grid-line hero-grid-line--h"></div>
+    <div class="hero-grid-line hero-grid-line--h"></div>
+    <div class="hero-grid-line hero-grid-line--h"></div>
+    <div class="hero-grid-line hero-grid-line--v"></div>
+    <div class="hero-grid-line hero-grid-line--v"></div>
+    <div class="hero-grid-line hero-grid-line--diag"></div>
+    <div class="hero-grid-line hero-grid-line--diag"></div>
+  </div>
+
+  <!-- Floating dots -->
+  <div class="hero-dots" aria-hidden="true">
+    <div class="hero-dot"></div>
+    <div class="hero-dot"></div>
+    <div class="hero-dot"></div>
+    <div class="hero-dot"></div>
+    <div class="hero-dot"></div>
+    <div class="hero-dot"></div>
+    <div class="hero-dot"></div>
+    <div class="hero-dot"></div>
+  </div>
+
+  <!-- Vertical accent line -->
+  <div class="hero-accent-line" aria-hidden="true"></div>
+
+  <!-- Content -->
+  <div class="hero-content">
+    <div class="hero-text">
+      <p class="hero-overline">Staff Analytics Engineer</p>
+
+      <h1 class="hero-name">
+        <span class="line"><span class="line-inner">Thiago</span></span>
+        <span class="line"><span class="line-inner">Panini</span></span>
+      </h1>
+
+      <div class="hero-divider" aria-hidden="true"></div>
+
+      <p class="hero-tagline">
+        Architecting data platforms and analytics pipelines that turn raw signals into organizational clarity. I bridge the gap between complex data systems and business strategy — building the infrastructure that powers data-informed decisions at scale.
+      </p>
+
+      <a href="#projects" class="hero-cta">
+        <span>View Projects</span>
+        <span class="arrow" aria-hidden="true">&#8594;</span>
+      </a>
+    </div>
+
+    <div class="hero-photo">
+      {(() => {
+        const techs = [
+          { slug: 'python',        label: 'Python' },
+          { slug: 'apachespark',   label: 'Spark' },
+          { slug: 'terraform',     label: 'Terraform' },
+          { slug: 'amazonaws',     label: 'AWS' },
+          { slug: 'git',           label: 'Git' },
+          { slug: 'github',        label: 'GitHub' },
+          { slug: 'githubcopilot', label: 'Copilot' },
+          { slug: 'anthropic',     label: 'Claude' },
+          { slug: 'openai',        label: 'OpenAI' },
+          { slug: 'cognition',     label: 'Cognition' },
+        ];
+        return (
+          <div class="tech-marquee" aria-hidden="true">
+            <div class="tech-marquee__track">
+              {[...techs, ...techs].map((tech) => (
+                <span class="tech-marquee__item">
+                  <img
+                    src={`https://cdn.simpleicons.org/${tech.slug}/ffffff`}
+                    alt=""
+                    loading="lazy"
+                    decoding="async"
+                    onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'tech-marquee__fallback',textContent:this.dataset.label}))"
+                    data-label={tech.label}
+                  />
+                </span>
+              ))}
+            </div>
+          </div>
+        );
+      })()}
+      <div class="photo-wrapper">
+        <div class="photo-glow" aria-hidden="true"></div>
+
+        <!-- SVG data visualization motif -->
+        <div class="photo-data-motif" aria-hidden="true">
+          <svg viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- Node graph / data flow abstraction -->
+            <circle cx="80" cy="120" r="3" fill="rgba(201,168,124,0.15)" />
+            <circle cx="200" cy="60" r="4" fill="rgba(201,168,124,0.12)" />
+            <circle cx="320" cy="140" r="3" fill="rgba(201,168,124,0.1)" />
+            <circle cx="140" cy="260" r="3.5" fill="rgba(201,168,124,0.12)" />
+            <circle cx="280" cy="300" r="3" fill="rgba(201,168,124,0.1)" />
+            <circle cx="340" cy="240" r="2.5" fill="rgba(201,168,124,0.08)" />
+            <circle cx="60" cy="320" r="2.5" fill="rgba(201,168,124,0.08)" />
+
+            <!-- Connection lines -->
+            <line x1="80" y1="120" x2="200" y2="60" stroke="rgba(201,168,124,0.06)" stroke-width="1" />
+            <line x1="200" y1="60" x2="320" y2="140" stroke="rgba(201,168,124,0.06)" stroke-width="1" />
+            <line x1="80" y1="120" x2="140" y2="260" stroke="rgba(201,168,124,0.05)" stroke-width="1" />
+            <line x1="320" y1="140" x2="340" y2="240" stroke="rgba(201,168,124,0.05)" stroke-width="1" />
+            <line x1="140" y1="260" x2="280" y2="300" stroke="rgba(201,168,124,0.05)" stroke-width="1" />
+            <line x1="340" y1="240" x2="280" y2="300" stroke="rgba(201,168,124,0.04)" stroke-width="1" />
+            <line x1="60" y1="320" x2="140" y2="260" stroke="rgba(201,168,124,0.04)" stroke-width="1" />
+
+            <!-- Faint concentric arcs suggesting data orbit -->
+            <path d="M 200 200 m -100 0 a 100 100 0 0 1 200 0" stroke="rgba(201,168,124,0.03)" stroke-width="0.5" fill="none" />
+            <path d="M 200 200 m -140 0 a 140 140 0 0 1 280 0" stroke="rgba(201,168,124,0.025)" stroke-width="0.5" fill="none" />
+          </svg>
+        </div>
+
+        <img
+          src="/profile-nobg.png"
+          alt="Thiago Panini — Staff Analytics Engineer"
+          width="460"
+          height="560"
+          loading="eager"
+          decoding="async"
+        />
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll indicator -->
+  <div class="scroll-indicator" aria-hidden="true">
+    <span class="scroll-text">Scroll</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<!-- Cursor-reactive glow (positioned outside hero for fixed positioning) -->
+<div class="cursor-glow" aria-hidden="true"></div>
+
+<!-- Grain overlay -->
+<div class="grain" aria-hidden="true"></div>
+
+<style>
+  @import '../styles/hero.css';
+</style>
+
+<script>
+  import { initHeroAnimations } from '../scripts/animations';
+  import { initNeuralNetwork } from '../scripts/neuralNetwork';
+
+  document.addEventListener('DOMContentLoaded', () => {
+    initHeroAnimations();
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      initNeuralNetwork();
+    }
+  });
+</script>
