@@ -1,0 +1,115 @@
+/* ══════════════════════════════════════════════
+   Reset & Base
+   ══════════════════════════════════════════════ */
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ── Design Tokens ── */
+
+:root {
+  /* Colors */
+  --color-bg: #1A1A1E;
+  --color-bg-subtle: #222226;
+  --color-text-primary: #F0EDE8;
+  --color-text-secondary: #7A7A7A;
+  --color-accent: #C9A87C;
+  --color-accent-hover: #D9BC96;
+  --color-border: #2E2E32;
+  --color-accent-rgb: 201, 168, 124;
+
+  /* Typography */
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'Outfit', sans-serif;
+
+  --text-display: clamp(3.4rem, 6vw, 7.5rem);
+  --text-overline: clamp(0.68rem, 0.75vw, 0.82rem);
+  --text-body: clamp(0.92rem, 1.05vw, 1.1rem);
+  --text-cta: 0.78rem;
+  --text-nav: 0.82rem;
+  --text-small: 0.6rem;
+
+  /* Spacing */
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+
+  /* Layout */
+  --max-width: 1360px;
+  --padding-x: clamp(2rem, 6vw, 7rem);
+
+  /* Transitions */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-elastic: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  --duration-fast: 0.35s;
+  --duration-med: 0.55s;
+  --duration-slow: 0.9s;
+}
+
+/* ── Base ── */
+
+html {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: radial-gradient(ellipse at 30% 50%, #20202490 0%, var(--color-bg) 70%);
+  background-color: var(--color-bg);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
+::selection {
+  background: rgba(var(--color-accent-rgb), 0.2);
+  color: var(--color-text-primary);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+/* ── Focus Styles ── */
+
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 4px;
+}
+
+/* ── Reduced Motion ── */
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
