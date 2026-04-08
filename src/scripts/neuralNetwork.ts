@@ -63,11 +63,13 @@ function nodeCount(width: number): number {
 }
 
 export function initNeuralNetwork(): void {
-  const canvas = document.querySelector<HTMLCanvasElement>('.hero-neural-canvas');
-  if (!canvas) return;
+  const canvasEl = document.querySelector<HTMLCanvasElement>('.hero-neural-canvas');
+  if (!canvasEl) return;
+  const canvas: HTMLCanvasElement = canvasEl;
 
-  const ctx = canvas.getContext('2d');
-  if (!ctx) return;
+  const ctxEl = canvas.getContext('2d');
+  if (!ctxEl) return;
+  const ctx: CanvasRenderingContext2D = ctxEl;
 
   const dpr = Math.min(window.devicePixelRatio ?? 1, 2);
   let width = 0;
