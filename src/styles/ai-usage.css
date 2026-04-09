@@ -1,5 +1,5 @@
 /* ══════════════════════════════════════════════
-   AI Usage Section
+   AI Usage Section — Bento Grid Showcase
    ══════════════════════════════════════════════ */
 
 .ai-usage-section {
@@ -9,7 +9,6 @@
   overflow: hidden;
 }
 
-/* Subtle gradient bridge from previous section */
 .ai-usage-section::before {
   content: '';
   position: absolute;
@@ -48,120 +47,211 @@
   top: 0.6rem;
   width: 1px;
   height: 2.2rem;
-  background: linear-gradient(
-    to bottom,
-    var(--color-accent),
-    transparent
-  );
+  background: linear-gradient(to bottom, var(--color-accent), transparent);
 }
 
-/* ── Environments Grid ── */
+/* ── Tab Bar ── */
 
-.ai-environments {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: var(--space-xl);
-  position: relative;
-}
-
-/* Faint vertical divider between columns on desktop */
-.ai-environments::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  top: 0;
-  bottom: 0;
-  width: 1px;
-  background: linear-gradient(
-    to bottom,
-    transparent,
-    var(--color-border),
-    transparent
-  );
-  pointer-events: none;
-}
-
-/* ── Environment Label ── */
-
-.ai-env-label {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  font-family: var(--font-body);
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--color-text-secondary);
-  padding-bottom: var(--space-sm);
-  margin-bottom: var(--space-md);
-  border-bottom: 1px solid var(--color-border);
-}
-
-.ai-env-label-icon {
+.ai-tab-bar {
   display: inline-flex;
   align-items: center;
-  width: 14px;
-  height: 14px;
-  flex-shrink: 0;
-  color: var(--color-text-secondary);
+  position: relative;
+  background: var(--color-bg-subtle);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  padding: 4px;
+  margin-bottom: var(--space-xl);
+  gap: 2px;
 }
 
-.ai-env-label-icon svg {
+.ai-tab {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.4rem;
+  border-radius: 9px;
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition:
+    color var(--duration-fast) var(--ease-out);
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.ai-tab:hover {
+  color: var(--color-text-primary);
+}
+
+.ai-tab--active {
+  color: var(--color-text-primary);
+}
+
+.ai-tab-icon {
+  display: inline-flex;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
+.ai-tab-icon svg {
   width: 100%;
   height: 100%;
 }
 
-.ai-env-count {
-  margin-left: auto;
-  font-weight: 400;
+.ai-tab-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 20px;
+  height: 20px;
+  font-size: 0.65rem;
+  font-weight: 600;
+  border-radius: 999px;
+  background: rgba(var(--color-accent-rgb), 0.08);
   color: var(--color-text-secondary);
-  opacity: 0.6;
-  font-size: 0.68rem;
-  letter-spacing: 0.06em;
+  transition: background var(--duration-fast) var(--ease-out);
 }
 
-/* ── Tools List ── */
+.ai-tab--active .ai-tab-count {
+  background: rgba(var(--color-accent-rgb), 0.18);
+  color: var(--color-accent);
+}
 
-.ai-tools-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
+/* Sliding indicator behind active tab */
+.ai-tab-indicator {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  height: calc(100% - 8px);
+  border-radius: 9px;
+  background: rgba(var(--color-accent-rgb), 0.1);
+  border: 1px solid rgba(var(--color-accent-rgb), 0.15);
+  pointer-events: none;
+  transition:
+    transform 0.4s var(--ease-out),
+    width 0.4s var(--ease-out);
+}
+
+/* ── Panels ── */
+
+.ai-panel {
+  display: none;
+}
+
+.ai-panel--active {
+  display: block;
+}
+
+/* ── Bento Grid ── */
+
+.ai-bento {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
   gap: var(--space-md);
 }
 
-/* ── Tool Card ── */
+/* Hero card spans left 2 columns and both rows */
+.ai-card--hero {
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+}
 
-.ai-tool-card {
+/* ── Card Base ── */
+
+.ai-card {
   position: relative;
   display: flex;
   flex-direction: column;
   padding: var(--space-md);
   background: var(--color-bg-subtle);
   border: 1px solid var(--color-border);
-  border-radius: 12px;
+  border-radius: 14px;
   border-left: 4px solid var(--tool-accent, var(--color-accent));
+  overflow: hidden;
   transition:
+    transform var(--duration-fast) var(--ease-out),
     box-shadow var(--duration-fast) var(--ease-out),
     border-color var(--duration-fast) var(--ease-out);
 }
 
-.ai-tool-card:hover {
-  box-shadow: 0 0 0 1px rgba(var(--color-accent-rgb), 0.25);
+.ai-card:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 8px 30px rgba(0, 0, 0, 0.3),
+    0 0 0 1px rgba(var(--color-accent-rgb), 0.15);
 }
 
-/* ── Card Top Row ── */
+/* Ambient glow — uses tool accent */
+.ai-card__glow {
+  position: absolute;
+  top: -40%;
+  left: -20%;
+  width: 60%;
+  height: 80%;
+  background: radial-gradient(
+    ellipse at center,
+    var(--tool-accent),
+    transparent 70%
+  );
+  opacity: 0;
+  filter: blur(40px);
+  pointer-events: none;
+  transition: opacity 0.5s var(--ease-out);
+}
 
-.ai-tool-top {
+.ai-card:hover .ai-card__glow {
+  opacity: 0.07;
+}
+
+/* ── Hero Card Enhancements ── */
+
+.ai-card--hero {
+  padding: var(--space-lg) var(--space-xl);
+}
+
+.ai-card--hero .ai-card__icon,
+.ai-card--hero .ai-card__icon-dot {
+  width: 44px;
+  height: 44px;
+}
+
+.ai-card--hero .ai-card__name {
+  font-size: 1.4rem;
+}
+
+.ai-card--hero .ai-card__desc {
+  font-size: 1rem;
+  line-height: 1.7;
+  max-width: 540px;
+}
+
+.ai-card--hero .ai-card__tags {
+  margin-top: auto;
+}
+
+.ai-card--hero .ai-card__tag {
+  font-size: 0.7rem;
+  padding: 0.35rem 0.75rem;
+}
+
+/* ── Card Header ── */
+
+.ai-card__header {
   display: flex;
   align-items: center;
   gap: 0.75rem;
   margin-bottom: 0.75rem;
 }
 
-.ai-tool-icon {
+.ai-card__icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -169,15 +259,22 @@
   height: 28px;
   flex-shrink: 0;
   color: var(--color-text-secondary);
-  transition: color var(--duration-fast) var(--ease-out);
+  transition:
+    color var(--duration-fast) var(--ease-out),
+    transform var(--duration-fast) var(--ease-out);
 }
 
-.ai-tool-icon svg {
+.ai-card__icon svg {
   width: 100%;
   height: 100%;
 }
 
-.ai-tool-icon-dot {
+.ai-card:hover .ai-card__icon {
+  color: var(--tool-accent);
+  transform: scale(1.08);
+}
+
+.ai-card__icon-dot {
   width: 28px;
   height: 28px;
   border-radius: 50%;
@@ -186,11 +283,7 @@
   flex-shrink: 0;
 }
 
-.ai-tool-card:hover .ai-tool-icon {
-  color: var(--color-text-primary);
-}
-
-.ai-tool-info {
+.ai-card__meta {
   display: flex;
   flex-direction: column;
   gap: 0.1rem;
@@ -198,7 +291,7 @@
   flex: 1;
 }
 
-.ai-tool-name {
+.ai-card__name {
   font-family: var(--font-display);
   font-weight: 600;
   font-size: 1.05rem;
@@ -209,11 +302,11 @@
   transition: color var(--duration-fast) var(--ease-out);
 }
 
-.ai-tool-card:hover .ai-tool-name {
+.ai-card:hover .ai-card__name {
   color: var(--color-accent);
 }
 
-.ai-tool-provider {
+.ai-card__provider {
   font-family: var(--font-body);
   font-size: 0.72rem;
   font-weight: 400;
@@ -221,7 +314,7 @@
   letter-spacing: 0.02em;
 }
 
-.ai-tool-tier {
+.ai-card__tier {
   background: rgba(var(--color-accent-rgb), 0.12);
   color: var(--color-accent);
   border-radius: 999px;
@@ -238,7 +331,7 @@
 
 /* ── Description ── */
 
-.ai-tool-description {
+.ai-card__desc {
   font-family: var(--font-body);
   font-size: 0.88rem;
   font-weight: 300;
@@ -249,7 +342,7 @@
 
 /* ── Tags ── */
 
-.ai-tool-tags {
+.ai-card__tags {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -258,7 +351,7 @@
   gap: 0.4rem;
 }
 
-.ai-tool-tag {
+.ai-card__tag {
   font-family: var(--font-body);
   font-size: 0.64rem;
   font-weight: 500;
@@ -273,7 +366,7 @@
     border-color var(--duration-fast) var(--ease-out);
 }
 
-.ai-tool-card:hover .ai-tool-tag {
+.ai-card:hover .ai-card__tag {
   border-color: rgba(var(--color-accent-rgb), 0.3);
   color: var(--color-text-primary);
 }
@@ -281,22 +374,48 @@
 /* ── Entrance animation initial state ── */
 
 .ai-usage-header,
-.ai-tool-card {
+.ai-card {
   opacity: 0;
   transform: translateY(30px);
+}
+
+.ai-tab-bar {
+  opacity: 0;
+  transform: translateY(20px);
 }
 
 /* ══════════════════════════════════════════════
    Responsive
    ══════════════════════════════════════════════ */
 
-@media (max-width: 768px) {
-  .ai-environments {
-    grid-template-columns: 1fr;
+/* Tablet: hero card goes full-width top row, compacts side by side below */
+@media (max-width: 1024px) {
+  .ai-bento {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
   }
 
-  .ai-environments::after {
-    display: none;
+  .ai-card--hero {
+    grid-column: 1 / -1;
+    grid-row: auto;
+  }
+
+  .ai-card--hero {
+    padding: var(--space-md) var(--space-lg);
+  }
+
+  .ai-card--hero .ai-card__icon,
+  .ai-card--hero .ai-card__icon-dot {
+    width: 36px;
+    height: 36px;
+  }
+
+  .ai-card--hero .ai-card__name {
+    font-size: 1.2rem;
+  }
+
+  .ai-card--hero .ai-card__desc {
+    font-size: 0.92rem;
   }
 }
 
@@ -314,6 +433,47 @@
   .ai-usage-header::before {
     display: none;
   }
+
+  .ai-tab-bar {
+    align-self: center;
+  }
+}
+
+/* Mobile: single column, all cards same size */
+@media (max-width: 768px) {
+  .ai-bento {
+    grid-template-columns: 1fr;
+  }
+
+  .ai-card--hero {
+    grid-column: 1;
+    grid-row: auto;
+    padding: var(--space-md);
+  }
+
+  .ai-card--hero .ai-card__icon,
+  .ai-card--hero .ai-card__icon-dot {
+    width: 30px;
+    height: 30px;
+  }
+
+  .ai-card--hero .ai-card__name {
+    font-size: 1.05rem;
+  }
+
+  .ai-card--hero .ai-card__desc {
+    font-size: 0.88rem;
+  }
+
+  .ai-card--hero .ai-card__tag {
+    font-size: 0.64rem;
+    padding: 0.28rem 0.6rem;
+  }
+
+  /* Disable hover lift on touch devices */
+  .ai-card:hover {
+    transform: none;
+  }
 }
 
 @media (max-width: 480px) {
@@ -321,7 +481,12 @@
     padding: var(--space-xl) 1.25rem;
   }
 
-  .ai-tool-card {
+  .ai-card {
     padding: var(--space-sm);
+  }
+
+  .ai-tab {
+    padding: 0.5rem 1rem;
+    font-size: 0.78rem;
   }
 }

@@ -1,9 +1,4 @@
 ---
-/**
- * AI Usage — tools used across personal and professional environments.
- * Provider icons are fetched at build time from Simple Icons CDN.
- */
-
 interface AITool {
   name: string;
   provider: string;
@@ -92,6 +87,14 @@ const iconEntries = await Promise.all(
   allSlugs.map(async (slug) => [slug, await fetchIcon(slug)] as const)
 );
 const toolIcons: Record<string, string | null> = Object.fromEntries(iconEntries);
+
+// Helper to render a tool card (reused for both hero and compact variants)
+function renderToolData(tool: AITool) {
+  return { tool, icon: toolIcons[tool.iconSlug] };
+}
+
+const personalData = PERSONAL_TOOLS.map(renderToolData);
+const workData = WORK_TOOLS.map(renderToolData);
 ---
 
 <section id="ai-usage" class="ai-usage-section">
@@ -101,109 +104,135 @@ const toolIcons: Record<string, string | null> = Object.fromEntries(iconEntries)
     <p class="section-subtitle">Tools I rely on daily — across personal projects and professional workflows</p>
   </div>
 
-  <div class="ai-environments">
-    <!-- Personal -->
-    <div class="ai-environment">
-      <div class="ai-env-label">
-        <span class="ai-env-label-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-            <circle cx="12" cy="7" r="4" />
-          </svg>
-        </span>
-        Personal
-        <span class="ai-env-count">{PERSONAL_TOOLS.length} tools</span>
-      </div>
-      <ul class="ai-tools-list">
-        {PERSONAL_TOOLS.map((tool) => (
-          <li>
-            <article
-              class="ai-tool-card"
-              style={`--tool-accent: ${tool.accentColor}`}
-              aria-label={`${tool.name} by ${tool.provider}`}
-            >
-              <div class="ai-tool-top">
-                {toolIcons[tool.iconSlug] ? (
-                  <span
-                    class="ai-tool-icon"
-                    aria-label={`${tool.provider} icon`}
-                    set:html={toolIcons[tool.iconSlug]}
-                  />
-                ) : (
-                  <span
-                    class="ai-tool-icon-dot"
-                    style={`background: ${tool.accentColor}`}
-                    aria-label={`${tool.provider} icon`}
-                  />
-                )}
-                <div class="ai-tool-info">
-                  <h3 class="ai-tool-name">{tool.name}</h3>
-                  <span class="ai-tool-provider">{tool.provider}</span>
-                </div>
-                <span class="ai-tool-tier">{tool.tier}</span>
-              </div>
-              <p class="ai-tool-description">{tool.description}</p>
-              <ul class="ai-tool-tags" aria-label="Capabilities">
-                {tool.tags.map((tag) => (
-                  <li class="ai-tool-tag">{tag}</li>
-                ))}
-              </ul>
-            </article>
-          </li>
-        ))}
-      </ul>
-    </div>
+  <!-- ── Environment Selector ── -->
+  <div class="ai-tab-bar" role="tablist" aria-label="Environment selector">
+    <button
+      role="tab"
+      id="tab-personal"
+      class="ai-tab ai-tab--active"
+      aria-selected="true"
+      aria-controls="panel-personal"
+      tabindex="0"
+    >
+      <span class="ai-tab-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+          <circle cx="12" cy="7" r="4" />
+        </svg>
+      </span>
+      Personal
+      <span class="ai-tab-count">{PERSONAL_TOOLS.length}</span>
+    </button>
+    <button
+      role="tab"
+      id="tab-work"
+      class="ai-tab"
+      aria-selected="false"
+      aria-controls="panel-work"
+      tabindex="-1"
+    >
+      <span class="ai-tab-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+          <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
+        </svg>
+      </span>
+      Work
+      <span class="ai-tab-count">{WORK_TOOLS.length}</span>
+    </button>
+    <span class="ai-tab-indicator" aria-hidden="true"></span>
+  </div>
 
-    <!-- Work -->
-    <div class="ai-environment">
-      <div class="ai-env-label">
-        <span class="ai-env-label-icon" aria-hidden="true">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
-            <path d="M16 7V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v2" />
-          </svg>
-        </span>
-        Work
-        <span class="ai-env-count">{WORK_TOOLS.length} tools</span>
-      </div>
-      <ul class="ai-tools-list">
-        {WORK_TOOLS.map((tool) => (
-          <li>
-            <article
-              class="ai-tool-card"
-              style={`--tool-accent: ${tool.accentColor}`}
-              aria-label={`${tool.name} by ${tool.provider}`}
-            >
-              <div class="ai-tool-top">
-                {toolIcons[tool.iconSlug] ? (
-                  <span
-                    class="ai-tool-icon"
-                    aria-label={`${tool.provider} icon`}
-                    set:html={toolIcons[tool.iconSlug]}
-                  />
-                ) : (
-                  <span
-                    class="ai-tool-icon-dot"
-                    style={`background: ${tool.accentColor}`}
-                    aria-label={`${tool.provider} icon`}
-                  />
-                )}
-                <div class="ai-tool-info">
-                  <h3 class="ai-tool-name">{tool.name}</h3>
-                  <span class="ai-tool-provider">{tool.provider}</span>
-                </div>
-                <span class="ai-tool-tier">{tool.tier}</span>
-              </div>
-              <p class="ai-tool-description">{tool.description}</p>
-              <ul class="ai-tool-tags" aria-label="Capabilities">
-                {tool.tags.map((tag) => (
-                  <li class="ai-tool-tag">{tag}</li>
-                ))}
-              </ul>
-            </article>
-          </li>
-        ))}
-      </ul>
+  <!-- ── Personal Panel ── -->
+  <div
+    role="tabpanel"
+    id="panel-personal"
+    class="ai-panel ai-panel--active"
+    aria-labelledby="tab-personal"
+  >
+    <div class="ai-bento">
+      {personalData.map(({ tool, icon }, i) => (
+        <article
+          class={`ai-card ${i === 0 ? 'ai-card--hero' : 'ai-card--compact'}`}
+          style={`--tool-accent: ${tool.accentColor}`}
+          aria-label={`${tool.name} by ${tool.provider}`}
+        >
+          <div class="ai-card__glow" aria-hidden="true"></div>
+          <div class="ai-card__header">
+            {icon ? (
+              <span
+                class="ai-card__icon"
+                aria-label={`${tool.provider} icon`}
+                set:html={icon}
+              />
+            ) : (
+              <span
+                class="ai-card__icon-dot"
+                style={`background: ${tool.accentColor}`}
+                aria-label={`${tool.provider} icon`}
+              />
+            )}
+            <div class="ai-card__meta">
+              <h3 class="ai-card__name">{tool.name}</h3>
+              <span class="ai-card__provider">{tool.provider}</span>
+            </div>
+            <span class="ai-card__tier">{tool.tier}</span>
+          </div>
+          <p class="ai-card__desc">{tool.description}</p>
+          <ul class="ai-card__tags" aria-label="Capabilities">
+            {tool.tags.map((tag) => (
+              <li class="ai-card__tag">{tag}</li>
+            ))}
+          </ul>
+        </article>
+      ))}
+    </div>
+  </div>
+
+  <!-- ── Work Panel ── -->
+  <div
+    role="tabpanel"
+    id="panel-work"
+    class="ai-panel"
+    aria-labelledby="tab-work"
+    hidden
+  >
+    <div class="ai-bento">
+      {workData.map(({ tool, icon }, i) => (
+        <article
+          class={`ai-card ${i === 0 ? 'ai-card--hero' : 'ai-card--compact'}`}
+          style={`--tool-accent: ${tool.accentColor}`}
+          aria-label={`${tool.name} by ${tool.provider}`}
+        >
+          <div class="ai-card__glow" aria-hidden="true"></div>
+          <div class="ai-card__header">
+            {icon ? (
+              <span
+                class="ai-card__icon"
+                aria-label={`${tool.provider} icon`}
+                set:html={icon}
+              />
+            ) : (
+              <span
+                class="ai-card__icon-dot"
+                style={`background: ${tool.accentColor}`}
+                aria-label={`${tool.provider} icon`}
+              />
+            )}
+            <div class="ai-card__meta">
+              <h3 class="ai-card__name">{tool.name}</h3>
+              <span class="ai-card__provider">{tool.provider}</span>
+            </div>
+            <span class="ai-card__tier">{tool.tier}</span>
+          </div>
+          <p class="ai-card__desc">{tool.description}</p>
+          <ul class="ai-card__tags" aria-label="Capabilities">
+            {tool.tags.map((tag) => (
+              <li class="ai-card__tag">{tag}</li>
+            ))}
+          </ul>
+        </article>
+      ))}
     </div>
   </div>
 </section>

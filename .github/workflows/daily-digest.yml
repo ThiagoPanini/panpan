@@ -1,0 +1,56 @@
+name: Daily GitHub Digest
+
+on:
+  schedule:
+    # Runs at 07:05 UTC daily (≈ 04:05 BRT summer / 08:05 BRT winter)
+    - cron: '5 7 * * *'
+  workflow_dispatch:
+    inputs:
+      date_override:
+        description: 'Override target date (YYYY-MM-DD). Defaults to yesterday.'
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  generate-digest:
+    name: Generate daily activity digest
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Generate digest
+        env:
+          # Standard GITHUB_TOKEN — used for GitHub API (events, repos).
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional PAT with models:read scope — enables LLM-powered summary.
+          # Create a GitHub fine-grained PAT, grant models:read, add it as
+          # a repo secret named MODELS_TOKEN. Falls back to template summary.
+          MODELS_TOKEN: ${{ secrets.MODELS_TOKEN }}
+          GITHUB_USERNAME: ThiagoPanini
+          DATE_OVERRIDE: ${{ inputs.date_override }}
+        run: node scripts/generate-digest.mjs
+
+      - name: Commit updated digest
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/github-digest/latest.json
+          if git diff --staged --quiet; then
+            echo "Digest unchanged — skipping commit."
+          else
+            git commit -m "chore(digest): daily activity summary $(date -u +%Y-%m-%d)"
+            git push
+          fi

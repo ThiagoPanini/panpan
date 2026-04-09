@@ -1,0 +1,447 @@
+[
+  {
+    "date": "2026-03-11",
+    "totalInteractions": 96,
+    "peakHour": "17:00",
+    "dominantCategory": "coding",
+    "summary": "Steady refactoring session — Claude rewired the data pipeline, Copilot kept the diffs clean.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":18,"categories":[{"category":"coding","count":10,"percentage":56},{"category":"writing","count":4,"percentage":22},{"category":"research","count":3,"percentage":17},{"category":"analysis","count":1,"percentage":6}],"topPromptTypes":["refactor","debug"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":32,"categories":[{"category":"coding","count":29,"percentage":91},{"category":"analysis","count":3,"percentage":9}],"topPromptTypes":["inline-completion","code-generation"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":9,"categories":[{"category":"research","count":3,"percentage":33},{"category":"writing","count":3,"percentage":33},{"category":"creative","count":2,"percentage":22},{"category":"analysis","count":1,"percentage":11}],"topPromptTypes":["research","writing"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":22,"categories":[{"category":"coding","count":19,"percentage":86},{"category":"analysis","count":2,"percentage":9},{"category":"communication","count":1,"percentage":5}],"topPromptTypes":["inline-completion","code-review"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":4,"categories":[{"category":"automation","count":2,"percentage":50},{"category":"coding","count":2,"percentage":50}],"topPromptTypes":["task-delegation","pr-creation"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":11,"categories":[{"category":"communication","count":5,"percentage":45},{"category":"writing","count":4,"percentage":36},{"category":"analysis","count":2,"percentage":18}],"topPromptTypes":["email-draft","meeting-summary"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-12",
+    "totalInteractions": 113,
+    "peakHour": "15:00",
+    "dominantCategory": "coding",
+    "summary": "Mid-week architecture review with Claude; heavier Copilot usage pushing a new feature branch.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":22,"categories":[{"category":"coding","count":12,"percentage":55},{"category":"writing","count":5,"percentage":23},{"category":"research","count":3,"percentage":14},{"category":"analysis","count":2,"percentage":9}],"topPromptTypes":["architecture","code-review"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":38,"categories":[{"category":"coding","count":35,"percentage":92},{"category":"analysis","count":3,"percentage":8}],"topPromptTypes":["inline-completion","code-generation"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":7,"categories":[{"category":"research","count":2,"percentage":29},{"category":"writing","count":2,"percentage":29},{"category":"creative","count":2,"percentage":29},{"category":"analysis","count":1,"percentage":14}],"topPromptTypes":["research","brainstorm"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":26,"categories":[{"category":"coding","count":22,"percentage":85},{"category":"analysis","count":3,"percentage":12},{"category":"communication","count":1,"percentage":4}],"topPromptTypes":["inline-completion","pr-assist"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":6,"categories":[{"category":"automation","count":3,"percentage":50},{"category":"coding","count":2,"percentage":33},{"category":"analysis","count":1,"percentage":17}],"topPromptTypes":["task-delegation","ci-run"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":14,"categories":[{"category":"communication","count":6,"percentage":43},{"category":"writing","count":5,"percentage":36},{"category":"analysis","count":3,"percentage":21}],"topPromptTypes":["email-draft","action-items"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-13",
+    "totalInteractions": 87,
+    "peakHour": "14:00",
+    "dominantCategory": "coding",
+    "summary": "Lighter day — bug triage and documentation, ChatGPT helped draft some research notes.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":16,"categories":[{"category":"coding","count":9,"percentage":56},{"category":"writing","count":3,"percentage":19},{"category":"research","count":2,"percentage":13},{"category":"analysis","count":2,"percentage":13}],"topPromptTypes":["debug","documentation"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":28,"categories":[{"category":"coding","count":25,"percentage":89},{"category":"analysis","count":3,"percentage":11}],"topPromptTypes":["inline-completion","chat-request"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":12,"categories":[{"category":"research","count":4,"percentage":33},{"category":"writing","count":4,"percentage":33},{"category":"creative","count":3,"percentage":25},{"category":"analysis","count":1,"percentage":8}],"topPromptTypes":["research","writing"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":19,"categories":[{"category":"coding","count":16,"percentage":84},{"category":"analysis","count":2,"percentage":11},{"category":"communication","count":1,"percentage":5}],"topPromptTypes":["inline-completion","code-review"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":3,"categories":[{"category":"automation","count":2,"percentage":67},{"category":"coding","count":1,"percentage":33}],"topPromptTypes":["task-delegation"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":9,"categories":[{"category":"communication","count":4,"percentage":44},{"category":"writing","count":3,"percentage":33},{"category":"analysis","count":2,"percentage":22}],"topPromptTypes":["meeting-summary","document-assist"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-14",
+    "totalInteractions": 127,
+    "peakHour": "16:00",
+    "dominantCategory": "coding",
+    "summary": "Busy Friday sprint: shipped a PR with Devin, Copilot coverage high across both stacks.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":24,"categories":[{"category":"coding","count":13,"percentage":54},{"category":"writing","count":5,"percentage":21},{"category":"research","count":4,"percentage":17},{"category":"analysis","count":2,"percentage":8}],"topPromptTypes":["refactor","test-writing"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":42,"categories":[{"category":"coding","count":38,"percentage":90},{"category":"analysis","count":4,"percentage":10}],"topPromptTypes":["inline-completion","code-generation"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":10,"categories":[{"category":"research","count":3,"percentage":30},{"category":"writing","count":4,"percentage":40},{"category":"creative","count":2,"percentage":20},{"category":"analysis","count":1,"percentage":10}],"topPromptTypes":["writing","quick-question"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":28,"categories":[{"category":"coding","count":24,"percentage":86},{"category":"analysis","count":3,"percentage":11},{"category":"communication","count":1,"percentage":4}],"topPromptTypes":["inline-completion","pr-assist"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":7,"categories":[{"category":"automation","count":4,"percentage":57},{"category":"coding","count":2,"percentage":29},{"category":"analysis","count":1,"percentage":14}],"topPromptTypes":["task-delegation","pr-creation","ci-run"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":16,"categories":[{"category":"communication","count":7,"percentage":44},{"category":"writing","count":6,"percentage":38},{"category":"analysis","count":3,"percentage":19}],"topPromptTypes":["email-draft","teams-message"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-15",
+    "totalInteractions": 69,
+    "peakHour": "11:00",
+    "dominantCategory": "coding",
+    "summary": "Weekend side project — personal coding and ChatGPT for UX brainstorming.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":20,"categories":[{"category":"coding","count":11,"percentage":55},{"category":"writing","count":4,"percentage":20},{"category":"research","count":3,"percentage":15},{"category":"analysis","count":2,"percentage":10}],"topPromptTypes":["architecture","refactor"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":25,"categories":[{"category":"coding","count":23,"percentage":92},{"category":"analysis","count":2,"percentage":8}],"topPromptTypes":["inline-completion","code-generation"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":14,"categories":[{"category":"research","count":5,"percentage":36},{"category":"writing","count":4,"percentage":29},{"category":"creative","count":3,"percentage":21},{"category":"analysis","count":2,"percentage":14}],"topPromptTypes":["brainstorm","creative","research"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":6,"categories":[{"category":"coding","count":5,"percentage":83},{"category":"analysis","count":1,"percentage":17}],"topPromptTypes":["inline-completion"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":1,"categories":[{"category":"automation","count":1,"percentage":100}],"topPromptTypes":["ci-run"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":3,"categories":[{"category":"communication","count":1,"percentage":33},{"category":"writing","count":1,"percentage":33},{"category":"analysis","count":1,"percentage":33}],"topPromptTypes":["email-draft"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-16",
+    "totalInteractions": 57,
+    "peakHour": "10:00",
+    "dominantCategory": "research",
+    "summary": "Slow Sunday. ChatGPT for creative writing, light Claude session for personal automation.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":15,"categories":[{"category":"coding","count":8,"percentage":53},{"category":"writing","count":3,"percentage":20},{"category":"research","count":2,"percentage":13},{"category":"analysis","count":2,"percentage":13}],"topPromptTypes":["debug","automation"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":18,"categories":[{"category":"coding","count":16,"percentage":89},{"category":"analysis","count":2,"percentage":11}],"topPromptTypes":["inline-completion"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":18,"categories":[{"category":"research","count":6,"percentage":33},{"category":"writing","count":6,"percentage":33},{"category":"creative","count":4,"percentage":22},{"category":"analysis","count":2,"percentage":11}],"topPromptTypes":["creative","writing","brainstorm"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":4,"categories":[{"category":"coding","count":3,"percentage":75},{"category":"analysis","count":1,"percentage":25}],"topPromptTypes":["inline-completion"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":2,"categories":[{"category":"communication","count":1,"percentage":50},{"category":"writing","count":1,"percentage":50}],"topPromptTypes":["email-draft"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-17",
+    "totalInteractions": 104,
+    "peakHour": "17:00",
+    "dominantCategory": "coding",
+    "summary": "Back at it Monday. Claude drove design decisions, Copilot Work picked up where Friday left off.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":19,"categories":[{"category":"coding","count":10,"percentage":53},{"category":"writing","count":4,"percentage":21},{"category":"research","count":3,"percentage":16},{"category":"analysis","count":2,"percentage":11}],"topPromptTypes":["architecture","planning"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":35,"categories":[{"category":"coding","count":32,"percentage":91},{"category":"analysis","count":3,"percentage":9}],"topPromptTypes":["inline-completion","code-generation"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":8,"categories":[{"category":"research","count":3,"percentage":38},{"category":"writing","count":2,"percentage":25},{"category":"creative","count":2,"percentage":25},{"category":"analysis","count":1,"percentage":13}],"topPromptTypes":["research","quick-question"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":24,"categories":[{"category":"coding","count":21,"percentage":88},{"category":"analysis","count":2,"percentage":8},{"category":"communication","count":1,"percentage":4}],"topPromptTypes":["inline-completion","code-review"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":5,"categories":[{"category":"automation","count":3,"percentage":60},{"category":"coding","count":2,"percentage":40}],"topPromptTypes":["task-delegation","environment-setup"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":13,"categories":[{"category":"communication","count":6,"percentage":46},{"category":"writing","count":5,"percentage":38},{"category":"analysis","count":2,"percentage":15}],"topPromptTypes":["email-draft","action-items"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-18",
+    "totalInteractions": 122,
+    "peakHour": "18:00",
+    "dominantCategory": "coding",
+    "summary": "Strong Tuesday — complex query optimization with Claude, Devin queued background tasks.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":23,"categories":[{"category":"coding","count":13,"percentage":57},{"category":"writing","count":5,"percentage":22},{"category":"research","count":3,"percentage":13},{"category":"analysis","count":2,"percentage":9}],"topPromptTypes":["debug","data-modeling"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":40,"categories":[{"category":"coding","count":36,"percentage":90},{"category":"analysis","count":4,"percentage":10}],"topPromptTypes":["inline-completion","code-generation","chat-request"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":11,"categories":[{"category":"research","count":4,"percentage":36},{"category":"writing","count":3,"percentage":27},{"category":"creative","count":2,"percentage":18},{"category":"analysis","count":2,"percentage":18}],"topPromptTypes":["research","writing"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":27,"categories":[{"category":"coding","count":23,"percentage":85},{"category":"analysis","count":3,"percentage":11},{"category":"communication","count":1,"percentage":4}],"topPromptTypes":["inline-completion","pr-assist"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":6,"categories":[{"category":"automation","count":3,"percentage":50},{"category":"coding","count":2,"percentage":33},{"category":"analysis","count":1,"percentage":17}],"topPromptTypes":["task-delegation","ci-run","test-run"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":15,"categories":[{"category":"communication","count":7,"percentage":47},{"category":"writing","count":5,"percentage":33},{"category":"analysis","count":3,"percentage":20}],"topPromptTypes":["teams-message","meeting-summary"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-19",
+    "totalInteractions": 91,
+    "peakHour": "14:00",
+    "dominantCategory": "coding",
+    "summary": "Mid-week maintenance: bug fixes, code review, and some Teams meeting summaries.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":17,"categories":[{"category":"coding","count":9,"percentage":53},{"category":"writing","count":4,"percentage":24},{"category":"research","count":2,"percentage":12},{"category":"analysis","count":2,"percentage":12}],"topPromptTypes":["code-review","debug"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":30,"categories":[{"category":"coding","count":27,"percentage":90},{"category":"analysis","count":3,"percentage":10}],"topPromptTypes":["inline-completion","chat-request"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":9,"categories":[{"category":"research","count":3,"percentage":33},{"category":"writing","count":3,"percentage":33},{"category":"creative","count":2,"percentage":22},{"category":"analysis","count":1,"percentage":11}],"topPromptTypes":["quick-question","research"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":21,"categories":[{"category":"coding","count":18,"percentage":86},{"category":"analysis","count":2,"percentage":10},{"category":"communication","count":1,"percentage":5}],"topPromptTypes":["inline-completion","code-review"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":4,"categories":[{"category":"automation","count":2,"percentage":50},{"category":"coding","count":1,"percentage":25},{"category":"analysis","count":1,"percentage":25}],"topPromptTypes":["task-delegation"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":10,"categories":[{"category":"communication","count":4,"percentage":40},{"category":"writing","count":4,"percentage":40},{"category":"analysis","count":2,"percentage":20}],"topPromptTypes":["meeting-summary","teams-message"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-20",
+    "totalInteractions": 144,
+    "peakHour": "17:00",
+    "dominantCategory": "coding",
+    "summary": "Heavy day — Claude-driven platform migration spike, Copilot at max throughput.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":28,"categories":[{"category":"coding","count":15,"percentage":54},{"category":"writing","count":6,"percentage":21},{"category":"research","count":4,"percentage":14},{"category":"analysis","count":3,"percentage":11}],"topPromptTypes":["architecture","refactor","data-modeling"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":45,"categories":[{"category":"coding","count":41,"percentage":91},{"category":"analysis","count":4,"percentage":9}],"topPromptTypes":["inline-completion","code-generation","chat-request"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":13,"categories":[{"category":"research","count":4,"percentage":31},{"category":"writing","count":4,"percentage":31},{"category":"creative","count":3,"percentage":23},{"category":"analysis","count":2,"percentage":15}],"topPromptTypes":["research","planning"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":32,"categories":[{"category":"coding","count":27,"percentage":84},{"category":"analysis","count":4,"percentage":13},{"category":"communication","count":1,"percentage":3}],"topPromptTypes":["inline-completion","pr-assist","code-review"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":8,"categories":[{"category":"automation","count":4,"percentage":50},{"category":"coding","count":3,"percentage":38},{"category":"analysis","count":1,"percentage":13}],"topPromptTypes":["task-delegation","pr-creation","test-run"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":18,"categories":[{"category":"communication","count":8,"percentage":44},{"category":"writing","count":7,"percentage":39},{"category":"analysis","count":3,"percentage":17}],"topPromptTypes":["email-draft","meeting-summary","action-items"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-21",
+    "totalInteractions": 111,
+    "peakHour": "16:00",
+    "dominantCategory": "coding",
+    "summary": "End-of-week consolidation: merged three PRs, Devin ran integration tests autonomously.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":21,"categories":[{"category":"coding","count":12,"percentage":57},{"category":"writing","count":4,"percentage":19},{"category":"research","count":3,"percentage":14},{"category":"analysis","count":2,"percentage":10}],"topPromptTypes":["code-review","refactor"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":36,"categories":[{"category":"coding","count":33,"percentage":92},{"category":"analysis","count":3,"percentage":8}],"topPromptTypes":["inline-completion","code-generation"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":10,"categories":[{"category":"research","count":3,"percentage":30},{"category":"writing","count":4,"percentage":40},{"category":"creative","count":2,"percentage":20},{"category":"analysis","count":1,"percentage":10}],"topPromptTypes":["writing","research"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":25,"categories":[{"category":"coding","count":21,"percentage":84},{"category":"analysis","count":3,"percentage":12},{"category":"communication","count":1,"percentage":4}],"topPromptTypes":["inline-completion","pr-assist"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":5,"categories":[{"category":"automation","count":3,"percentage":60},{"category":"coding","count":2,"percentage":40}],"topPromptTypes":["task-delegation","test-run"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":14,"categories":[{"category":"communication","count":6,"percentage":43},{"category":"writing","count":5,"percentage":36},{"category":"analysis","count":3,"percentage":21}],"topPromptTypes":["teams-message","email-draft"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-22",
+    "totalInteractions": 62,
+    "peakHour": "11:00",
+    "dominantCategory": "coding",
+    "summary": "Personal project day: ChatGPT for creative content, Claude for a side automation script.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":17,"categories":[{"category":"coding","count":9,"percentage":53},{"category":"writing","count":4,"percentage":24},{"category":"research","count":2,"percentage":12},{"category":"analysis","count":2,"percentage":12}],"topPromptTypes":["automation","debug"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":22,"categories":[{"category":"coding","count":20,"percentage":91},{"category":"analysis","count":2,"percentage":9}],"topPromptTypes":["inline-completion"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":16,"categories":[{"category":"research","count":5,"percentage":31},{"category":"writing","count":5,"percentage":31},{"category":"creative","count":4,"percentage":25},{"category":"analysis","count":2,"percentage":13}],"topPromptTypes":["creative","writing","brainstorm"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":5,"categories":[{"category":"coding","count":4,"percentage":80},{"category":"analysis","count":1,"percentage":20}],"topPromptTypes":["inline-completion"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":2,"categories":[{"category":"communication","count":1,"percentage":50},{"category":"writing","count":1,"percentage":50}],"topPromptTypes":["email-draft"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-23",
+    "totalInteractions": 52,
+    "peakHour": "10:00",
+    "dominantCategory": "research",
+    "summary": "Light Sunday. ChatGPT for brainstorming, mostly personal reading and ideation.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":12,"categories":[{"category":"coding","count":7,"percentage":58},{"category":"writing","count":2,"percentage":17},{"category":"research","count":2,"percentage":17},{"category":"analysis","count":1,"percentage":8}],"topPromptTypes":["planning","debug"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":16,"categories":[{"category":"coding","count":14,"percentage":88},{"category":"analysis","count":2,"percentage":13}],"topPromptTypes":["inline-completion"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":20,"categories":[{"category":"research","count":7,"percentage":35},{"category":"writing","count":6,"percentage":30},{"category":"creative","count":5,"percentage":25},{"category":"analysis","count":2,"percentage":10}],"topPromptTypes":["brainstorm","creative","research"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":3,"categories":[{"category":"coding","count":3,"percentage":100}],"topPromptTypes":["inline-completion"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":1,"categories":[{"category":"communication","count":1,"percentage":100}],"topPromptTypes":["email-draft"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-24",
+    "totalInteractions": 130,
+    "peakHour": "18:00",
+    "dominantCategory": "coding",
+    "summary": "New sprint kickoff — architecture session with Claude, M365 Copilot prepped the roadmap doc.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":25,"categories":[{"category":"coding","count":14,"percentage":56},{"category":"writing","count":5,"percentage":20},{"category":"research","count":4,"percentage":16},{"category":"analysis","count":2,"percentage":8}],"topPromptTypes":["architecture","planning","data-modeling"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":44,"categories":[{"category":"coding","count":40,"percentage":91},{"category":"analysis","count":4,"percentage":9}],"topPromptTypes":["inline-completion","code-generation"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":9,"categories":[{"category":"research","count":3,"percentage":33},{"category":"writing","count":3,"percentage":33},{"category":"creative","count":2,"percentage":22},{"category":"analysis","count":1,"percentage":11}],"topPromptTypes":["research","quick-question"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":29,"categories":[{"category":"coding","count":25,"percentage":86},{"category":"analysis","count":3,"percentage":10},{"category":"communication","count":1,"percentage":3}],"topPromptTypes":["inline-completion","code-review"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":7,"categories":[{"category":"automation","count":4,"percentage":57},{"category":"coding","count":2,"percentage":29},{"category":"analysis","count":1,"percentage":14}],"topPromptTypes":["task-delegation","environment-setup"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":16,"categories":[{"category":"communication","count":7,"percentage":44},{"category":"writing","count":6,"percentage":38},{"category":"analysis","count":3,"percentage":19}],"topPromptTypes":["document-assist","action-items","email-draft"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-25",
+    "totalInteractions": 158,
+    "peakHour": "17:00",
+    "dominantCategory": "coding",
+    "summary": "Peak sprint day: deep refactor of the analytics core with Claude and Copilot at full clip.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":30,"categories":[{"category":"coding","count":17,"percentage":57},{"category":"writing","count":6,"percentage":20},{"category":"research","count":4,"percentage":13},{"category":"analysis","count":3,"percentage":10}],"topPromptTypes":["refactor","architecture","test-writing"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":52,"categories":[{"category":"coding","count":47,"percentage":90},{"category":"analysis","count":5,"percentage":10}],"topPromptTypes":["inline-completion","code-generation","chat-request"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":14,"categories":[{"category":"research","count":5,"percentage":36},{"category":"writing","count":4,"percentage":29},{"category":"creative","count":3,"percentage":21},{"category":"analysis","count":2,"percentage":14}],"topPromptTypes":["research","planning"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":34,"categories":[{"category":"coding","count":29,"percentage":85},{"category":"analysis","count":4,"percentage":12},{"category":"communication","count":1,"percentage":3}],"topPromptTypes":["inline-completion","pr-assist","code-review"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":9,"categories":[{"category":"automation","count":5,"percentage":56},{"category":"coding","count":3,"percentage":33},{"category":"analysis","count":1,"percentage":11}],"topPromptTypes":["task-delegation","pr-creation","test-run"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":19,"categories":[{"category":"communication","count":9,"percentage":47},{"category":"writing","count":7,"percentage":37},{"category":"analysis","count":3,"percentage":16}],"topPromptTypes":["email-draft","meeting-summary","teams-message"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-26",
+    "totalInteractions": 141,
+    "peakHour": "16:00",
+    "dominantCategory": "coding",
+    "summary": "Mid-sprint high velocity — feature work, code reviews, and a keynote doc with M365 Copilot.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":26,"categories":[{"category":"coding","count":14,"percentage":54},{"category":"writing","count":6,"percentage":23},{"category":"research","count":4,"percentage":15},{"category":"analysis","count":2,"percentage":8}],"topPromptTypes":["code-review","refactor"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":48,"categories":[{"category":"coding","count":44,"percentage":92},{"category":"analysis","count":4,"percentage":8}],"topPromptTypes":["inline-completion","code-generation"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":11,"categories":[{"category":"research","count":4,"percentage":36},{"category":"writing","count":3,"percentage":27},{"category":"creative","count":2,"percentage":18},{"category":"analysis","count":2,"percentage":18}],"topPromptTypes":["research","writing"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":31,"categories":[{"category":"coding","count":27,"percentage":87},{"category":"analysis","count":3,"percentage":10},{"category":"communication","count":1,"percentage":3}],"topPromptTypes":["inline-completion","code-review"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":8,"categories":[{"category":"automation","count":4,"percentage":50},{"category":"coding","count":3,"percentage":38},{"category":"analysis","count":1,"percentage":13}],"topPromptTypes":["task-delegation","ci-run"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":17,"categories":[{"category":"communication","count":8,"percentage":47},{"category":"writing","count":6,"percentage":35},{"category":"analysis","count":3,"percentage":18}],"topPromptTypes":["document-assist","teams-message","email-draft"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-27",
+    "totalInteractions": 118,
+    "peakHour": "15:00",
+    "dominantCategory": "coding",
+    "summary": "Sprint review prep: Claude helped draft the retrospective, Devin ran automated benchmarks.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":22,"categories":[{"category":"coding","count":12,"percentage":55},{"category":"writing","count":5,"percentage":23},{"category":"research","count":3,"percentage":14},{"category":"analysis","count":2,"percentage":9}],"topPromptTypes":["documentation","planning"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":40,"categories":[{"category":"coding","count":36,"percentage":90},{"category":"analysis","count":4,"percentage":10}],"topPromptTypes":["inline-completion","chat-request"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":9,"categories":[{"category":"research","count":3,"percentage":33},{"category":"writing","count":3,"percentage":33},{"category":"creative","count":2,"percentage":22},{"category":"analysis","count":1,"percentage":11}],"topPromptTypes":["writing","planning"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":27,"categories":[{"category":"coding","count":23,"percentage":85},{"category":"analysis","count":3,"percentage":11},{"category":"communication","count":1,"percentage":4}],"topPromptTypes":["inline-completion","code-review"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":6,"categories":[{"category":"automation","count":3,"percentage":50},{"category":"coding","count":2,"percentage":33},{"category":"analysis","count":1,"percentage":17}],"topPromptTypes":["task-delegation","test-run"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":14,"categories":[{"category":"communication","count":6,"percentage":43},{"category":"writing","count":5,"percentage":36},{"category":"analysis","count":3,"percentage":21}],"topPromptTypes":["meeting-summary","action-items"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-28",
+    "totalInteractions": 139,
+    "peakHour": "17:00",
+    "dominantCategory": "coding",
+    "summary": "Strong finish — demo prep, final PR merges, Devin triggered end-to-end test suite.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":27,"categories":[{"category":"coding","count":15,"percentage":56},{"category":"writing","count":6,"percentage":22},{"category":"research","count":4,"percentage":15},{"category":"analysis","count":2,"percentage":7}],"topPromptTypes":["refactor","test-writing","debug"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":46,"categories":[{"category":"coding","count":42,"percentage":91},{"category":"analysis","count":4,"percentage":9}],"topPromptTypes":["inline-completion","code-generation"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":12,"categories":[{"category":"research","count":4,"percentage":33},{"category":"writing","count":4,"percentage":33},{"category":"creative","count":3,"percentage":25},{"category":"analysis","count":1,"percentage":8}],"topPromptTypes":["writing","research"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":30,"categories":[{"category":"coding","count":26,"percentage":87},{"category":"analysis","count":3,"percentage":10},{"category":"communication","count":1,"percentage":3}],"topPromptTypes":["inline-completion","pr-assist"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":8,"categories":[{"category":"automation","count":4,"percentage":50},{"category":"coding","count":3,"percentage":38},{"category":"analysis","count":1,"percentage":13}],"topPromptTypes":["task-delegation","test-run","ci-run"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":16,"categories":[{"category":"communication","count":7,"percentage":44},{"category":"writing","count":6,"percentage":38},{"category":"analysis","count":3,"percentage":19}],"topPromptTypes":["teams-message","email-draft"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-29",
+    "totalInteractions": 72,
+    "peakHour": "12:00",
+    "dominantCategory": "coding",
+    "summary": "Weekend catch-up: some ChatGPT research and a light Claude coding session.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":18,"categories":[{"category":"coding","count":10,"percentage":56},{"category":"writing","count":4,"percentage":22},{"category":"research","count":2,"percentage":11},{"category":"analysis","count":2,"percentage":11}],"topPromptTypes":["debug","automation"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":28,"categories":[{"category":"coding","count":25,"percentage":89},{"category":"analysis","count":3,"percentage":11}],"topPromptTypes":["inline-completion"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":15,"categories":[{"category":"research","count":5,"percentage":33},{"category":"writing","count":5,"percentage":33},{"category":"creative","count":3,"percentage":20},{"category":"analysis","count":2,"percentage":13}],"topPromptTypes":["research","creative"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":7,"categories":[{"category":"coding","count":6,"percentage":86},{"category":"analysis","count":1,"percentage":14}],"topPromptTypes":["inline-completion"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":1,"categories":[{"category":"automation","count":1,"percentage":100}],"topPromptTypes":["ci-run"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":3,"categories":[{"category":"communication","count":1,"percentage":33},{"category":"writing","count":1,"percentage":33},{"category":"analysis","count":1,"percentage":33}],"topPromptTypes":["email-draft"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-30",
+    "totalInteractions": 59,
+    "peakHour": "10:00",
+    "dominantCategory": "research",
+    "summary": "Rest day with light ChatGPT use for personal research and planning.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":14,"categories":[{"category":"coding","count":8,"percentage":57},{"category":"writing","count":3,"percentage":21},{"category":"research","count":2,"percentage":14},{"category":"analysis","count":1,"percentage":7}],"topPromptTypes":["planning","debug"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":20,"categories":[{"category":"coding","count":18,"percentage":90},{"category":"analysis","count":2,"percentage":10}],"topPromptTypes":["inline-completion"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":19,"categories":[{"category":"research","count":7,"percentage":37},{"category":"writing","count":6,"percentage":32},{"category":"creative","count":4,"percentage":21},{"category":"analysis","count":2,"percentage":11}],"topPromptTypes":["research","brainstorm","creative"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":4,"categories":[{"category":"coding","count":3,"percentage":75},{"category":"analysis","count":1,"percentage":25}],"topPromptTypes":["inline-completion"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":2,"categories":[{"category":"communication","count":1,"percentage":50},{"category":"writing","count":1,"percentage":50}],"topPromptTypes":["email-draft"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-03-31",
+    "totalInteractions": 127,
+    "peakHour": "17:00",
+    "dominantCategory": "coding",
+    "summary": "New week, new scope: Claude set up project scaffolding, Copilot Work generating boilerplate.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":24,"categories":[{"category":"coding","count":13,"percentage":54},{"category":"writing","count":5,"percentage":21},{"category":"research","count":4,"percentage":17},{"category":"analysis","count":2,"percentage":8}],"topPromptTypes":["architecture","planning"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":43,"categories":[{"category":"coding","count":39,"percentage":91},{"category":"analysis","count":4,"percentage":9}],"topPromptTypes":["inline-completion","code-generation"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":10,"categories":[{"category":"research","count":3,"percentage":30},{"category":"writing","count":4,"percentage":40},{"category":"creative","count":2,"percentage":20},{"category":"analysis","count":1,"percentage":10}],"topPromptTypes":["research","planning"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":28,"categories":[{"category":"coding","count":24,"percentage":86},{"category":"analysis","count":3,"percentage":11},{"category":"communication","count":1,"percentage":4}],"topPromptTypes":["inline-completion","code-review"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":7,"categories":[{"category":"automation","count":4,"percentage":57},{"category":"coding","count":2,"percentage":29},{"category":"analysis","count":1,"percentage":14}],"topPromptTypes":["task-delegation","environment-setup"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":15,"categories":[{"category":"communication","count":7,"percentage":47},{"category":"writing","count":5,"percentage":33},{"category":"analysis","count":3,"percentage":20}],"topPromptTypes":["email-draft","action-items"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-04-01",
+    "totalInteractions": 152,
+    "peakHour": "18:00",
+    "dominantCategory": "coding",
+    "summary": "Rising tempo — feature velocity increasing, M365 Copilot heavy for stakeholder updates.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":29,"categories":[{"category":"coding","count":16,"percentage":55},{"category":"writing","count":6,"percentage":21},{"category":"research","count":4,"percentage":14},{"category":"analysis","count":3,"percentage":10}],"topPromptTypes":["architecture","code-review","refactor"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":50,"categories":[{"category":"coding","count":45,"percentage":90},{"category":"analysis","count":5,"percentage":10}],"topPromptTypes":["inline-completion","code-generation","chat-request"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":13,"categories":[{"category":"research","count":4,"percentage":31},{"category":"writing","count":4,"percentage":31},{"category":"creative","count":3,"percentage":23},{"category":"analysis","count":2,"percentage":15}],"topPromptTypes":["research","planning"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":33,"categories":[{"category":"coding","count":28,"percentage":85},{"category":"analysis","count":4,"percentage":12},{"category":"communication","count":1,"percentage":3}],"topPromptTypes":["inline-completion","pr-assist"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":9,"categories":[{"category":"automation","count":5,"percentage":56},{"category":"coding","count":3,"percentage":33},{"category":"analysis","count":1,"percentage":11}],"topPromptTypes":["task-delegation","pr-creation","ci-run"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":18,"categories":[{"category":"communication","count":8,"percentage":44},{"category":"writing","count":7,"percentage":39},{"category":"analysis","count":3,"percentage":17}],"topPromptTypes":["email-draft","document-assist","teams-message"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-04-02",
+    "totalInteractions": 139,
+    "peakHour": "16:00",
+    "dominantCategory": "coding",
+    "summary": "Cross-team alignment day: lots of M365 Copilot for docs and Teams, Claude for tech specs.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":26,"categories":[{"category":"coding","count":14,"percentage":54},{"category":"writing","count":6,"percentage":23},{"category":"research","count":4,"percentage":15},{"category":"analysis","count":2,"percentage":8}],"topPromptTypes":["documentation","architecture"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":47,"categories":[{"category":"coding","count":43,"percentage":91},{"category":"analysis","count":4,"percentage":9}],"topPromptTypes":["inline-completion","code-generation"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":11,"categories":[{"category":"research","count":4,"percentage":36},{"category":"writing","count":3,"percentage":27},{"category":"creative","count":2,"percentage":18},{"category":"analysis","count":2,"percentage":18}],"topPromptTypes":["research","writing"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":30,"categories":[{"category":"coding","count":26,"percentage":87},{"category":"analysis","count":3,"percentage":10},{"category":"communication","count":1,"percentage":3}],"topPromptTypes":["inline-completion","code-review"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":8,"categories":[{"category":"automation","count":4,"percentage":50},{"category":"coding","count":3,"percentage":38},{"category":"analysis","count":1,"percentage":13}],"topPromptTypes":["task-delegation","ci-run"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":17,"categories":[{"category":"communication","count":8,"percentage":47},{"category":"writing","count":6,"percentage":35},{"category":"analysis","count":3,"percentage":18}],"topPromptTypes":["teams-message","document-assist","meeting-summary"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-04-03",
+    "totalInteractions": 169,
+    "peakHour": "17:00",
+    "dominantCategory": "coding",
+    "summary": "High-intensity coding push — Claude and Copilot both at monthly peaks, Devin delegation up.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":32,"categories":[{"category":"coding","count":18,"percentage":56},{"category":"writing","count":7,"percentage":22},{"category":"research","count":4,"percentage":13},{"category":"analysis","count":3,"percentage":9}],"topPromptTypes":["refactor","architecture","debug"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":56,"categories":[{"category":"coding","count":51,"percentage":91},{"category":"analysis","count":5,"percentage":9}],"topPromptTypes":["inline-completion","code-generation","chat-request"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":15,"categories":[{"category":"research","count":5,"percentage":33},{"category":"writing","count":5,"percentage":33},{"category":"creative","count":3,"percentage":20},{"category":"analysis","count":2,"percentage":13}],"topPromptTypes":["research","planning"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":36,"categories":[{"category":"coding","count":31,"percentage":86},{"category":"analysis","count":4,"percentage":11},{"category":"communication","count":1,"percentage":3}],"topPromptTypes":["inline-completion","pr-assist","code-review"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":10,"categories":[{"category":"automation","count":5,"percentage":50},{"category":"coding","count":4,"percentage":40},{"category":"analysis","count":1,"percentage":10}],"topPromptTypes":["task-delegation","pr-creation","test-run"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":20,"categories":[{"category":"communication","count":9,"percentage":45},{"category":"writing","count":7,"percentage":35},{"category":"analysis","count":4,"percentage":20}],"topPromptTypes":["email-draft","meeting-summary","teams-message"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-04-04",
+    "totalInteractions": 149,
+    "peakHour": "16:00",
+    "dominantCategory": "coding",
+    "summary": "Solid delivery Friday: shipped the platform feature, Devin ran CI/CD flows autonomously.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":28,"categories":[{"category":"coding","count":15,"percentage":54},{"category":"writing","count":6,"percentage":21},{"category":"research","count":4,"percentage":14},{"category":"analysis","count":3,"percentage":11}],"topPromptTypes":["code-review","test-writing"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":50,"categories":[{"category":"coding","count":45,"percentage":90},{"category":"analysis","count":5,"percentage":10}],"topPromptTypes":["inline-completion","code-generation"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":12,"categories":[{"category":"research","count":4,"percentage":33},{"category":"writing","count":4,"percentage":33},{"category":"creative","count":3,"percentage":25},{"category":"analysis","count":1,"percentage":8}],"topPromptTypes":["writing","research"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":32,"categories":[{"category":"coding","count":28,"percentage":88},{"category":"analysis","count":3,"percentage":9},{"category":"communication","count":1,"percentage":3}],"topPromptTypes":["inline-completion","pr-assist"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":9,"categories":[{"category":"automation","count":5,"percentage":56},{"category":"coding","count":3,"percentage":33},{"category":"analysis","count":1,"percentage":11}],"topPromptTypes":["task-delegation","pr-creation","ci-run"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":18,"categories":[{"category":"communication","count":8,"percentage":44},{"category":"writing","count":7,"percentage":39},{"category":"analysis","count":3,"percentage":17}],"topPromptTypes":["teams-message","email-draft"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-04-05",
+    "totalInteractions": 84,
+    "peakHour": "13:00",
+    "dominantCategory": "coding",
+    "summary": "Weekend deep-dive: personal project sprint with ChatGPT for ideation and Claude for execution.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":22,"categories":[{"category":"coding","count":12,"percentage":55},{"category":"writing","count":5,"percentage":23},{"category":"research","count":3,"percentage":14},{"category":"analysis","count":2,"percentage":9}],"topPromptTypes":["architecture","refactor"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":32,"categories":[{"category":"coding","count":29,"percentage":91},{"category":"analysis","count":3,"percentage":9}],"topPromptTypes":["inline-completion","code-generation"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":17,"categories":[{"category":"research","count":6,"percentage":35},{"category":"writing","count":5,"percentage":29},{"category":"creative","count":4,"percentage":24},{"category":"analysis","count":2,"percentage":12}],"topPromptTypes":["brainstorm","creative","research"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":8,"categories":[{"category":"coding","count":7,"percentage":88},{"category":"analysis","count":1,"percentage":13}],"topPromptTypes":["inline-completion"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":1,"categories":[{"category":"automation","count":1,"percentage":100}],"topPromptTypes":["ci-run"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":4,"categories":[{"category":"communication","count":2,"percentage":50},{"category":"writing","count":1,"percentage":25},{"category":"analysis","count":1,"percentage":25}],"topPromptTypes":["email-draft"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-04-06",
+    "totalInteractions": 69,
+    "peakHour": "11:00",
+    "dominantCategory": "research",
+    "summary": "Creative Sunday — ChatGPT for writing, light Copilot session, some personal automation planning.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":16,"categories":[{"category":"coding","count":9,"percentage":56},{"category":"writing","count":3,"percentage":19},{"category":"research","count":2,"percentage":13},{"category":"analysis","count":2,"percentage":13}],"topPromptTypes":["planning","automation"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":24,"categories":[{"category":"coding","count":22,"percentage":92},{"category":"analysis","count":2,"percentage":8}],"topPromptTypes":["inline-completion"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":22,"categories":[{"category":"research","count":8,"percentage":36},{"category":"writing","count":7,"percentage":32},{"category":"creative","count":5,"percentage":23},{"category":"analysis","count":2,"percentage":9}],"topPromptTypes":["creative","writing","brainstorm"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":5,"categories":[{"category":"coding","count":4,"percentage":80},{"category":"analysis","count":1,"percentage":20}],"topPromptTypes":["inline-completion"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":2,"categories":[{"category":"communication","count":1,"percentage":50},{"category":"writing","count":1,"percentage":50}],"topPromptTypes":["email-draft"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-04-07",
+    "totalInteractions": 167,
+    "peakHour": "18:00",
+    "dominantCategory": "coding",
+    "summary": "Start of high-output week — Claude architecture push, all work tools firing at once.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":31,"categories":[{"category":"coding","count":17,"percentage":55},{"category":"writing","count":7,"percentage":23},{"category":"research","count":4,"percentage":13},{"category":"analysis","count":3,"percentage":10}],"topPromptTypes":["architecture","planning","data-modeling"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":55,"categories":[{"category":"coding","count":50,"percentage":91},{"category":"analysis","count":5,"percentage":9}],"topPromptTypes":["inline-completion","code-generation","chat-request"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":13,"categories":[{"category":"research","count":4,"percentage":31},{"category":"writing","count":4,"percentage":31},{"category":"creative","count":3,"percentage":23},{"category":"analysis","count":2,"percentage":15}],"topPromptTypes":["research","quick-question"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":35,"categories":[{"category":"coding","count":30,"percentage":86},{"category":"analysis","count":4,"percentage":11},{"category":"communication","count":1,"percentage":3}],"topPromptTypes":["inline-completion","pr-assist","code-review"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":11,"categories":[{"category":"automation","count":6,"percentage":55},{"category":"coding","count":4,"percentage":36},{"category":"analysis","count":1,"percentage":9}],"topPromptTypes":["task-delegation","pr-creation","environment-setup"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":22,"categories":[{"category":"communication","count":10,"percentage":45},{"category":"writing","count":8,"percentage":36},{"category":"analysis","count":4,"percentage":18}],"topPromptTypes":["email-draft","teams-message","document-assist"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-04-08",
+    "totalInteractions": 184,
+    "peakHour": "17:00",
+    "dominantCategory": "coding",
+    "summary": "Second-busiest day ever — major refactor with Claude, Copilot at max, Devin multi-tasking.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":35,"categories":[{"category":"coding","count":19,"percentage":54},{"category":"writing","count":8,"percentage":23},{"category":"research","count":5,"percentage":14},{"category":"analysis","count":3,"percentage":9}],"topPromptTypes":["refactor","architecture","test-writing"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":60,"categories":[{"category":"coding","count":54,"percentage":90},{"category":"analysis","count":6,"percentage":10}],"topPromptTypes":["inline-completion","code-generation","chat-request"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":15,"categories":[{"category":"research","count":5,"percentage":33},{"category":"writing","count":5,"percentage":33},{"category":"creative","count":3,"percentage":20},{"category":"analysis","count":2,"percentage":13}],"topPromptTypes":["research","planning"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":38,"categories":[{"category":"coding","count":33,"percentage":87},{"category":"analysis","count":4,"percentage":11},{"category":"communication","count":1,"percentage":3}],"topPromptTypes":["inline-completion","pr-assist","code-review"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":12,"categories":[{"category":"automation","count":6,"percentage":50},{"category":"coding","count":5,"percentage":42},{"category":"analysis","count":1,"percentage":8}],"topPromptTypes":["task-delegation","pr-creation","test-run","ci-run"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":24,"categories":[{"category":"communication","count":11,"percentage":46},{"category":"writing","count":9,"percentage":38},{"category":"analysis","count":4,"percentage":17}],"topPromptTypes":["email-draft","meeting-summary","teams-message"],"confidence":"inferred"}
+    ]
+  },
+  {
+    "date": "2026-04-09",
+    "totalInteractions": 149,
+    "peakHour": "16:00",
+    "dominantCategory": "coding",
+    "summary": "Today: deep coding sprint across personal and work stacks; Pulse Log implementation in full swing.",
+    "tools": [
+      {"tool":"claude","context":"personal","interactions":28,"categories":[{"category":"coding","count":15,"percentage":54},{"category":"writing","count":6,"percentage":21},{"category":"research","count":4,"percentage":14},{"category":"analysis","count":3,"percentage":11}],"topPromptTypes":["architecture","refactor","debug"],"estimatedTokens":70000,"estimatedCostUsd":1.40,"activeMinutes":92,"models":["claude-opus-4-5"],"confidence":"estimated"},
+      {"tool":"copilot-personal","context":"personal","interactions":48,"categories":[{"category":"coding","count":44,"percentage":92},{"category":"analysis","count":4,"percentage":8}],"topPromptTypes":["inline-completion","code-generation","chat-request"],"estimatedTokens":19200,"activeMinutes":180,"models":["gpt-4o","claude-sonnet-4-5"],"confidence":"measured"},
+      {"tool":"chatgpt","context":"personal","interactions":14,"categories":[{"category":"research","count":5,"percentage":36},{"category":"writing","count":4,"percentage":29},{"category":"creative","count":3,"percentage":21},{"category":"analysis","count":2,"percentage":14}],"topPromptTypes":["research","planning","brainstorm"],"estimatedTokens":25200,"activeMinutes":38,"models":["gpt-4o"],"confidence":"estimated"},
+      {"tool":"copilot-work","context":"work","interactions":32,"categories":[{"category":"coding","count":28,"percentage":88},{"category":"analysis","count":3,"percentage":9},{"category":"communication","count":1,"percentage":3}],"topPromptTypes":["inline-completion","code-review","pr-assist"],"estimatedTokens":12800,"activeMinutes":160,"models":["gpt-4o-enterprise"],"confidence":"measured"},
+      {"tool":"devin","context":"work","interactions":9,"categories":[{"category":"automation","count":5,"percentage":56},{"category":"coding","count":3,"percentage":33},{"category":"analysis","count":1,"percentage":11}],"topPromptTypes":["task-delegation","pr-creation","ci-run"],"estimatedTokens":45000,"activeMinutes":65,"models":["claude-3-5-sonnet"],"agentsTriggered":["build-agent","test-agent"],"confidence":"measured"},
+      {"tool":"m365-copilot","context":"work","interactions":18,"categories":[{"category":"communication","count":8,"percentage":44},{"category":"writing","count":7,"percentage":39},{"category":"analysis","count":3,"percentage":17}],"topPromptTypes":["email-draft","meeting-summary","teams-message"],"estimatedTokens":21600,"activeMinutes":45,"models":["gpt-4-turbo"],"confidence":"inferred"}
+    ]
+  }
+]

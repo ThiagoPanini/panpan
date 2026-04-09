@@ -1,0 +1,396 @@
+---
+/**
+ * PulseLog — AI usage visualizer section.
+ * Renders 6 waveform channels (3 personal, 3 work) from pre-computed SVG paths.
+ * Waveform paths are generated at build time; client-side GSAP handles animation.
+ */
+
+import '../styles/pulse-log.css';
+import type { DailyPulse, PulseMeta, ToolId } from '../lib/aiPulse/schema.ts';
+import { generateWavePath, getTemporalLabels } from '../lib/aiPulse/waveform.ts';
+import { computeToolTimelines } from '../lib/aiPulse/transforms.ts';
+import { generateInsights } from '../lib/aiPulse/insights.ts';
+
+import archiveRaw from '../data/ai-pulse/archive/2026-Q2.json';
+import latestRaw from '../data/ai-pulse/latest.json';
+import metaRaw from '../data/ai-pulse/meta.json';
+
+const pulses = archiveRaw as DailyPulse[];
+const latest = latestRaw as DailyPulse;
+const meta = metaRaw as PulseMeta;
+
+// ── Waveform generation ──────────────────────────────────────────────────────
+
+const SVG_W = 1200;
+const SVG_H = 360;
+const CENTER_Y = SVG_H / 2;          // 180
+const LANE_H = SVG_H / 6;            // 60px per lane
+const MAX_AMP = LANE_H * 0.43;       // max amplitude within lane
+
+interface ChannelDef {
+  id: ToolId;
+  label: string;
+  color: string;
+  context: 'personal' | 'work';
+  direction: 'up' | 'down';
+  centerY: number;
+  laneTop: number;
+}
+
+const CHANNELS: ChannelDef[] = [
+  { id: 'claude',           label: 'Claude',          color: '#CC785C', context: 'personal', direction: 'up',   centerY: 30,  laneTop: 0   },
+  { id: 'copilot-personal', label: 'Copilot Personal', color: '#C9A87C', context: 'personal', direction: 'up',   centerY: 90,  laneTop: 60  },
+  { id: 'chatgpt',          label: 'ChatGPT',          color: '#7CA87C', context: 'personal', direction: 'up',   centerY: 150, laneTop: 120 },
+  { id: 'copilot-work',     label: 'Copilot Work',     color: '#A68F6E', context: 'work',     direction: 'down', centerY: 210, laneTop: 180 },
+  { id: 'devin',            label: 'Devin',            color: '#7C8EC9', context: 'work',     direction: 'down', centerY: 270, laneTop: 240 },
+  { id: 'm365-copilot',     label: 'M365 Copilot',     color: '#9C7CC9', context: 'work',     direction: 'down', centerY: 330, laneTop: 300 },
+];
+
+const timelines = computeToolTimelines(pulses);
+const allValues = Object.values(timelines).flat();
+const globalMax = Math.max(...allValues, 1);
+
+const channelPaths = CHANNELS.map((ch) => ({
+  ...ch,
+  paths: generateWavePath(
+    timelines[ch.id] ?? Array(pulses.length).fill(0),
+    SVG_W,
+    ch.centerY,
+    MAX_AMP,
+    ch.direction,
+    globalMax,
+  ),
+}));
+
+// Temporal labels (every 7 days + last day)
+const dates = pulses.map((p) => p.date);
+const temporalLabels = getTemporalLabels(dates, 7);
+
+// Day column width for hover zones
+const DAY_W = SVG_W / (pulses.length - 1);
+
+// Insights
+const insights = generateInsights(meta, latest);
+
+// Vertical grid lines every 7 days
+const gridLineXs = temporalLabels.map((l) => l.svgX);
+
+// Serialise pulse data for client-side detail panel
+const pulsesJSON = JSON.stringify(
+  pulses.map((p) => ({
+    date: p.date,
+    total: p.totalInteractions,
+    peakHour: p.peakHour,
+    summary: p.summary,
+    dominantCategory: p.dominantCategory,
+    tools: p.tools.map((t) => ({
+      tool: t.tool,
+      context: t.context,
+      interactions: t.interactions,
+      confidence: t.confidence,
+      topPromptTypes: t.topPromptTypes,
+      topCategory: t.categories[0]?.category ?? 'coding',
+    })),
+  }))
+);
+---
+
+<section id="pulse-log" class="pulse-log" aria-label="AI usage pulse log">
+
+  <!-- ── Header ───────────────────────────────────────────────── -->
+  <header class="pulse-log__header">
+    <span class="pulse-log__overline" aria-label="System identifier">SYSTEM.PULSE</span>
+    <h2 class="pulse-log__title">How I Work With AI</h2>
+    <p class="pulse-log__subtitle">Every interaction leaves a trace.</p>
+  </header>
+
+  <!-- ── Live Status Strip ────────────────────────────────────── -->
+  <div class="pulse-log__status" role="region" aria-label="Live usage statistics">
+    <div class="pulse-status__live" aria-label="Live indicator">
+      <span class="pulse-live-dot" aria-hidden="true"></span>
+      <span class="pulse-live-text">LIVE</span>
+    </div>
+
+    <dl class="pulse-status__stats">
+      <div class="pulse-stat">
+        <dt class="pulse-stat__label">Interactions</dt>
+        <dd class="pulse-stat__value">{meta.totalInteractions.toLocaleString()}</dd>
+      </div>
+      <div class="pulse-stat">
+        <dt class="pulse-stat__label">Tools active</dt>
+        <dd class="pulse-stat__value">6</dd>
+      </div>
+      <div class="pulse-stat">
+        <dt class="pulse-stat__label">Day streak</dt>
+        <dd class="pulse-stat__value">{meta.currentStreak}</dd>
+      </div>
+      <div class="pulse-stat">
+        <dt class="pulse-stat__label">Weekly avg</dt>
+        <dd class="pulse-stat__value">{meta.weeklyAverage.toLocaleString()}</dd>
+      </div>
+    </dl>
+
+    <!-- Context filter -->
+    <div class="pulse-context-filter" role="group" aria-label="Filter by context">
+      <button class="pulse-filter-btn pulse-filter-btn--active" data-context="all" aria-pressed="true">All</button>
+      <button class="pulse-filter-btn" data-context="personal" aria-pressed="false">Personal</button>
+      <button class="pulse-filter-btn" data-context="work" aria-pressed="false">Work</button>
+    </div>
+  </div>
+
+  <!-- ── Pulse Field ───────────────────────────────────────────── -->
+  <div class="pulse-log__field">
+
+    <!-- Temporal axis labels -->
+    <div class="pulse-field__temporal" aria-hidden="true">
+      {temporalLabels.map((l) => (
+        <span
+          class="pulse-temporal-label"
+          style={`left: ${(l.svgX / SVG_W) * 100}%`}
+          data-index={l.x}
+        >
+          {l.date}
+        </span>
+      ))}
+    </div>
+
+    <!-- Context labels -->
+    <div class="pulse-field__context-labels" aria-hidden="true">
+      <span class="pulse-context-label pulse-context-label--personal">Personal</span>
+      <span class="pulse-context-label pulse-context-label--work">Work</span>
+    </div>
+
+    <!-- SVG waveform canvas -->
+    <div
+      class="pulse-field__canvas"
+      role="img"
+      aria-label={`AI usage waveform over the last ${meta.totalDays} days. Peak: ${meta.records.busiestDay.count} interactions on ${meta.records.busiestDay.date}.`}
+    >
+      <svg
+        class="pulse-field__svg"
+        viewBox={`0 0 ${SVG_W} ${SVG_H}`}
+        preserveAspectRatio="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <defs>
+          <!-- Fade masks for left/right edges -->
+          <linearGradient id="pl-fade-left" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="var(--color-bg)" stop-opacity="1"/>
+            <stop offset="5%" stop-color="var(--color-bg)" stop-opacity="0"/>
+          </linearGradient>
+          <linearGradient id="pl-fade-right" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="95%" stop-color="var(--color-bg)" stop-opacity="0"/>
+            <stop offset="100%" stop-color="var(--color-bg)" stop-opacity="1"/>
+          </linearGradient>
+
+          <!-- Per-channel glow filters -->
+          {CHANNELS.map((ch) => (
+            <filter id={`glow-${ch.id}`} x="-20%" y="-80%" width="140%" height="260%">
+              <feGaussianBlur stdDeviation="3" result="blur"/>
+              <feFlood flood-color={ch.color} flood-opacity="0.4" result="color"/>
+              <feComposite in="color" in2="blur" operator="in" result="glow"/>
+              <feMerge>
+                <feMergeNode in="glow"/>
+                <feMergeNode in="SourceGraphic"/>
+              </feMerge>
+            </filter>
+          ))}
+        </defs>
+
+        <!-- ── Baseline grid ── -->
+        <g class="pulse-grid" aria-hidden="true">
+          <!-- Lane separators -->
+          {[60, 120, 180, 240, 300].map((y) => (
+            <line
+              x1="0" y1={y} x2={SVG_W} y2={y}
+              stroke="rgba(201,168,124,0.05)"
+              stroke-width="1"
+            />
+          ))}
+          <!-- Vertical time grid -->
+          {gridLineXs.map((x) => (
+            <line
+              x1={x} y1="0" x2={x} y2={SVG_H}
+              stroke="rgba(201,168,124,0.06)"
+              stroke-width="1"
+            />
+          ))}
+        </g>
+
+        <!-- ── Waveform fills ── -->
+        <g class="pulse-fills" aria-hidden="true">
+          {channelPaths.map((ch) => (
+            <path
+              class={`pulse-wave-fill pulse-wave-fill--${ch.id}`}
+              data-tool={ch.id}
+              data-context={ch.context}
+              d={ch.paths.fill}
+              fill={ch.color}
+              fill-opacity="0.08"
+            />
+          ))}
+        </g>
+
+        <!-- ── Waveform strokes ── -->
+        <g class="pulse-strokes" aria-hidden="true">
+          {channelPaths.map((ch) => (
+            <path
+              class={`pulse-wave-stroke pulse-wave-stroke--${ch.id}`}
+              data-tool={ch.id}
+              data-context={ch.context}
+              d={ch.paths.stroke}
+              fill="none"
+              stroke={ch.color}
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              opacity="0.7"
+            />
+          ))}
+        </g>
+
+        <!-- ── Center divider ── -->
+        <line
+          class="pulse-center-line"
+          x1="0" y1={CENTER_Y} x2={SVG_W} y2={CENTER_Y}
+          stroke="rgba(201,168,124,0.22)"
+          stroke-width="1.5"
+          aria-hidden="true"
+        />
+
+        <!-- ── Pulse runners (animated dots injected by JS) ── -->
+        <g class="pulse-runners" aria-hidden="true"></g>
+
+        <!-- ── Day hover columns ── -->
+        <g class="pulse-hover-cols" aria-hidden="true">
+          {pulses.map((p, i) => (
+            <rect
+              class="pulse-day-col"
+              data-index={i}
+              data-date={p.date}
+              data-total={p.totalInteractions}
+              data-summary={p.summary}
+              data-peak={p.peakHour}
+              x={Math.max(0, i * DAY_W - DAY_W / 2)}
+              y="0"
+              width={DAY_W}
+              height={SVG_H}
+              fill="transparent"
+              tabindex="0"
+              role="button"
+              aria-label={`${p.date}: ${p.totalInteractions} interactions`}
+            />
+          ))}
+        </g>
+
+        <!-- ── Day highlight beam ── -->
+        <rect
+          class="pulse-day-highlight"
+          x="0" y="0" width={DAY_W} height={SVG_H}
+          fill="rgba(201,168,124,0.06)"
+          rx="0"
+          aria-hidden="true"
+          style="opacity: 0; pointer-events: none;"
+        />
+
+        <!-- Edge fade overlays -->
+        <rect x="0" y="0" width="60" height={SVG_H} fill="url(#pl-fade-left)" aria-hidden="true" style="pointer-events:none"/>
+        <rect x={SVG_W - 60} y="0" width="60" height={SVG_H} fill="url(#pl-fade-right)" aria-hidden="true" style="pointer-events:none"/>
+      </svg>
+    </div>
+
+    <!-- Tooltip -->
+    <div class="pulse-tooltip" role="tooltip" aria-live="polite" aria-atomic="true">
+      <div class="pulse-tooltip__date"></div>
+      <div class="pulse-tooltip__total"></div>
+      <div class="pulse-tooltip__summary"></div>
+      <div class="pulse-tooltip__peak"></div>
+    </div>
+  </div>
+
+  <!-- ── Tool Legend ───────────────────────────────────────────── -->
+  <div class="pulse-log__legend" role="list" aria-label="Tool legend">
+    {CHANNELS.map((ch) => (
+      <button
+        class="pulse-legend-item"
+        data-tool={ch.id}
+        data-context={ch.context}
+        role="listitem"
+        aria-pressed="false"
+        aria-label={`Toggle ${ch.label} channel`}
+      >
+        <span class="pulse-legend-swatch" style={`background: ${ch.color}`}></span>
+        <span class="pulse-legend-label">{ch.label}</span>
+        <span class={`pulse-legend-ctx pulse-legend-ctx--${ch.context}`}>
+          {ch.context === 'personal' ? 'Personal' : 'Work'}
+        </span>
+      </button>
+    ))}
+  </div>
+
+  <!-- ── Day Detail Panel ──────────────────────────────────────── -->
+  <div
+    class="pulse-log__detail"
+    id="pulse-detail"
+    role="region"
+    aria-label="Day detail"
+    aria-expanded="false"
+    aria-live="polite"
+  >
+    <button class="pulse-detail-close" aria-label="Close day detail">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <line x1="18" y1="6" x2="6" y2="18"/>
+        <line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+
+    <div class="pulse-detail__header">
+      <span class="pulse-detail__date"></span>
+      <span class="pulse-detail__summary"></span>
+    </div>
+
+    <div class="pulse-detail__stats">
+      <div class="pulse-detail-stat">
+        <span class="pulse-detail-stat__label">Total</span>
+        <span class="pulse-detail-stat__value" data-key="total">—</span>
+      </div>
+      <div class="pulse-detail-stat">
+        <span class="pulse-detail-stat__label">Peak hour</span>
+        <span class="pulse-detail-stat__value" data-key="peak">—</span>
+      </div>
+      <div class="pulse-detail-stat">
+        <span class="pulse-detail-stat__label">Category</span>
+        <span class="pulse-detail-stat__value" data-key="category">—</span>
+      </div>
+    </div>
+
+    <div class="pulse-detail__tools" role="list" aria-label="Tool breakdown for selected day"></div>
+  </div>
+
+  <!-- ── Insights Strip ───────────────────────────────────────── -->
+  <div class="pulse-log__insights" role="list" aria-label="Key insights">
+    {insights.map((ins) => (
+      <article class="pulse-insight" role="listitem" title={ins.detail}>
+        <span class="pulse-insight__label">{ins.label}</span>
+        <span class="pulse-insight__value">{ins.value}</span>
+        <p class="pulse-insight__detail">{ins.detail}</p>
+      </article>
+    ))}
+  </div>
+
+</section>
+
+<!-- Serialised data for client script -->
+<script
+  id="pulse-data"
+  type="application/json"
+  set:html={pulsesJSON}
+/>
+
+<script
+  id="pulse-channels"
+  type="application/json"
+  set:html={JSON.stringify(CHANNELS.map(c => ({ id: c.id, label: c.label, color: c.color, context: c.context })))}
+/>
+
+<script src="../scripts/pulseLog.ts"></script>
