@@ -25,6 +25,45 @@ function showWithoutAnimation(): void {
   gsap.set('.nav-logo', { opacity: 1, y: 0 });
   gsap.set('.nav-link', { opacity: 1, y: 0 });
   gsap.set('.projects-header, .project-card, .github-profile-btn', { opacity: 1, y: 0 });
+  gsap.set('.ai-usage-header, .ai-tool-card', { opacity: 1, y: 0 });
+}
+
+/** Scroll-triggered entrance animations for the AI Usage section. */
+function initAIUsageAnimations(): void {
+  const section = document.querySelector<HTMLElement>('.ai-usage-section');
+  if (!section) return;
+
+  const header = section.querySelector<HTMLElement>('.ai-usage-header');
+  const cards = section.querySelectorAll<HTMLElement>('.ai-tool-card');
+
+  if (header) {
+    gsap.to(header, {
+      opacity: 1,
+      y: 0,
+      duration: 0.8,
+      ease: 'power3.out',
+      scrollTrigger: {
+        trigger: header,
+        start: 'top 85%',
+        once: true,
+      },
+    });
+  }
+
+  if (cards.length > 0) {
+    gsap.to(cards, {
+      opacity: 1,
+      y: 0,
+      duration: 0.8,
+      ease: 'power3.out',
+      stagger: 0.12,
+      scrollTrigger: {
+        trigger: section.querySelector('.ai-environments'),
+        start: 'top 80%',
+        once: true,
+      },
+    });
+  }
 }
 
 /** Scroll-triggered entrance animations for the Projects section. */
@@ -350,4 +389,5 @@ export function initHeroAnimations(): void {
   initCursorGlow();
   initScrollExit();
   initProjectsAnimations();
+  initAIUsageAnimations();
 }
