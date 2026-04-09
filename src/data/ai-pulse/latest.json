@@ -1,102 +1,218 @@
 {
-  "date": "2026-04-09",
-  "totalInteractions": 149,
-  "peakHour": "16:00",
-  "dominantCategory": "coding",
-  "summary": "Today: deep coding sprint across personal and work stacks; Pulse Log implementation in full swing.",
-  "tools": [
-    {
-      "tool": "claude",
-      "context": "personal",
-      "interactions": 28,
-      "categories": [
-        { "category": "coding", "count": 15, "percentage": 54 },
-        { "category": "writing", "count": 6, "percentage": 21 },
-        { "category": "research", "count": 4, "percentage": 14 },
-        { "category": "analysis", "count": 3, "percentage": 11 }
-      ],
-      "topPromptTypes": ["architecture", "refactor", "debug"],
-      "estimatedTokens": 70000,
-      "estimatedCostUsd": 1.40,
-      "activeMinutes": 92,
-      "models": ["claude-opus-4-5"],
-      "confidence": "estimated"
-    },
-    {
-      "tool": "copilot-personal",
-      "context": "personal",
-      "interactions": 48,
-      "categories": [
-        { "category": "coding", "count": 44, "percentage": 92 },
-        { "category": "analysis", "count": 4, "percentage": 8 }
-      ],
-      "topPromptTypes": ["inline-completion", "code-generation", "chat-request"],
-      "estimatedTokens": 19200,
-      "activeMinutes": 180,
-      "models": ["gpt-4o", "claude-sonnet-4-5"],
-      "confidence": "measured"
-    },
-    {
-      "tool": "chatgpt",
-      "context": "personal",
-      "interactions": 14,
-      "categories": [
-        { "category": "research", "count": 5, "percentage": 36 },
-        { "category": "writing", "count": 4, "percentage": 29 },
-        { "category": "creative", "count": 3, "percentage": 21 },
-        { "category": "analysis", "count": 2, "percentage": 14 }
-      ],
-      "topPromptTypes": ["research", "planning", "brainstorm"],
-      "estimatedTokens": 25200,
-      "activeMinutes": 38,
-      "models": ["gpt-4o"],
-      "confidence": "estimated"
-    },
-    {
-      "tool": "copilot-work",
-      "context": "work",
-      "interactions": 32,
-      "categories": [
-        { "category": "coding", "count": 28, "percentage": 88 },
-        { "category": "analysis", "count": 3, "percentage": 9 },
-        { "category": "communication", "count": 1, "percentage": 3 }
-      ],
-      "topPromptTypes": ["inline-completion", "code-review", "pr-assist"],
-      "estimatedTokens": 12800,
-      "activeMinutes": 160,
-      "models": ["gpt-4o-enterprise"],
-      "confidence": "measured"
-    },
-    {
-      "tool": "devin",
-      "context": "work",
-      "interactions": 9,
-      "categories": [
-        { "category": "automation", "count": 5, "percentage": 56 },
-        { "category": "coding", "count": 3, "percentage": 33 },
-        { "category": "analysis", "count": 1, "percentage": 11 }
-      ],
-      "topPromptTypes": ["task-delegation", "pr-creation", "ci-run"],
-      "estimatedTokens": 45000,
-      "activeMinutes": 65,
-      "models": ["claude-3-5-sonnet"],
-      "agentsTriggered": ["build-agent", "test-agent"],
-      "confidence": "measured"
-    },
-    {
-      "tool": "m365-copilot",
-      "context": "work",
-      "interactions": 18,
-      "categories": [
-        { "category": "communication", "count": 8, "percentage": 44 },
-        { "category": "writing", "count": 7, "percentage": 39 },
-        { "category": "analysis", "count": 3, "percentage": 17 }
-      ],
-      "topPromptTypes": ["email-draft", "meeting-summary", "teams-message"],
-      "estimatedTokens": 21600,
-      "activeMinutes": 45,
-      "models": ["gpt-4-turbo"],
-      "confidence": "inferred"
-    }
-  ]
+    "date": "2026-04-09",
+    "totalInteractions": 149,
+    "peakHour": "16:00",
+    "dominantCategory": "coding",
+    "summary": "Today: deep coding sprint across personal and work stacks; Pulse Log implementation in full swing.",
+    "tools": [
+        {
+            "tool": "claude",
+            "context": "personal",
+            "interactions": 28,
+            "categories": [
+                {
+                    "category": "coding",
+                    "count": 15,
+                    "percentage": 54
+                },
+                {
+                    "category": "writing",
+                    "count": 6,
+                    "percentage": 21
+                },
+                {
+                    "category": "research",
+                    "count": 4,
+                    "percentage": 14
+                },
+                {
+                    "category": "analysis",
+                    "count": 3,
+                    "percentage": 11
+                }
+            ],
+            "topPromptTypes": [
+                "architecture",
+                "refactor",
+                "debug"
+            ],
+            "estimatedTokens": 70000,
+            "estimatedCostUsd": 1.40,
+            "activeMinutes": 92,
+            "models": [
+                "claude-opus-4-5"
+            ],
+            "confidence": "estimated"
+        },
+        {
+            "tool": "copilot-personal",
+            "context": "personal",
+            "interactions": 48,
+            "categories": [
+                {
+                    "category": "coding",
+                    "count": 44,
+                    "percentage": 92
+                },
+                {
+                    "category": "analysis",
+                    "count": 4,
+                    "percentage": 8
+                }
+            ],
+            "topPromptTypes": [
+                "inline-completion",
+                "code-generation",
+                "chat-request"
+            ],
+            "estimatedTokens": 19200,
+            "activeMinutes": 180,
+            "models": [
+                "gpt-4o",
+                "claude-sonnet-4-5"
+            ],
+            "confidence": "measured"
+        },
+        {
+            "tool": "chatgpt",
+            "context": "personal",
+            "interactions": 14,
+            "categories": [
+                {
+                    "category": "research",
+                    "count": 5,
+                    "percentage": 36
+                },
+                {
+                    "category": "writing",
+                    "count": 4,
+                    "percentage": 29
+                },
+                {
+                    "category": "creative",
+                    "count": 3,
+                    "percentage": 21
+                },
+                {
+                    "category": "analysis",
+                    "count": 2,
+                    "percentage": 14
+                }
+            ],
+            "topPromptTypes": [
+                "research",
+                "planning",
+                "brainstorm"
+            ],
+            "estimatedTokens": 25200,
+            "activeMinutes": 38,
+            "models": [
+                "gpt-4o"
+            ],
+            "confidence": "estimated"
+        },
+        {
+            "tool": "copilot-work",
+            "context": "work",
+            "interactions": 32,
+            "categories": [
+                {
+                    "category": "coding",
+                    "count": 28,
+                    "percentage": 88
+                },
+                {
+                    "category": "analysis",
+                    "count": 3,
+                    "percentage": 9
+                },
+                {
+                    "category": "communication",
+                    "count": 1,
+                    "percentage": 3
+                }
+            ],
+            "topPromptTypes": [
+                "inline-completion",
+                "code-review",
+                "pr-assist"
+            ],
+            "estimatedTokens": 12800,
+            "activeMinutes": 160,
+            "models": [
+                "gpt-4o-enterprise"
+            ],
+            "confidence": "measured"
+        },
+        {
+            "tool": "devin",
+            "context": "work",
+            "interactions": 9,
+            "categories": [
+                {
+                    "category": "automation",
+                    "count": 5,
+                    "percentage": 56
+                },
+                {
+                    "category": "coding",
+                    "count": 3,
+                    "percentage": 33
+                },
+                {
+                    "category": "analysis",
+                    "count": 1,
+                    "percentage": 11
+                }
+            ],
+            "topPromptTypes": [
+                "task-delegation",
+                "pr-creation",
+                "ci-run"
+            ],
+            "estimatedTokens": 45000,
+            "activeMinutes": 65,
+            "models": [
+                "claude-3-5-sonnet"
+            ],
+            "agentsTriggered": [
+                "build-agent",
+                "test-agent"
+            ],
+            "confidence": "measured"
+        },
+        {
+            "tool": "m365-copilot",
+            "context": "work",
+            "interactions": 18,
+            "categories": [
+                {
+                    "category": "communication",
+                    "count": 8,
+                    "percentage": 44
+                },
+                {
+                    "category": "writing",
+                    "count": 7,
+                    "percentage": 39
+                },
+                {
+                    "category": "analysis",
+                    "count": 3,
+                    "percentage": 17
+                }
+            ],
+            "topPromptTypes": [
+                "email-draft",
+                "meeting-summary",
+                "teams-message"
+            ],
+            "estimatedTokens": 21600,
+            "activeMinutes": 45,
+            "models": [
+                "gpt-4-turbo"
+            ],
+            "confidence": "inferred"
+        }
+    ]
 }
