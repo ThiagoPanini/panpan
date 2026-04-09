@@ -12,6 +12,7 @@ interface Project {
   name: string;
   description: string;
   language: string;
+  technologies: string[];
   stars: number;
   forks: number;
   url: string;
@@ -25,6 +26,7 @@ const FALLBACK: Record<string, Project> = {
     name: 'aidriven',
     description: 'A platform for AI-driven analytics workflows and tooling.',
     language: 'Python',
+    technologies: ['Python'],
     stars: 0,
     forks: 0,
     url: `https://github.com/${GITHUB_USERNAME}/aidriven`,
@@ -36,6 +38,7 @@ const FALLBACK: Record<string, Project> = {
     name: 'aidriven-resources',
     description: 'Curated resources, templates and references for AI-driven engineering.',
     language: 'Markdown',
+    technologies: ['Markdown'],
     stars: 0,
     forks: 0,
     url: `https://github.com/${GITHUB_USERNAME}/aidriven-resources`,
@@ -47,6 +50,7 @@ const FALLBACK: Record<string, Project> = {
     name: 'panpan',
     description: 'Personal portfolio site built with Astro and GSAP.',
     language: 'Astro',
+    technologies: ['Astro', 'CSS'],
     stars: 0,
     forks: 0,
     url: `https://github.com/${GITHUB_USERNAME}/panpan`,
@@ -145,6 +149,26 @@ async function fetchFromCommitsEndpoint(name: string): Promise<number[]> {
   return buckets;
 }
 
+async function fetchTopTechnologies(name: string, fallbackLanguage: string): Promise<string[]> {
+  try {
+    const res = await fetch(`https://api.github.com/repos/${GITHUB_USERNAME}/${name}/languages`, {
+      headers: githubHeaders,
+    });
+    if (!res.ok) return [fallbackLanguage || 'Unknown'];
+
+    const langs = (await res.json()) as Record<string, number>;
+    const sorted = Object.entries(langs)
+      .sort(([, a], [, b]) => b - a)
+      .map(([lang]) => lang)
+      .slice(0, 2);
+
+    if (sorted.length > 0) return sorted;
+    return [fallbackLanguage || 'Unknown'];
+  } catch {
+    return [fallbackLanguage || 'Unknown'];
+  }
+}
+
 async function fetchRepo(name: string): Promise<Project> {
   try {
     const [repoRes, commitActivity] = await Promise.all([
@@ -155,10 +179,13 @@ async function fetchRepo(name: string): Promise<Project> {
     ]);
     if (!repoRes.ok) return { ...FALLBACK[name], commitActivity };
     const repo: any = await repoRes.json();
+    const primaryLanguage = repo.language ?? 'Unknown';
+    const technologies = await fetchTopTechnologies(name, primaryLanguage);
     return {
       name: repo.name,
       description: repo.description ?? 'No description available.',
-      language: repo.language ?? 'Unknown',
+      language: primaryLanguage,
+      technologies,
       stars: repo.stargazers_count ?? 0,
       forks: repo.forks_count ?? 0,
       url: repo.html_url,
@@ -209,7 +236,7 @@ const SIMPLE_ICONS_SLUG: Record<string, string> = {
   JavaScript: 'javascript',
   Astro:      'astro',
   HTML:       'html5',
-  CSS:        'css3',
+  CSS:        'css',
   Shell:      'gnubash',
   Go:         'go',
   Rust:       'rust',
@@ -230,9 +257,9 @@ async function fetchIcon(language: string): Promise<string | null> {
   }
 }
 
-const uniqueLangs = [...new Set(projects.map(p => p.language))];
+const uniqueLangs = [...new Set(projects.flatMap((p) => p.technologies))];
 const iconEntries = await Promise.all(
-  uniqueLangs.map(async lang => [lang, await fetchIcon(lang)] as const)
+  uniqueLangs.map(async (lang) => [lang, await fetchIcon(lang)] as const)
 );
 const languageIcons: Record<string, string | null> = Object.fromEntries(iconEntries);
 
@@ -288,24 +315,28 @@ function relativeTime(iso: string): string {
         ></a>
 
         <div class="project-card-top">
-          <span class="project-language">
-            {languageIcons[p.language]
-              ? (
-                <span
-                  class="project-language-icon"
-                  aria-hidden="true"
-                  set:html={languageIcons[p.language]}
-                />
-              )
-              : (
-                <span
-                  class="project-language-dot"
-                  style={`background:${LANGUAGE_COLORS[p.language] ?? LANGUAGE_COLORS.Unknown}`}
-                  aria-hidden="true"
-                />
-              )
-            }
-            {p.language}
+          <span class="project-language-list" aria-label="Main technologies">
+            {p.technologies.slice(0, 2).map((tech) => (
+              <span class="project-language">
+                {languageIcons[tech]
+                  ? (
+                    <span
+                      class="project-language-icon"
+                      aria-hidden="true"
+                      set:html={languageIcons[tech]}
+                    />
+                  )
+                  : (
+                    <span
+                      class="project-language-dot"
+                      style={`background:${LANGUAGE_COLORS[tech] ?? LANGUAGE_COLORS.Unknown}`}
+                      aria-hidden="true"
+                    />
+                  )
+                }
+                {tech}
+              </span>
+            ))}
           </span>
           <span class="project-updated">{relativeTime(p.updatedAt)}</span>
         </div>
