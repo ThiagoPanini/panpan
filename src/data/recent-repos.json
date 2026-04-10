@@ -3,10 +3,10 @@
     "name": "panpan",
     "description": "✨ A personal webpage where you can find relevant technical information about me",
     "url": "https://github.com/ThiagoPanini/panpan",
-    "language": "Python",
+    "language": "CSS",
     "technologies": [
-      "Python",
-      "HTML"
+      "CSS",
+      "Astro"
     ],
     "stars": 0,
     "forks": 0,
@@ -14,124 +14,40 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-04-10T02:13:24Z",
+    "pushedAt": "2026-04-10T21:32:10Z",
     "lastCommits": [
       {
-        "sha": "27dc1eb",
-        "message": "Merge pull request #2 from ThiagoPanini/feature/ai-usage-section",
-        "date": "2026-04-10T02:12:12Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/27dc1eb980cf2c4b26427006f90c4554d9dd92ef"
+        "sha": "3e13bb0",
+        "message": "Merge pull request #3 from ThiagoPanini/feature/portfolio-improvements",
+        "date": "2026-04-10T21:32:10Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/3e13bb093e0296970602938936168a94b332a0db"
       },
       {
-        "sha": "a3eded6",
-        "message": "feat: add commit activity data and recent repositories to project overview",
-        "date": "2026-04-10T02:09:13Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/a3eded6adb8a7b837d42249de6d122bb01c5af57"
+        "sha": "4a77f5f",
+        "message": "fix: resolve merge conflict in latest.json and update summary for accuracy",
+        "date": "2026-04-10T21:30:59Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/4a77f5f29ee22f7f6da3dba80e511dae21c47f3d"
       },
       {
-        "sha": "08a1b51",
-        "message": "Remove unused CSS files for AI usage and pulse log sections to streamline styles and improve maintainability.",
-        "date": "2026-04-10T01:21:43Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/08a1b51888f37411741eafaa97529545d49ffead"
+        "sha": "8b69009",
+        "message": "Merge branch 'main' into feature/portfolio-improvements",
+        "date": "2026-04-10T21:29:00Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/8b6900927e1268d9b435fadcaece41854c9dea55"
       },
       {
-        "sha": "c10e577",
-        "message": "Refactor JSON formatting in ai-pulse and github-digest data files for improved readability",
-        "date": "2026-04-09T23:49:43Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/c10e57765d103c59ddb07965f57c7a324d7fe7f2"
+        "sha": "2718b53",
+        "message": "feat: enhance portfolio presentation by updating summary prompts and section titles",
+        "date": "2026-04-10T21:27:06Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/2718b539a989d3a86455ec2356c8ddd0613dd67a"
       },
       {
-        "sha": "fc7ffe6",
-        "message": "feat: add styles for Projects Section and Pulse Log visualization",
-        "date": "2026-04-09T23:49:26Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/fc7ffe6bddc0ef85a2b8084f96ff07f7c90cb2cf"
+        "sha": "6b8a9cb",
+        "message": "chore: remove deprecated skill packaging and validation scripts",
+        "date": "2026-04-10T21:26:38Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/6b8a9cbf6821b1d12d5b7a712aabd7852cfe2644"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-03-14",
-        "count": 0
-      },
-      {
-        "date": "2026-03-15",
-        "count": 0
-      },
-      {
-        "date": "2026-03-16",
-        "count": 0
-      },
-      {
-        "date": "2026-03-17",
-        "count": 0
-      },
-      {
-        "date": "2026-03-18",
-        "count": 0
-      },
-      {
-        "date": "2026-03-19",
-        "count": 0
-      },
-      {
-        "date": "2026-03-20",
-        "count": 0
-      },
-      {
-        "date": "2026-03-21",
-        "count": 0
-      },
-      {
-        "date": "2026-03-22",
-        "count": 0
-      },
-      {
-        "date": "2026-03-23",
-        "count": 0
-      },
-      {
-        "date": "2026-03-24",
-        "count": 0
-      },
-      {
-        "date": "2026-03-25",
-        "count": 0
-      },
-      {
-        "date": "2026-03-26",
-        "count": 0
-      },
-      {
-        "date": "2026-03-27",
-        "count": 0
-      },
-      {
-        "date": "2026-03-28",
-        "count": 0
-      },
-      {
-        "date": "2026-03-29",
-        "count": 0
-      },
-      {
-        "date": "2026-03-30",
-        "count": 0
-      },
-      {
-        "date": "2026-03-31",
-        "count": 0
-      },
-      {
-        "date": "2026-04-01",
-        "count": 0
-      },
-      {
-        "date": "2026-04-02",
-        "count": 0
-      },
-      {
-        "date": "2026-04-03",
-        "count": 0
-      },
       {
         "date": "2026-04-04",
         "count": 0
@@ -158,7 +74,88 @@
       },
       {
         "date": "2026-04-10",
+        "count": 12
+      }
+    ]
+  },
+  {
+    "name": "aidriven",
+    "description": "🔩 A Python CLI tool for getting and installing AI development resources into software projects.",
+    "url": "https://github.com/ThiagoPanini/aidriven",
+    "language": "Python",
+    "technologies": [
+      "Python",
+      "Shell"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "agent-skills",
+      "ai",
+      "cli",
+      "python"
+    ],
+    "pushedAt": "2026-04-10T09:56:12Z",
+    "lastCommits": [
+      {
+        "sha": "5bb7ae4",
+        "message": "Merge pull request #47 from ThiagoPanini/v0.2.1/fix-linter-problems",
+        "date": "2026-04-09T13:16:33Z",
+        "url": "https://github.com/ThiagoPanini/aidriven/commit/5bb7ae4685fd02645bfb87fa36bd676262906563"
+      },
+      {
+        "sha": "5f3ed81",
+        "message": "Merge branch 'main' into v0.2.1/fix-linter-problems",
+        "date": "2026-04-09T13:14:02Z",
+        "url": "https://github.com/ThiagoPanini/aidriven/commit/5f3ed814bf4d91de9185da02f33a631b41012da4"
+      },
+      {
+        "sha": "7930255",
+        "message": "feat: add unit tests for HTTP retry logic, lockfile handling, manifest parsing, path resolution, planner decisions, and artifact name validation",
+        "date": "2026-04-09T13:11:32Z",
+        "url": "https://github.com/ThiagoPanini/aidriven/commit/7930255ffa0bb12c09e1e85f11eac4df78f410a5"
+      },
+      {
+        "sha": "5258ac1",
+        "message": "Merge pull request #46 from ThiagoPanini/v0.2.0/spec-002-cli-artifact-install",
+        "date": "2026-04-09T13:01:27Z",
+        "url": "https://github.com/ThiagoPanini/aidriven/commit/5258ac1d13e12cc9b9fefe6fa0d35986d2a601e2"
+      },
+      {
+        "sha": "02d5c55",
+        "message": "Merge branch 'main' into v0.2.0/spec-002-cli-artifact-install",
+        "date": "2026-04-09T12:59:30Z",
+        "url": "https://github.com/ThiagoPanini/aidriven/commit/02d5c55d50d57b6e8f6e7b6b939bdf5cf44682c7"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-04-04",
+        "count": 2
+      },
+      {
+        "date": "2026-04-05",
         "count": 3
+      },
+      {
+        "date": "2026-04-06",
+        "count": 22
+      },
+      {
+        "date": "2026-04-07",
+        "count": 1
+      },
+      {
+        "date": "2026-04-08",
+        "count": 2
+      },
+      {
+        "date": "2026-04-09",
+        "count": 5
+      },
+      {
+        "date": "2026-04-10",
+        "count": 0
       }
     ]
   },
@@ -208,90 +205,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-03-14",
-        "count": 0
-      },
-      {
-        "date": "2026-03-15",
-        "count": 0
-      },
-      {
-        "date": "2026-03-16",
-        "count": 0
-      },
-      {
-        "date": "2026-03-17",
-        "count": 0
-      },
-      {
-        "date": "2026-03-18",
-        "count": 0
-      },
-      {
-        "date": "2026-03-19",
-        "count": 0
-      },
-      {
-        "date": "2026-03-20",
-        "count": 0
-      },
-      {
-        "date": "2026-03-21",
-        "count": 0
-      },
-      {
-        "date": "2026-03-22",
-        "count": 0
-      },
-      {
-        "date": "2026-03-23",
-        "count": 0
-      },
-      {
-        "date": "2026-03-24",
-        "count": 0
-      },
-      {
-        "date": "2026-03-25",
-        "count": 0
-      },
-      {
-        "date": "2026-03-26",
-        "count": 0
-      },
-      {
-        "date": "2026-03-27",
-        "count": 0
-      },
-      {
-        "date": "2026-03-28",
-        "count": 0
-      },
-      {
-        "date": "2026-03-29",
-        "count": 0
-      },
-      {
-        "date": "2026-03-30",
-        "count": 0
-      },
-      {
-        "date": "2026-03-31",
-        "count": 0
-      },
-      {
-        "date": "2026-04-01",
-        "count": 0
-      },
-      {
-        "date": "2026-04-02",
-        "count": 0
-      },
-      {
-        "date": "2026-04-03",
-        "count": 0
-      },
-      {
         "date": "2026-04-04",
         "count": 0
       },
@@ -306,613 +219,6 @@
       {
         "date": "2026-04-07",
         "count": 1
-      },
-      {
-        "date": "2026-04-08",
-        "count": 0
-      },
-      {
-        "date": "2026-04-09",
-        "count": 0
-      },
-      {
-        "date": "2026-04-10",
-        "count": 0
-      }
-    ]
-  },
-  {
-    "name": "aidriven",
-    "description": "🔩 A Python CLI tool for getting and installing AI development resources into software projects.",
-    "url": "https://github.com/ThiagoPanini/aidriven",
-    "language": "Python",
-    "technologies": [
-      "Python",
-      "Shell"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "agent-skills",
-      "ai",
-      "cli",
-      "python"
-    ],
-    "pushedAt": "2026-04-09T13:16:45Z",
-    "lastCommits": [
-      {
-        "sha": "5bb7ae4",
-        "message": "Merge pull request #47 from ThiagoPanini/v0.2.1/fix-linter-problems",
-        "date": "2026-04-09T13:16:33Z",
-        "url": "https://github.com/ThiagoPanini/aidriven/commit/5bb7ae4685fd02645bfb87fa36bd676262906563"
-      },
-      {
-        "sha": "5f3ed81",
-        "message": "Merge branch 'main' into v0.2.1/fix-linter-problems",
-        "date": "2026-04-09T13:14:02Z",
-        "url": "https://github.com/ThiagoPanini/aidriven/commit/5f3ed814bf4d91de9185da02f33a631b41012da4"
-      },
-      {
-        "sha": "7930255",
-        "message": "feat: add unit tests for HTTP retry logic, lockfile handling, manifest parsing, path resolution, planner decisions, and artifact name validation",
-        "date": "2026-04-09T13:11:32Z",
-        "url": "https://github.com/ThiagoPanini/aidriven/commit/7930255ffa0bb12c09e1e85f11eac4df78f410a5"
-      },
-      {
-        "sha": "5258ac1",
-        "message": "Merge pull request #46 from ThiagoPanini/v0.2.0/spec-002-cli-artifact-install",
-        "date": "2026-04-09T13:01:27Z",
-        "url": "https://github.com/ThiagoPanini/aidriven/commit/5258ac1d13e12cc9b9fefe6fa0d35986d2a601e2"
-      },
-      {
-        "sha": "02d5c55",
-        "message": "Merge branch 'main' into v0.2.0/spec-002-cli-artifact-install",
-        "date": "2026-04-09T12:59:30Z",
-        "url": "https://github.com/ThiagoPanini/aidriven/commit/02d5c55d50d57b6e8f6e7b6b939bdf5cf44682c7"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-03-14",
-        "count": 0
-      },
-      {
-        "date": "2026-03-15",
-        "count": 0
-      },
-      {
-        "date": "2026-03-16",
-        "count": 0
-      },
-      {
-        "date": "2026-03-17",
-        "count": 0
-      },
-      {
-        "date": "2026-03-18",
-        "count": 0
-      },
-      {
-        "date": "2026-03-19",
-        "count": 0
-      },
-      {
-        "date": "2026-03-20",
-        "count": 0
-      },
-      {
-        "date": "2026-03-21",
-        "count": 0
-      },
-      {
-        "date": "2026-03-22",
-        "count": 0
-      },
-      {
-        "date": "2026-03-23",
-        "count": 0
-      },
-      {
-        "date": "2026-03-24",
-        "count": 0
-      },
-      {
-        "date": "2026-03-25",
-        "count": 0
-      },
-      {
-        "date": "2026-03-26",
-        "count": 0
-      },
-      {
-        "date": "2026-03-27",
-        "count": 0
-      },
-      {
-        "date": "2026-03-28",
-        "count": 0
-      },
-      {
-        "date": "2026-03-29",
-        "count": 0
-      },
-      {
-        "date": "2026-03-30",
-        "count": 0
-      },
-      {
-        "date": "2026-03-31",
-        "count": 0
-      },
-      {
-        "date": "2026-04-01",
-        "count": 0
-      },
-      {
-        "date": "2026-04-02",
-        "count": 0
-      },
-      {
-        "date": "2026-04-03",
-        "count": 3
-      },
-      {
-        "date": "2026-04-04",
-        "count": 2
-      },
-      {
-        "date": "2026-04-05",
-        "count": 3
-      },
-      {
-        "date": "2026-04-06",
-        "count": 22
-      },
-      {
-        "date": "2026-04-07",
-        "count": 1
-      },
-      {
-        "date": "2026-04-08",
-        "count": 2
-      },
-      {
-        "date": "2026-04-09",
-        "count": 5
-      },
-      {
-        "date": "2026-04-10",
-        "count": 0
-      }
-    ]
-  },
-  {
-    "name": "ai-resources",
-    "description": "🤖 A static repository that consolidates my personal AI resources such as rules, skills, specs, and related assets.",
-    "url": "https://github.com/ThiagoPanini/ai-resources",
-    "language": "Unknown",
-    "technologies": [
-      "Unknown"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-04-03T14:19:22Z",
-    "lastCommits": [
-      {
-        "sha": "28bc84f",
-        "message": "Merge pull request #1 from ThiagoPanini/copilot/setup-repo-structure-ai-resources",
-        "date": "2026-04-03T14:19:22Z",
-        "url": "https://github.com/ThiagoPanini/ai-resources/commit/28bc84f44bf092d87797fc55fbad178c65f95569"
-      },
-      {
-        "sha": "5519523",
-        "message": "Initial commit",
-        "date": "2026-04-03T14:05:34Z",
-        "url": "https://github.com/ThiagoPanini/ai-resources/commit/551952319c71c41d06e6fa376ddf82d521edb612"
-      },
-      {
-        "sha": "3c425d9",
-        "message": "feat: add full repository structure with skills, rules and specs",
-        "date": "2026-04-03T14:14:45Z",
-        "url": "https://github.com/ThiagoPanini/ai-resources/commit/3c425d94f38097d524b9fb8ca3529616d432ee59"
-      },
-      {
-        "sha": "b085fb8",
-        "message": "Initial plan",
-        "date": "2026-04-03T14:05:38Z",
-        "url": "https://github.com/ThiagoPanini/ai-resources/commit/b085fb817b17ace002b4b3317faf12d94cb70aca"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-03-14",
-        "count": 0
-      },
-      {
-        "date": "2026-03-15",
-        "count": 0
-      },
-      {
-        "date": "2026-03-16",
-        "count": 0
-      },
-      {
-        "date": "2026-03-17",
-        "count": 0
-      },
-      {
-        "date": "2026-03-18",
-        "count": 0
-      },
-      {
-        "date": "2026-03-19",
-        "count": 0
-      },
-      {
-        "date": "2026-03-20",
-        "count": 0
-      },
-      {
-        "date": "2026-03-21",
-        "count": 0
-      },
-      {
-        "date": "2026-03-22",
-        "count": 0
-      },
-      {
-        "date": "2026-03-23",
-        "count": 0
-      },
-      {
-        "date": "2026-03-24",
-        "count": 0
-      },
-      {
-        "date": "2026-03-25",
-        "count": 0
-      },
-      {
-        "date": "2026-03-26",
-        "count": 0
-      },
-      {
-        "date": "2026-03-27",
-        "count": 0
-      },
-      {
-        "date": "2026-03-28",
-        "count": 0
-      },
-      {
-        "date": "2026-03-29",
-        "count": 0
-      },
-      {
-        "date": "2026-03-30",
-        "count": 0
-      },
-      {
-        "date": "2026-03-31",
-        "count": 0
-      },
-      {
-        "date": "2026-04-01",
-        "count": 0
-      },
-      {
-        "date": "2026-04-02",
-        "count": 0
-      },
-      {
-        "date": "2026-04-03",
-        "count": 2
-      },
-      {
-        "date": "2026-04-04",
-        "count": 0
-      },
-      {
-        "date": "2026-04-05",
-        "count": 0
-      },
-      {
-        "date": "2026-04-06",
-        "count": 0
-      },
-      {
-        "date": "2026-04-07",
-        "count": 0
-      },
-      {
-        "date": "2026-04-08",
-        "count": 0
-      },
-      {
-        "date": "2026-04-09",
-        "count": 0
-      },
-      {
-        "date": "2026-04-10",
-        "count": 0
-      }
-    ]
-  },
-  {
-    "name": "campfire",
-    "description": "🔥 A web app that helps groups of friends organize and enjoy their music jam sessions.",
-    "url": "https://github.com/ThiagoPanini/campfire",
-    "language": "CSS",
-    "technologies": [
-      "CSS",
-      "TypeScript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-04-03T00:35:19Z",
-    "lastCommits": [
-      {
-        "sha": "f9af422",
-        "message": "Merge pull request #1 from ThiagoPanini/copilot/scaffold-frontend-backend-structure",
-        "date": "2026-04-03T00:35:19Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/f9af42225828303ef8e18fc43073f1c41538c425"
-      },
-      {
-        "sha": "01f8ec5",
-        "message": "Initial commit",
-        "date": "2026-04-03T00:10:19Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/01f8ec5cc3688991d742a3a6a853e0cad6cae57f"
-      },
-      {
-        "sha": "9918edd",
-        "message": "Scaffold frontend (React + TypeScript + Vite) and backend (Python + FastAPI)",
-        "date": "2026-04-03T00:28:46Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/9918edd016a4f605e5d003d2c03bcbf009d9688f"
-      },
-      {
-        "sha": "2c5d1dd",
-        "message": "Initial plan",
-        "date": "2026-04-03T00:10:22Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/2c5d1dd06aaa5c1dde21128139c79b536e57aaa9"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-03-14",
-        "count": 0
-      },
-      {
-        "date": "2026-03-15",
-        "count": 0
-      },
-      {
-        "date": "2026-03-16",
-        "count": 0
-      },
-      {
-        "date": "2026-03-17",
-        "count": 0
-      },
-      {
-        "date": "2026-03-18",
-        "count": 0
-      },
-      {
-        "date": "2026-03-19",
-        "count": 0
-      },
-      {
-        "date": "2026-03-20",
-        "count": 0
-      },
-      {
-        "date": "2026-03-21",
-        "count": 0
-      },
-      {
-        "date": "2026-03-22",
-        "count": 0
-      },
-      {
-        "date": "2026-03-23",
-        "count": 0
-      },
-      {
-        "date": "2026-03-24",
-        "count": 0
-      },
-      {
-        "date": "2026-03-25",
-        "count": 0
-      },
-      {
-        "date": "2026-03-26",
-        "count": 0
-      },
-      {
-        "date": "2026-03-27",
-        "count": 0
-      },
-      {
-        "date": "2026-03-28",
-        "count": 0
-      },
-      {
-        "date": "2026-03-29",
-        "count": 0
-      },
-      {
-        "date": "2026-03-30",
-        "count": 0
-      },
-      {
-        "date": "2026-03-31",
-        "count": 0
-      },
-      {
-        "date": "2026-04-01",
-        "count": 0
-      },
-      {
-        "date": "2026-04-02",
-        "count": 0
-      },
-      {
-        "date": "2026-04-03",
-        "count": 2
-      },
-      {
-        "date": "2026-04-04",
-        "count": 0
-      },
-      {
-        "date": "2026-04-05",
-        "count": 0
-      },
-      {
-        "date": "2026-04-06",
-        "count": 0
-      },
-      {
-        "date": "2026-04-07",
-        "count": 0
-      },
-      {
-        "date": "2026-04-08",
-        "count": 0
-      },
-      {
-        "date": "2026-04-09",
-        "count": 0
-      },
-      {
-        "date": "2026-04-10",
-        "count": 0
-      }
-    ]
-  },
-  {
-    "name": "panini",
-    "description": "A personal web page serving as a technical portfolio",
-    "url": "https://github.com/ThiagoPanini/panini",
-    "language": "Unknown",
-    "technologies": [
-      "Unknown"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-04-02T02:34:54Z",
-    "lastCommits": [
-      {
-        "sha": "a5b5514",
-        "message": "Initial commit",
-        "date": "2026-03-31T11:51:56Z",
-        "url": "https://github.com/ThiagoPanini/panini/commit/a5b5514a75a2a9e0d986ff25e3629ecbeef1740e"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-03-14",
-        "count": 0
-      },
-      {
-        "date": "2026-03-15",
-        "count": 0
-      },
-      {
-        "date": "2026-03-16",
-        "count": 0
-      },
-      {
-        "date": "2026-03-17",
-        "count": 0
-      },
-      {
-        "date": "2026-03-18",
-        "count": 0
-      },
-      {
-        "date": "2026-03-19",
-        "count": 0
-      },
-      {
-        "date": "2026-03-20",
-        "count": 0
-      },
-      {
-        "date": "2026-03-21",
-        "count": 0
-      },
-      {
-        "date": "2026-03-22",
-        "count": 0
-      },
-      {
-        "date": "2026-03-23",
-        "count": 0
-      },
-      {
-        "date": "2026-03-24",
-        "count": 0
-      },
-      {
-        "date": "2026-03-25",
-        "count": 0
-      },
-      {
-        "date": "2026-03-26",
-        "count": 0
-      },
-      {
-        "date": "2026-03-27",
-        "count": 0
-      },
-      {
-        "date": "2026-03-28",
-        "count": 0
-      },
-      {
-        "date": "2026-03-29",
-        "count": 0
-      },
-      {
-        "date": "2026-03-30",
-        "count": 0
-      },
-      {
-        "date": "2026-03-31",
-        "count": 1
-      },
-      {
-        "date": "2026-04-01",
-        "count": 0
-      },
-      {
-        "date": "2026-04-02",
-        "count": 0
-      },
-      {
-        "date": "2026-04-03",
-        "count": 0
-      },
-      {
-        "date": "2026-04-04",
-        "count": 0
-      },
-      {
-        "date": "2026-04-05",
-        "count": 0
-      },
-      {
-        "date": "2026-04-06",
-        "count": 0
-      },
-      {
-        "date": "2026-04-07",
-        "count": 0
       },
       {
         "date": "2026-04-08",

@@ -1,14 +1,18 @@
 {
-    "weekStart": "2026-04-03",
-    "weekEnd": "2026-04-09",
-    "generatedAt": "2026-04-10T10:00:00Z",
-    "summary": "Shipped the Pulse Log section with 6-channel AI waveform visualization and built the daily digest automation pipeline for the portfolio.",
-    "stats": {
-        "commits": 11,
-        "reposTouched": [
-            "panpan"
-        ],
-        "pullRequests": 0
-    },
-    "source": "template"
+  "weekStart": "2026-04-03",
+  "weekEnd": "2026-04-09",
+  "generatedAt": "2026-04-10T21:33:44.064Z",
+  "summary": "20 issues closed across panpan, aidriven-resources, aidriven this week.",
+  "stats": {
+    "commits": 0,
+    "reposTouched": [
+      "panpan",
+      "aidriven-resources",
+      "aidriven",
+      "ai-resources",
+      "campfire"
+    ],
+    "pullRequests": 0
+  },
+  "source": "template"
 }
