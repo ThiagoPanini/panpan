@@ -1,4 +1,5 @@
 {
+<<<<<<< feature/portfolio-improvements
     "weekStart": "2026-04-03",
     "weekEnd": "2026-04-09",
     "generatedAt": "2026-04-10T10:00:00Z",
@@ -11,4 +12,19 @@
         "pullRequests": 0
     },
     "source": "template"
+=======
+  "date": "2026-04-09",
+  "generatedAt": "2026-04-10T07:42:10.983Z",
+  "summary": "On April 9, 2026, multiple pushes and branch creations occur across the aidriven and panpan repositories, alongside several pull request reviews and an event deletion in aidriven-resources.",
+  "stats": {
+    "commits": 0,
+    "reposTouched": [
+      "panpan",
+      "aidriven-resources",
+      "aidriven"
+    ],
+    "pullRequests": 0
+  },
+  "source": "github-models-gpt-4o-mini"
+>>>>>>> main
 }
