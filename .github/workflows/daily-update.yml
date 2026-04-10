@@ -1,23 +1,22 @@
-name: Deploy to Vercel
+name: Daily Update & Deploy
 
 on:
-  pull_request:
-    types: [closed]
-    branches: [main]
+  schedule:
+    # Runs at 10:00 UTC daily (= 07:00 BRT / UTC-3)
+    - cron: '0 10 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: "deploy-${{ github.ref }}"
+  group: "daily-update-${{ github.ref }}"
   cancel-in-progress: false
 
 jobs:
-  deploy:
-    name: Collect data & deploy to Vercel (Production)
+  daily-update:
+    name: Collect data & deploy to Vercel (Daily)
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged == true || github.event_name == 'workflow_dispatch'
     environment:
       name: production
       url: https://thiagopanini.dev

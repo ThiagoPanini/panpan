@@ -1,10 +1,10 @@
 {
   "weekStart": "2026-04-03",
   "weekEnd": "2026-04-09",
-  "generatedAt": "2026-04-10T21:33:44.064Z",
-  "summary": "20 issues closed across panpan, aidriven-resources, aidriven this week.",
+  "generatedAt": "2026-04-10T21:53:06.463Z",
+  "summary": "52 commits, 20 issues closed across panpan, aidriven-resources, aidriven this week.",
   "stats": {
-    "commits": 0,
+    "commits": 52,
     "reposTouched": [
       "panpan",
       "aidriven-resources",
