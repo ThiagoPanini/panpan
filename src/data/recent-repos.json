@@ -14,7 +14,11 @@
       "front-end",
       "website"
     ],
+<<<<<<< HEAD
     "pushedAt": "2026-04-10T22:02:50Z",
+=======
+    "pushedAt": "2026-04-10T22:02:32Z",
+>>>>>>> 438cb7b83d632ae963dfee910721833c6388cabd
     "lastCommits": [
       {
         "sha": "d73e2c7",
