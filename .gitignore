@@ -31,3 +31,6 @@ desktop.ini
 # Claude Code
 .claude/
 .vercel
+
+# Temporary archived sections
+tmp/
