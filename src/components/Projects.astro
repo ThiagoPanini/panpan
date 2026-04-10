@@ -3,9 +3,8 @@
  * Projects — data-driven section powered by CI-generated JSON files.
  *
  * Data sources (all written by scripts/generate-digest.mjs at CI time):
- *   src/data/recent-repos.json         — top 6 repos by pushed_at + last 5 commits each
- *   src/data/commit-activity.json      — per-day commit counts for the last 28 days
- *   src/data/github-digest/latest.json — yesterday's activity (LLM summary or template)
+ *   src/data/recent-repos.json         — top 3 repos by pushed_at + last 5 commits each
+ *   src/data/github-digest/latest.json — last 7 days activity (LLM summary or template)
  *
  * Interaction:
  *   Desktop (hover: hover)  — hovering a card does a CSS 3D flip to reveal commits.
@@ -46,7 +45,8 @@ interface Repo {
 }
 
 interface Digest {
-  date:        string;
+  weekStart:   string;
+  weekEnd:     string;
   generatedAt: string;
   summary:     string;
   stats: {
@@ -61,11 +61,11 @@ interface Digest {
 
 const GITHUB_USERNAME = 'ThiagoPanini';
 
-const repos:   Repo[]  = recentReposRaw as Repo[];
-const digest:  Digest  = digestRaw      as Digest;
+const repos:  Repo[]  = (recentReposRaw as Repo[]).slice(0, 3);
+const digest: Digest  = digestRaw as Digest;
 const hasDigest = digest.source !== 'fallback' && digest.summary.length > 20;
 
-// ── Simple Icons — fetched at build time ──────────────────────────────────────
+// ── Simple Icons slugs (for CSS-mask icons loaded at runtime) ─────────────────
 
 const SIMPLE_ICONS_SLUG: Record<string, string> = {
   Python:     'python',
@@ -73,34 +73,14 @@ const SIMPLE_ICONS_SLUG: Record<string, string> = {
   JavaScript: 'javascript',
   Astro:      'astro',
   HTML:       'html5',
-  CSS:        'css',
+  CSS:        'css3',
   Shell:      'gnubash',
   Go:         'go',
   Rust:       'rust',
   Markdown:   'markdown',
 };
 
-async function fetchIcon(language: string): Promise<string | null> {
-  const slug = SIMPLE_ICONS_SLUG[language];
-  if (!slug) return null;
-  try {
-    const res = await fetch(`https://cdn.simpleicons.org/${slug}`);
-    if (!res.ok) return null;
-    const svg = await res.text();
-    // Replace every opaque fill so CSS `color` drives the icon via currentColor
-    return svg.replace(/fill="(?!none)[^"]+"/g, 'fill="currentColor"');
-  } catch {
-    return null;
-  }
-}
-
-const uniqueLangs = [...new Set(repos.flatMap((r) => r.technologies))];
-const iconEntries = await Promise.all(
-  uniqueLangs.map(async (lang) => [lang, await fetchIcon(lang)] as const),
-);
-const languageIcons: Record<string, string | null> = Object.fromEntries(iconEntries);
-
-// Dot fallback colors for languages not in Simple Icons
+// Dot fallback colors for languages without a Simple Icons slug
 const LANGUAGE_COLORS: Record<string, string> = {
   Python:     '#3572A5',
   TypeScript: '#3178C6',
@@ -175,11 +155,17 @@ function relativeTime(iso: string): string {
   return `${Math.floor(days / 365)}y ago`;
 }
 
-function formatDigestDate(iso: string): string {
+function formatDate(iso: string): string {
   try {
     return new Date(iso).toLocaleDateString('en-US', {
       month: 'short', day: 'numeric', year: 'numeric',
     });
+  } catch { return iso; }
+}
+
+function formatDateShort(iso: string): string {
+  try {
+    return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
   } catch { return iso; }
 }
 
@@ -213,18 +199,18 @@ function truncate(s: string, n: number): string {
     </p>
   </div>
 
-  <!-- ── Daily Digest Callout ── -->
+  <!-- ── Weekly Digest Callout ── -->
   {hasDigest && (
-    <div class="digest-callout" role="complementary" aria-label="Yesterday's GitHub activity digest">
+    <div class="digest-callout" role="complementary" aria-label="Last week's GitHub activity digest">
       <div class="digest-callout__left">
         <div class="digest-callout__meta">
           <span class="digest-badge">
             <span class="digest-dot" aria-hidden="true"></span>
-            Yesterday
+            Last Week
           </span>
-          <time class="digest-callout__date" datetime={digest.date}>
-            {formatDigestDate(digest.date)}
-          </time>
+          <span class="digest-callout__period">
+            {formatDateShort(digest.weekStart)} – {formatDateShort(digest.weekEnd)}
+          </span>
         </div>
         <p class="digest-callout__summary">{digest.summary}</p>
       </div>
@@ -235,14 +221,6 @@ function truncate(s: string, n: number): string {
             <span class="digest-stat__label">commits</span>
           </span>
         )}
-        {(digest.stats.reposTouched?.length ?? 0) > 0 && (
-          <span class="digest-stat">
-            <strong class="digest-stat__value">{digest.stats.reposTouched.length}</strong>
-            <span class="digest-stat__label">
-              {digest.stats.reposTouched.length === 1 ? 'repo' : 'repos'}
-            </span>
-          </span>
-        )}
         {digest.stats.pullRequests > 0 && (
           <span class="digest-stat">
             <strong class="digest-stat__value">{digest.stats.pullRequests}</strong>
@@ -251,6 +229,9 @@ function truncate(s: string, n: number): string {
             </span>
           </span>
         )}
+        <span class="digest-updated">
+          updated {formatDate(digest.generatedAt)}
+        </span>
       </div>
     </div>
   )}
@@ -274,12 +255,12 @@ function truncate(s: string, n: number): string {
                 <span class="project-language-list" aria-label="Main technologies">
                   {repo.technologies.slice(0, 2).map((tech) => (
                     <span class="project-language">
-                      {languageIcons[tech]
+                      {SIMPLE_ICONS_SLUG[tech]
                         ? (
                           <span
                             class="project-language-icon"
                             aria-hidden="true"
-                            set:html={languageIcons[tech]}
+                            style={`--icon-url: url('https://cdn.simpleicons.org/${SIMPLE_ICONS_SLUG[tech]}')`}
                           />
                         )
                         : (
@@ -309,14 +290,14 @@ function truncate(s: string, n: number): string {
               </ul>
             )}
 
-            <!-- Per-repo seismograph activity chart -->
+            <!-- Per-repo seismograph activity chart (7 days) -->
             {(() => {
               const { pathD, areaD, total } = buildLineChart(repo.commitActivity ?? []);
               if (!total || !pathD) return null;
               const uid = `seismo-${repo.name}`;
               return (
                 <div class="card-activity">
-                  <span class="card-activity__label">28d · {total} commits</span>
+                  <span class="card-activity__label">7d · {total} commits</span>
                   <svg
                     class="card-activity__svg"
                     viewBox="0 0 280 36"
