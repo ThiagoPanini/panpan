@@ -1,9 +1,9 @@
 name: Deploy to Vercel
 
 on:
-  schedule:
-    # Runs at 10:00 UTC daily (= 07:00 BRT / UTC-3)
-    - cron: '0 10 * * *'
+  pull_request:
+    types: [closed]
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -17,6 +17,7 @@ jobs:
   deploy:
     name: Collect data & deploy to Vercel (Production)
     runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true || github.event_name == 'workflow_dispatch'
     environment:
       name: production
       url: https://thiagopanini.dev
@@ -25,7 +26,7 @@ jobs:
       VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
