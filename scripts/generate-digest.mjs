@@ -164,15 +164,19 @@ async function generateLLMSummary(events, stats) {
     .join('\n');
 
   const prompt = [
-    `You are summarising a developer's GitHub activity for the past week (${weekStart} to ${weekEnd}).`,
+    `Summarise my GitHub activity from ${weekStart} to ${weekEnd} as a single first-person sentence for my portfolio.`,
     '',
-    'Activity log (sample of events, newest first):',
+    'Activity log (newest first):',
     eventFeed,
     '',
-    `Weekly stats: ${stats.commits} commits, ${stats.pullRequests} PRs, across ${stats.reposTouched.join(', ') || 'various repos'}.`,
+    `Stats: ${stats.commits} commits, ${stats.pullRequests} PRs, across ${stats.reposTouched.join(', ') || 'multiple repositories'}.`,
     '',
-    'Write ONE flowing sentence (max 240 characters) capturing what was built or changed during the week.',
-    'Use present-tense narrative. Be specific about the projects and features. No quotes, no markdown, no "The developer".',
+    'Constraints:',
+    '- Exactly one sentence, max 240 characters, using "I".',
+    '- Mention concrete repos or themes visible in the log — do not invent details.',
+    '- Present tense, conversational but professional tone.',
+    '- When the log lacks specifics, prefer broad verbs: updating, refining, iterating.',
+    '- Raw sentence only — no quotes, no markdown, no labels.',
   ].join('\n');
 
   try {
@@ -183,7 +187,7 @@ async function generateLLMSummary(events, stats) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'gpt-4o',
+        model: 'gpt-5',
         messages: [{ role: 'user', content: prompt }],
         max_tokens: 120,
         temperature: 0.6,
