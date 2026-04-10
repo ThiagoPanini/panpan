@@ -96,10 +96,10 @@ async function fetchWeekEvents() {
 // ── Aggregation (for digest) ──────────────────────────────────────────────────
 
 function aggregateEvents(events) {
-  const repos = new Set();
-  let commits      = 0;
-  let pullRequests = 0;
-  let issuesClosed = 0;
+  const repos       = new Set();
+  const pushedRepos = new Set();
+  let pullRequests  = 0;
+  let issuesClosed  = 0;
 
   for (const e of events) {
     const repoShort = (e.repo?.name ?? '').replace(`${GITHUB_USERNAME}/`, '');
@@ -107,7 +107,7 @@ function aggregateEvents(events) {
 
     switch (e.type) {
       case 'PushEvent':
-        commits += e.payload?.commits?.length ?? 0;
+        if (repoShort) pushedRepos.add(repoShort);
         break;
       case 'PullRequestEvent':
         if (e.payload?.action === 'opened' || e.payload?.action === 'merged') pullRequests++;
@@ -119,12 +119,54 @@ function aggregateEvents(events) {
   }
 
   return {
-    commits,
+    commits:      0,          // filled in by countCommitsViaAPI after this call
+    pushedRepos:  [...pushedRepos],
     reposTouched: [...repos].slice(0, 10),
     pullRequests,
     issuesClosed,
-    eventCount: events.length,
+    eventCount:   events.length,
   };
+}
+
+/**
+ * Uses the Commits API to fetch commits authored by GITHUB_USERNAME across
+ * all repos that received a PushEvent in the digest window.
+ *
+ * Returns both the total commit count and a flat list of recent commit messages
+ * (newest first, capped at 5 per repo) for the LLM event feed.
+ *
+ * This is necessary because the GitHub Events API strips payload.commits from
+ * PushEvent payloads when repos are private or the token lacks repo scope.
+ */
+async function fetchCommitsViaAPI(pushedRepos) {
+  const since = `${weekStart}T00:00:00Z`;
+  const until = `${weekEnd}T23:59:59Z`;
+
+  const perRepo = await Promise.all(
+    pushedRepos.map(async (repo) => {
+      try {
+        const commits = await ghGet(
+          `/repos/${GITHUB_USERNAME}/${repo}/commits` +
+          `?since=${since}&until=${until}&author=${GITHUB_USERNAME}&per_page=100`,
+        );
+        if (!Array.isArray(commits)) return { repo, count: 0, messages: [] };
+        const messages = commits
+          .slice(0, 5)
+          .map((c) => (c.commit?.message ?? '').split('\n')[0].trim())
+          .filter(Boolean);
+        return { repo, count: commits.length, messages };
+      } catch {
+        return { repo, count: 0, messages: [] };
+      }
+    }),
+  );
+
+  const total    = perRepo.reduce((sum, r) => sum + r.count, 0);
+  const feedLines = perRepo
+    .filter((r) => r.messages.length > 0)
+    .map((r) => `push to ${r.repo}: ${r.messages.join('; ')}`);
+
+  return { total, feedLines };
 }
 
 // ── LLM summary via GitHub Models ─────────────────────────────────────────────
@@ -134,22 +176,17 @@ function aggregateEvents(events) {
  * Requires a PAT with `models:read` scope stored as MODELS_TOKEN secret.
  * Returns null on any failure so the caller can fall back to a template.
  */
-async function generateLLMSummary(events, stats) {
+async function generateLLMSummary(events, stats, commitFeedLines) {
   if (!MODELS_TOKEN) return null;
 
-  const eventFeed = events
-    .slice(0, 40)
+  // PushEvent lines come from the Commits API (payload.commits is stripped by GitHub).
+  // All other event types are built from the Events API payload as usual.
+  const otherFeed = events
+    .filter((e) => e.type !== 'PushEvent')
+    .slice(0, 30)
     .map((e) => {
       const repo = (e.repo?.name ?? '').replace(`${GITHUB_USERNAME}/`, '');
       switch (e.type) {
-        case 'PushEvent': {
-          const msgs = (e.payload?.commits ?? [])
-            .slice(0, 3)
-            .map((c) => c.message?.split('\n')[0])
-            .filter(Boolean)
-            .join('; ');
-          return `push to ${repo}: ${msgs || '(no message)'}`;
-        }
         case 'PullRequestEvent':
           return `${e.payload?.action ?? 'action'} PR on ${repo}: ${e.payload?.pull_request?.title ?? ''}`;
         case 'IssuesEvent':
@@ -160,8 +197,9 @@ async function generateLLMSummary(events, stats) {
           return `${e.type} on ${repo}`;
       }
     })
-    .filter(Boolean)
-    .join('\n');
+    .filter(Boolean);
+
+  const eventFeed = [...commitFeedLines, ...otherFeed].join('\n');
 
   const prompt = [
     `Summarise my GitHub activity from ${weekStart} to ${weekEnd} as a single first-person sentence for my portfolio.`,
@@ -171,8 +209,11 @@ async function generateLLMSummary(events, stats) {
     '',
     `Stats: ${stats.commits} commits, ${stats.pullRequests} PRs, across ${stats.reposTouched.join(', ') || 'multiple repositories'}.`,
     '',
+    'Example output:',
+    'I spent the week refining CI pipelines in sparksnake and closing out a batch of issues across panpan and aidriven.',
+    '',
     'Constraints:',
-    '- Exactly one sentence, max 240 characters, using "I".',
+    '- Exactly one sentence, max 240 characters, starting with "I".',
     '- Mention concrete repos or themes visible in the log — do not invent details.',
     '- Present tense, conversational but professional tone.',
     '- When the log lacks specifics, prefer broad verbs: updating, refining, iterating.',
@@ -358,8 +399,10 @@ try {
   ]);
 
   // ── Digest ──
-  const stats      = aggregateEvents(events);
-  const llmSummary = await generateLLMSummary(events, stats);
+  const stats                     = aggregateEvents(events);
+  const { total, feedLines }      = await fetchCommitsViaAPI(stats.pushedRepos);
+  stats.commits                   = total;
+  const llmSummary                = await generateLLMSummary(events, stats, feedLines);
   const summary    = llmSummary ?? generateTemplateSummary(stats);
   const source     = llmSummary ? 'github-models-gpt-4o' : 'template';
 
