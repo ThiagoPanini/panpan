@@ -16,9 +16,9 @@ permissions:
 
 jobs:
   generate-digest:
-    name: Generate daily activity digest
+    name: Generate daily activity digest + repo data
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
@@ -31,9 +31,9 @@ jobs:
         with:
           node-version: '22'
 
-      - name: Generate digest
+      - name: Generate digest, recent repos, and commit activity
         env:
-          # Standard GITHUB_TOKEN — used for GitHub API (events, repos).
+          # Built-in GITHUB_TOKEN — used for GitHub API (events, repos, commits).
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Optional PAT with models:read scope — enables LLM-powered summary.
           # Create a GitHub fine-grained PAT, grant models:read, add it as
@@ -43,14 +43,16 @@ jobs:
           DATE_OVERRIDE: ${{ inputs.date_override }}
         run: node scripts/generate-digest.mjs
 
-      - name: Commit updated digest
+      - name: Commit updated data files
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add src/data/github-digest/latest.json
+          git add \
+            src/data/github-digest/latest.json \
+            src/data/recent-repos.json
           if git diff --staged --quiet; then
-            echo "Digest unchanged — skipping commit."
+            echo "Data files unchanged — skipping commit."
           else
-            git commit -m "chore(digest): daily activity summary $(date -u +%Y-%m-%d)"
+            git commit -m "chore(data): daily refresh $(date -u +%Y-%m-%d)"
             git push
           fi
