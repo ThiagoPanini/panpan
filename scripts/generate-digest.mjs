@@ -2,12 +2,11 @@
 /**
  * generate-digest.mjs
  *
- * Runs at CI time (daily cron + workflow_dispatch). Writes three JSON data
+ * Runs at CI time (daily cron + workflow_dispatch). Writes two JSON data
  * files consumed by the Astro build — zero runtime API calls in production.
  *
- *   src/data/github-digest/latest.json  — yesterday's activity summary (LLM or template)
- *   src/data/recent-repos.json          — top 6 repos by recency + last 5 commits each
- *   src/data/commit-activity.json       — per-day commit counts for the last 28 days
+ *   src/data/github-digest/latest.json  — last 7 days activity summary (LLM or template)
+ *   src/data/recent-repos.json          — top 3 repos by recency + last 5 commits each
  *
  * Environment variables
  * ─────────────────────
@@ -18,8 +17,6 @@
  *                   the GitHub Models inference endpoint.
  *                   Falls back to a template summary when absent or on error.
  *   GITHUB_USERNAME GitHub login to query (default: ThiagoPanini).
- *   DATE_OVERRIDE   ISO date (YYYY-MM-DD) to use as "yesterday" target.
- *                   Useful for back-filling or manual workflow_dispatch runs.
  */
 
 import { writeFileSync, mkdirSync } from 'node:fs';
@@ -28,22 +25,26 @@ import { fileURLToPath }            from 'node:url';
 
 // ── Config ────────────────────────────────────────────────────────────────────
 
-const GITHUB_USERNAME = process.env.GITHUB_USERNAME ?? 'ThiagoPanini';
-const GH_TOKEN        = process.env.GH_TOKEN ?? process.env.GITHUB_TOKEN ?? '';
-const MODELS_TOKEN    = process.env.MODELS_TOKEN ?? '';
-const RECENT_REPO_COUNT = 6; // cards rendered in the Projects grid
+const GITHUB_USERNAME   = process.env.GITHUB_USERNAME ?? 'ThiagoPanini';
+const GH_TOKEN          = process.env.GH_TOKEN ?? process.env.GITHUB_TOKEN ?? '';
+const MODELS_TOKEN      = process.env.MODELS_TOKEN ?? '';
+const RECENT_REPO_COUNT = 3; // cards rendered in the Projects grid
 
-// Target date: either explicit override or yesterday (UTC)
-const targetDate = (() => {
-  const override = process.env.DATE_OVERRIDE?.trim();
-  if (override && /^\d{4}-\d{2}-\d{2}$/.test(override)) return override;
+// Week window: last 7 days ending yesterday (UTC)
+const weekEnd = (() => {
   const d = new Date();
   d.setUTCDate(d.getUTCDate() - 1);
   return d.toISOString().split('T')[0];
 })();
 
-const OUTPUT_DIGEST   = new URL('../src/data/github-digest/latest.json', import.meta.url);
-const OUTPUT_REPOS    = new URL('../src/data/recent-repos.json',          import.meta.url);
+const weekStart = (() => {
+  const d = new Date();
+  d.setUTCDate(d.getUTCDate() - 7);
+  return d.toISOString().split('T')[0];
+})();
+
+const OUTPUT_DIGEST = new URL('../src/data/github-digest/latest.json', import.meta.url);
+const OUTPUT_REPOS  = new URL('../src/data/recent-repos.json',          import.meta.url);
 
 // ── HTTP helpers ──────────────────────────────────────────────────────────────
 
@@ -60,25 +61,24 @@ async function ghGet(path) {
   return res.json();
 }
 
-// ── Event fetching (for digest) ───────────────────────────────────────────────
+// ── Event fetching (for weekly digest) ───────────────────────────────────────
 
 /**
- * Fetches up to 300 public events for the user and filters to those
- * whose `created_at` falls within the target calendar date (UTC).
+ * Fetches public events for the user from the last 7 days.
  */
-async function fetchYesterdayEvents() {
-  const start = new Date(`${targetDate}T00:00:00Z`).getTime();
-  const end   = new Date(`${targetDate}T23:59:59Z`).getTime();
+async function fetchWeekEvents() {
+  const start = new Date(`${weekStart}T00:00:00Z`).getTime();
+  const end   = new Date(`${weekEnd}T23:59:59Z`).getTime();
 
   const allEvents = [];
-  for (let page = 1; page <= 3; page++) {
+  for (let page = 1; page <= 7; page++) {
     try {
       const page_events = await ghGet(
         `/users/${GITHUB_USERNAME}/events?per_page=100&page=${page}`,
       );
       if (!Array.isArray(page_events) || page_events.length === 0) break;
       allEvents.push(...page_events);
-      // Events are newest-first; once we're past the target day, stop paging
+      // Events are newest-first; stop once we've passed the week start
       const oldest = new Date(page_events.at(-1)?.created_at ?? 0).getTime();
       if (oldest < start) break;
     } catch (err) {
@@ -138,7 +138,7 @@ async function generateLLMSummary(events, stats) {
   if (!MODELS_TOKEN) return null;
 
   const eventFeed = events
-    .slice(0, 25)
+    .slice(0, 40)
     .map((e) => {
       const repo = (e.repo?.name ?? '').replace(`${GITHUB_USERNAME}/`, '');
       switch (e.type) {
@@ -164,15 +164,19 @@ async function generateLLMSummary(events, stats) {
     .join('\n');
 
   const prompt = [
-    `You are summarising a developer's GitHub activity for ${targetDate}.`,
+    `Summarise my GitHub activity from ${weekStart} to ${weekEnd} as a single first-person sentence for my portfolio.`,
     '',
-    'Activity log:',
+    'Activity log (newest first):',
     eventFeed,
     '',
-    `Stats: ${stats.commits} commits, ${stats.pullRequests} PRs, across ${stats.reposTouched.join(', ') || 'various repos'}.`,
+    `Stats: ${stats.commits} commits, ${stats.pullRequests} PRs, across ${stats.reposTouched.join(', ') || 'multiple repositories'}.`,
     '',
-    'Write ONE flowing sentence (max 200 characters) capturing what was built or changed.',
-    'Use present-tense narrative. Be specific. No quotes, no markdown, no "The developer".',
+    'Constraints:',
+    '- Exactly one sentence, max 240 characters, using "I".',
+    '- Mention concrete repos or themes visible in the log — do not invent details.',
+    '- Present tense, conversational but professional tone.',
+    '- When the log lacks specifics, prefer broad verbs: updating, refining, iterating.',
+    '- Raw sentence only — no quotes, no markdown, no labels.',
   ].join('\n');
 
   try {
@@ -183,10 +187,10 @@ async function generateLLMSummary(events, stats) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'gpt-4o-mini',
+        model: 'gpt-5',
         messages: [{ role: 'user', content: prompt }],
-        max_tokens: 100,
-        temperature: 0.65,
+        max_tokens: 120,
+        temperature: 0.6,
       }),
     });
     if (!res.ok) {
@@ -205,7 +209,7 @@ async function generateLLMSummary(events, stats) {
 
 function generateTemplateSummary(stats) {
   if (stats.eventCount === 0) {
-    return `No recorded GitHub activity on ${targetDate}.`;
+    return `No recorded GitHub activity from ${weekStart} to ${weekEnd}.`;
   }
   const parts = [];
   if (stats.commits > 0)
@@ -215,9 +219,9 @@ function generateTemplateSummary(stats) {
   if (stats.issuesClosed > 0)
     parts.push(`${stats.issuesClosed} issue${stats.issuesClosed === 1 ? '' : 's'} closed`);
 
-  const repoList  = stats.reposTouched.slice(0, 3).join(', ');
+  const repoList    = stats.reposTouched.slice(0, 3).join(', ');
   const activityStr = parts.length > 0 ? parts.join(', ') : 'Activity recorded';
-  return `${activityStr} across ${repoList || 'multiple repos'}.`;
+  return `${activityStr} across ${repoList || 'multiple repos'} this week.`;
 }
 
 // ── Recent repositories ───────────────────────────────────────────────────────
@@ -225,7 +229,7 @@ function generateTemplateSummary(stats) {
 /**
  * Fetches the N most recently pushed non-fork repos, then for each:
  *   - resolves the top-2 programming languages by byte count
- *   - fetches commits from the last 28 days (for per-repo activity chart)
+ *   - fetches commits from the last 7 days (for per-repo activity chart)
  *   - takes the last 5 commits for the hover-reveal back face (with full commit URL)
  */
 async function fetchRecentRepos(count = RECENT_REPO_COUNT) {
@@ -242,10 +246,10 @@ async function fetchRecentRepos(count = RECENT_REPO_COUNT) {
   if (!Array.isArray(repos)) return [];
   const selected = repos.filter((r) => !r.fork).slice(0, count);
 
-  // 28-day window boundaries (shared across all repos)
+  // 7-day window boundaries (shared across all repos)
   const now = new Date();
   const sinceDate = new Date(now);
-  sinceDate.setUTCDate(sinceDate.getUTCDate() - 27);
+  sinceDate.setUTCDate(sinceDate.getUTCDate() - 6);
   sinceDate.setUTCHours(0, 0, 0, 0);
 
   return Promise.all(
@@ -263,15 +267,15 @@ async function fetchRecentRepos(count = RECENT_REPO_COUNT) {
         }
       } catch { /* use fallback */ }
 
-      // Per-repo 28-day commit activity buckets
+      // Per-repo 7-day commit activity buckets
       const buckets = {};
-      for (let i = 27; i >= 0; i--) {
+      for (let i = 6; i >= 0; i--) {
         const d = new Date(now);
         d.setUTCDate(d.getUTCDate() - i);
         buckets[d.toISOString().split('T')[0]] = 0;
       }
 
-      // Fetch commits from last 28 days for both the activity chart and the back face
+      // Fetch commits from last 7 days for both the activity chart and the back face
       let lastCommits = [];
       try {
         const recentCommits = await ghGet(
@@ -345,11 +349,11 @@ async function fetchRecentRepos(count = RECENT_REPO_COUNT) {
 // ── Main ──────────────────────────────────────────────────────────────────────
 
 try {
-  console.log(`[generate-digest] target date: ${targetDate}`);
+  console.log(`[generate-digest] week: ${weekStart} → ${weekEnd}`);
 
   // Run fetches in parallel for speed
   const [events, recentRepos] = await Promise.all([
-    fetchYesterdayEvents(),
+    fetchWeekEvents(),
     fetchRecentRepos(),
   ]);
 
@@ -357,10 +361,11 @@ try {
   const stats      = aggregateEvents(events);
   const llmSummary = await generateLLMSummary(events, stats);
   const summary    = llmSummary ?? generateTemplateSummary(stats);
-  const source     = llmSummary ? 'github-models-gpt-4o-mini' : 'template';
+  const source     = llmSummary ? 'github-models-gpt-4o' : 'template';
 
   const digest = {
-    date:        targetDate,
+    weekStart,
+    weekEnd,
     generatedAt: new Date().toISOString(),
     summary,
     stats: {
@@ -376,13 +381,13 @@ try {
     mkdirSync(dirname(fileURLToPath(url)), { recursive: true });
 
   ensureDir(OUTPUT_DIGEST);
-  writeFileSync(fileURLToPath(OUTPUT_DIGEST), JSON.stringify(digest,      null, 2) + '\n');
+  writeFileSync(fileURLToPath(OUTPUT_DIGEST), JSON.stringify(digest, null, 2) + '\n');
 
   ensureDir(OUTPUT_REPOS);
   writeFileSync(fileURLToPath(OUTPUT_REPOS),  JSON.stringify(recentRepos, null, 2) + '\n');
 
   console.log(`✅  Digest written       (source: ${source})`);
-  console.log(`✅  Recent repos written (${recentRepos.length} repos, each with 28-day activity)`);
+  console.log(`✅  Recent repos written (${recentRepos.length} repos, each with 7-day activity)`);
   console.log(`    Summary: "${summary.slice(0, 100)}${summary.length > 100 ? '...' : ''}"`);
   process.exit(0);
 } catch (err) {
