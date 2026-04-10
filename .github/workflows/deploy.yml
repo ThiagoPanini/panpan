@@ -1,13 +1,13 @@
 name: Deploy to Vercel
 
 on:
-  push:
-    branches:
-      - main
+  schedule:
+    # Runs at 10:00 UTC daily (= 07:00 BRT / UTC-3)
+    - cron: '0 10 * * *'
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: "deploy-${{ github.ref }}"
@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   deploy:
-    name: Deploy to Vercel (Production)
+    name: Collect data & deploy to Vercel (Production)
     runs-on: ubuntu-latest
     environment:
       name: production
@@ -23,13 +23,47 @@ jobs:
     env:
       VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
       VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
           cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      # ── Step 1: collect dynamic data ──────────────────────────────────────────
+
+      - name: Generate digest, recent repos, and commit activity
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Optional PAT with models:read scope — enables LLM-powered summary.
+          # Create a GitHub fine-grained PAT, grant models:read, add it as
+          # a repo secret named MODELS_TOKEN. Falls back to template summary.
+          MODELS_TOKEN: ${{ secrets.MODELS_TOKEN }}
+          GITHUB_USERNAME: ThiagoPanini
+        run: node scripts/generate-digest.mjs
+
+      - name: Commit updated data files
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add \
+            src/data/github-digest/latest.json \
+            src/data/recent-repos.json
+          if git diff --staged --quiet; then
+            echo "Data files unchanged — skipping commit."
+          else
+            git commit -m "chore(data): daily refresh $(date -u +%Y-%m-%d)"
+            git push
+          fi
+
+      # ── Step 2: deploy to Vercel ───────────────────────────────────────────────
 
       - name: Install Vercel CLI
         run: npm install --global vercel@latest

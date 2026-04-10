@@ -1,6 +1,7 @@
 {
-    "date": "2026-04-08",
-    "generatedAt": "2026-04-09T07:05:00Z",
+    "weekStart": "2026-04-03",
+    "weekEnd": "2026-04-09",
+    "generatedAt": "2026-04-10T10:00:00Z",
     "summary": "Shipped the Pulse Log section with 6-channel AI waveform visualization and built the daily digest automation pipeline for the portfolio.",
     "stats": {
         "commits": 11,
