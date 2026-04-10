@@ -14,37 +14,37 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-04-10T21:33:44Z",
+    "pushedAt": "2026-04-10T22:02:50Z",
     "lastCommits": [
       {
-        "sha": "3e13bb0",
-        "message": "Merge pull request #3 from ThiagoPanini/feature/portfolio-improvements",
-        "date": "2026-04-10T21:32:10Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/3e13bb093e0296970602938936168a94b332a0db"
+        "sha": "d73e2c7",
+        "message": "Merge pull request #4 from ThiagoPanini/feature/portfolio-improvements",
+        "date": "2026-04-10T22:02:31Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/d73e2c73657f120a50533f6d1991024621fe37c6"
       },
       {
-        "sha": "4a77f5f",
-        "message": "fix: resolve merge conflict in latest.json and update summary for accuracy",
-        "date": "2026-04-10T21:30:59Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/4a77f5f29ee22f7f6da3dba80e511dae21c47f3d"
-      },
-      {
-        "sha": "8b69009",
+        "sha": "7706b04",
         "message": "Merge branch 'main' into feature/portfolio-improvements",
-        "date": "2026-04-10T21:29:00Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/8b6900927e1268d9b435fadcaece41854c9dea55"
+        "date": "2026-04-10T22:00:56Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/7706b04c8f1b108e38004a3c3d3e0d3ca1654a1b"
       },
       {
-        "sha": "2718b53",
-        "message": "feat: enhance portfolio presentation by updating summary prompts and section titles",
-        "date": "2026-04-10T21:27:06Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/2718b539a989d3a86455ec2356c8ddd0613dd67a"
+        "sha": "ef6b2a6",
+        "message": "feat: add daily update workflow for data collection and Vercel deployment",
+        "date": "2026-04-10T21:59:21Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/ef6b2a6acc5a1c1f3af0d4cf9f0d69e6742d0853"
       },
       {
-        "sha": "6b8a9cb",
-        "message": "chore: remove deprecated skill packaging and validation scripts",
-        "date": "2026-04-10T21:26:38Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/6b8a9cbf6821b1d12d5b7a712aabd7852cfe2644"
+        "sha": "108571d",
+        "message": "feat: enhance digest generation by aggregating pushed repositories and fetching commit details via API",
+        "date": "2026-04-10T21:56:24Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/108571d4e0bfeb632bd07352f2173c7aed3b58a6"
+      },
+      {
+        "sha": "4ae4445",
+        "message": "fix: update deployment workflow to trigger on closed pull requests and use latest checkout action",
+        "date": "2026-04-10T21:56:14Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/4ae44453cf236fd3e344628aee6dd65625fc4e62"
       }
     ],
     "commitActivity": [
@@ -74,7 +74,7 @@
       },
       {
         "date": "2026-04-10",
-        "count": 12
+        "count": 17
       }
     ]
   },

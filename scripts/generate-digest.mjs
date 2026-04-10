@@ -228,14 +228,15 @@ async function generateLLMSummary(events, stats, commitFeedLines) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'gpt-5',
+        model: 'gpt-4o',
         messages: [{ role: 'user', content: prompt }],
         max_tokens: 120,
         temperature: 0.6,
       }),
     });
     if (!res.ok) {
-      console.warn(`GitHub Models API returned ${res.status} — using template summary.`);
+      const body = await res.text().catch(() => '');
+      console.warn(`GitHub Models API returned ${res.status}: ${body} — using template summary.`);
       return null;
     }
     const data = await res.json();
