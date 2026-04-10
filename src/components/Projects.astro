@@ -1,207 +1,71 @@
 ---
 /**
- * Projects — featured GitHub repositories rendered as interactive cards.
- * Repo data and language icons are fetched from external APIs at build time.
+ * Projects — data-driven section powered by CI-generated JSON files.
+ *
+ * Data sources (all written by scripts/generate-digest.mjs at CI time):
+ *   src/data/recent-repos.json         — top 6 repos by pushed_at + last 5 commits each
+ *   src/data/commit-activity.json      — per-day commit counts for the last 28 days
+ *   src/data/github-digest/latest.json — yesterday's activity (LLM summary or template)
+ *
+ * Interaction:
+ *   Desktop (hover: hover)  — hovering a card does a CSS 3D flip to reveal commits.
+ *   Mobile  (hover: none)   — tapping a card toggles the flip via data-flipped attribute.
+ *   prefers-reduced-motion  — global CSS collapses transition-duration to 0.01ms, making
+ *                             the flip instant; no additional handling needed.
  */
+
+import recentReposRaw from '../data/recent-repos.json';
+import digestRaw      from '../data/github-digest/latest.json';
+
+// ── Types ─────────────────────────────────────────────────────────────────────
+
+interface Commit {
+  sha:     string;
+  message: string;
+  date:    string;
+  url:     string;
+}
+
+interface CommitDay {
+  date:  string;
+  count: number;
+}
+
+interface Repo {
+  name:           string;
+  description:    string;
+  url:            string;
+  language:       string;
+  technologies:   string[];
+  stars:          number;
+  forks:          number;
+  topics:         string[];
+  pushedAt:       string;
+  lastCommits:    Commit[];
+  commitActivity: CommitDay[];
+}
+
+interface Digest {
+  date:        string;
+  generatedAt: string;
+  summary:     string;
+  stats: {
+    commits:      number;
+    reposTouched: string[];
+    pullRequests: number;
+  };
+  source: string;
+}
+
+// ── Data ──────────────────────────────────────────────────────────────────────
 
 const GITHUB_USERNAME = 'ThiagoPanini';
-const GITHUB_TOKEN = import.meta.env.GITHUB_ACCESS_TOKEN;
-const FEATURED_REPOS = ['aidriven', 'aidriven-resources', 'panpan'];
 
-interface Project {
-  name: string;
-  description: string;
-  language: string;
-  stars: number;
-  forks: number;
-  url: string;
-  topics: string[];
-  updatedAt: string;
-  commitActivity: number[];
-}
+const repos:   Repo[]  = recentReposRaw as Repo[];
+const digest:  Digest  = digestRaw      as Digest;
+const hasDigest = digest.source !== 'fallback' && digest.summary.length > 20;
 
-const FALLBACK: Record<string, Project> = {
-  aidriven: {
-    name: 'aidriven',
-    description: 'A platform for AI-driven analytics workflows and tooling.',
-    language: 'Python',
-    stars: 0,
-    forks: 0,
-    url: `https://github.com/${GITHUB_USERNAME}/aidriven`,
-    topics: ['ai', 'analytics', 'python'],
-    updatedAt: new Date().toISOString(),
-    commitActivity: [],
-  },
-  'aidriven-resources': {
-    name: 'aidriven-resources',
-    description: 'Curated resources, templates and references for AI-driven engineering.',
-    language: 'Markdown',
-    stars: 0,
-    forks: 0,
-    url: `https://github.com/${GITHUB_USERNAME}/aidriven-resources`,
-    topics: ['resources', 'ai', 'documentation'],
-    updatedAt: new Date().toISOString(),
-    commitActivity: [],
-  },
-  panpan: {
-    name: 'panpan',
-    description: 'Personal portfolio site built with Astro and GSAP.',
-    language: 'Astro',
-    stars: 0,
-    forks: 0,
-    url: `https://github.com/${GITHUB_USERNAME}/panpan`,
-    topics: ['astro', 'portfolio', 'typescript'],
-    updatedAt: new Date().toISOString(),
-    commitActivity: [],
-  },
-};
-
-const githubHeaders = {
-  Accept: 'application/vnd.github+json',
-  ...(GITHUB_TOKEN ? { Authorization: `Bearer ${GITHUB_TOKEN}` } : {}),
-};
-
-/**
- * Fetch 52-week commit activity. Tries the stats endpoint first
- * (cheap, single request) and falls back to the commits list API,
- * which is synchronous and always responds. Guarantees 52 buckets.
- */
-async function fetchCommitActivity(name: string): Promise<number[]> {
-  const fromStats = await fetchFromStatsEndpoint(name);
-  if (fromStats && fromStats.length >= 2 && fromStats.some((v) => v > 0)) {
-    return fromStats;
-  }
-  const fromCommits = await fetchFromCommitsEndpoint(name);
-  if (fromCommits.some((v) => v > 0)) return fromCommits;
-  // Last resort: prefer whichever non-empty array we got, else 52 zeros.
-  if (fromStats && fromStats.length >= 2) return fromStats;
-  return new Array(52).fill(0);
-}
-
-/**
- * /stats/commit_activity is async on GitHub's side: it may answer
- * 202 (computing), or worse, 200 with an empty body while still
- * computing. Retry both cases with exponential backoff.
- */
-async function fetchFromStatsEndpoint(name: string): Promise<number[] | null> {
-  const url = `https://api.github.com/repos/${GITHUB_USERNAME}/${name}/stats/commit_activity`;
-  const delays = [800, 1500, 2500, 4000, 6000];
-  for (const delay of delays) {
-    try {
-      const res = await fetch(url, { headers: githubHeaders });
-      if (res.status === 202) {
-        await new Promise((r) => setTimeout(r, delay));
-        continue;
-      }
-      if (res.status === 403 || res.status === 429) return null; // rate-limited
-      if (!res.ok) return null;
-      const data: Array<{ total: number }> = await res.json();
-      if (!Array.isArray(data) || data.length === 0) {
-        // 200 + empty body: GitHub is still computing — wait & retry.
-        await new Promise((r) => setTimeout(r, delay));
-        continue;
-      }
-      return data.map((w) => w.total ?? 0);
-    } catch {
-      return null;
-    }
-  }
-  return null;
-}
-
-/**
- * Fallback: list commits from the past 52 weeks (paginated) and
- * bucket them by week. Synchronous on GitHub's side, always works
- * for any repo the token can read.
- */
-async function fetchFromCommitsEndpoint(name: string): Promise<number[]> {
-  const WEEKS = 52;
-  const buckets = new Array(WEEKS).fill(0);
-  const weekMs = 7 * 86400000;
-  const since = new Date(Date.now() - WEEKS * weekMs);
-  const startMs = since.getTime();
-
-  for (let page = 1; page <= 10; page++) {
-    try {
-      const url =
-        `https://api.github.com/repos/${GITHUB_USERNAME}/${name}/commits` +
-        `?since=${since.toISOString()}&per_page=100&page=${page}`;
-      const res = await fetch(url, { headers: githubHeaders });
-      if (!res.ok) break;
-      const data: any[] = await res.json();
-      if (!Array.isArray(data) || data.length === 0) break;
-      for (const c of data) {
-        const iso = c?.commit?.author?.date ?? c?.commit?.committer?.date;
-        const t = iso ? new Date(iso).getTime() : 0;
-        if (!t) continue;
-        const idx = Math.min(WEEKS - 1, Math.max(0, Math.floor((t - startMs) / weekMs)));
-        buckets[idx]++;
-      }
-      if (data.length < 100) break;
-    } catch {
-      break;
-    }
-  }
-  return buckets;
-}
-
-async function fetchRepo(name: string): Promise<Project> {
-  try {
-    const [repoRes, commitActivity] = await Promise.all([
-      fetch(`https://api.github.com/repos/${GITHUB_USERNAME}/${name}`, {
-        headers: githubHeaders,
-      }),
-      fetchCommitActivity(name),
-    ]);
-    if (!repoRes.ok) return { ...FALLBACK[name], commitActivity };
-    const repo: any = await repoRes.json();
-    return {
-      name: repo.name,
-      description: repo.description ?? 'No description available.',
-      language: repo.language ?? 'Unknown',
-      stars: repo.stargazers_count ?? 0,
-      forks: repo.forks_count ?? 0,
-      url: repo.html_url,
-      topics: repo.topics ?? [],
-      updatedAt: repo.updated_at,
-      commitActivity,
-    };
-  } catch {
-    return FALLBACK[name];
-  }
-}
-
-const projects: Project[] = await Promise.all(FEATURED_REPOS.map(fetchRepo));
-
-/**
- * Build SVG path strings for a sparkline line + area fill.
- * Normalizes the series into a fixed viewBox (100 × 32).
- */
-function buildSparkline(data: number[]): { line: string; area: string; total: number } {
-  const series = data && data.length >= 2 ? data : new Array(52).fill(0);
-  data = series;
-  const W = 100;
-  const H = 32;
-  const PAD_Y = 2;
-  const max = Math.max(...data, 1);
-  const stepX = W / (data.length - 1);
-
-  const coords = data.map((v, i) => {
-    const x = i * stepX;
-    const y = H - PAD_Y - (v / max) * (H - PAD_Y * 2);
-    return [x, y] as const;
-  });
-
-  const line = 'M' + coords.map(([x, y]) => `${x.toFixed(2)},${y.toFixed(2)}`).join(' L');
-  const area =
-    `M0,${H} ` +
-    'L' + coords.map(([x, y]) => `${x.toFixed(2)},${y.toFixed(2)}`).join(' L') +
-    ` L${W},${H} Z`;
-  const total = data.reduce((s, v) => s + v, 0);
-  return { line, area, total };
-}
-
-// ── Simple Icons — fetched at build time, fill replaced with currentColor ──
+// ── Simple Icons — fetched at build time ──────────────────────────────────────
 
 const SIMPLE_ICONS_SLUG: Record<string, string> = {
   Python:     'python',
@@ -209,7 +73,7 @@ const SIMPLE_ICONS_SLUG: Record<string, string> = {
   JavaScript: 'javascript',
   Astro:      'astro',
   HTML:       'html5',
-  CSS:        'css3',
+  CSS:        'css',
   Shell:      'gnubash',
   Go:         'go',
   Rust:       'rust',
@@ -223,20 +87,20 @@ async function fetchIcon(language: string): Promise<string | null> {
     const res = await fetch(`https://cdn.simpleicons.org/${slug}`);
     if (!res.ok) return null;
     const svg = await res.text();
-    // Replace every non-transparent fill so CSS can drive the color via currentColor
+    // Replace every opaque fill so CSS `color` drives the icon via currentColor
     return svg.replace(/fill="(?!none)[^"]+"/g, 'fill="currentColor"');
   } catch {
     return null;
   }
 }
 
-const uniqueLangs = [...new Set(projects.map(p => p.language))];
+const uniqueLangs = [...new Set(repos.flatMap((r) => r.technologies))];
 const iconEntries = await Promise.all(
-  uniqueLangs.map(async lang => [lang, await fetchIcon(lang)] as const)
+  uniqueLangs.map(async (lang) => [lang, await fetchIcon(lang)] as const),
 );
 const languageIcons: Record<string, string | null> = Object.fromEntries(iconEntries);
 
-// Fallback dot colors for languages without a Simple Icon
+// Dot fallback colors for languages not in Simple Icons
 const LANGUAGE_COLORS: Record<string, string> = {
   Python:     '#3572A5',
   TypeScript: '#3178C6',
@@ -251,135 +115,336 @@ const LANGUAGE_COLORS: Record<string, string> = {
   Unknown:    '#7A7A7A',
 };
 
+// ── Per-repo seismograph line chart ──────────────────────────────────────────
+
+/**
+ * Builds SVG path data for a seismograph-style line chart.
+ *
+ * - ViewBox: 0 0 280 36.
+ * - Zero-commit days sit at the baseline (y = H).
+ * - Active days spike upward proportionally.
+ * - The line is smoothed with cubic bezier control points.
+ * - Returns both the line path and the filled area path (for gradient fill).
+ */
+function buildLineChart(
+  data: CommitDay[],
+): { pathD: string; areaD: string; total: number } {
+  if (!data || data.length === 0) return { pathD: '', areaD: '', total: 0 };
+
+  const W      = 280;
+  const H      = 36;
+  const padTop = 5; // minimum top margin so the line never clips
+  const total  = data.reduce((s, d) => s + d.count, 0);
+  const max    = Math.max(...data.map((d) => d.count), 1);
+  const n      = data.length;
+
+  // Map each day to (x, y): x = horizontal position, y = H for 0 commits, padTop for max
+  const pts = data.map((d, i) => ({
+    x: +((i / (n - 1)) * W).toFixed(2),
+    y: +(H - (d.count / max) * (H - padTop)).toFixed(2),
+  }));
+
+  // Smooth cubic bezier: control points at 40% of each segment width
+  const parts: string[] = [`M ${pts[0].x},${pts[0].y}`];
+  for (let i = 1; i < pts.length; i++) {
+    const p = pts[i - 1];
+    const c = pts[i];
+    const dx = +((c.x - p.x) * 0.4).toFixed(2);
+    parts.push(`C ${(p.x + dx).toFixed(2)},${p.y} ${(c.x - dx).toFixed(2)},${c.y} ${c.x},${c.y}`);
+  }
+
+  const pathD = parts.join(' ');
+  const areaD = `${pathD} L ${pts[n - 1].x},${H} L ${pts[0].x},${H} Z`;
+
+  return { pathD, areaD, total };
+}
+
+// ── Helpers ───────────────────────────────────────────────────────────────────
+
 function relativeTime(iso: string): string {
   const then = new Date(iso).getTime();
   if (Number.isNaN(then)) return '';
-  const diff = Date.now() - then;
-  const day = 86400000;
-  const days = Math.floor(diff / day);
-  if (days < 1)  return 'Updated today';
-  if (days < 2)  return 'Updated yesterday';
-  if (days < 30) return `Updated ${days} days ago`;
+  const diff   = Date.now() - then;
+  const day    = 86_400_000;
+  const days   = Math.floor(diff / day);
+  if (days < 1)  return 'Pushed today';
+  if (days < 2)  return 'Pushed yesterday';
+  if (days < 30) return `${days}d ago`;
   const months = Math.floor(days / 30);
-  if (months < 12) return `Updated ${months} month${months === 1 ? '' : 's'} ago`;
-  const years = Math.floor(days / 365);
-  return `Updated ${years} year${years === 1 ? '' : 's'} ago`;
+  if (months < 12) return `${months}mo ago`;
+  return `${Math.floor(days / 365)}y ago`;
+}
+
+function formatDigestDate(iso: string): string {
+  try {
+    return new Date(iso).toLocaleDateString('en-US', {
+      month: 'short', day: 'numeric', year: 'numeric',
+    });
+  } catch { return iso; }
+}
+
+/** Short date label for the commit back-face: "Apr 9" */
+function formatCommitDate(iso: string): string {
+  try {
+    return new Date(iso).toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+  } catch { return ''; }
+}
+
+/** Clamp a string to n chars, appending "…" if truncated. */
+function truncate(s: string, n: number): string {
+  return s.length <= n ? s : `${s.slice(0, n)}…`;
 }
 ---
 
 <section id="projects" class="projects-section">
+
+  <!-- ── Header ── -->
   <div class="projects-header">
-    <span class="section-overline">Featured Work</span>
+    <span class="section-overline">
+      Recent Activity
+      <span class="projects-live-indicator" aria-hidden="true">
+        <span class="projects-live-dot"></span>
+        live
+      </span>
+    </span>
     <h2 class="section-title">Projects</h2>
-    <p class="section-subtitle">Open-source tools and platforms I'm building</p>
+    <p class="section-subtitle">
+      {repos.length} most recently active repos · refreshed daily by CI
+    </p>
   </div>
 
+  <!-- ── Daily Digest Callout ── -->
+  {hasDigest && (
+    <div class="digest-callout" role="complementary" aria-label="Yesterday's GitHub activity digest">
+      <div class="digest-callout__left">
+        <div class="digest-callout__meta">
+          <span class="digest-badge">
+            <span class="digest-dot" aria-hidden="true"></span>
+            Yesterday
+          </span>
+          <time class="digest-callout__date" datetime={digest.date}>
+            {formatDigestDate(digest.date)}
+          </time>
+        </div>
+        <p class="digest-callout__summary">{digest.summary}</p>
+      </div>
+      <div class="digest-callout__stats">
+        {digest.stats.commits > 0 && (
+          <span class="digest-stat">
+            <strong class="digest-stat__value">{digest.stats.commits}</strong>
+            <span class="digest-stat__label">commits</span>
+          </span>
+        )}
+        {(digest.stats.reposTouched?.length ?? 0) > 0 && (
+          <span class="digest-stat">
+            <strong class="digest-stat__value">{digest.stats.reposTouched.length}</strong>
+            <span class="digest-stat__label">
+              {digest.stats.reposTouched.length === 1 ? 'repo' : 'repos'}
+            </span>
+          </span>
+        )}
+        {digest.stats.pullRequests > 0 && (
+          <span class="digest-stat">
+            <strong class="digest-stat__value">{digest.stats.pullRequests}</strong>
+            <span class="digest-stat__label">
+              {digest.stats.pullRequests === 1 ? 'PR' : 'PRs'}
+            </span>
+          </span>
+        )}
+      </div>
+    </div>
+  )}
+
+  <!-- ── Cards Grid ── -->
   <div class="projects-grid">
-    {projects.map((p) => {
-      const spark = buildSparkline(p.commitActivity);
-      return (
-      <article class="project-card">
-        <a
-          class="project-card-link"
-          href={p.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label={`${p.name} on GitHub`}
-        ></a>
+    {repos.map((repo, idx) => (
+      <article
+        class={`project-card${idx === 0 ? ' project-card--top' : ''}`}
+        data-flipped="false"
+        aria-label={`${repo.name} on GitHub`}
+      >
+        <div class="card-inner">
 
-        <div class="project-card-top">
-          <span class="project-language">
-            {languageIcons[p.language]
-              ? (
-                <span
-                  class="project-language-icon"
-                  aria-hidden="true"
-                  set:html={languageIcons[p.language]}
-                />
-              )
-              : (
-                <span
-                  class="project-language-dot"
-                  style={`background:${LANGUAGE_COLORS[p.language] ?? LANGUAGE_COLORS.Unknown}`}
-                  aria-hidden="true"
-                />
-              )
-            }
-            {p.language}
-          </span>
-          <span class="project-updated">{relativeTime(p.updatedAt)}</span>
-        </div>
+          <!-- ·· Front face ·· -->
+          <div class="card-face card-front">
 
-        <h3 class="project-name">{p.name}</h3>
-        <p class="project-description">{p.description}</p>
-
-        {p.topics.length > 0 && (
-          <ul class="project-topics" aria-label="Topics">
-            {p.topics.slice(0, 4).map((t) => (
-              <li class="project-topic">{t}</li>
-            ))}
-          </ul>
-        )}
-
-        {(
-          <div class="project-sparkline" aria-hidden="true">
-            <div class="project-sparkline-label">
-              <span>Last 52 weeks</span>
-              <span>{spark.total} commits</span>
+            <div class="project-card-top">
+              <div class="project-card-top-left">
+                <span class="project-rank" aria-label={`Rank ${idx + 1}`}>#{idx + 1}</span>
+                <span class="project-language-list" aria-label="Main technologies">
+                  {repo.technologies.slice(0, 2).map((tech) => (
+                    <span class="project-language">
+                      {languageIcons[tech]
+                        ? (
+                          <span
+                            class="project-language-icon"
+                            aria-hidden="true"
+                            set:html={languageIcons[tech]}
+                          />
+                        )
+                        : (
+                          <span
+                            class="project-language-dot"
+                            style={`background:${LANGUAGE_COLORS[tech] ?? LANGUAGE_COLORS.Unknown}`}
+                            aria-hidden="true"
+                          />
+                        )
+                      }
+                      {tech}
+                    </span>
+                  ))}
+                </span>
+              </div>
+              <span class="project-updated">{relativeTime(repo.pushedAt)}</span>
             </div>
-            <svg
-              class="sparkline-svg"
-              viewBox="0 0 100 32"
-              preserveAspectRatio="none"
-              role="img"
-              aria-label={`${spark.total} commits over the last 52 weeks`}
-            >
-              <defs>
-                <linearGradient id={`spark-grad-${p.name}`} x1="0" x2="0" y1="0" y2="1">
-                  <stop offset="0%" stop-color="rgba(201,168,124,0.35)" />
-                  <stop offset="100%" stop-color="rgba(201,168,124,0)" />
-                </linearGradient>
-              </defs>
-              <path d={spark.area} fill={`url(#spark-grad-${p.name})`} />
-              <path
-                d={spark.line}
-                fill="none"
-                stroke="rgba(201,168,124,0.85)"
-                stroke-width="1.25"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                vector-effect="non-scaling-stroke"
-              />
-            </svg>
-          </div>
-        )}
-        {/* spark always rendered */}
 
-        <div class="project-card-bottom">
-          <div class="project-stats">
-            <span class="project-stat" title="Stars">
-              <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-                <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
-              </svg>
-              {p.stars}
-            </span>
-            <span class="project-stat" title="Forks">
-              <svg width="14" height="14" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-                <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"/>
-              </svg>
-              {p.forks}
-            </span>
-          </div>
-          <span class="project-view">
-            View on GitHub
-            <span class="arrow" aria-hidden="true">&rarr;</span>
-          </span>
-        </div>
+            <h3 class="project-name">{repo.name}</h3>
+            <p class="project-description">{repo.description}</p>
+
+            {repo.topics.length > 0 && (
+              <ul class="project-topics" aria-label="Topics">
+                {repo.topics.slice(0, 3).map((t) => (
+                  <li class="project-topic">{t}</li>
+                ))}
+              </ul>
+            )}
+
+            <!-- Per-repo seismograph activity chart -->
+            {(() => {
+              const { pathD, areaD, total } = buildLineChart(repo.commitActivity ?? []);
+              if (!total || !pathD) return null;
+              const uid = `seismo-${repo.name}`;
+              return (
+                <div class="card-activity">
+                  <span class="card-activity__label">28d · {total} commits</span>
+                  <svg
+                    class="card-activity__svg"
+                    viewBox="0 0 280 36"
+                    preserveAspectRatio="none"
+                    aria-hidden="true"
+                  >
+                    <defs>
+                      <linearGradient id={`${uid}-grad`} x1="0" y1="0" x2="0" y2="1">
+                        <stop offset="0%" stop-color="rgba(201,168,124,0.28)" />
+                        <stop offset="100%" stop-color="rgba(201,168,124,0)" />
+                      </linearGradient>
+                      <filter id={`${uid}-glow`} x="-10%" y="-80%" width="120%" height="260%">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="1.6" result="blur" />
+                        <feMerge>
+                          <feMergeNode in="blur" />
+                          <feMergeNode in="SourceGraphic" />
+                        </feMerge>
+                      </filter>
+                    </defs>
+                    <path d={areaD} fill={`url(#${uid}-grad)`} />
+                    <path
+                      d={pathD}
+                      fill="none"
+                      stroke="rgba(201,168,124,0.9)"
+                      stroke-width="1.4"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      filter={`url(#${uid}-glow)`}
+                    />
+                  </svg>
+                </div>
+              );
+            })()}
+
+            <!-- Subtle flip affordance — visible only when commits are available -->
+            {repo.lastCommits.length > 0 && (
+              <div class="flip-hint" aria-hidden="true">
+                <!-- refresh/flip icon -->
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M1 4v6h6"/><path d="M23 20v-6h-6"/>
+                  <path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4-4.64 4.36A9 9 0 0 1 3.51 15"/>
+                </svg>
+                commits
+              </div>
+            )}
+
+            <div class="project-card-bottom">
+              <div class="project-stats">
+                <span class="project-stat" title="Stars">
+                  <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                    <path d="M8 .25a.75.75 0 0 1 .673.418l1.882 3.815 4.21.612a.75.75 0 0 1 .416 1.279l-3.046 2.97.719 4.192a.75.75 0 0 1-1.088.791L8 12.347l-3.766 1.98a.75.75 0 0 1-1.088-.79l.72-4.194L.818 6.374a.75.75 0 0 1 .416-1.28l4.21-.611L7.327.668A.75.75 0 0 1 8 .25Z"/>
+                  </svg>
+                  {repo.stars}
+                </span>
+                <span class="project-stat" title="Forks">
+                  <svg width="13" height="13" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+                    <path d="M5 5.372v.878c0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75v-.878a2.25 2.25 0 1 1 1.5 0v.878a2.25 2.25 0 0 1-2.25 2.25h-1.5v2.128a2.251 2.251 0 1 1-1.5 0V8.5h-1.5A2.25 2.25 0 0 1 3.5 6.25v-.878a2.25 2.25 0 1 1 1.5 0ZM5 3.25a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Zm6.75.75a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm-3 8.75a.75.75 0 1 0-1.5 0 .75.75 0 0 0 1.5 0Z"/>
+                  </svg>
+                  {repo.forks}
+                </span>
+              </div>
+              <a
+                href={repo.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-view"
+                aria-label={`View ${repo.name} on GitHub`}
+              >
+                GitHub
+                <span class="arrow" aria-hidden="true">&rarr;</span>
+              </a>
+            </div>
+
+          </div><!-- /card-front -->
+
+          <!-- ·· Back face — recent commits ·· -->
+          <div class="card-face card-back" aria-hidden="true">
+
+            <div class="commits-header">
+              <span class="commits-title">Recent commits</span>
+              <span class="commits-repo">{repo.name}</span>
+            </div>
+
+            <ol class="commits-list">
+              {repo.lastCommits.length > 0
+                ? repo.lastCommits.map((c) => (
+                    <li class="commit-item">
+                      <time class="commit-date" datetime={c.date}>
+                        {formatCommitDate(c.date)}
+                      </time>
+                      <a
+                        href={c.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="commit-sha-link"
+                        tabindex="-1"
+                        aria-label={`Commit ${c.sha}`}
+                      >
+                        <code class="commit-sha">{c.sha}</code>
+                      </a>
+                      <span class="commit-msg">{truncate(c.message, 60)}</span>
+                    </li>
+                  ))
+                : <li class="commit-empty">No commits found</li>
+              }
+            </ol>
+
+            <div class="commits-footer">
+              <a
+                href={repo.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-view"
+                tabindex="-1"
+              >
+                View on GitHub
+                <span class="arrow" aria-hidden="true">&rarr;</span>
+              </a>
+            </div>
+
+          </div><!-- /card-back -->
+
+        </div><!-- /card-inner -->
       </article>
-      );
-    })}
+    ))}
   </div>
 
+  <!-- ── CTA ── -->
   <div class="projects-cta">
     <a
       href={`https://github.com/${GITHUB_USERNAME}`}
@@ -387,14 +452,32 @@ function relativeTime(iso: string): string {
       rel="noopener noreferrer"
       class="github-profile-btn"
     >
-      <svg width="18" height="18" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
         <path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z"/>
       </svg>
-      <span>View all projects on GitHub</span>
+      <span>All projects on GitHub</span>
       <span class="arrow" aria-hidden="true">&rarr;</span>
     </a>
   </div>
+
 </section>
+
+<!-- Tap-to-flip for touch devices (hover is handled by CSS on pointer devices) -->
+<script>
+  if (window.matchMedia('(hover: none)').matches) {
+    document.querySelectorAll<HTMLElement>('.project-card').forEach((card) => {
+      card.addEventListener('click', (e) => {
+        // Let anchor clicks pass through without toggling
+        if ((e.target as Element).closest('a')) return;
+        const isFlipped = card.dataset.flipped === 'true';
+        card.dataset.flipped = String(!isFlipped);
+        // Keep screen-reader hidden state in sync with visual state
+        const back = card.querySelector<HTMLElement>('.card-back');
+        if (back) back.setAttribute('aria-hidden', String(isFlipped));
+      });
+    });
+  }
+</script>
 
 <style>
   @import '../styles/projects.css';

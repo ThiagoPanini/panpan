@@ -1,4 +1,6 @@
 ---
+import Analytics from '@vercel/analytics/astro';
+
 /**
  * BaseLayout — wraps every page with <html>, <head>, fonts, global styles.
  */
@@ -35,6 +37,7 @@ const {
   </head>
   <body>
     <slot />
+    <Analytics />
   </body>
 </html>
 

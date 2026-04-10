@@ -24,7 +24,7 @@ function showWithoutAnimation(): void {
   gsap.set('.photo-data-motif', { opacity: 0.4 });
   gsap.set('.nav-logo', { opacity: 1, y: 0 });
   gsap.set('.nav-link', { opacity: 1, y: 0 });
-  gsap.set('.projects-header, .project-card, .github-profile-btn', { opacity: 1, y: 0 });
+  gsap.set('.projects-header, .project-card, .github-profile-btn, .digest-callout', { opacity: 1, y: 0 });
 }
 
 /** Scroll-triggered entrance animations for the Projects section. */
@@ -45,6 +45,22 @@ function initProjectsAnimations(): void {
       scrollTrigger: {
         trigger: header,
         start: 'top 85%',
+        once: true,
+      },
+    });
+  }
+
+  // Animate digest callout right after the header
+  const digest = section.querySelector<HTMLElement>('.digest-callout');
+  if (digest) {
+    gsap.to(digest, {
+      opacity: 1,
+      y: 0,
+      duration: 0.75,
+      ease: 'power3.out',
+      scrollTrigger: {
+        trigger: digest,
+        start: 'top 87%',
         once: true,
       },
     });
