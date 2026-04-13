@@ -50,13 +50,30 @@ jobs:
           GITHUB_USERNAME: ThiagoPanini
         run: node scripts/generate-digest.mjs
 
+      - name: Generate coverage summary
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
+          GITHUB_OWNER: ThiagoPanini
+          INCLUDE_PRIVATE: 'false'
+          # EXCLUDED_REPOS: 'repo-a,repo-b'
+          # INCLUDED_REPOS: 'repo-c'
+        run: node scripts/generate-coverage.mjs
+
+      - name: Generate language expansion data
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USERNAME: ThiagoPanini
+        run: node scripts/generate-languages.mjs
+
       - name: Commit updated data files
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add \
             src/data/github-digest/latest.json \
-            src/data/recent-repos.json
+            src/data/recent-repos.json \
+            src/data/coverage-summary.json \
+            src/data/language-expansion.json
           if git diff --staged --quiet; then
             echo "Data files unchanged — skipping commit."
           else

@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-04-11T23:01:02.115Z",
+  "metric": "weighted_language_share",
+  "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
+  "repoCount": 5,
+  "selectedRepos": [
+    "panpan",
+    "aidriven",
+    "aidriven-resources",
+    "ai-resources",
+    "campfire"
+  ],
+  "primaryStack": [
+    "Python",
+    "Terraform"
+  ],
+  "excludedLanguages": [
+    "Python",
+    "Terraform",
+    "Jupyter Notebook",
+    "Markdown",
+    "HCL"
+  ],
+  "topLanguages": [
+    {
+      "name": "CSS",
+      "score": 79.5,
+      "percentage": 33.1
+    },
+    {
+      "name": "HTML",
+      "score": 53.9,
+      "percentage": 22.5
+    },
+    {
+      "name": "TypeScript",
+      "score": 50.2,
+      "percentage": 20.9
+    },
+    {
+      "name": "JavaScript",
+      "score": 29.4,
+      "percentage": 12.2
+    },
+    {
+      "name": "Astro",
+      "score": 27,
+      "percentage": 11.2
+    }
+  ]
+}
