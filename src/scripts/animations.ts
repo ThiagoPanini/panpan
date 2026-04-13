@@ -25,6 +25,10 @@ function showWithoutAnimation(): void {
   gsap.set('.nav-logo', { opacity: 1, y: 0 });
   gsap.set('.nav-link', { opacity: 1, y: 0 });
   gsap.set('.projects-header, .project-card, .github-profile-btn, .digest-callout', { opacity: 1, y: 0 });
+  gsap.set(
+    '.ais-header, .ais-tool, .ais-tools-legend, .ais-artifacts-header, .ais-artifacts-bridge, .ais-artifact',
+    { opacity: 1, y: 0 }
+  );
 }
 
 /** Scroll-triggered entrance animations for the Projects section. */
@@ -350,6 +354,210 @@ function wrapCharsInSpans(): void {
   });
 }
 
+/** Scroll-triggered entrance animations for the AI Stack section. */
+function initAIStackAnimations(): void {
+  const section = document.querySelector<HTMLElement>('.ais');
+  if (!section) return;
+
+  // Header entrance
+  const header = section.querySelector<HTMLElement>('.ais-header');
+  if (header) {
+    gsap.to(header, {
+      opacity: 1,
+      y: 0,
+      duration: 0.8,
+      ease: 'power3.out',
+      scrollTrigger: {
+        trigger: header,
+        start: 'top 85%',
+        once: true,
+      },
+    });
+  }
+
+  // ── Tool Command Center ──
+
+  // Orbital ring fade-in
+  const ring = section.querySelector<HTMLElement>('.ais-command-ring');
+  if (ring) {
+    gsap.to(ring, {
+      opacity: 1,
+      duration: 1.2,
+      ease: 'power2.out',
+      scrollTrigger: {
+        trigger: section.querySelector('.ais-command'),
+        start: 'top 82%',
+        once: true,
+      },
+    });
+  }
+
+  // Tool legend fade-in — animates first
+  const legend = section.querySelector<HTMLElement>('.ais-tools-legend');
+  if (legend) {
+    gsap.to(legend, {
+      opacity: 1,
+      duration: 0.5,
+      ease: 'power2.out',
+      scrollTrigger: {
+        trigger: section.querySelector('.ais-command'),
+        start: 'top 82%',
+        once: true,
+      },
+    });
+  }
+
+  // Tool chips — staggered cascade entrance (after legend)
+  const tools = section.querySelectorAll<HTMLElement>('.ais-tool');
+  if (tools.length > 0) {
+    gsap.to(tools, {
+      opacity: 1,
+      y: 0,
+      duration: 0.7,
+      ease: 'power3.out',
+      stagger: 0.12,
+      delay: 0.1,
+      scrollTrigger: {
+        trigger: section.querySelector('.ais-tools-row'),
+        start: 'top 82%',
+        once: true,
+      },
+    });
+  }
+
+  // ── AI Artifacts ──
+
+  const artifactsHeader = section.querySelector<HTMLElement>('.ais-artifacts-header');
+  if (artifactsHeader) {
+    gsap.to(artifactsHeader, {
+      opacity: 1,
+      y: 0,
+      duration: 0.75,
+      ease: 'power3.out',
+      scrollTrigger: {
+        trigger: artifactsHeader,
+        start: 'top 85%',
+        once: true,
+      },
+    });
+  }
+
+  // Bridge connecting line
+  const bridge = section.querySelector<HTMLElement>('.ais-artifacts-bridge');
+  if (bridge) {
+    gsap.to(bridge, {
+      opacity: 1,
+      duration: 0.6,
+      ease: 'power2.out',
+      scrollTrigger: {
+        trigger: bridge,
+        start: 'top 85%',
+        once: true,
+      },
+    });
+  }
+
+  // Artifact cards — staggered with slight scale
+  const artifacts = section.querySelectorAll<HTMLElement>('.ais-artifact');
+  if (artifacts.length > 0) {
+    gsap.fromTo(artifacts, {
+      opacity: 0,
+      y: 16,
+      scale: 0.97,
+    }, {
+      opacity: 1,
+      y: 0,
+      scale: 1,
+      duration: 0.65,
+      ease: 'power3.out',
+      stagger: 0.1,
+      scrollTrigger: {
+        trigger: section.querySelector('.ais-artifacts-grid'),
+        start: 'top 83%',
+        once: true,
+      },
+    });
+  }
+
+  // ── AI Impact Section ──
+
+  const impactHeader = section.querySelector<HTMLElement>('.ais-impact-header');
+  if (impactHeader) {
+    gsap.fromTo(impactHeader, {
+      opacity: 0,
+      y: 24,
+    }, {
+      opacity: 1,
+      y: 0,
+      duration: 0.8,
+      ease: 'power3.out',
+      scrollTrigger: {
+        trigger: impactHeader,
+        start: 'top 85%',
+        once: true,
+      },
+    });
+  }
+
+  // Language expansion bars — animate fill widths
+  const langBars = section.querySelectorAll<HTMLElement>('.ais-expansion-lang-fill');
+  if (langBars.length > 0) {
+    langBars.forEach((bar) => {
+      const targetWidth = bar.style.width;
+      bar.style.width = '0%';
+      gsap.to(bar, {
+        width: targetWidth,
+        duration: 1,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: bar.closest('.ais-expansion-languages'),
+          start: 'top 85%',
+          once: true,
+        },
+      });
+    });
+  }
+
+  // Coverage bars — animate fill widths
+  const covBars = section.querySelectorAll<HTMLElement>('.cov2-bar-fill');
+  if (covBars.length > 0) {
+    covBars.forEach((bar) => {
+      const targetWidth = bar.style.width;
+      bar.style.width = '0%';
+      gsap.to(bar, {
+        width: targetWidth,
+        duration: 1.1,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: bar.closest('.cov2-bars'),
+          start: 'top 85%',
+          once: true,
+        },
+      });
+    });
+  }
+
+  // Impact grid columns — stagger left/right
+  const impactCols = section.querySelectorAll<HTMLElement>('.ais-impact-col');
+  if (impactCols.length > 0) {
+    gsap.fromTo(impactCols, {
+      opacity: 0,
+      y: 20,
+    }, {
+      opacity: 1,
+      y: 0,
+      duration: 0.8,
+      ease: 'power3.out',
+      stagger: 0.2,
+      scrollTrigger: {
+        trigger: section.querySelector('.ais-impact-grid'),
+        start: 'top 82%',
+        once: true,
+      },
+    });
+  }
+}
+
 /** Initialize all hero animations and interactions. */
 export function initHeroAnimations(): void {
   wrapCharsInSpans();
@@ -366,4 +574,5 @@ export function initHeroAnimations(): void {
   initCursorGlow();
   initScrollExit();
   initProjectsAnimations();
+  initAIStackAnimations();
 }

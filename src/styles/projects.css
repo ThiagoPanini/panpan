@@ -4,7 +4,7 @@
 
 .projects-section {
   position: relative;
-  padding: var(--space-3xl) var(--padding-x);
+  padding: var(--space-3xl) var(--padding-x) var(--space-xl);
   background: var(--color-bg);
   overflow: hidden;
 }

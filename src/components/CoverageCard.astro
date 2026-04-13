@@ -1,0 +1,71 @@
+---
+/**
+ * CoverageCard — displays the average test coverage percentage,
+ * number of included repositories, and last-updated timestamp.
+ *
+ * Consumes the CI-generated `src/data/coverage-summary.json` at
+ * build time. No client-side API calls — pure static rendering.
+ */
+
+import coverageRaw from '../data/coverage-summary.json';
+
+const coverage    = coverageRaw?.averageCoverage ?? 0;
+const repoCount   = coverageRaw?.repoCount ?? 0;
+const generatedAt = coverageRaw?.generatedAt ?? null;
+const hasData     = repoCount > 0 && coverage > 0;
+
+// Format the timestamp for display
+function formatDate(iso: string | null): string {
+  if (!iso) return '—';
+  try {
+    const d = new Date(iso);
+    if (isNaN(d.getTime())) return '—';
+    return d.toLocaleDateString('en-US', {
+      month: 'short',
+      day: 'numeric',
+      year: 'numeric',
+    });
+  } catch {
+    return '—';
+  }
+}
+
+const displayCoverage = hasData ? Math.round(coverage) : '—';
+const displayRepos    = hasData ? repoCount : '—';
+const displayDate     = formatDate(generatedAt);
+---
+
+<div class={`cov ${hasData ? '' : 'cov--empty'}`} aria-label="Test coverage metrics">
+  <div class="cov-stat">
+    <span class="cov-value">
+      {displayCoverage}{hasData && <span class="cov-unit">%</span>}
+    </span>
+    <span class="cov-label">test coverage</span>
+    <span class="cov-meta">média · repos ativos</span>
+  </div>
+
+  <div class="cov-sep" aria-hidden="true"></div>
+
+  <div class="cov-stat">
+    <span class="cov-value">{displayRepos}</span>
+    <span class="cov-label">repos cobertos</span>
+    <span class="cov-meta">via Codecov</span>
+  </div>
+
+  <div class="cov-sep" aria-hidden="true"></div>
+
+  <div class="cov-stat">
+    <span class="cov-value cov-value--date">{displayDate}</span>
+    <span class="cov-label">última atualização</span>
+    <span class="cov-meta">atualizado via CI</span>
+  </div>
+</div>
+
+<style>
+  @import '../styles/coverage-card.css';
+
+  .cov-value--date {
+    font-size: clamp(1rem, 2vw, 1.3rem);
+    letter-spacing: 0;
+  }
+</style>
