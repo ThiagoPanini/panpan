@@ -1,0 +1,62 @@
+{
+  "metric": "average_test_coverage",
+  "owner": "ThiagoPanini",
+  "generatedAt": "2026-04-11T20:29:43.926Z",
+  "repoCount": 8,
+  "includedRepos": [
+    {
+      "name": "aidriven",
+      "coverage": 77.99,
+      "branch": "main"
+    },
+    {
+      "name": "engineering-golden-case",
+      "coverage": 91.63,
+      "branch": "main"
+    },
+    {
+      "name": "brazilian-stocks",
+      "coverage": 90.87,
+      "branch": "main"
+    },
+    {
+      "name": "sparksnake",
+      "coverage": 87.89,
+      "branch": "main"
+    },
+    {
+      "name": "terraglue",
+      "coverage": 100,
+      "branch": "main"
+    },
+    {
+      "name": "pynvest",
+      "coverage": 67.39,
+      "branch": "main"
+    },
+    {
+      "name": "nbaflow",
+      "coverage": 60,
+      "branch": "main"
+    },
+    {
+      "name": "cloudgeass",
+      "coverage": 96.53,
+      "branch": "main"
+    }
+  ],
+  "excludedRepos": [
+    {
+      "name": "terraglue-temporary",
+      "reason": "private (INCLUDE_PRIVATE=false)"
+    }
+  ],
+  "ignoredRepos": [
+    {
+      "name": "b3stocks",
+      "reason": "no coverage data available"
+    }
+  ],
+  "averageCoverage": 84.04,
+  "unit": "percent"
+}
