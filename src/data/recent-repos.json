@@ -14,44 +14,40 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-04-11T10:10:50Z",
+    "pushedAt": "2026-04-13T01:17:41Z",
     "lastCommits": [
       {
-        "sha": "0c96e62",
-        "message": "Merge pull request #5 from ThiagoPanini/feature/portfolio-improvements",
-        "date": "2026-04-10T22:13:16Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/0c96e62bc03f08bb6f3665122dbeec71b9c96678"
+        "sha": "37fa7a2",
+        "message": "Merge pull request #6 from ThiagoPanini/feature/portfolio-improvements",
+        "date": "2026-04-13T01:17:41Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/37fa7a20bd3b9583a6fdce6530fcf01762834b8f"
       },
       {
-        "sha": "70e9fec",
-        "message": "fix: resolve merge conflict in recent-repos.json and correct pushedAt timestamp",
-        "date": "2026-04-10T22:11:40Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/70e9fec2e904d7f952d8fe20237d7958b1866bc4"
+        "sha": "454b24d",
+        "message": "feat: update navigation sections to include only Home, Projects, and AI Stack",
+        "date": "2026-04-13T01:15:56Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/454b24d380240d21764175ae82e20ef8b385f763"
       },
       {
-        "sha": "02f6d5a",
-        "message": "fix: resolve merge conflicts in latest.json and restore accurate summary and stats",
-        "date": "2026-04-10T22:09:21Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/02f6d5a2dd2e58cb2b6f0662b8e7f511329823f0"
+        "sha": "ccc43c4",
+        "message": "feat: add styles for coverage card and AI impact panel; update projects section padding",
+        "date": "2026-04-13T01:14:47Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/ccc43c41382a578e2181dc8ea4fb7025ad597adb"
       },
       {
-        "sha": "57b577b",
-        "message": "fix: resolve merge conflicts in latest.json and recent-repos.json",
-        "date": "2026-04-10T22:08:08Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/57b577b9206fee96ab448ae07c400deb229341c5"
+        "sha": "2af6cfa",
+        "message": "chore: updating coverage summary and language expansion data files",
+        "date": "2026-04-13T01:14:28Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/2af6cfa2076d1f5e99e0422f3b05757a8095121b"
       },
       {
-        "sha": "3001517",
-        "message": "feat: update AI model to gpt-4o and enhance digest summary with detailed project contributions",
-        "date": "2026-04-10T22:07:43Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/3001517c5f50dea888f8a86844fe12b017d6e3d1"
+        "sha": "d949717",
+        "message": "feat: add coverage summary and language expansion data generation to workflows",
+        "date": "2026-04-13T01:14:11Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/d9497174c288d4235bd0fec331a1285f76f93adf"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-04-06",
-        "count": 0
-      },
       {
         "date": "2026-04-07",
         "count": 0
@@ -75,6 +71,10 @@
       {
         "date": "2026-04-12",
         "count": 0
+      },
+      {
+        "date": "2026-04-13",
+        "count": 6
       }
     ]
   },
@@ -130,10 +130,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-04-06",
-        "count": 22
-      },
-      {
         "date": "2026-04-07",
         "count": 1
       },
@@ -155,6 +151,10 @@
       },
       {
         "date": "2026-04-12",
+        "count": 0
+      },
+      {
+        "date": "2026-04-13",
         "count": 0
       }
     ]
@@ -205,10 +205,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-04-06",
-        "count": 0
-      },
-      {
         "date": "2026-04-07",
         "count": 1
       },
@@ -230,6 +226,10 @@
       },
       {
         "date": "2026-04-12",
+        "count": 0
+      },
+      {
+        "date": "2026-04-13",
         "count": 0
       }
     ]
