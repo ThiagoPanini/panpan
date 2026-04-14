@@ -1,10 +1,10 @@
 {
-  "weekStart": "2026-04-06",
-  "weekEnd": "2026-04-12",
-  "generatedAt": "2026-04-13T10:33:49.279Z",
-  "summary": "I focused on resolving merge conflicts, enhancing summaries with detailed contributions in panpan, adding unit tests and refining CLI features in aidriven, and initializing the aidriven-resources repository.",
+  "weekStart": "2026-04-07",
+  "weekEnd": "2026-04-13",
+  "generatedAt": "2026-04-14T10:29:13.198Z",
+  "summary": "I focused on enhancing workflows, adding tests, and refining features across panpan, aidriven, and aidriven-resources, including updates to navigation, styling, and data generation.",
   "stats": {
-    "commits": 62,
+    "commits": 46,
     "reposTouched": [
       "panpan",
       "aidriven-resources",

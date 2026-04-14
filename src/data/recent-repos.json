@@ -1,80 +1,5 @@
 [
   {
-    "name": "aidriven-resources",
-    "description": "🧰 AI resources and artifacts for improving AI development journey",
-    "url": "https://github.com/ThiagoPanini/aidriven-resources",
-    "language": "Python",
-    "technologies": [
-      "Python",
-      "HTML"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "agents",
-      "sdd",
-      "skills",
-      "specs"
-    ],
-    "pushedAt": "2026-04-13T03:20:34Z",
-    "lastCommits": [
-      {
-        "sha": "a6e9d4f",
-        "message": "Initial commit",
-        "date": "2026-04-07T01:28:22Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/a6e9d4f5b0f0aae9f14c902396e5e6738bf77274"
-      },
-      {
-        "sha": "a27b212",
-        "message": "Skill prompt engineering (#3)",
-        "date": "2026-04-09T21:35:14Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/a27b2127c64a3500b13add447c83782605771d2b"
-      },
-      {
-        "sha": "5275f59",
-        "message": "Remove deprecated skill packaging and validation scripts (#2)",
-        "date": "2026-04-07T02:26:25Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/5275f59470b1a36e4c0ef7ba91ffa73b860a7426"
-      },
-      {
-        "sha": "9664f79",
-        "message": "Repository setup (#1)",
-        "date": "2026-04-07T02:18:36Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/9664f793394494bef7977bd4ecc3f638125be08c"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-04-07",
-        "count": 1
-      },
-      {
-        "date": "2026-04-08",
-        "count": 0
-      },
-      {
-        "date": "2026-04-09",
-        "count": 0
-      },
-      {
-        "date": "2026-04-10",
-        "count": 0
-      },
-      {
-        "date": "2026-04-11",
-        "count": 0
-      },
-      {
-        "date": "2026-04-12",
-        "count": 0
-      },
-      {
-        "date": "2026-04-13",
-        "count": 0
-      }
-    ]
-  },
-  {
     "name": "panpan",
     "description": "✨ A personal webpage where you can find relevant technical information about me",
     "url": "https://github.com/ThiagoPanini/panpan",
@@ -89,7 +14,7 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-04-13T01:17:57Z",
+    "pushedAt": "2026-04-13T10:33:50Z",
     "lastCommits": [
       {
         "sha": "37fa7a2",
@@ -124,10 +49,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-04-07",
-        "count": 0
-      },
-      {
         "date": "2026-04-08",
         "count": 5
       },
@@ -150,6 +71,85 @@
       {
         "date": "2026-04-13",
         "count": 6
+      },
+      {
+        "date": "2026-04-14",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "name": "aidriven-resources",
+    "description": "🧰 AI resources and artifacts for improving AI development journey",
+    "url": "https://github.com/ThiagoPanini/aidriven-resources",
+    "language": "Python",
+    "technologies": [
+      "Python",
+      "HTML"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "agents",
+      "sdd",
+      "skills",
+      "specs"
+    ],
+    "pushedAt": "2026-04-13T03:20:34Z",
+    "lastCommits": [
+      {
+        "sha": "a27b212",
+        "message": "Skill prompt engineering (#3)",
+        "date": "2026-04-09T21:35:14Z",
+        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/a27b2127c64a3500b13add447c83782605771d2b"
+      },
+      {
+        "sha": "5275f59",
+        "message": "Remove deprecated skill packaging and validation scripts (#2)",
+        "date": "2026-04-07T02:26:25Z",
+        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/5275f59470b1a36e4c0ef7ba91ffa73b860a7426"
+      },
+      {
+        "sha": "9664f79",
+        "message": "Repository setup (#1)",
+        "date": "2026-04-07T02:18:36Z",
+        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/9664f793394494bef7977bd4ecc3f638125be08c"
+      },
+      {
+        "sha": "a6e9d4f",
+        "message": "Initial commit",
+        "date": "2026-04-07T01:28:22Z",
+        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/a6e9d4f5b0f0aae9f14c902396e5e6738bf77274"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-04-08",
+        "count": 0
+      },
+      {
+        "date": "2026-04-09",
+        "count": 0
+      },
+      {
+        "date": "2026-04-10",
+        "count": 0
+      },
+      {
+        "date": "2026-04-11",
+        "count": 0
+      },
+      {
+        "date": "2026-04-12",
+        "count": 0
+      },
+      {
+        "date": "2026-04-13",
+        "count": 0
+      },
+      {
+        "date": "2026-04-14",
+        "count": 0
       }
     ]
   },
@@ -205,10 +205,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-04-07",
-        "count": 1
-      },
-      {
         "date": "2026-04-08",
         "count": 2
       },
@@ -230,6 +226,10 @@
       },
       {
         "date": "2026-04-13",
+        "count": 0
+      },
+      {
+        "date": "2026-04-14",
         "count": 0
       }
     ]
