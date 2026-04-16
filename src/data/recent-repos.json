@@ -14,8 +14,20 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-04-15T10:29:03Z",
+    "pushedAt": "2026-04-16T17:53:31Z",
     "lastCommits": [
+      {
+        "sha": "8988a43",
+        "message": "Merge pull request #7 from ThiagoPanini/feature/portfolio-improvements",
+        "date": "2026-04-16T17:53:31Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/8988a437aad22303598e8a1050409243aa185a59"
+      },
+      {
+        "sha": "1b92f5b",
+        "message": "feat: add tldr-prompt skill for generating concise summaries from GitHub Copilot files and documentation",
+        "date": "2026-04-16T17:41:05Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/1b92f5b9c6ddd50f831a9cf186fb54c17a7e9aac"
+      },
       {
         "sha": "37fa7a2",
         "message": "Merge pull request #6 from ThiagoPanini/feature/portfolio-improvements",
@@ -33,18 +45,6 @@
         "message": "feat: add styles for coverage card and AI impact panel; update projects section padding",
         "date": "2026-04-13T01:14:47Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/ccc43c41382a578e2181dc8ea4fb7025ad597adb"
-      },
-      {
-        "sha": "2af6cfa",
-        "message": "chore: updating coverage summary and language expansion data files",
-        "date": "2026-04-13T01:14:28Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/2af6cfa2076d1f5e99e0422f3b05757a8095121b"
-      },
-      {
-        "sha": "d949717",
-        "message": "feat: add coverage summary and language expansion data generation to workflows",
-        "date": "2026-04-13T01:14:11Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/d9497174c288d4235bd0fec331a1285f76f93adf"
       }
     ],
     "commitActivity": [
@@ -74,7 +74,7 @@
       },
       {
         "date": "2026-04-16",
-        "count": 0
+        "count": 2
       }
     ]
   },
