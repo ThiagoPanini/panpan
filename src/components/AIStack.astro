@@ -197,6 +197,8 @@ const latestUpdate = (() => {
 
 <section id="ai-stack" class="ais">
 
+  <canvas class="ais-canvas" aria-hidden="true"></canvas>
+
   <!-- ═══ Section Header ═══ -->
   <div class="ais-header">
     <span class="ais-overline">AI Driven Development</span>
@@ -524,3 +526,13 @@ const latestUpdate = (() => {
   @import '../styles/ai-stack.css';
   @import '../styles/coverage-proof.css';
 </style>
+
+<script>
+  import { initAIStackCanvas } from '../scripts/aiStackCanvas';
+
+  document.addEventListener('DOMContentLoaded', () => {
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      initAIStackCanvas();
+    }
+  });
+</script>

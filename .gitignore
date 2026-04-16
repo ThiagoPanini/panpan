@@ -32,5 +32,11 @@ desktop.ini
 .claude/
 .vercel
 
+# MCP configuration (contains machine-specific paths)
+.mcp.json
+
+# Skills lock
+skills-lock.json
+
 # Temporary archived sections
 tmp/
