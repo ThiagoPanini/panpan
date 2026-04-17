@@ -1,5 +1,85 @@
 [
   {
+    "name": "tfbox",
+    "description": "📦 A collection of production-ready Terraform modules focused on AWS environments",
+    "url": "https://github.com/ThiagoPanini/tfbox",
+    "language": "TypeScript",
+    "technologies": [
+      "TypeScript",
+      "HCL"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "aws",
+      "modules",
+      "terraform"
+    ],
+    "pushedAt": "2026-04-17T03:08:11Z",
+    "lastCommits": [
+      {
+        "sha": "359f375",
+        "message": "Merge pull request #35 from ThiagoPanini/feature/tfbox-catalog",
+        "date": "2026-04-16T20:41:35Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/359f375d09f351e55f30b18d371d93c352e34d0e"
+      },
+      {
+        "sha": "9355e6d",
+        "message": "fix: reorder parser unit tests step in catalog validation workflow",
+        "date": "2026-04-16T20:38:16Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/9355e6d0087704524890045ae2a1270682d77397"
+      },
+      {
+        "sha": "409662d",
+        "message": "feat: add GitHub Actions workflows for catalog validation and deployment",
+        "date": "2026-04-16T20:34:51Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/409662d8fdca86979816709fd3e1baa9ccac219c"
+      },
+      {
+        "sha": "f3d3aa3",
+        "message": "fix(ci): fix test and web artifact build steps",
+        "date": "2026-04-16T20:20:50Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/f3d3aa33987ca03238657590da02f846a4964ca7"
+      },
+      {
+        "sha": "cb71d75",
+        "message": "fix: ensure web public directory is created before building catalog.json",
+        "date": "2026-04-16T20:13:23Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/cb71d755b6f651d5496aea6feb48e2565ec751cc"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-04-11",
+        "count": 0
+      },
+      {
+        "date": "2026-04-12",
+        "count": 0
+      },
+      {
+        "date": "2026-04-13",
+        "count": 0
+      },
+      {
+        "date": "2026-04-14",
+        "count": 0
+      },
+      {
+        "date": "2026-04-15",
+        "count": 0
+      },
+      {
+        "date": "2026-04-16",
+        "count": 8
+      },
+      {
+        "date": "2026-04-17",
+        "count": 0
+      }
+    ]
+  },
+  {
     "name": "panpan",
     "description": "✨ A personal webpage where you can find relevant technical information about me",
     "url": "https://github.com/ThiagoPanini/panpan",
@@ -14,7 +94,7 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-04-16T17:53:31Z",
+    "pushedAt": "2026-04-16T17:53:54Z",
     "lastCommits": [
       {
         "sha": "8988a43",
@@ -49,10 +129,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-04-10",
-        "count": 22
-      },
-      {
         "date": "2026-04-11",
         "count": 0
       },
@@ -75,6 +151,10 @@
       {
         "date": "2026-04-16",
         "count": 2
+      },
+      {
+        "date": "2026-04-17",
+        "count": 0
       }
     ]
   },
@@ -124,10 +204,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-04-10",
-        "count": 0
-      },
-      {
         "date": "2026-04-11",
         "count": 0
       },
@@ -150,86 +226,9 @@
       {
         "date": "2026-04-16",
         "count": 0
-      }
-    ]
-  },
-  {
-    "name": "aidriven",
-    "description": "🔩 A Python CLI tool for getting and installing AI development resources into software projects.",
-    "url": "https://github.com/ThiagoPanini/aidriven",
-    "language": "Python",
-    "technologies": [
-      "Python",
-      "Shell"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "agent-skills",
-      "ai",
-      "cli",
-      "python"
-    ],
-    "pushedAt": "2026-04-10T09:56:12Z",
-    "lastCommits": [
-      {
-        "sha": "5bb7ae4",
-        "message": "Merge pull request #47 from ThiagoPanini/v0.2.1/fix-linter-problems",
-        "date": "2026-04-09T13:16:33Z",
-        "url": "https://github.com/ThiagoPanini/aidriven/commit/5bb7ae4685fd02645bfb87fa36bd676262906563"
       },
       {
-        "sha": "5f3ed81",
-        "message": "Merge branch 'main' into v0.2.1/fix-linter-problems",
-        "date": "2026-04-09T13:14:02Z",
-        "url": "https://github.com/ThiagoPanini/aidriven/commit/5f3ed814bf4d91de9185da02f33a631b41012da4"
-      },
-      {
-        "sha": "7930255",
-        "message": "feat: add unit tests for HTTP retry logic, lockfile handling, manifest parsing, path resolution, planner decisions, and artifact name validation",
-        "date": "2026-04-09T13:11:32Z",
-        "url": "https://github.com/ThiagoPanini/aidriven/commit/7930255ffa0bb12c09e1e85f11eac4df78f410a5"
-      },
-      {
-        "sha": "5258ac1",
-        "message": "Merge pull request #46 from ThiagoPanini/v0.2.0/spec-002-cli-artifact-install",
-        "date": "2026-04-09T13:01:27Z",
-        "url": "https://github.com/ThiagoPanini/aidriven/commit/5258ac1d13e12cc9b9fefe6fa0d35986d2a601e2"
-      },
-      {
-        "sha": "02d5c55",
-        "message": "Merge branch 'main' into v0.2.0/spec-002-cli-artifact-install",
-        "date": "2026-04-09T12:59:30Z",
-        "url": "https://github.com/ThiagoPanini/aidriven/commit/02d5c55d50d57b6e8f6e7b6b939bdf5cf44682c7"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-04-10",
-        "count": 0
-      },
-      {
-        "date": "2026-04-11",
-        "count": 0
-      },
-      {
-        "date": "2026-04-12",
-        "count": 0
-      },
-      {
-        "date": "2026-04-13",
-        "count": 0
-      },
-      {
-        "date": "2026-04-14",
-        "count": 0
-      },
-      {
-        "date": "2026-04-15",
-        "count": 0
-      },
-      {
-        "date": "2026-04-16",
+        "date": "2026-04-17",
         "count": 0
       }
     ]
