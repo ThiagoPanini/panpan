@@ -1,5 +1,75 @@
 [
   {
+    "name": "campfire",
+    "description": "🔥 A web app that helps groups of friends organize and enjoy their music jam sessions.",
+    "url": "https://github.com/ThiagoPanini/campfire",
+    "language": "CSS",
+    "technologies": [
+      "CSS",
+      "TypeScript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "pushedAt": "2026-04-18T03:41:49Z",
+    "lastCommits": [
+      {
+        "sha": "f9af422",
+        "message": "Merge pull request #1 from ThiagoPanini/copilot/scaffold-frontend-backend-structure",
+        "date": "2026-04-03T00:35:19Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/f9af42225828303ef8e18fc43073f1c41538c425"
+      },
+      {
+        "sha": "9918edd",
+        "message": "Scaffold frontend (React + TypeScript + Vite) and backend (Python + FastAPI)",
+        "date": "2026-04-03T00:28:46Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/9918edd016a4f605e5d003d2c03bcbf009d9688f"
+      },
+      {
+        "sha": "2c5d1dd",
+        "message": "Initial plan",
+        "date": "2026-04-03T00:10:22Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/2c5d1dd06aaa5c1dde21128139c79b536e57aaa9"
+      },
+      {
+        "sha": "01f8ec5",
+        "message": "Initial commit",
+        "date": "2026-04-03T00:10:19Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/01f8ec5cc3688991d742a3a6a853e0cad6cae57f"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-04-12",
+        "count": 0
+      },
+      {
+        "date": "2026-04-13",
+        "count": 0
+      },
+      {
+        "date": "2026-04-14",
+        "count": 0
+      },
+      {
+        "date": "2026-04-15",
+        "count": 0
+      },
+      {
+        "date": "2026-04-16",
+        "count": 0
+      },
+      {
+        "date": "2026-04-17",
+        "count": 0
+      },
+      {
+        "date": "2026-04-18",
+        "count": 0
+      }
+    ]
+  },
+  {
     "name": "tfbox",
     "description": "📦 A collection of production-ready Terraform modules focused on AWS environments",
     "url": "https://github.com/ThiagoPanini/tfbox",
@@ -15,7 +85,7 @@
       "modules",
       "terraform"
     ],
-    "pushedAt": "2026-04-17T03:08:11Z",
+    "pushedAt": "2026-04-18T01:19:08Z",
     "lastCommits": [
       {
         "sha": "359f375",
@@ -50,10 +120,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-04-11",
-        "count": 0
-      },
-      {
         "date": "2026-04-12",
         "count": 0
       },
@@ -76,6 +142,10 @@
       {
         "date": "2026-04-17",
         "count": 0
+      },
+      {
+        "date": "2026-04-18",
+        "count": 0
       }
     ]
   },
@@ -94,7 +164,7 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-04-16T17:53:54Z",
+    "pushedAt": "2026-04-17T10:27:07Z",
     "lastCommits": [
       {
         "sha": "8988a43",
@@ -129,10 +199,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-04-11",
-        "count": 0
-      },
-      {
         "date": "2026-04-12",
         "count": 0
       },
@@ -155,80 +221,9 @@
       {
         "date": "2026-04-17",
         "count": 0
-      }
-    ]
-  },
-  {
-    "name": "aidriven-resources",
-    "description": "🧰 AI resources and artifacts for improving AI development journey",
-    "url": "https://github.com/ThiagoPanini/aidriven-resources",
-    "language": "Python",
-    "technologies": [
-      "Python",
-      "HTML"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "agents",
-      "sdd",
-      "skills",
-      "specs"
-    ],
-    "pushedAt": "2026-04-13T03:20:34Z",
-    "lastCommits": [
-      {
-        "sha": "a27b212",
-        "message": "Skill prompt engineering (#3)",
-        "date": "2026-04-09T21:35:14Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/a27b2127c64a3500b13add447c83782605771d2b"
       },
       {
-        "sha": "5275f59",
-        "message": "Remove deprecated skill packaging and validation scripts (#2)",
-        "date": "2026-04-07T02:26:25Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/5275f59470b1a36e4c0ef7ba91ffa73b860a7426"
-      },
-      {
-        "sha": "9664f79",
-        "message": "Repository setup (#1)",
-        "date": "2026-04-07T02:18:36Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/9664f793394494bef7977bd4ecc3f638125be08c"
-      },
-      {
-        "sha": "a6e9d4f",
-        "message": "Initial commit",
-        "date": "2026-04-07T01:28:22Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/a6e9d4f5b0f0aae9f14c902396e5e6738bf77274"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-04-11",
-        "count": 0
-      },
-      {
-        "date": "2026-04-12",
-        "count": 0
-      },
-      {
-        "date": "2026-04-13",
-        "count": 0
-      },
-      {
-        "date": "2026-04-14",
-        "count": 0
-      },
-      {
-        "date": "2026-04-15",
-        "count": 0
-      },
-      {
-        "date": "2026-04-16",
-        "count": 0
-      },
-      {
-        "date": "2026-04-17",
+        "date": "2026-04-18",
         "count": 0
       }
     ]

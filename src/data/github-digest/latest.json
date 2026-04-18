@@ -1,10 +1,10 @@
 {
-  "weekStart": "2026-04-10",
-  "weekEnd": "2026-04-16",
-  "generatedAt": "2026-04-17T10:27:05.974Z",
-  "summary": "I focus this week on enhancing CI workflows in tfbox, improving portfolio features in panpan, and adding skills like tldr-prompt for summarization while iterating on navigation, styles, and catalog validation.",
+  "weekStart": "2026-04-11",
+  "weekEnd": "2026-04-17",
+  "generatedAt": "2026-04-18T10:15:05.616Z",
+  "summary": "I focused on enhancing workflows and validation in tfbox, improved navigation and styling in panpan, and introduced a TL;DR skill for concise summaries, while iterating on branches and reviews across both projects.",
   "stats": {
-    "commits": 38,
+    "commits": 16,
     "reposTouched": [
       "tfbox",
       "panpan"
