@@ -1,11 +1,13 @@
 {
-  "weekStart": "2026-04-11",
-  "weekEnd": "2026-04-17",
-  "generatedAt": "2026-04-18T10:15:05.616Z",
-  "summary": "I focused on enhancing workflows and validation in tfbox, improved navigation and styling in panpan, and introduced a TL;DR skill for concise summaries, while iterating on branches and reviews across both projects.",
+  "weekStart": "2026-04-12",
+  "weekEnd": "2026-04-18",
+  "generatedAt": "2026-04-19T10:14:49.664Z",
+  "summary": "I focus this week on enhancing CI workflows and catalog validation in tfbox, improving navigation and AI features in panpan, and exploring collaborative opportunities in campfire and everything-claude-code.",
   "stats": {
     "commits": 16,
     "reposTouched": [
+      "campfire",
+      "affaan-m/everything-claude-code",
       "tfbox",
       "panpan"
     ],

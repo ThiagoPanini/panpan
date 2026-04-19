@@ -1,5 +1,84 @@
 [
   {
+    "name": "panpan",
+    "description": "✨ A personal webpage where you can find relevant technical information about me",
+    "url": "https://github.com/ThiagoPanini/panpan",
+    "language": "CSS",
+    "technologies": [
+      "CSS",
+      "Astro"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "front-end",
+      "website"
+    ],
+    "pushedAt": "2026-04-18T10:15:06Z",
+    "lastCommits": [
+      {
+        "sha": "8988a43",
+        "message": "Merge pull request #7 from ThiagoPanini/feature/portfolio-improvements",
+        "date": "2026-04-16T17:53:31Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/8988a437aad22303598e8a1050409243aa185a59"
+      },
+      {
+        "sha": "1b92f5b",
+        "message": "feat: add tldr-prompt skill for generating concise summaries from GitHub Copilot files and documentation",
+        "date": "2026-04-16T17:41:05Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/1b92f5b9c6ddd50f831a9cf186fb54c17a7e9aac"
+      },
+      {
+        "sha": "37fa7a2",
+        "message": "Merge pull request #6 from ThiagoPanini/feature/portfolio-improvements",
+        "date": "2026-04-13T01:17:41Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/37fa7a20bd3b9583a6fdce6530fcf01762834b8f"
+      },
+      {
+        "sha": "454b24d",
+        "message": "feat: update navigation sections to include only Home, Projects, and AI Stack",
+        "date": "2026-04-13T01:15:56Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/454b24d380240d21764175ae82e20ef8b385f763"
+      },
+      {
+        "sha": "ccc43c4",
+        "message": "feat: add styles for coverage card and AI impact panel; update projects section padding",
+        "date": "2026-04-13T01:14:47Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/ccc43c41382a578e2181dc8ea4fb7025ad597adb"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-04-13",
+        "count": 6
+      },
+      {
+        "date": "2026-04-14",
+        "count": 0
+      },
+      {
+        "date": "2026-04-15",
+        "count": 0
+      },
+      {
+        "date": "2026-04-16",
+        "count": 2
+      },
+      {
+        "date": "2026-04-17",
+        "count": 0
+      },
+      {
+        "date": "2026-04-18",
+        "count": 0
+      },
+      {
+        "date": "2026-04-19",
+        "count": 0
+      }
+    ]
+  },
+  {
     "name": "campfire",
     "description": "🔥 A web app that helps groups of friends organize and enjoy their music jam sessions.",
     "url": "https://github.com/ThiagoPanini/campfire",
@@ -40,10 +119,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-04-12",
-        "count": 0
-      },
-      {
         "date": "2026-04-13",
         "count": 0
       },
@@ -65,6 +140,10 @@
       },
       {
         "date": "2026-04-18",
+        "count": 0
+      },
+      {
+        "date": "2026-04-19",
         "count": 0
       }
     ]
@@ -120,10 +199,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-04-12",
-        "count": 0
-      },
-      {
         "date": "2026-04-13",
         "count": 0
       },
@@ -146,84 +221,9 @@
       {
         "date": "2026-04-18",
         "count": 0
-      }
-    ]
-  },
-  {
-    "name": "panpan",
-    "description": "✨ A personal webpage where you can find relevant technical information about me",
-    "url": "https://github.com/ThiagoPanini/panpan",
-    "language": "CSS",
-    "technologies": [
-      "CSS",
-      "Astro"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "front-end",
-      "website"
-    ],
-    "pushedAt": "2026-04-17T10:27:07Z",
-    "lastCommits": [
-      {
-        "sha": "8988a43",
-        "message": "Merge pull request #7 from ThiagoPanini/feature/portfolio-improvements",
-        "date": "2026-04-16T17:53:31Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/8988a437aad22303598e8a1050409243aa185a59"
       },
       {
-        "sha": "1b92f5b",
-        "message": "feat: add tldr-prompt skill for generating concise summaries from GitHub Copilot files and documentation",
-        "date": "2026-04-16T17:41:05Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/1b92f5b9c6ddd50f831a9cf186fb54c17a7e9aac"
-      },
-      {
-        "sha": "37fa7a2",
-        "message": "Merge pull request #6 from ThiagoPanini/feature/portfolio-improvements",
-        "date": "2026-04-13T01:17:41Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/37fa7a20bd3b9583a6fdce6530fcf01762834b8f"
-      },
-      {
-        "sha": "454b24d",
-        "message": "feat: update navigation sections to include only Home, Projects, and AI Stack",
-        "date": "2026-04-13T01:15:56Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/454b24d380240d21764175ae82e20ef8b385f763"
-      },
-      {
-        "sha": "ccc43c4",
-        "message": "feat: add styles for coverage card and AI impact panel; update projects section padding",
-        "date": "2026-04-13T01:14:47Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/ccc43c41382a578e2181dc8ea4fb7025ad597adb"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-04-12",
-        "count": 0
-      },
-      {
-        "date": "2026-04-13",
-        "count": 6
-      },
-      {
-        "date": "2026-04-14",
-        "count": 0
-      },
-      {
-        "date": "2026-04-15",
-        "count": 0
-      },
-      {
-        "date": "2026-04-16",
-        "count": 2
-      },
-      {
-        "date": "2026-04-17",
-        "count": 0
-      },
-      {
-        "date": "2026-04-18",
+        "date": "2026-04-19",
         "count": 0
       }
     ]
