@@ -3,46 +3,47 @@
     "name": "campfire",
     "description": "🔥 A web app that helps groups of friends organize and enjoy their music jam sessions.",
     "url": "https://github.com/ThiagoPanini/campfire",
-    "language": "CSS",
+    "language": "Python",
     "technologies": [
-      "CSS",
-      "TypeScript"
+      "Python"
     ],
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-04-20T00:29:00Z",
+    "pushedAt": "2026-04-20T14:49:36Z",
     "lastCommits": [
       {
-        "sha": "f9af422",
-        "message": "Merge pull request #1 from ThiagoPanini/copilot/scaffold-frontend-backend-structure",
-        "date": "2026-04-03T00:35:19Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/f9af42225828303ef8e18fc43073f1c41538c425"
+        "sha": "855c704",
+        "message": "Merge pull request #2 from ThiagoPanini/feature/docs-first-deploy",
+        "date": "2026-04-20T14:49:36Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/855c704fe2ebea94e1db5c19fd75bc31f22aef22"
       },
       {
-        "sha": "9918edd",
-        "message": "Scaffold frontend (React + TypeScript + Vite) and backend (Python + FastAPI)",
-        "date": "2026-04-03T00:28:46Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/9918edd016a4f605e5d003d2c03bcbf009d9688f"
+        "sha": "13a9dc6",
+        "message": "feat: add Mintlify server configuration to mcp.json",
+        "date": "2026-04-20T14:45:06Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/13a9dc67eff2719dde6d56f2e4d521abf545717b"
       },
       {
-        "sha": "2c5d1dd",
-        "message": "Initial plan",
-        "date": "2026-04-03T00:10:22Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/2c5d1dd06aaa5c1dde21128139c79b536e57aaa9"
+        "sha": "8718dcd",
+        "message": "chore: add mintlify integration skills configuration",
+        "date": "2026-04-20T14:41:52Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/8718dcd30c281d5307638bb91affe262b7913261"
       },
       {
-        "sha": "01f8ec5",
-        "message": "Initial commit",
-        "date": "2026-04-03T00:10:19Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/01f8ec5cc3688991d742a3a6a853e0cad6cae57f"
+        "sha": "ca47da0",
+        "message": "chore: remove deprecated configuration and documentation",
+        "date": "2026-04-20T14:41:45Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/ca47da084cd21ea28d98957564885e832bbdf57f"
+      },
+      {
+        "sha": "1bce698",
+        "message": "docs: add mintlify documentation site with guides and examples",
+        "date": "2026-04-20T14:41:38Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/1bce69882c110544fc6b14b5ef83407d327e39c0"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-04-14",
-        "count": 0
-      },
       {
         "date": "2026-04-15",
         "count": 0
@@ -57,7 +58,7 @@
       },
       {
         "date": "2026-04-18",
-        "count": 0
+        "count": 12
       },
       {
         "date": "2026-04-19",
@@ -65,6 +66,10 @@
       },
       {
         "date": "2026-04-20",
+        "count": 15
+      },
+      {
+        "date": "2026-04-21",
         "count": 0
       }
     ]
@@ -84,7 +89,7 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-04-19T10:14:50Z",
+    "pushedAt": "2026-04-20T10:35:10Z",
     "lastCommits": [
       {
         "sha": "8988a43",
@@ -99,6 +104,12 @@
         "url": "https://github.com/ThiagoPanini/panpan/commit/1b92f5b9c6ddd50f831a9cf186fb54c17a7e9aac"
       },
       {
+        "sha": "485d7cd",
+        "message": "chore(data): daily refresh 2026-04-20",
+        "date": "2026-04-20T10:35:09Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/485d7cd50e48ac4003784803bcd77a22260d9817"
+      },
+      {
         "sha": "e6bbd5b",
         "message": "chore(data): daily refresh 2026-04-19",
         "date": "2026-04-19T10:14:50Z",
@@ -109,19 +120,9 @@
         "message": "chore(data): daily refresh 2026-04-18",
         "date": "2026-04-18T10:15:06Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/cd91f81da4a6c5ca539c5a0ecf63f5ac2bd8815a"
-      },
-      {
-        "sha": "e7ec26a",
-        "message": "chore(data): daily refresh 2026-04-17",
-        "date": "2026-04-17T10:27:07Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/e7ec26a6575f288ab15ac94d30ab4e96e147152b"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-04-14",
-        "count": 0
-      },
       {
         "date": "2026-04-15",
         "count": 0
@@ -144,6 +145,10 @@
       },
       {
         "date": "2026-04-20",
+        "count": 0
+      },
+      {
+        "date": "2026-04-21",
         "count": 0
       }
     ]
@@ -199,10 +204,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-04-14",
-        "count": 0
-      },
-      {
         "date": "2026-04-15",
         "count": 0
       },
@@ -224,6 +225,10 @@
       },
       {
         "date": "2026-04-20",
+        "count": 0
+      },
+      {
+        "date": "2026-04-21",
         "count": 0
       }
     ]

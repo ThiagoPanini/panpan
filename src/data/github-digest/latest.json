@@ -1,10 +1,10 @@
 {
-  "weekStart": "2026-04-13",
-  "weekEnd": "2026-04-19",
-  "generatedAt": "2026-04-20T10:35:08.981Z",
-  "summary": "I focus this week on enhancing workflows and features in tfbox and panpan, refining catalog validation, deployment pipelines, and portfolio navigation while exploring AI-driven summarization skills.",
+  "weekStart": "2026-04-14",
+  "weekEnd": "2026-04-20",
+  "generatedAt": "2026-04-21T10:30:50.989Z",
+  "summary": "I focus this week on refining workflows and integrating new features across campfire, tfbox, and panpan, including setting up Mintlify documentation, enhancing CI pipelines, and adding tools for streamlined summaries.",
   "stats": {
-    "commits": 16,
+    "commits": 37,
     "reposTouched": [
       "campfire",
       "affaan-m/everything-claude-code",
