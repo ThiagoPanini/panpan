@@ -1,53 +1,211 @@
 [
   {
-    "name": "campfire",
-    "description": "🔥 A web app that helps groups of friends organize and enjoy their music jam sessions.",
-    "url": "https://github.com/ThiagoPanini/campfire",
-    "language": "Python",
+    "name": "tfbox",
+    "description": "📦 A collection of production-ready Terraform modules focused on AWS environments",
+    "url": "https://github.com/ThiagoPanini/tfbox",
+    "language": "TypeScript",
     "technologies": [
-      "Python"
+      "TypeScript",
+      "HCL"
     ],
     "stars": 0,
     "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-04-21T15:16:02Z",
+    "topics": [
+      "aws",
+      "modules",
+      "terraform"
+    ],
+    "pushedAt": "2026-04-23T05:47:17Z",
     "lastCommits": [
       {
-        "sha": "855c704",
-        "message": "Merge pull request #2 from ThiagoPanini/feature/docs-first-deploy",
-        "date": "2026-04-20T14:49:36Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/855c704fe2ebea94e1db5c19fd75bc31f22aef22"
+        "sha": "a52e5fc",
+        "message": "pr(main): feature/fixing-counter-view -> main (#51)",
+        "date": "2026-04-18T01:19:06Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/a52e5fce98875e43bc823179f6a92a38aa1818f0"
       },
       {
-        "sha": "13a9dc6",
-        "message": "feat: add Mintlify server configuration to mcp.json",
-        "date": "2026-04-20T14:45:06Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/13a9dc67eff2719dde6d56f2e4d521abf545717b"
+        "sha": "c85f5da",
+        "message": "pr(main): feature/improving-ui -> main (#50)",
+        "date": "2026-04-17T14:07:01Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/c85f5dac97d67dfe634a06b9446a8d1cd42ae4b8"
       },
       {
-        "sha": "8718dcd",
-        "message": "chore: add mintlify integration skills configuration",
-        "date": "2026-04-20T14:41:52Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/8718dcd30c281d5307638bb91affe262b7913261"
+        "sha": "bcd59a9",
+        "message": "pr(main): Fixing view counter on module's cards (#49)",
+        "date": "2026-04-17T13:34:22Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/bcd59a9694e654fcb99d45bb39313c6f49a54cae"
       },
       {
-        "sha": "ca47da0",
-        "message": "chore: remove deprecated configuration and documentation",
-        "date": "2026-04-20T14:41:45Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/ca47da084cd21ea28d98957564885e832bbdf57f"
+        "sha": "5a92674",
+        "message": "pr(main): feature/improving-ui -> main (#48)",
+        "date": "2026-04-17T13:07:06Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/5a92674bc5869521886a61261b798f7a17f13e6a"
       },
       {
-        "sha": "1bce698",
-        "message": "docs: add mintlify documentation site with guides and examples",
-        "date": "2026-04-20T14:41:38Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/1bce69882c110544fc6b14b5ef83407d327e39c0"
+        "sha": "38d552f",
+        "message": "pr(main): feature/improving-ui -> main (#47)",
+        "date": "2026-04-17T02:25:00Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/38d552f2ac93f466a0eee392f653a902583e40e9"
       }
     ],
     "commitActivity": [
       {
-        "date": "2026-04-16",
+        "date": "2026-04-17",
         "count": 0
       },
+      {
+        "date": "2026-04-18",
+        "count": 0
+      },
+      {
+        "date": "2026-04-19",
+        "count": 0
+      },
+      {
+        "date": "2026-04-20",
+        "count": 0
+      },
+      {
+        "date": "2026-04-21",
+        "count": 0
+      },
+      {
+        "date": "2026-04-22",
+        "count": 0
+      },
+      {
+        "date": "2026-04-23",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "name": "aidriven-resources",
+    "description": "🧰 AI resources and artifacts for improving AI development journey",
+    "url": "https://github.com/ThiagoPanini/aidriven-resources",
+    "language": "Python",
+    "technologies": [
+      "Python",
+      "HTML"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "agents",
+      "sdd",
+      "skills",
+      "specs"
+    ],
+    "pushedAt": "2026-04-23T01:44:27Z",
+    "lastCommits": [
+      {
+        "sha": "ca36891",
+        "message": "release: v0.1.3 (#12)",
+        "date": "2026-04-23T01:44:04Z",
+        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/ca36891ca8c41d50026928b609866c3a4c25211a"
+      },
+      {
+        "sha": "a282281",
+        "message": "feat: Ai dev setup (#11)",
+        "date": "2026-04-23T01:31:02Z",
+        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/a282281b562c9e3ec8fe9c0ab6412b38d40b9d0f"
+      },
+      {
+        "sha": "8e4cde1",
+        "message": "release: v0.1.2 (#9)",
+        "date": "2026-04-22T22:06:19Z",
+        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/8e4cde16fb2b9d40c3f2f5c539f405650aee8eb5"
+      },
+      {
+        "sha": "a66f147",
+        "message": "chore: unify CI workflow (#8)",
+        "date": "2026-04-22T22:03:39Z",
+        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/a66f147a81c36e83883827becaa651bbbce2100d"
+      },
+      {
+        "sha": "a77297e",
+        "message": "chore: automate release workflow (#6)",
+        "date": "2026-04-22T21:48:28Z",
+        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/a77297e24bc5bf8a18898c37136bda38c774e4f3"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-04-17",
+        "count": 0
+      },
+      {
+        "date": "2026-04-18",
+        "count": 0
+      },
+      {
+        "date": "2026-04-19",
+        "count": 0
+      },
+      {
+        "date": "2026-04-20",
+        "count": 0
+      },
+      {
+        "date": "2026-04-21",
+        "count": 0
+      },
+      {
+        "date": "2026-04-22",
+        "count": 0
+      },
+      {
+        "date": "2026-04-23",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "name": "campfire",
+    "description": "🔥 A web app that helps groups of friends organize and enjoy their music jam sessions.",
+    "url": "https://github.com/ThiagoPanini/campfire",
+    "language": "Shell",
+    "technologies": [
+      "Shell",
+      "PowerShell"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "pushedAt": "2026-04-22T16:35:24Z",
+    "lastCommits": [
+      {
+        "sha": "8fbbbdb",
+        "message": "Merge pull request #4 from ThiagoPanini/refactor/full-repo-reset",
+        "date": "2026-04-22T16:35:23Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/8fbbbdb23a761d372f630c8c399528d1d5a7b6e1"
+      },
+      {
+        "sha": "a64364c",
+        "message": "feat: add comprehensive AI tooling and agentic context setup documentation",
+        "date": "2026-04-22T16:33:40Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/a64364c09f451969e6b132398b628fca7d37636b"
+      },
+      {
+        "sha": "8052e5c",
+        "message": "feat: add GitHub server configuration to MCP settings",
+        "date": "2026-04-22T16:33:32Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/8052e5cb38d981712600fbe491a31df637e236c3"
+      },
+      {
+        "sha": "d964150",
+        "message": "Merge pull request #3 from ThiagoPanini/refactor/full-repo-reset",
+        "date": "2026-04-22T16:29:34Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/d964150dddf9b6af0d10a36e0eb2e89c07a40b38"
+      },
+      {
+        "sha": "0127968",
+        "message": "feat: add settings for serena hooks configuration",
+        "date": "2026-04-22T16:19:27Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/0127968c6d6a59676cf94baf942a10a284445920"
+      }
+    ],
+    "commitActivity": [
       {
         "date": "2026-04-17",
         "count": 0
@@ -70,165 +228,10 @@
       },
       {
         "date": "2026-04-22",
-        "count": 0
-      }
-    ]
-  },
-  {
-    "name": "panpan",
-    "description": "✨ A personal webpage where you can find relevant technical information about me",
-    "url": "https://github.com/ThiagoPanini/panpan",
-    "language": "CSS",
-    "technologies": [
-      "CSS",
-      "Astro"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "front-end",
-      "website"
-    ],
-    "pushedAt": "2026-04-21T10:30:53Z",
-    "lastCommits": [
-      {
-        "sha": "8988a43",
-        "message": "Merge pull request #7 from ThiagoPanini/feature/portfolio-improvements",
-        "date": "2026-04-16T17:53:31Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/8988a437aad22303598e8a1050409243aa185a59"
+        "count": 22
       },
       {
-        "sha": "1b92f5b",
-        "message": "feat: add tldr-prompt skill for generating concise summaries from GitHub Copilot files and documentation",
-        "date": "2026-04-16T17:41:05Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/1b92f5b9c6ddd50f831a9cf186fb54c17a7e9aac"
-      },
-      {
-        "sha": "70cace3",
-        "message": "chore(data): daily refresh 2026-04-21",
-        "date": "2026-04-21T10:30:52Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/70cace3b3c13ebe8e2fd4b8bdb2c7468fac8f5a4"
-      },
-      {
-        "sha": "485d7cd",
-        "message": "chore(data): daily refresh 2026-04-20",
-        "date": "2026-04-20T10:35:09Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/485d7cd50e48ac4003784803bcd77a22260d9817"
-      },
-      {
-        "sha": "e6bbd5b",
-        "message": "chore(data): daily refresh 2026-04-19",
-        "date": "2026-04-19T10:14:50Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/e6bbd5bb6784cda2a6fc1d69a082be8073538257"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-04-16",
-        "count": 2
-      },
-      {
-        "date": "2026-04-17",
-        "count": 0
-      },
-      {
-        "date": "2026-04-18",
-        "count": 0
-      },
-      {
-        "date": "2026-04-19",
-        "count": 0
-      },
-      {
-        "date": "2026-04-20",
-        "count": 0
-      },
-      {
-        "date": "2026-04-21",
-        "count": 0
-      },
-      {
-        "date": "2026-04-22",
-        "count": 0
-      }
-    ]
-  },
-  {
-    "name": "tfbox",
-    "description": "📦 A collection of production-ready Terraform modules focused on AWS environments",
-    "url": "https://github.com/ThiagoPanini/tfbox",
-    "language": "TypeScript",
-    "technologies": [
-      "TypeScript",
-      "HCL"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "aws",
-      "modules",
-      "terraform"
-    ],
-    "pushedAt": "2026-04-18T01:19:08Z",
-    "lastCommits": [
-      {
-        "sha": "359f375",
-        "message": "Merge pull request #35 from ThiagoPanini/feature/tfbox-catalog",
-        "date": "2026-04-16T20:41:35Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/359f375d09f351e55f30b18d371d93c352e34d0e"
-      },
-      {
-        "sha": "9355e6d",
-        "message": "fix: reorder parser unit tests step in catalog validation workflow",
-        "date": "2026-04-16T20:38:16Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/9355e6d0087704524890045ae2a1270682d77397"
-      },
-      {
-        "sha": "409662d",
-        "message": "feat: add GitHub Actions workflows for catalog validation and deployment",
-        "date": "2026-04-16T20:34:51Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/409662d8fdca86979816709fd3e1baa9ccac219c"
-      },
-      {
-        "sha": "f3d3aa3",
-        "message": "fix(ci): fix test and web artifact build steps",
-        "date": "2026-04-16T20:20:50Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/f3d3aa33987ca03238657590da02f846a4964ca7"
-      },
-      {
-        "sha": "cb71d75",
-        "message": "fix: ensure web public directory is created before building catalog.json",
-        "date": "2026-04-16T20:13:23Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/cb71d755b6f651d5496aea6feb48e2565ec751cc"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-04-16",
-        "count": 8
-      },
-      {
-        "date": "2026-04-17",
-        "count": 0
-      },
-      {
-        "date": "2026-04-18",
-        "count": 0
-      },
-      {
-        "date": "2026-04-19",
-        "count": 0
-      },
-      {
-        "date": "2026-04-20",
-        "count": 0
-      },
-      {
-        "date": "2026-04-21",
-        "count": 0
-      },
-      {
-        "date": "2026-04-22",
+        "date": "2026-04-23",
         "count": 0
       }
     ]
