@@ -1,166 +1,5 @@
 [
   {
-    "name": "tfbox",
-    "description": "📦 A collection of production-ready Terraform modules focused on AWS environments",
-    "url": "https://github.com/ThiagoPanini/tfbox",
-    "language": "TypeScript",
-    "technologies": [
-      "TypeScript",
-      "HCL"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "aws",
-      "modules",
-      "terraform"
-    ],
-    "pushedAt": "2026-04-23T05:47:17Z",
-    "lastCommits": [
-      {
-        "sha": "a52e5fc",
-        "message": "pr(main): feature/fixing-counter-view -> main (#51)",
-        "date": "2026-04-18T01:19:06Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/a52e5fce98875e43bc823179f6a92a38aa1818f0"
-      },
-      {
-        "sha": "c85f5da",
-        "message": "pr(main): feature/improving-ui -> main (#50)",
-        "date": "2026-04-17T14:07:01Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/c85f5dac97d67dfe634a06b9446a8d1cd42ae4b8"
-      },
-      {
-        "sha": "bcd59a9",
-        "message": "pr(main): Fixing view counter on module's cards (#49)",
-        "date": "2026-04-17T13:34:22Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/bcd59a9694e654fcb99d45bb39313c6f49a54cae"
-      },
-      {
-        "sha": "5a92674",
-        "message": "pr(main): feature/improving-ui -> main (#48)",
-        "date": "2026-04-17T13:07:06Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/5a92674bc5869521886a61261b798f7a17f13e6a"
-      },
-      {
-        "sha": "38d552f",
-        "message": "pr(main): feature/improving-ui -> main (#47)",
-        "date": "2026-04-17T02:25:00Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/38d552f2ac93f466a0eee392f653a902583e40e9"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-04-17",
-        "count": 0
-      },
-      {
-        "date": "2026-04-18",
-        "count": 0
-      },
-      {
-        "date": "2026-04-19",
-        "count": 0
-      },
-      {
-        "date": "2026-04-20",
-        "count": 0
-      },
-      {
-        "date": "2026-04-21",
-        "count": 0
-      },
-      {
-        "date": "2026-04-22",
-        "count": 0
-      },
-      {
-        "date": "2026-04-23",
-        "count": 0
-      }
-    ]
-  },
-  {
-    "name": "aidriven-resources",
-    "description": "🧰 AI resources and artifacts for improving AI development journey",
-    "url": "https://github.com/ThiagoPanini/aidriven-resources",
-    "language": "Python",
-    "technologies": [
-      "Python",
-      "HTML"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "agents",
-      "sdd",
-      "skills",
-      "specs"
-    ],
-    "pushedAt": "2026-04-23T01:44:27Z",
-    "lastCommits": [
-      {
-        "sha": "ca36891",
-        "message": "release: v0.1.3 (#12)",
-        "date": "2026-04-23T01:44:04Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/ca36891ca8c41d50026928b609866c3a4c25211a"
-      },
-      {
-        "sha": "a282281",
-        "message": "feat: Ai dev setup (#11)",
-        "date": "2026-04-23T01:31:02Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/a282281b562c9e3ec8fe9c0ab6412b38d40b9d0f"
-      },
-      {
-        "sha": "8e4cde1",
-        "message": "release: v0.1.2 (#9)",
-        "date": "2026-04-22T22:06:19Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/8e4cde16fb2b9d40c3f2f5c539f405650aee8eb5"
-      },
-      {
-        "sha": "a66f147",
-        "message": "chore: unify CI workflow (#8)",
-        "date": "2026-04-22T22:03:39Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/a66f147a81c36e83883827becaa651bbbce2100d"
-      },
-      {
-        "sha": "a77297e",
-        "message": "chore: automate release workflow (#6)",
-        "date": "2026-04-22T21:48:28Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/a77297e24bc5bf8a18898c37136bda38c774e4f3"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-04-17",
-        "count": 0
-      },
-      {
-        "date": "2026-04-18",
-        "count": 0
-      },
-      {
-        "date": "2026-04-19",
-        "count": 0
-      },
-      {
-        "date": "2026-04-20",
-        "count": 0
-      },
-      {
-        "date": "2026-04-21",
-        "count": 0
-      },
-      {
-        "date": "2026-04-22",
-        "count": 0
-      },
-      {
-        "date": "2026-04-23",
-        "count": 0
-      }
-    ]
-  },
-  {
     "name": "campfire",
     "description": "🔥 A web app that helps groups of friends organize and enjoy their music jam sessions.",
     "url": "https://github.com/ThiagoPanini/campfire",
@@ -172,7 +11,7 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-04-22T16:35:24Z",
+    "pushedAt": "2026-04-23T21:43:30Z",
     "lastCommits": [
       {
         "sha": "8fbbbdb",
@@ -207,10 +46,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-04-17",
-        "count": 0
-      },
-      {
         "date": "2026-04-18",
         "count": 12
       },
@@ -232,6 +67,171 @@
       },
       {
         "date": "2026-04-23",
+        "count": 0
+      },
+      {
+        "date": "2026-04-24",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "name": "aidriven-resources",
+    "description": "🧰 AI resources and artifacts for improving AI development journey",
+    "url": "https://github.com/ThiagoPanini/aidriven-resources",
+    "language": "Python",
+    "technologies": [
+      "Python",
+      "HTML"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "agents",
+      "sdd",
+      "skills",
+      "specs"
+    ],
+    "pushedAt": "2026-04-23T15:09:39Z",
+    "lastCommits": [
+      {
+        "sha": "8026aac",
+        "message": "release: v0.2.0 (#15)",
+        "date": "2026-04-23T15:09:12Z",
+        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/8026aac10e5010e970031d21973de4193dfc61db"
+      },
+      {
+        "sha": "76d86e9",
+        "message": "feat: Ai dev setup alert fix (#14)",
+        "date": "2026-04-23T15:07:12Z",
+        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/76d86e9784043587b00d897275da55ccd477c513"
+      },
+      {
+        "sha": "c2990b5",
+        "message": "feat: Ai dev setup alert fix (#13)",
+        "date": "2026-04-23T14:26:04Z",
+        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/c2990b5bb2a9296cfce79529cbccc1b137e79770"
+      },
+      {
+        "sha": "ca36891",
+        "message": "release: v0.1.3 (#12)",
+        "date": "2026-04-23T01:44:04Z",
+        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/ca36891ca8c41d50026928b609866c3a4c25211a"
+      },
+      {
+        "sha": "a282281",
+        "message": "feat: Ai dev setup (#11)",
+        "date": "2026-04-23T01:31:02Z",
+        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/a282281b562c9e3ec8fe9c0ab6412b38d40b9d0f"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-04-18",
+        "count": 0
+      },
+      {
+        "date": "2026-04-19",
+        "count": 0
+      },
+      {
+        "date": "2026-04-20",
+        "count": 0
+      },
+      {
+        "date": "2026-04-21",
+        "count": 0
+      },
+      {
+        "date": "2026-04-22",
+        "count": 0
+      },
+      {
+        "date": "2026-04-23",
+        "count": 0
+      },
+      {
+        "date": "2026-04-24",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "name": "tfbox",
+    "description": "📦 A collection of production-ready Terraform modules focused on AWS environments",
+    "url": "https://github.com/ThiagoPanini/tfbox",
+    "language": "TypeScript",
+    "technologies": [
+      "TypeScript",
+      "HCL"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "aws",
+      "modules",
+      "terraform"
+    ],
+    "pushedAt": "2026-04-23T13:39:25Z",
+    "lastCommits": [
+      {
+        "sha": "02b1d5a",
+        "message": "chore(deps-dev): bump vitest from 1.6.1 to 4.1.5 in /web (#57)",
+        "date": "2026-04-23T13:39:22Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/02b1d5ab8d0c3b8c920f744f4d16eeee9f809d30"
+      },
+      {
+        "sha": "d871bea",
+        "message": "chore(deps-dev): bump typescript from 6.0.2 to 6.0.3 in /web (#58)",
+        "date": "2026-04-23T13:38:17Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/d871beabb2b70169a62d011112233bec9a94d4d8"
+      },
+      {
+        "sha": "d953f37",
+        "message": "chore(deps): bump @tailwindcss/postcss from 4.2.2 to 4.2.4 in /web (#56)",
+        "date": "2026-04-23T13:37:58Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/d953f373b55c2129e9d3ec28116e1ffcfb316e6a"
+      },
+      {
+        "sha": "b0ab2e5",
+        "message": "chore(deps): bump tailwind-merge from 2.6.1 to 3.5.0 in /web (#54)",
+        "date": "2026-04-23T13:37:37Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/b0ab2e5f6273a2f3b0cd551fd0881c590391d158"
+      },
+      {
+        "sha": "9884ab6",
+        "message": "chore(deps-dev): bump typescript from 6.0.2 to 6.0.3 in /scripts (#53)",
+        "date": "2026-04-23T13:37:28Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/9884ab621f62f46b57709e159034d6742ee31176"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-04-18",
+        "count": 0
+      },
+      {
+        "date": "2026-04-19",
+        "count": 0
+      },
+      {
+        "date": "2026-04-20",
+        "count": 0
+      },
+      {
+        "date": "2026-04-21",
+        "count": 0
+      },
+      {
+        "date": "2026-04-22",
+        "count": 0
+      },
+      {
+        "date": "2026-04-23",
+        "count": 0
+      },
+      {
+        "date": "2026-04-24",
         "count": 0
       }
     ]

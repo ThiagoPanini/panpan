@@ -1,17 +1,16 @@
 {
-  "weekStart": "2026-04-16",
-  "weekEnd": "2026-04-22",
-  "generatedAt": "2026-04-23T10:31:47.521Z",
-  "summary": "I focus this week on enhancing automation with GitHub Actions in tfbox, expanding AI tooling in campfire, improving portfolio features in panpan, and managing branches and reviews across aidriven-resources.",
+  "weekStart": "2026-04-17",
+  "weekEnd": "2026-04-23",
+  "generatedAt": "2026-04-24T10:32:03.796Z",
+  "summary": "I focused on refining configurations and documentation in campfire, managing branches and cleanup in aidriven-resources, and contributing across multiple repos with 49 commits and 4 PRs.",
   "stats": {
-    "commits": 59,
+    "commits": 49,
     "reposTouched": [
-      "aidriven-resources",
       "campfire",
-      "rtk-ai/rtk",
-      "affaan-m/everything-claude-code",
+      "aidriven-resources",
       "tfbox",
-      "panpan"
+      "rtk-ai/rtk",
+      "affaan-m/everything-claude-code"
     ],
     "pullRequests": 4
   },
