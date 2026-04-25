@@ -3,52 +3,47 @@
     "name": "campfire",
     "description": "🔥 A web app that helps groups of friends organize and enjoy their music jam sessions.",
     "url": "https://github.com/ThiagoPanini/campfire",
-    "language": "Shell",
+    "language": "Unknown",
     "technologies": [
-      "Shell",
-      "PowerShell"
+      "Unknown"
     ],
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-04-23T21:43:30Z",
+    "pushedAt": "2026-04-24T22:59:44Z",
     "lastCommits": [
       {
-        "sha": "8fbbbdb",
-        "message": "Merge pull request #4 from ThiagoPanini/refactor/full-repo-reset",
-        "date": "2026-04-22T16:35:23Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/8fbbbdb23a761d372f630c8c399528d1d5a7b6e1"
+        "sha": "c98563a",
+        "message": "Merge pull request #5 from ThiagoPanini/refactor/full-repo-reset-v2",
+        "date": "2026-04-24T22:59:44Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/c98563a9e2268655eb485010e43d2b5e510b4940"
       },
       {
-        "sha": "a64364c",
-        "message": "feat: add comprehensive AI tooling and agentic context setup documentation",
-        "date": "2026-04-22T16:33:40Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/a64364c09f451969e6b132398b628fca7d37636b"
+        "sha": "3e1ad44",
+        "message": "refactor: cleaning up all contents from this repo to start over again",
+        "date": "2026-04-24T22:56:53Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/3e1ad44eca1ce4257b0ace8afdd911b7ced3c4e8"
       },
       {
-        "sha": "8052e5c",
-        "message": "feat: add GitHub server configuration to MCP settings",
-        "date": "2026-04-22T16:33:32Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/8052e5cb38d981712600fbe491a31df637e236c3"
+        "sha": "6a7f37b",
+        "message": "Add tasks and validation report for refactoring authentication and preferences MVP",
+        "date": "2026-04-24T22:55:13Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/6a7f37b384db1aca684b298f008b95c2948145b9"
       },
       {
-        "sha": "d964150",
-        "message": "Merge pull request #3 from ThiagoPanini/refactor/full-repo-reset",
-        "date": "2026-04-22T16:29:34Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/d964150dddf9b6af0d10a36e0eb2e89c07a40b38"
+        "sha": "12e29c7",
+        "message": "fix(docs): correct link path for ADR-0002 in README",
+        "date": "2026-04-23T21:43:24Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/12e29c7fd015c22eebba2f6d87897f6b1a48e583"
       },
       {
-        "sha": "0127968",
-        "message": "feat: add settings for serena hooks configuration",
-        "date": "2026-04-22T16:19:27Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/0127968c6d6a59676cf94baf942a10a284445920"
+        "sha": "d2dc035",
+        "message": "feat(docs): add ADR 0002 for LocalStack as the local AWS plane",
+        "date": "2026-04-23T21:42:54Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/d2dc035af7dc758b2b8ce2a21d15ddc8389552da"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-04-18",
-        "count": 12
-      },
       {
         "date": "2026-04-19",
         "count": 0
@@ -67,10 +62,93 @@
       },
       {
         "date": "2026-04-23",
+        "count": 10
+      },
+      {
+        "date": "2026-04-24",
+        "count": 3
+      },
+      {
+        "date": "2026-04-25",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "name": "panpan",
+    "description": "✨ A personal webpage where you can find relevant technical information about me",
+    "url": "https://github.com/ThiagoPanini/panpan",
+    "language": "CSS",
+    "technologies": [
+      "CSS",
+      "Astro"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "front-end",
+      "website"
+    ],
+    "pushedAt": "2026-04-24T10:32:06Z",
+    "lastCommits": [
+      {
+        "sha": "5ff543a",
+        "message": "chore(data): daily refresh 2026-04-24",
+        "date": "2026-04-24T10:32:05Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/5ff543a4dfbd0d17ae1210381944496ddb75e7ac"
+      },
+      {
+        "sha": "3e0681c",
+        "message": "chore(data): daily refresh 2026-04-23",
+        "date": "2026-04-23T10:31:48Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/3e0681c71dbb83c9a987308cd5e0b94cb476c525"
+      },
+      {
+        "sha": "d4bf0b2",
+        "message": "chore(data): daily refresh 2026-04-22",
+        "date": "2026-04-22T10:30:17Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/d4bf0b271f0e82937f9d8e3360c631a93d728ff2"
+      },
+      {
+        "sha": "70cace3",
+        "message": "chore(data): daily refresh 2026-04-21",
+        "date": "2026-04-21T10:30:52Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/70cace3b3c13ebe8e2fd4b8bdb2c7468fac8f5a4"
+      },
+      {
+        "sha": "485d7cd",
+        "message": "chore(data): daily refresh 2026-04-20",
+        "date": "2026-04-20T10:35:09Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/485d7cd50e48ac4003784803bcd77a22260d9817"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-04-19",
+        "count": 0
+      },
+      {
+        "date": "2026-04-20",
+        "count": 0
+      },
+      {
+        "date": "2026-04-21",
+        "count": 0
+      },
+      {
+        "date": "2026-04-22",
+        "count": 0
+      },
+      {
+        "date": "2026-04-23",
         "count": 0
       },
       {
         "date": "2026-04-24",
+        "count": 0
+      },
+      {
+        "date": "2026-04-25",
         "count": 0
       }
     ]
@@ -127,10 +205,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-04-18",
-        "count": 0
-      },
-      {
         "date": "2026-04-19",
         "count": 0
       },
@@ -153,85 +227,9 @@
       {
         "date": "2026-04-24",
         "count": 0
-      }
-    ]
-  },
-  {
-    "name": "tfbox",
-    "description": "📦 A collection of production-ready Terraform modules focused on AWS environments",
-    "url": "https://github.com/ThiagoPanini/tfbox",
-    "language": "TypeScript",
-    "technologies": [
-      "TypeScript",
-      "HCL"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "aws",
-      "modules",
-      "terraform"
-    ],
-    "pushedAt": "2026-04-23T13:39:25Z",
-    "lastCommits": [
-      {
-        "sha": "02b1d5a",
-        "message": "chore(deps-dev): bump vitest from 1.6.1 to 4.1.5 in /web (#57)",
-        "date": "2026-04-23T13:39:22Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/02b1d5ab8d0c3b8c920f744f4d16eeee9f809d30"
       },
       {
-        "sha": "d871bea",
-        "message": "chore(deps-dev): bump typescript from 6.0.2 to 6.0.3 in /web (#58)",
-        "date": "2026-04-23T13:38:17Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/d871beabb2b70169a62d011112233bec9a94d4d8"
-      },
-      {
-        "sha": "d953f37",
-        "message": "chore(deps): bump @tailwindcss/postcss from 4.2.2 to 4.2.4 in /web (#56)",
-        "date": "2026-04-23T13:37:58Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/d953f373b55c2129e9d3ec28116e1ffcfb316e6a"
-      },
-      {
-        "sha": "b0ab2e5",
-        "message": "chore(deps): bump tailwind-merge from 2.6.1 to 3.5.0 in /web (#54)",
-        "date": "2026-04-23T13:37:37Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/b0ab2e5f6273a2f3b0cd551fd0881c590391d158"
-      },
-      {
-        "sha": "9884ab6",
-        "message": "chore(deps-dev): bump typescript from 6.0.2 to 6.0.3 in /scripts (#53)",
-        "date": "2026-04-23T13:37:28Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/9884ab621f62f46b57709e159034d6742ee31176"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-04-18",
-        "count": 0
-      },
-      {
-        "date": "2026-04-19",
-        "count": 0
-      },
-      {
-        "date": "2026-04-20",
-        "count": 0
-      },
-      {
-        "date": "2026-04-21",
-        "count": 0
-      },
-      {
-        "date": "2026-04-22",
-        "count": 0
-      },
-      {
-        "date": "2026-04-23",
-        "count": 0
-      },
-      {
-        "date": "2026-04-24",
+        "date": "2026-04-25",
         "count": 0
       }
     ]
