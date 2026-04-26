@@ -1,16 +1,15 @@
 {
-  "weekStart": "2026-04-18",
-  "weekEnd": "2026-04-24",
-  "generatedAt": "2026-04-25T10:16:12.965Z",
-  "summary": "I focus this week on refactoring the campfire repo for a fresh start, adding documentation like ADR-0002, cleaning up aidriven-resources and tfbox, and iterating across multiple projects with 62 commits and 6 PRs.",
+  "weekStart": "2026-04-19",
+  "weekEnd": "2026-04-25",
+  "generatedAt": "2026-04-26T10:17:00.423Z",
+  "summary": "I focused on refactoring and resetting the campfire repo, refining authentication and preferences MVP tasks, updating documentation, and managing branches and cleanup across aidriven-resources and tfbox.",
   "stats": {
-    "commits": 62,
+    "commits": 50,
     "reposTouched": [
       "campfire",
       "aidriven-resources",
       "tfbox",
-      "rtk-ai/rtk",
-      "affaan-m/everything-claude-code"
+      "rtk-ai/rtk"
     ],
     "pullRequests": 6
   },
