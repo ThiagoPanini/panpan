@@ -1,8 +1,8 @@
 {
-  "weekStart": "2026-04-19",
-  "weekEnd": "2026-04-25",
-  "generatedAt": "2026-04-26T10:17:00.423Z",
-  "summary": "I focused on refactoring and resetting the campfire repo, refining authentication and preferences MVP tasks, updating documentation, and managing branches and cleanup across aidriven-resources and tfbox.",
+  "weekStart": "2026-04-20",
+  "weekEnd": "2026-04-26",
+  "generatedAt": "2026-04-27T10:40:10.027Z",
+  "summary": "I focus this week on refactoring the campfire repo for a fresh start, adding ADRs for improved documentation, and managing branches and cleanup tasks across campfire, aidriven-resources, and tfbox.",
   "stats": {
     "commits": 50,
     "reposTouched": [
