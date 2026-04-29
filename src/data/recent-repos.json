@@ -3,51 +3,48 @@
     "name": "campfire",
     "description": "🔥 A web app that helps groups of friends organize and enjoy their music jam sessions.",
     "url": "https://github.com/ThiagoPanini/campfire",
-    "language": "Unknown",
+    "language": "JavaScript",
     "technologies": [
-      "Unknown"
+      "JavaScript",
+      "Python"
     ],
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-04-27T20:59:07Z",
+    "pushedAt": "2026-04-29T02:03:41Z",
     "lastCommits": [
       {
-        "sha": "c98563a",
-        "message": "Merge pull request #5 from ThiagoPanini/refactor/full-repo-reset-v2",
-        "date": "2026-04-24T22:59:44Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/c98563a9e2268655eb485010e43d2b5e510b4940"
+        "sha": "a1d7e16",
+        "message": "Merge pull request #6 from ThiagoPanini/003-repertoire-song-entry",
+        "date": "2026-04-28T21:09:50Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/a1d7e16c1ac3f4edf06f6c190e12fb101a8caf4f"
       },
       {
-        "sha": "3e1ad44",
-        "message": "refactor: cleaning up all contents from this repo to start over again",
-        "date": "2026-04-24T22:56:53Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/3e1ad44eca1ce4257b0ace8afdd911b7ced3c4e8"
+        "sha": "cdad789",
+        "message": "feat(deps): add httpx as a dependency for API interactions",
+        "date": "2026-04-28T14:50:47Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/cdad789c97651d6eb0d19fd75376a47dff3f900a"
       },
       {
-        "sha": "6a7f37b",
-        "message": "Add tasks and validation report for refactoring authentication and preferences MVP",
-        "date": "2026-04-24T22:55:13Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/6a7f37b384db1aca684b298f008b95c2948145b9"
+        "sha": "2a14a21",
+        "message": "feat(docs): add comprehensive project documentation and conventions through serena memories",
+        "date": "2026-04-28T14:50:39Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/2a14a21542a3e2d59b47592a938a92cddb48a056"
       },
       {
-        "sha": "12e29c7",
-        "message": "fix(docs): correct link path for ADR-0002 in README",
-        "date": "2026-04-23T21:43:24Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/12e29c7fd015c22eebba2f6d87897f6b1a48e583"
+        "sha": "4276f86",
+        "message": "feat(web): update onboarding and repertoire catalogs and components",
+        "date": "2026-04-28T13:30:47Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/4276f86a1888f045375738b2a492c5707e14532c"
       },
       {
-        "sha": "d2dc035",
-        "message": "feat(docs): add ADR 0002 for LocalStack as the local AWS plane",
-        "date": "2026-04-23T21:42:54Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/d2dc035af7dc758b2b8ce2a21d15ddc8389552da"
+        "sha": "5e22eac",
+        "message": "style(web): add instrument grid and option styling",
+        "date": "2026-04-28T13:30:42Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/5e22eac018281b74203c1ed542c641794436806f"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-04-22",
-        "count": 22
-      },
       {
         "date": "2026-04-23",
         "count": 10
@@ -58,18 +55,22 @@
       },
       {
         "date": "2026-04-25",
-        "count": 0
+        "count": 5
       },
       {
         "date": "2026-04-26",
-        "count": 0
+        "count": 13
       },
       {
         "date": "2026-04-27",
-        "count": 0
+        "count": 19
       },
       {
         "date": "2026-04-28",
+        "count": 8
+      },
+      {
+        "date": "2026-04-29",
         "count": 0
       }
     ]
@@ -89,8 +90,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-04-27T10:40:11Z",
+    "pushedAt": "2026-04-28T10:40:52Z",
     "lastCommits": [
+      {
+        "sha": "dc9de00",
+        "message": "chore(data): daily refresh 2026-04-28",
+        "date": "2026-04-28T10:40:52Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/dc9de0044db49fdc16aa81cb1bf1ecb13155b6af"
+      },
       {
         "sha": "ab3d97f",
         "message": "chore(data): daily refresh 2026-04-27",
@@ -114,19 +121,9 @@
         "message": "chore(data): daily refresh 2026-04-24",
         "date": "2026-04-24T10:32:05Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/5ff543a4dfbd0d17ae1210381944496ddb75e7ac"
-      },
-      {
-        "sha": "3e0681c",
-        "message": "chore(data): daily refresh 2026-04-23",
-        "date": "2026-04-23T10:31:48Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/3e0681c71dbb83c9a987308cd5e0b94cb476c525"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-04-22",
-        "count": 0
-      },
       {
         "date": "2026-04-23",
         "count": 0
@@ -149,6 +146,10 @@
       },
       {
         "date": "2026-04-28",
+        "count": 0
+      },
+      {
+        "date": "2026-04-29",
         "count": 0
       }
     ]
@@ -205,10 +206,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-04-22",
-        "count": 0
-      },
-      {
         "date": "2026-04-23",
         "count": 0
       },
@@ -230,6 +227,10 @@
       },
       {
         "date": "2026-04-28",
+        "count": 0
+      },
+      {
+        "date": "2026-04-29",
         "count": 0
       }
     ]

@@ -1,17 +1,16 @@
 {
-  "weekStart": "2026-04-21",
-  "weekEnd": "2026-04-27",
-  "generatedAt": "2026-04-28T10:40:50.712Z",
-  "summary": "I focus on refactoring and cleaning up the campfire repo, including adding ADR documentation and resetting the structure, while managing branches and cleanup tasks across aidriven-resources and tfbox.",
+  "weekStart": "2026-04-22",
+  "weekEnd": "2026-04-28",
+  "generatedAt": "2026-04-29T10:37:05.984Z",
+  "summary": "I focus this week on enhancing Campfire with new features like API interactions, onboarding updates, and styling improvements, while managing branches and cleanup across Campfire and Aidriven-Resources.",
   "stats": {
-    "commits": 35,
+    "commits": 80,
     "reposTouched": [
       "campfire",
       "aidriven-resources",
-      "tfbox",
-      "rtk-ai/rtk"
+      "tfbox"
     ],
-    "pullRequests": 6
+    "pullRequests": 8
   },
   "source": "github-models-gpt-4o"
 }
