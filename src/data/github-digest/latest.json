@@ -1,16 +1,12 @@
 {
-  "weekStart": "2026-04-22",
-  "weekEnd": "2026-04-28",
-  "generatedAt": "2026-04-29T10:37:05.984Z",
-  "summary": "I focus this week on enhancing Campfire with new features like API interactions, onboarding updates, and styling improvements, while managing branches and cleanup across Campfire and Aidriven-Resources.",
+  "weekStart": "2026-04-23",
+  "weekEnd": "2026-04-29",
+  "generatedAt": "2026-04-30T10:35:35.910Z",
+  "summary": "I focus this week on refining and maintaining ongoing projects across multiple repositories, ensuring stability and readiness for future iterations.",
   "stats": {
-    "commits": 80,
-    "reposTouched": [
-      "campfire",
-      "aidriven-resources",
-      "tfbox"
-    ],
-    "pullRequests": 8
+    "commits": 0,
+    "reposTouched": [],
+    "pullRequests": 0
   },
   "source": "github-models-gpt-4o"
 }

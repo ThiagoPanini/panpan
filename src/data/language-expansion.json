@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-04-29T10:37:06.988Z",
+  "generatedAt": "2026-04-30T10:35:37.138Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
   "selectedRepos": [
+    "tfbox",
     "campfire",
     "panpan",
     "aidriven-resources",
-    "tfbox",
     "aidriven"
   ],
   "primaryStack": [
@@ -24,28 +24,28 @@
   "topLanguages": [
     {
       "name": "TypeScript",
-      "score": 78,
-      "percentage": 30.3
+      "score": 78.5,
+      "percentage": 30
     },
     {
       "name": "JavaScript",
-      "score": 59,
-      "percentage": 22.9
+      "score": 61.5,
+      "percentage": 23.5
     },
     {
       "name": "HTML",
-      "score": 45.8,
-      "percentage": 17.8
+      "score": 46,
+      "percentage": 17.6
     },
     {
       "name": "CSS",
-      "score": 42.3,
-      "percentage": 16.4
+      "score": 43.5,
+      "percentage": 16.6
     },
     {
       "name": "Shell",
-      "score": 32.4,
-      "percentage": 12.6
+      "score": 31.8,
+      "percentage": 12.2
     }
   ]
 }
