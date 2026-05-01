@@ -1,12 +1,14 @@
 {
-  "weekStart": "2026-04-23",
-  "weekEnd": "2026-04-29",
-  "generatedAt": "2026-04-30T10:35:35.910Z",
-  "summary": "I focus this week on refining and maintaining ongoing projects across multiple repositories, ensuring stability and readiness for future iterations.",
+  "weekStart": "2026-04-24",
+  "weekEnd": "2026-04-30",
+  "generatedAt": "2026-05-01T10:31:30.556Z",
+  "summary": "I focused on refining the campfire repository with updates to API functionality, database normalization, and a home redesign, while actively engaging in issue discussions and closing pull requests.",
   "stats": {
-    "commits": 0,
-    "reposTouched": [],
-    "pullRequests": 0
+    "commits": 60,
+    "reposTouched": [
+      "campfire"
+    ],
+    "pullRequests": 12
   },
   "source": "github-models-gpt-4o"
 }
