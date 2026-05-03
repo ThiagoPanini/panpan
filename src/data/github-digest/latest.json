@@ -1,10 +1,10 @@
 {
-  "weekStart": "2026-04-25",
-  "weekEnd": "2026-05-01",
-  "generatedAt": "2026-05-02T10:19:46.672Z",
-  "summary": "I focus on enhancing the campfire repository with home redesign updates, API improvements like synchronous CORS retrieval, and environment normalization, while actively managing pull requests and issue discussions.",
+  "weekStart": "2026-04-26",
+  "weekEnd": "2026-05-02",
+  "generatedAt": "2026-05-03T10:21:43.267Z",
+  "summary": "I focused on iterating features and resolving pull requests in campfire, including home redesign updates, API improvements, and environment variable normalization.",
   "stats": {
-    "commits": 57,
+    "commits": 52,
     "reposTouched": [
       "campfire"
     ],
