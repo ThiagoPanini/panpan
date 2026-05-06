@@ -1,14 +1,14 @@
 {
-  "weekStart": "2026-04-28",
-  "weekEnd": "2026-05-04",
-  "generatedAt": "2026-05-05T10:34:01.861Z",
-  "summary": "I focus this week on iterating across campfire with 20 commits and 10 PRs, including redesigning the app home, enhancing API functionality, and managing branches and comments.",
+  "weekStart": "2026-04-29",
+  "weekEnd": "2026-05-05",
+  "generatedAt": "2026-05-06T10:41:35.569Z",
+  "summary": "I focus on refining the app home redesign, updating API configurations, and managing pull requests and comments across the campfire repository.",
   "stats": {
-    "commits": 20,
+    "commits": 7,
     "reposTouched": [
       "campfire"
     ],
-    "pullRequests": 10
+    "pullRequests": 8
   },
   "source": "github-models-gpt-4o"
 }

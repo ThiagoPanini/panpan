@@ -1,81 +1,5 @@
 [
   {
-    "name": "campfire",
-    "description": "🔥 A web app that helps groups of friends organize and enjoy their music jam sessions.",
-    "url": "https://github.com/ThiagoPanini/campfire",
-    "language": "JavaScript",
-    "technologies": [
-      "JavaScript",
-      "Python"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-05-05T01:49:30Z",
-    "lastCommits": [
-      {
-        "sha": "1d1345c",
-        "message": "Merge pull request #9 from ThiagoPanini/004-app-home-redesign",
-        "date": "2026-04-29T15:22:58Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/1d1345c12cba72608ba2859999d9a8dfdbd8f9f9"
-      },
-      {
-        "sha": "e03afc1",
-        "message": "feat(api): add synchronous CORS origins retrieval and corresponding unit test",
-        "date": "2026-04-29T15:20:36Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/e03afc16bcb080bd19ffa6728ea7f6a31dd2adbb"
-      },
-      {
-        "sha": "210fd24",
-        "message": "Merge pull request #8 from ThiagoPanini/004-app-home-redesign",
-        "date": "2026-04-29T14:20:52Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/210fd24bcda86022e7760b58c5be82ec742221bc"
-      },
-      {
-        "sha": "6509e5c",
-        "message": "feat(api): normalize DATABASE_URL and version environment examples",
-        "date": "2026-04-29T14:18:17Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/6509e5cfd64afe6ed947b7126ea0c9274da69afa"
-      },
-      {
-        "sha": "d23092d",
-        "message": "Merge pull request #7 from ThiagoPanini/004-app-home-redesign",
-        "date": "2026-04-29T14:05:14Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/d23092d6ad8a921dcb0dce007e6ef14fdc4a9e53"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-04-29",
-        "count": 7
-      },
-      {
-        "date": "2026-04-30",
-        "count": 0
-      },
-      {
-        "date": "2026-05-01",
-        "count": 0
-      },
-      {
-        "date": "2026-05-02",
-        "count": 0
-      },
-      {
-        "date": "2026-05-03",
-        "count": 0
-      },
-      {
-        "date": "2026-05-04",
-        "count": 0
-      },
-      {
-        "date": "2026-05-05",
-        "count": 0
-      }
-    ]
-  },
-  {
     "name": "panpan",
     "description": "✨ A personal webpage where you can find relevant technical information about me",
     "url": "https://github.com/ThiagoPanini/panpan",
@@ -90,8 +14,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-05-04T10:40:53Z",
+    "pushedAt": "2026-05-05T10:34:04Z",
     "lastCommits": [
+      {
+        "sha": "286a42f",
+        "message": "chore(data): daily refresh 2026-05-05",
+        "date": "2026-05-05T10:34:03Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/286a42f9688babc62baff601360ce0eb991a46d8"
+      },
       {
         "sha": "d6aa572",
         "message": "chore(data): daily refresh 2026-05-04",
@@ -115,19 +45,9 @@
         "message": "chore(data): daily refresh 2026-05-01",
         "date": "2026-05-01T10:31:31Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/c6657c2ab1d9737e8cb2a8820a41903ff89cb09d"
-      },
-      {
-        "sha": "3a9f688",
-        "message": "chore(data): daily refresh 2026-04-30",
-        "date": "2026-04-30T10:35:37Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/3a9f688e971d5d0b6241cc9700ca538460d3809c"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-04-29",
-        "count": 0
-      },
       {
         "date": "2026-04-30",
         "count": 0
@@ -150,6 +70,86 @@
       },
       {
         "date": "2026-05-05",
+        "count": 0
+      },
+      {
+        "date": "2026-05-06",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "name": "campfire",
+    "description": "🔥 A web app that helps groups of friends organize and enjoy their music jam sessions.",
+    "url": "https://github.com/ThiagoPanini/campfire",
+    "language": "JavaScript",
+    "technologies": [
+      "JavaScript",
+      "Python"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "pushedAt": "2026-05-05T01:49:30Z",
+    "lastCommits": [
+      {
+        "sha": "d354d18",
+        "message": "chore(release): promote develop to main (69b7004223626b90b274fdf631c59166284ab1b2) (#35)",
+        "date": "2026-04-30T23:09:09Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/d354d1814c3682a646e7e798c836a68fbf923e20"
+      },
+      {
+        "sha": "331140c",
+        "message": "chore(deps): target develop branch and group dependabot updates (#26) (#27)",
+        "date": "2026-04-30T21:45:03Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/331140c0bde09e0d02b1ffdd4d4fcfd40ab9adbe"
+      },
+      {
+        "sha": "a0b902e",
+        "message": "chore(release): promote develop to main (d9633bc4fe9c5115473baf3f9ee4a82babf56423) (#13)",
+        "date": "2026-04-30T19:01:09Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/a0b902eeb32a856b869f4f30d3a772848df6abd0"
+      },
+      {
+        "sha": "1d1345c",
+        "message": "Merge pull request #9 from ThiagoPanini/004-app-home-redesign",
+        "date": "2026-04-29T15:22:58Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/1d1345c12cba72608ba2859999d9a8dfdbd8f9f9"
+      },
+      {
+        "sha": "e03afc1",
+        "message": "feat(api): add synchronous CORS origins retrieval and corresponding unit test",
+        "date": "2026-04-29T15:20:36Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/e03afc16bcb080bd19ffa6728ea7f6a31dd2adbb"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-04-30",
+        "count": 0
+      },
+      {
+        "date": "2026-05-01",
+        "count": 0
+      },
+      {
+        "date": "2026-05-02",
+        "count": 0
+      },
+      {
+        "date": "2026-05-03",
+        "count": 0
+      },
+      {
+        "date": "2026-05-04",
+        "count": 0
+      },
+      {
+        "date": "2026-05-05",
+        "count": 0
+      },
+      {
+        "date": "2026-05-06",
         "count": 0
       }
     ]
@@ -205,10 +205,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-04-29",
-        "count": 0
-      },
-      {
         "date": "2026-04-30",
         "count": 0
       },
@@ -230,6 +226,10 @@
       },
       {
         "date": "2026-05-05",
+        "count": 0
+      },
+      {
+        "date": "2026-05-06",
         "count": 0
       }
     ]
