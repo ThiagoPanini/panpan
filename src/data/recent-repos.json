@@ -1,160 +1,5 @@
 [
   {
-    "name": "panpan",
-    "description": "✨ A personal webpage where you can find relevant technical information about me",
-    "url": "https://github.com/ThiagoPanini/panpan",
-    "language": "CSS",
-    "technologies": [
-      "CSS",
-      "Astro"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "front-end",
-      "website"
-    ],
-    "pushedAt": "2026-05-05T10:34:04Z",
-    "lastCommits": [
-      {
-        "sha": "286a42f",
-        "message": "chore(data): daily refresh 2026-05-05",
-        "date": "2026-05-05T10:34:03Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/286a42f9688babc62baff601360ce0eb991a46d8"
-      },
-      {
-        "sha": "d6aa572",
-        "message": "chore(data): daily refresh 2026-05-04",
-        "date": "2026-05-04T10:40:52Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/d6aa5725e2a19624bbc9672bc7f536b974635a6c"
-      },
-      {
-        "sha": "ea13a64",
-        "message": "chore(data): daily refresh 2026-05-03",
-        "date": "2026-05-03T10:21:43Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/ea13a64c0a387326e026f92a82ff3700b0da5417"
-      },
-      {
-        "sha": "332ddea",
-        "message": "chore(data): daily refresh 2026-05-02",
-        "date": "2026-05-02T10:19:47Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/332ddea1b2a738b1ea4325e3f6d8160c70fdd9ba"
-      },
-      {
-        "sha": "c6657c2",
-        "message": "chore(data): daily refresh 2026-05-01",
-        "date": "2026-05-01T10:31:31Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/c6657c2ab1d9737e8cb2a8820a41903ff89cb09d"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-04-30",
-        "count": 0
-      },
-      {
-        "date": "2026-05-01",
-        "count": 0
-      },
-      {
-        "date": "2026-05-02",
-        "count": 0
-      },
-      {
-        "date": "2026-05-03",
-        "count": 0
-      },
-      {
-        "date": "2026-05-04",
-        "count": 0
-      },
-      {
-        "date": "2026-05-05",
-        "count": 0
-      },
-      {
-        "date": "2026-05-06",
-        "count": 0
-      }
-    ]
-  },
-  {
-    "name": "campfire",
-    "description": "🔥 A web app that helps groups of friends organize and enjoy their music jam sessions.",
-    "url": "https://github.com/ThiagoPanini/campfire",
-    "language": "JavaScript",
-    "technologies": [
-      "JavaScript",
-      "Python"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-05-05T01:49:30Z",
-    "lastCommits": [
-      {
-        "sha": "d354d18",
-        "message": "chore(release): promote develop to main (69b7004223626b90b274fdf631c59166284ab1b2) (#35)",
-        "date": "2026-04-30T23:09:09Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/d354d1814c3682a646e7e798c836a68fbf923e20"
-      },
-      {
-        "sha": "331140c",
-        "message": "chore(deps): target develop branch and group dependabot updates (#26) (#27)",
-        "date": "2026-04-30T21:45:03Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/331140c0bde09e0d02b1ffdd4d4fcfd40ab9adbe"
-      },
-      {
-        "sha": "a0b902e",
-        "message": "chore(release): promote develop to main (d9633bc4fe9c5115473baf3f9ee4a82babf56423) (#13)",
-        "date": "2026-04-30T19:01:09Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/a0b902eeb32a856b869f4f30d3a772848df6abd0"
-      },
-      {
-        "sha": "1d1345c",
-        "message": "Merge pull request #9 from ThiagoPanini/004-app-home-redesign",
-        "date": "2026-04-29T15:22:58Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/1d1345c12cba72608ba2859999d9a8dfdbd8f9f9"
-      },
-      {
-        "sha": "e03afc1",
-        "message": "feat(api): add synchronous CORS origins retrieval and corresponding unit test",
-        "date": "2026-04-29T15:20:36Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/e03afc16bcb080bd19ffa6728ea7f6a31dd2adbb"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-04-30",
-        "count": 0
-      },
-      {
-        "date": "2026-05-01",
-        "count": 0
-      },
-      {
-        "date": "2026-05-02",
-        "count": 0
-      },
-      {
-        "date": "2026-05-03",
-        "count": 0
-      },
-      {
-        "date": "2026-05-04",
-        "count": 0
-      },
-      {
-        "date": "2026-05-05",
-        "count": 0
-      },
-      {
-        "date": "2026-05-06",
-        "count": 0
-      }
-    ]
-  },
-  {
     "name": "tfbox",
     "description": "📦 A collection of production-ready Terraform modules focused on AWS environments",
     "url": "https://github.com/ThiagoPanini/tfbox",
@@ -170,7 +15,7 @@
       "modules",
       "terraform"
     ],
-    "pushedAt": "2026-04-30T05:47:18Z",
+    "pushedAt": "2026-05-07T05:48:38Z",
     "lastCommits": [
       {
         "sha": "02b1d5a",
@@ -205,9 +50,81 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-04-30",
+        "date": "2026-05-01",
         "count": 0
       },
+      {
+        "date": "2026-05-02",
+        "count": 0
+      },
+      {
+        "date": "2026-05-03",
+        "count": 0
+      },
+      {
+        "date": "2026-05-04",
+        "count": 0
+      },
+      {
+        "date": "2026-05-05",
+        "count": 0
+      },
+      {
+        "date": "2026-05-06",
+        "count": 0
+      },
+      {
+        "date": "2026-05-07",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "name": "campfire",
+    "description": "🔥 A web app that helps groups of friends organize and enjoy their music jam sessions.",
+    "url": "https://github.com/ThiagoPanini/campfire",
+    "language": "JavaScript",
+    "technologies": [
+      "JavaScript",
+      "Python"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "pushedAt": "2026-05-07T05:25:37Z",
+    "lastCommits": [
+      {
+        "sha": "d354d18",
+        "message": "chore(release): promote develop to main (69b7004223626b90b274fdf631c59166284ab1b2) (#35)",
+        "date": "2026-04-30T23:09:09Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/d354d1814c3682a646e7e798c836a68fbf923e20"
+      },
+      {
+        "sha": "331140c",
+        "message": "chore(deps): target develop branch and group dependabot updates (#26) (#27)",
+        "date": "2026-04-30T21:45:03Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/331140c0bde09e0d02b1ffdd4d4fcfd40ab9adbe"
+      },
+      {
+        "sha": "a0b902e",
+        "message": "chore(release): promote develop to main (d9633bc4fe9c5115473baf3f9ee4a82babf56423) (#13)",
+        "date": "2026-04-30T19:01:09Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/a0b902eeb32a856b869f4f30d3a772848df6abd0"
+      },
+      {
+        "sha": "1d1345c",
+        "message": "Merge pull request #9 from ThiagoPanini/004-app-home-redesign",
+        "date": "2026-04-29T15:22:58Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/1d1345c12cba72608ba2859999d9a8dfdbd8f9f9"
+      },
+      {
+        "sha": "e03afc1",
+        "message": "feat(api): add synchronous CORS origins retrieval and corresponding unit test",
+        "date": "2026-04-29T15:20:36Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/e03afc16bcb080bd19ffa6728ea7f6a31dd2adbb"
+      }
+    ],
+    "commitActivity": [
       {
         "date": "2026-05-01",
         "count": 0
@@ -230,6 +147,89 @@
       },
       {
         "date": "2026-05-06",
+        "count": 0
+      },
+      {
+        "date": "2026-05-07",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "name": "panpan",
+    "description": "✨ A personal webpage where you can find relevant technical information about me",
+    "url": "https://github.com/ThiagoPanini/panpan",
+    "language": "CSS",
+    "technologies": [
+      "CSS",
+      "Astro"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "front-end",
+      "website"
+    ],
+    "pushedAt": "2026-05-06T10:41:37Z",
+    "lastCommits": [
+      {
+        "sha": "d2561e7",
+        "message": "chore(data): daily refresh 2026-05-06",
+        "date": "2026-05-06T10:41:36Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/d2561e78aa5267a650e3243b6fda87c83cb5e2ec"
+      },
+      {
+        "sha": "286a42f",
+        "message": "chore(data): daily refresh 2026-05-05",
+        "date": "2026-05-05T10:34:03Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/286a42f9688babc62baff601360ce0eb991a46d8"
+      },
+      {
+        "sha": "d6aa572",
+        "message": "chore(data): daily refresh 2026-05-04",
+        "date": "2026-05-04T10:40:52Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/d6aa5725e2a19624bbc9672bc7f536b974635a6c"
+      },
+      {
+        "sha": "ea13a64",
+        "message": "chore(data): daily refresh 2026-05-03",
+        "date": "2026-05-03T10:21:43Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/ea13a64c0a387326e026f92a82ff3700b0da5417"
+      },
+      {
+        "sha": "332ddea",
+        "message": "chore(data): daily refresh 2026-05-02",
+        "date": "2026-05-02T10:19:47Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/332ddea1b2a738b1ea4325e3f6d8160c70fdd9ba"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-05-01",
+        "count": 0
+      },
+      {
+        "date": "2026-05-02",
+        "count": 0
+      },
+      {
+        "date": "2026-05-03",
+        "count": 0
+      },
+      {
+        "date": "2026-05-04",
+        "count": 0
+      },
+      {
+        "date": "2026-05-05",
+        "count": 0
+      },
+      {
+        "date": "2026-05-06",
+        "count": 0
+      },
+      {
+        "date": "2026-05-07",
         "count": 0
       }
     ]
