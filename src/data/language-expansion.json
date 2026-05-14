@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-05-13T10:51:37.518Z",
+  "generatedAt": "2026-05-14T10:48:25.207Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
   "selectedRepos": [
-    "panpan",
-    "campfire",
     "tfbox",
+    "campfire",
+    "panpan",
     "aidriven-resources",
     "aidriven"
   ],
