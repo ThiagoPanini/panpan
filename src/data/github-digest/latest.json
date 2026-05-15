@@ -1,8 +1,8 @@
 {
-  "weekStart": "2026-05-07",
-  "weekEnd": "2026-05-13",
-  "generatedAt": "2026-05-14T10:48:24.192Z",
-  "summary": "I focus on branching and opening a pull request to iterate on updates in the campfire repository this week.",
+  "weekStart": "2026-05-08",
+  "weekEnd": "2026-05-14",
+  "generatedAt": "2026-05-15T10:47:58.884Z",
+  "summary": "I focus this week on iterating workflows in campfire, including opening a pull request and creating supporting branches.",
   "stats": {
     "commits": 0,
     "reposTouched": [
