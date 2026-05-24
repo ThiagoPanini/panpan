@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-05-23T10:31:25.617Z",
+  "generatedAt": "2026-05-24T10:33:38.060Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
   "selectedRepos": [
+    "talkingpres",
     "panpan",
     "tfbox",
     "campfire",
-    "aidriven-resources",
-    "aidriven"
+    "aidriven-resources"
   ],
   "primaryStack": [
     "Python",
@@ -25,27 +25,27 @@
     {
       "name": "TypeScript",
       "score": 78.4,
-      "percentage": 30
+      "percentage": 31.7
     },
     {
       "name": "JavaScript",
       "score": 61.1,
-      "percentage": 23.4
-    },
-    {
-      "name": "HTML",
-      "score": 45.9,
-      "percentage": 17.6
+      "percentage": 24.7
     },
     {
       "name": "CSS",
       "score": 43.4,
-      "percentage": 16.6
+      "percentage": 17.5
     },
     {
-      "name": "Shell",
-      "score": 32.6,
-      "percentage": 12.5
+      "name": "HTML",
+      "score": 35.4,
+      "percentage": 14.3
+    },
+    {
+      "name": "Astro",
+      "score": 29.3,
+      "percentage": 11.8
     }
   ]
 }

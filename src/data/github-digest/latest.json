@@ -1,11 +1,12 @@
 {
-  "weekStart": "2026-05-16",
-  "weekEnd": "2026-05-22",
-  "generatedAt": "2026-05-23T10:31:24.161Z",
-  "summary": "I focused on iterative cleanup and organizational updates in the campfire repository, creating new branches and removing outdated ones throughout the week.",
+  "weekStart": "2026-05-17",
+  "weekEnd": "2026-05-23",
+  "generatedAt": "2026-05-24T10:33:36.616Z",
+  "summary": "I focus this week on documenting initial architecture decisions, bootstrapping project instructions, and enhancing agent setups across talkingpres while managing foundational configuration tasks like .gitignore updates.",
   "stats": {
-    "commits": 0,
+    "commits": 6,
     "reposTouched": [
+      "talkingpres",
       "campfire"
     ],
     "pullRequests": 0
