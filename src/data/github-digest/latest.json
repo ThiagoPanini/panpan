@@ -1,13 +1,12 @@
 {
-  "weekStart": "2026-05-17",
-  "weekEnd": "2026-05-23",
-  "generatedAt": "2026-05-24T10:33:36.616Z",
-  "summary": "I focus this week on documenting initial architecture decisions, bootstrapping project instructions, and enhancing agent setups across talkingpres while managing foundational configuration tasks like .gitignore updates.",
+  "weekStart": "2026-05-18",
+  "weekEnd": "2026-05-24",
+  "generatedAt": "2026-05-25T11:23:04.434Z",
+  "summary": "I focused on documenting architecture decisions and expanding functionality in talkingpres, including setting up a VPS tutorial and installing prompt-engineering patterns, while iterating on the project's roadmap.",
   "stats": {
-    "commits": 6,
+    "commits": 9,
     "reposTouched": [
-      "talkingpres",
-      "campfire"
+      "talkingpres"
     ],
     "pullRequests": 0
   },
