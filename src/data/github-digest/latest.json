@@ -1,8 +1,8 @@
 {
-  "weekStart": "2026-05-18",
-  "weekEnd": "2026-05-24",
-  "generatedAt": "2026-05-25T11:23:04.434Z",
-  "summary": "I focused on documenting architecture decisions and expanding functionality in talkingpres, including setting up a VPS tutorial and installing prompt-engineering patterns, while iterating on the project's roadmap.",
+  "weekStart": "2026-05-20",
+  "weekEnd": "2026-05-26",
+  "generatedAt": "2026-05-27T11:12:41.339Z",
+  "summary": "I focus on documenting architecture decisions, enhancing the roadmap, and setting up new skills and hosting tutorials in talkingpres this week through 9 commits.",
   "stats": {
     "commits": 9,
     "reposTouched": [
