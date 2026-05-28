@@ -1,5 +1,87 @@
 [
   {
+    "name": "talkingpres",
+    "description": "📽️ Uma galeria de apresentações de tecnologia feitas por AI",
+    "url": "https://github.com/ThiagoPanini/talkingpres",
+    "language": "Shell",
+    "technologies": [
+      "Shell",
+      "Python"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "ai",
+      "decks",
+      "presentation",
+      "slides",
+      "technology"
+    ],
+    "pushedAt": "2026-05-28T02:22:30Z",
+    "lastCommits": [
+      {
+        "sha": "fd0e7ef",
+        "message": "Merge pull request #3 from ThiagoPanini/chore/operate-planning-board-skill",
+        "date": "2026-05-27T22:06:46Z",
+        "url": "https://github.com/ThiagoPanini/talkingpres/commit/fd0e7eff2e7661b942adbba8c3f5da190926a019"
+      },
+      {
+        "sha": "a223af9",
+        "message": "docs: organize operations knowledge base",
+        "date": "2026-05-27T22:04:49Z",
+        "url": "https://github.com/ThiagoPanini/talkingpres/commit/a223af9ae231de3eae14e4483cd5ba6e633bd0eb"
+      },
+      {
+        "sha": "4a88f3b",
+        "message": "docs(adr): record planning board substrate",
+        "date": "2026-05-27T22:04:11Z",
+        "url": "https://github.com/ThiagoPanini/talkingpres/commit/4a88f3b8eb5662688daaf520ffdae6f19718ed59"
+      },
+      {
+        "sha": "383982b",
+        "message": "chore: add documentation authoring skills",
+        "date": "2026-05-27T22:03:59Z",
+        "url": "https://github.com/ThiagoPanini/talkingpres/commit/383982bfa500d9d3341152bf8a63cfceb46ac20d"
+      },
+      {
+        "sha": "7e1be6c",
+        "message": "chore: add operate planning board skill",
+        "date": "2026-05-27T21:51:50Z",
+        "url": "https://github.com/ThiagoPanini/talkingpres/commit/7e1be6c209f3ab3e6a5c5031a5febbfc0e4169d7"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-05-22",
+        "count": 0
+      },
+      {
+        "date": "2026-05-23",
+        "count": 6
+      },
+      {
+        "date": "2026-05-24",
+        "count": 3
+      },
+      {
+        "date": "2026-05-25",
+        "count": 0
+      },
+      {
+        "date": "2026-05-26",
+        "count": 0
+      },
+      {
+        "date": "2026-05-27",
+        "count": 5
+      },
+      {
+        "date": "2026-05-28",
+        "count": 0
+      }
+    ]
+  },
+  {
     "name": "panpan",
     "description": "✨ A personal webpage where you can find relevant technical information about me",
     "url": "https://github.com/ThiagoPanini/panpan",
@@ -14,8 +96,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-05-25T11:23:06Z",
+    "pushedAt": "2026-05-27T11:12:43Z",
     "lastCommits": [
+      {
+        "sha": "8801c41",
+        "message": "chore(data): daily refresh 2026-05-27",
+        "date": "2026-05-27T11:12:42Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/8801c4121de37792fececf10acf56e876319adc6"
+      },
       {
         "sha": "96cf1ca",
         "message": "chore(data): daily refresh 2026-05-25",
@@ -39,19 +127,9 @@
         "message": "chore(data): daily refresh 2026-05-22",
         "date": "2026-05-22T11:01:55Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/5743711a537be0c9f47ae16108a952c4637ff1ab"
-      },
-      {
-        "sha": "81716dd",
-        "message": "chore(data): daily refresh 2026-05-21",
-        "date": "2026-05-21T11:05:05Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/81716dd08941b51f65bd289b482585d259260970"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-05-21",
-        "count": 0
-      },
       {
         "date": "2026-05-22",
         "count": 0
@@ -75,86 +153,9 @@
       {
         "date": "2026-05-27",
         "count": 0
-      }
-    ]
-  },
-  {
-    "name": "talkingpres",
-    "description": "🦜 Uma galeria de apresentações de tecnologia feitas por AI",
-    "url": "https://github.com/ThiagoPanini/talkingpres",
-    "language": "Python",
-    "technologies": [
-      "Python"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "ai",
-      "decks",
-      "presentation",
-      "slides",
-      "technology"
-    ],
-    "pushedAt": "2026-05-24T20:57:10Z",
-    "lastCommits": [
-      {
-        "sha": "a7ab318",
-        "message": "chore: setup hostinger vps tutorial",
-        "date": "2026-05-24T20:56:53Z",
-        "url": "https://github.com/ThiagoPanini/talkingpres/commit/a7ab31861e6ee3e846eeb252e71229bc270e189c"
       },
       {
-        "sha": "f8b8f42",
-        "message": "chore: install prompt-engineering-patterns skill",
-        "date": "2026-05-24T19:36:09Z",
-        "url": "https://github.com/ThiagoPanini/talkingpres/commit/f8b8f4294600d467142c2424ddce38984ede6709"
-      },
-      {
-        "sha": "0244e39",
-        "message": "docs(adr): record grill-with-docs Phase 0 session — ADRs 0007 to 0012",
-        "date": "2026-05-24T19:35:53Z",
-        "url": "https://github.com/ThiagoPanini/talkingpres/commit/0244e39e16170c3aa4575b832976aecb74b3ccf4"
-      },
-      {
-        "sha": "1a8840d",
-        "message": "docs: simplify initial ADRs completion note in roadmap",
-        "date": "2026-05-23T23:45:10Z",
-        "url": "https://github.com/ThiagoPanini/talkingpres/commit/1a8840dfc61328e63dc20bd79cf89821ce6a8429"
-      },
-      {
-        "sha": "2bf8ddb",
-        "message": "docs(adr): record initial architecture decisions 0001-0006",
-        "date": "2026-05-23T23:43:46Z",
-        "url": "https://github.com/ThiagoPanini/talkingpres/commit/2bf8ddb7dfdcbaaa31ed39b0ccb71f8259f0e0b0"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-05-21",
-        "count": 0
-      },
-      {
-        "date": "2026-05-22",
-        "count": 0
-      },
-      {
-        "date": "2026-05-23",
-        "count": 6
-      },
-      {
-        "date": "2026-05-24",
-        "count": 3
-      },
-      {
-        "date": "2026-05-25",
-        "count": 0
-      },
-      {
-        "date": "2026-05-26",
-        "count": 0
-      },
-      {
-        "date": "2026-05-27",
+        "date": "2026-05-28",
         "count": 0
       }
     ]
@@ -210,10 +211,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-05-21",
-        "count": 0
-      },
-      {
         "date": "2026-05-22",
         "count": 0
       },
@@ -235,6 +232,10 @@
       },
       {
         "date": "2026-05-27",
+        "count": 0
+      },
+      {
+        "date": "2026-05-28",
         "count": 0
       }
     ]

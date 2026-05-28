@@ -1,14 +1,14 @@
 {
-  "weekStart": "2026-05-20",
-  "weekEnd": "2026-05-26",
-  "generatedAt": "2026-05-27T11:12:41.339Z",
-  "summary": "I focus on documenting architecture decisions, enhancing the roadmap, and setting up new skills and hosting tutorials in talkingpres this week through 9 commits.",
+  "weekStart": "2026-05-21",
+  "weekEnd": "2026-05-27",
+  "generatedAt": "2026-05-28T11:13:03.861Z",
+  "summary": "I focus this week on enhancing the talkingpres repository by documenting skills, organizing the knowledge base, addressing issues, and contributing to CI improvements and project structure planning.",
   "stats": {
-    "commits": 9,
+    "commits": 14,
     "reposTouched": [
       "talkingpres"
     ],
-    "pullRequests": 0
+    "pullRequests": 3
   },
   "source": "github-models-gpt-4o"
 }
