@@ -1,8 +1,8 @@
 {
-  "weekStart": "2026-05-22",
-  "weekEnd": "2026-05-28",
-  "generatedAt": "2026-05-29T11:06:01.572Z",
-  "summary": "I focused on enhancing the talkingpres repository by documenting skills, organizing knowledge bases, managing issues, labeling tasks, and contributing commits and pull requests.",
+  "weekStart": "2026-05-23",
+  "weekEnd": "2026-05-29",
+  "generatedAt": "2026-05-30T10:35:01.150Z",
+  "summary": "I focus on enhancing collaboration and documentation in talkingpres, contributing 14 commits, opening 3 PRs, and addressing issues around skills, CI/CD, and project structure.",
   "stats": {
     "commits": 14,
     "reposTouched": [
