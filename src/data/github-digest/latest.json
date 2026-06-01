@@ -1,12 +1,12 @@
 {
-  "weekStart": "2026-05-24",
-  "weekEnd": "2026-05-30",
-  "generatedAt": "2026-05-31T10:38:54.787Z",
-  "summary": "I focused on improving documentation, adding skills, and managing issues and PRs to enhance the talkingpres project’s structure and capabilities.",
+  "weekStart": "2026-05-25",
+  "weekEnd": "2026-05-31",
+  "generatedAt": "2026-06-01T11:59:20.258Z",
+  "summary": "I focused on enhancing documentation, refining skills, and managing issues and pull requests in the epistemix repository, driving improvements in workflows, knowledge sharing, and project organization.",
   "stats": {
-    "commits": 8,
+    "commits": 5,
     "reposTouched": [
-      "talkingpres"
+      "epistemix"
     ],
     "pullRequests": 3
   },
