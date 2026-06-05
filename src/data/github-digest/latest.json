@@ -1,14 +1,14 @@
 {
-  "weekStart": "2026-05-28",
-  "weekEnd": "2026-06-03",
-  "generatedAt": "2026-06-04T11:04:25.447Z",
-  "summary": "I focus on maintaining workflows and staying engaged across epistemix, ensuring readiness for future contributions.",
+  "weekStart": "2026-05-29",
+  "weekEnd": "2026-06-04",
+  "generatedAt": "2026-06-05T11:06:46.315Z",
+  "summary": "I focus on enhancing the epistemix project with 36 commits and 1 PR, introducing multi-agent MCPs, refining skills like to-issues and to-prd, and updating ADR-0017 for early adoption alignment.",
   "stats": {
-    "commits": 0,
+    "commits": 36,
     "reposTouched": [
       "epistemix"
     ],
-    "pullRequests": 0
+    "pullRequests": 1
   },
   "source": "github-models-gpt-4o"
 }
