@@ -3,10 +3,10 @@
     "name": "epistemix",
     "description": "Hub pessoal de aprendizado — blog, cursos, livros, certificações e apresentações técnicas",
     "url": "https://github.com/ThiagoPanini/epistemix",
-    "language": "Python",
+    "language": "JavaScript",
     "technologies": [
-      "Python",
-      "HTML"
+      "JavaScript",
+      "Python"
     ],
     "stars": 0,
     "forks": 0,
@@ -17,44 +17,40 @@
       "slides",
       "technology"
     ],
-    "pushedAt": "2026-06-06T04:10:52Z",
+    "pushedAt": "2026-06-07T01:28:57Z",
     "lastCommits": [
       {
-        "sha": "da54920",
-        "message": "docs(design): direção visual v1 + cover opcional no Source (#31)",
-        "date": "2026-06-06T00:27:25Z",
-        "url": "https://github.com/ThiagoPanini/epistemix/commit/da54920879dc43000a0ddfc5e8978d8545a76860"
+        "sha": "596bbc6",
+        "message": "feat(content): post sobre preparação e hardening de VPS Linux (#36)",
+        "date": "2026-06-07T01:28:57Z",
+        "url": "https://github.com/ThiagoPanini/epistemix/commit/596bbc6ea668664501f37582cc19f7bf024c539b"
       },
       {
-        "sha": "f2f8f66",
-        "message": "feat(catalog): cadeia with_sources MDX-native (Courses → aihero → Post) (#30)",
-        "date": "2026-06-05T23:51:25Z",
-        "url": "https://github.com/ThiagoPanini/epistemix/commit/f2f8f6679f440cfd6283b0faf168ed621f1bcedd"
+        "sha": "a1f614b",
+        "message": "Refine visual direction and add impeccable skill integration (#35)",
+        "date": "2026-06-07T01:13:09Z",
+        "url": "https://github.com/ThiagoPanini/epistemix/commit/a1f614b7c69fc7b0a629b4dba297e9c3b9bcbf2e"
       },
       {
-        "sha": "f21e8f0",
-        "message": "docs(ai-ops): cutover do epistemix.dev + api.epistemix.dev (Portão 3) (#29)",
-        "date": "2026-06-05T19:51:24Z",
-        "url": "https://github.com/ThiagoPanini/epistemix/commit/f21e8f070a84e714727a9757c5f294b1518f6f3b"
+        "sha": "81e5d86",
+        "message": "chore(skills): handler eptmx de autoria de conteúdo + voz destilada do corpus (#34)",
+        "date": "2026-06-07T01:01:44Z",
+        "url": "https://github.com/ThiagoPanini/epistemix/commit/81e5d869aca1357c3e51221b91e2bba1a9c9a7b8"
       },
       {
-        "sha": "510b171",
-        "message": "fix(web): timeout no fetch de health para a landing não pendurar (#28)",
-        "date": "2026-06-05T19:41:58Z",
-        "url": "https://github.com/ThiagoPanini/epistemix/commit/510b17186d4686aa6a2ddc072d696ff8c01ad798"
+        "sha": "f5ccc9f",
+        "message": "Enhance design principles and optional cover image in Source (#33)",
+        "date": "2026-06-06T23:21:18Z",
+        "url": "https://github.com/ThiagoPanini/epistemix/commit/f5ccc9f980a23503a17e19d14fa05e618259c8c4"
       },
       {
-        "sha": "e3308ad",
-        "message": "fix(deploy): instalar curl nas imagens web+api para o healthcheck do Coolify (#27)",
-        "date": "2026-06-05T15:55:02Z",
-        "url": "https://github.com/ThiagoPanini/epistemix/commit/e3308ad4ebaa078670d702d767c8763c8ba5ee18"
+        "sha": "c272289",
+        "message": "Aprimoramento de interface, UX e UI (#32)",
+        "date": "2026-06-06T13:12:02Z",
+        "url": "https://github.com/ThiagoPanini/epistemix/commit/c272289fa963d75c749a6a17a2438afca7fe52d4"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-05-31",
-        "count": 19
-      },
       {
         "date": "2026-06-01",
         "count": 5
@@ -77,7 +73,86 @@
       },
       {
         "date": "2026-06-06",
-        "count": 1
+        "count": 3
+      },
+      {
+        "date": "2026-06-07",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name": "hashnode-backup",
+    "description": "",
+    "url": "https://github.com/ThiagoPanini/hashnode-backup",
+    "language": "Unknown",
+    "technologies": [
+      "Unknown"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "pushedAt": "2026-06-06T23:37:08Z",
+    "lastCommits": [
+      {
+        "sha": "4518714",
+        "message": "create post: Uma Proposta de Padronização de Aplicações Spark",
+        "date": "2026-06-06T23:37:08Z",
+        "url": "https://github.com/ThiagoPanini/hashnode-backup/commit/451871424cda54e4acb26ff1f81dd4175c121fd7"
+      },
+      {
+        "sha": "ff99c4d",
+        "message": "create post: Arquitetura e Composição de uma Aplicação Spark",
+        "date": "2026-06-06T23:37:06Z",
+        "url": "https://github.com/ThiagoPanini/hashnode-backup/commit/ff99c4dea5972ed11c4c209168f8aa8edba24bc4"
+      },
+      {
+        "sha": "1d71805",
+        "message": "create post: Criando e Submetendo Aplicações Spark: spark-submit",
+        "date": "2026-06-06T23:37:05Z",
+        "url": "https://github.com/ThiagoPanini/hashnode-backup/commit/1d71805132a54e4f8f5bdac004b5947baea1539e"
+      },
+      {
+        "sha": "0e878f7",
+        "message": "create post: Funções Window: Aplicações em Cenários Práticos",
+        "date": "2026-06-06T23:37:03Z",
+        "url": "https://github.com/ThiagoPanini/hashnode-backup/commit/0e878f732e641f3e0e794435b9564fbfbb118876"
+      },
+      {
+        "sha": "13b67e6",
+        "message": "create post: Trabalhando com Tipos Primitivos Complexos",
+        "date": "2026-06-06T23:37:01Z",
+        "url": "https://github.com/ThiagoPanini/hashnode-backup/commit/13b67e68cdf4d90ec9df19f96ce48e683967e4e2"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-06-01",
+        "count": 0
+      },
+      {
+        "date": "2026-06-02",
+        "count": 0
+      },
+      {
+        "date": "2026-06-03",
+        "count": 0
+      },
+      {
+        "date": "2026-06-04",
+        "count": 0
+      },
+      {
+        "date": "2026-06-05",
+        "count": 0
+      },
+      {
+        "date": "2026-06-06",
+        "count": 47
+      },
+      {
+        "date": "2026-06-07",
+        "count": 0
       }
     ]
   },
@@ -96,8 +171,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-06-05T11:06:48Z",
+    "pushedAt": "2026-06-06T10:38:30Z",
     "lastCommits": [
+      {
+        "sha": "0eddb89",
+        "message": "chore(data): daily refresh 2026-06-06",
+        "date": "2026-06-06T10:38:30Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/0eddb89b32e0abc9fd93826abf32b33647085380"
+      },
       {
         "sha": "097dee4",
         "message": "chore(data): daily refresh 2026-06-05",
@@ -121,19 +202,9 @@
         "message": "chore(data): daily refresh 2026-06-02",
         "date": "2026-06-02T11:29:53Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/a4c54e0ff8b713e0be55c8e22aedb9726ba51042"
-      },
-      {
-        "sha": "c7818e8",
-        "message": "chore(data): daily refresh 2026-06-01",
-        "date": "2026-06-01T11:59:21Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/c7818e861991f1798ed1cbff928a885f247021dc"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-05-31",
-        "count": 0
-      },
       {
         "date": "2026-06-01",
         "count": 0
@@ -157,85 +228,9 @@
       {
         "date": "2026-06-06",
         "count": 0
-      }
-    ]
-  },
-  {
-    "name": "tfbox",
-    "description": "📦 A collection of production-ready Terraform modules focused on AWS environments",
-    "url": "https://github.com/ThiagoPanini/tfbox",
-    "language": "TypeScript",
-    "technologies": [
-      "TypeScript",
-      "HCL"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "aws",
-      "modules",
-      "terraform"
-    ],
-    "pushedAt": "2026-06-04T05:43:28Z",
-    "lastCommits": [
-      {
-        "sha": "02b1d5a",
-        "message": "chore(deps-dev): bump vitest from 1.6.1 to 4.1.5 in /web (#57)",
-        "date": "2026-04-23T13:39:22Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/02b1d5ab8d0c3b8c920f744f4d16eeee9f809d30"
       },
       {
-        "sha": "d871bea",
-        "message": "chore(deps-dev): bump typescript from 6.0.2 to 6.0.3 in /web (#58)",
-        "date": "2026-04-23T13:38:17Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/d871beabb2b70169a62d011112233bec9a94d4d8"
-      },
-      {
-        "sha": "d953f37",
-        "message": "chore(deps): bump @tailwindcss/postcss from 4.2.2 to 4.2.4 in /web (#56)",
-        "date": "2026-04-23T13:37:58Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/d953f373b55c2129e9d3ec28116e1ffcfb316e6a"
-      },
-      {
-        "sha": "b0ab2e5",
-        "message": "chore(deps): bump tailwind-merge from 2.6.1 to 3.5.0 in /web (#54)",
-        "date": "2026-04-23T13:37:37Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/b0ab2e5f6273a2f3b0cd551fd0881c590391d158"
-      },
-      {
-        "sha": "9884ab6",
-        "message": "chore(deps-dev): bump typescript from 6.0.2 to 6.0.3 in /scripts (#53)",
-        "date": "2026-04-23T13:37:28Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/9884ab621f62f46b57709e159034d6742ee31176"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-05-31",
-        "count": 0
-      },
-      {
-        "date": "2026-06-01",
-        "count": 0
-      },
-      {
-        "date": "2026-06-02",
-        "count": 0
-      },
-      {
-        "date": "2026-06-03",
-        "count": 0
-      },
-      {
-        "date": "2026-06-04",
-        "count": 0
-      },
-      {
-        "date": "2026-06-05",
-        "count": 0
-      },
-      {
-        "date": "2026-06-06",
+        "date": "2026-06-07",
         "count": 0
       }
     ]

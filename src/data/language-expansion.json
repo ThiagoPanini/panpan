@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-06T10:38:30.246Z",
+  "generatedAt": "2026-06-07T10:45:33.097Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
   "selectedRepos": [
     "epistemix",
+    "hashnode-backup",
     "panpan",
     "tfbox",
-    "campfire",
-    "aidriven-resources"
+    "campfire"
   ],
   "primaryStack": [
     "Python",
@@ -23,29 +23,29 @@
   ],
   "topLanguages": [
     {
-      "name": "TypeScript",
-      "score": 87.3,
-      "percentage": 31.4
-    },
-    {
       "name": "JavaScript",
-      "score": 61.2,
-      "percentage": 22
+      "score": 141,
+      "percentage": 45.4
     },
     {
-      "name": "HTML",
-      "score": 56.9,
-      "percentage": 20.5
+      "name": "TypeScript",
+      "score": 82.3,
+      "percentage": 26.5
     },
     {
       "name": "CSS",
-      "score": 43.4,
-      "percentage": 15.6
+      "score": 45.7,
+      "percentage": 14.7
     },
     {
       "name": "Astro",
       "score": 29.3,
-      "percentage": 10.5
+      "percentage": 9.4
+    },
+    {
+      "name": "HTML",
+      "score": 12.5,
+      "percentage": 4
     }
   ]
 }
