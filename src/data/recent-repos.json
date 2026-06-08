@@ -17,7 +17,7 @@
       "slides",
       "technology"
     ],
-    "pushedAt": "2026-06-07T01:28:57Z",
+    "pushedAt": "2026-06-07T15:37:47Z",
     "lastCommits": [
       {
         "sha": "596bbc6",
@@ -52,10 +52,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-06-01",
-        "count": 5
-      },
-      {
         "date": "2026-06-02",
         "count": 3
       },
@@ -78,6 +74,89 @@
       {
         "date": "2026-06-07",
         "count": 3
+      },
+      {
+        "date": "2026-06-08",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "name": "panpan",
+    "description": "✨ A personal webpage where you can find relevant technical information about me",
+    "url": "https://github.com/ThiagoPanini/panpan",
+    "language": "CSS",
+    "technologies": [
+      "CSS",
+      "Astro"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "front-end",
+      "website"
+    ],
+    "pushedAt": "2026-06-07T10:45:33Z",
+    "lastCommits": [
+      {
+        "sha": "1580894",
+        "message": "chore(data): daily refresh 2026-06-07",
+        "date": "2026-06-07T10:45:33Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/1580894c830dda1a2a3bcf71ae17f2f19c7e9e6b"
+      },
+      {
+        "sha": "0eddb89",
+        "message": "chore(data): daily refresh 2026-06-06",
+        "date": "2026-06-06T10:38:30Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/0eddb89b32e0abc9fd93826abf32b33647085380"
+      },
+      {
+        "sha": "097dee4",
+        "message": "chore(data): daily refresh 2026-06-05",
+        "date": "2026-06-05T11:06:47Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/097dee4fed624aeba154a1267af98154f1e803bb"
+      },
+      {
+        "sha": "d154fda",
+        "message": "chore(data): daily refresh 2026-06-04",
+        "date": "2026-06-04T11:04:26Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/d154fda7f15dd58aaf598d172db23b1e3ff3605c"
+      },
+      {
+        "sha": "6581e68",
+        "message": "chore(data): daily refresh 2026-06-03",
+        "date": "2026-06-03T11:37:18Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/6581e68cf7299ca7b4774b1bd0f0accffc81ece7"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-06-02",
+        "count": 0
+      },
+      {
+        "date": "2026-06-03",
+        "count": 0
+      },
+      {
+        "date": "2026-06-04",
+        "count": 0
+      },
+      {
+        "date": "2026-06-05",
+        "count": 0
+      },
+      {
+        "date": "2026-06-06",
+        "count": 0
+      },
+      {
+        "date": "2026-06-07",
+        "count": 0
+      },
+      {
+        "date": "2026-06-08",
+        "count": 0
       }
     ]
   },
@@ -127,10 +206,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-06-01",
-        "count": 0
-      },
-      {
         "date": "2026-06-02",
         "count": 0
       },
@@ -153,84 +228,9 @@
       {
         "date": "2026-06-07",
         "count": 0
-      }
-    ]
-  },
-  {
-    "name": "panpan",
-    "description": "✨ A personal webpage where you can find relevant technical information about me",
-    "url": "https://github.com/ThiagoPanini/panpan",
-    "language": "CSS",
-    "technologies": [
-      "CSS",
-      "Astro"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "front-end",
-      "website"
-    ],
-    "pushedAt": "2026-06-06T10:38:30Z",
-    "lastCommits": [
-      {
-        "sha": "0eddb89",
-        "message": "chore(data): daily refresh 2026-06-06",
-        "date": "2026-06-06T10:38:30Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/0eddb89b32e0abc9fd93826abf32b33647085380"
       },
       {
-        "sha": "097dee4",
-        "message": "chore(data): daily refresh 2026-06-05",
-        "date": "2026-06-05T11:06:47Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/097dee4fed624aeba154a1267af98154f1e803bb"
-      },
-      {
-        "sha": "d154fda",
-        "message": "chore(data): daily refresh 2026-06-04",
-        "date": "2026-06-04T11:04:26Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/d154fda7f15dd58aaf598d172db23b1e3ff3605c"
-      },
-      {
-        "sha": "6581e68",
-        "message": "chore(data): daily refresh 2026-06-03",
-        "date": "2026-06-03T11:37:18Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/6581e68cf7299ca7b4774b1bd0f0accffc81ece7"
-      },
-      {
-        "sha": "a4c54e0",
-        "message": "chore(data): daily refresh 2026-06-02",
-        "date": "2026-06-02T11:29:53Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/a4c54e0ff8b713e0be55c8e22aedb9726ba51042"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-06-01",
-        "count": 0
-      },
-      {
-        "date": "2026-06-02",
-        "count": 0
-      },
-      {
-        "date": "2026-06-03",
-        "count": 0
-      },
-      {
-        "date": "2026-06-04",
-        "count": 0
-      },
-      {
-        "date": "2026-06-05",
-        "count": 0
-      },
-      {
-        "date": "2026-06-06",
-        "count": 0
-      },
-      {
-        "date": "2026-06-07",
+        "date": "2026-06-08",
         "count": 0
       }
     ]

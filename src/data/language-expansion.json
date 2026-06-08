@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-06-07T10:45:33.097Z",
+  "generatedAt": "2026-06-08T11:36:48.928Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
   "selectedRepos": [
     "epistemix",
-    "hashnode-backup",
     "panpan",
+    "hashnode-backup",
     "tfbox",
     "campfire"
   ],
@@ -24,27 +24,27 @@
   "topLanguages": [
     {
       "name": "JavaScript",
-      "score": 141,
-      "percentage": 45.4
+      "score": 139.4,
+      "percentage": 45.1
     },
     {
       "name": "TypeScript",
-      "score": 82.3,
-      "percentage": 26.5
+      "score": 82.6,
+      "percentage": 26.7
     },
     {
       "name": "CSS",
-      "score": 45.7,
+      "score": 45.6,
       "percentage": 14.7
     },
     {
       "name": "Astro",
       "score": 29.3,
-      "percentage": 9.4
+      "percentage": 9.5
     },
     {
       "name": "HTML",
-      "score": 12.5,
+      "score": 12.4,
       "percentage": 4
     }
   ]
