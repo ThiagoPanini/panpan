@@ -1,5 +1,142 @@
 [
   {
+    "name": "traveltogether",
+    "description": "",
+    "url": "https://github.com/ThiagoPanini/traveltogether",
+    "language": "Python",
+    "technologies": [
+      "Python",
+      "TypeScript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "pushedAt": "2026-06-09T03:22:52Z",
+    "lastCommits": [
+      {
+        "sha": "7904c6a",
+        "message": "feat: walking skeleton — monorepo scaffold + healthcheck ponta a ponta",
+        "date": "2026-06-09T02:19:13Z",
+        "url": "https://github.com/ThiagoPanini/traveltogether/commit/7904c6acf25b12f74c04d7a030ef208704a7e8a9"
+      },
+      {
+        "sha": "4072157",
+        "message": "chore: initial repo state (docs + ADRs)",
+        "date": "2026-06-09T02:10:21Z",
+        "url": "https://github.com/ThiagoPanini/traveltogether/commit/40721575b983bedf6096c173171bdf6fc3b3aaa1"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-06-03",
+        "count": 0
+      },
+      {
+        "date": "2026-06-04",
+        "count": 0
+      },
+      {
+        "date": "2026-06-05",
+        "count": 0
+      },
+      {
+        "date": "2026-06-06",
+        "count": 0
+      },
+      {
+        "date": "2026-06-07",
+        "count": 0
+      },
+      {
+        "date": "2026-06-08",
+        "count": 0
+      },
+      {
+        "date": "2026-06-09",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "name": "panpan",
+    "description": "✨ A personal webpage where you can find relevant technical information about me",
+    "url": "https://github.com/ThiagoPanini/panpan",
+    "language": "CSS",
+    "technologies": [
+      "CSS",
+      "Astro"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "front-end",
+      "website"
+    ],
+    "pushedAt": "2026-06-08T11:36:49Z",
+    "lastCommits": [
+      {
+        "sha": "541ab32",
+        "message": "chore(data): daily refresh 2026-06-08",
+        "date": "2026-06-08T11:36:48Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/541ab3209d107332a9ae995ce7481ae3374f166c"
+      },
+      {
+        "sha": "1580894",
+        "message": "chore(data): daily refresh 2026-06-07",
+        "date": "2026-06-07T10:45:33Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/1580894c830dda1a2a3bcf71ae17f2f19c7e9e6b"
+      },
+      {
+        "sha": "0eddb89",
+        "message": "chore(data): daily refresh 2026-06-06",
+        "date": "2026-06-06T10:38:30Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/0eddb89b32e0abc9fd93826abf32b33647085380"
+      },
+      {
+        "sha": "097dee4",
+        "message": "chore(data): daily refresh 2026-06-05",
+        "date": "2026-06-05T11:06:47Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/097dee4fed624aeba154a1267af98154f1e803bb"
+      },
+      {
+        "sha": "d154fda",
+        "message": "chore(data): daily refresh 2026-06-04",
+        "date": "2026-06-04T11:04:26Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/d154fda7f15dd58aaf598d172db23b1e3ff3605c"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-06-03",
+        "count": 0
+      },
+      {
+        "date": "2026-06-04",
+        "count": 0
+      },
+      {
+        "date": "2026-06-05",
+        "count": 0
+      },
+      {
+        "date": "2026-06-06",
+        "count": 0
+      },
+      {
+        "date": "2026-06-07",
+        "count": 0
+      },
+      {
+        "date": "2026-06-08",
+        "count": 0
+      },
+      {
+        "date": "2026-06-09",
+        "count": 0
+      }
+    ]
+  },
+  {
     "name": "epistemix",
     "description": "Hub pessoal de aprendizado — blog, cursos, livros, certificações e apresentações técnicas",
     "url": "https://github.com/ThiagoPanini/epistemix",
@@ -52,10 +189,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-06-02",
-        "count": 3
-      },
-      {
         "date": "2026-06-03",
         "count": 0
       },
@@ -78,159 +211,9 @@
       {
         "date": "2026-06-08",
         "count": 0
-      }
-    ]
-  },
-  {
-    "name": "panpan",
-    "description": "✨ A personal webpage where you can find relevant technical information about me",
-    "url": "https://github.com/ThiagoPanini/panpan",
-    "language": "CSS",
-    "technologies": [
-      "CSS",
-      "Astro"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "front-end",
-      "website"
-    ],
-    "pushedAt": "2026-06-07T10:45:33Z",
-    "lastCommits": [
-      {
-        "sha": "1580894",
-        "message": "chore(data): daily refresh 2026-06-07",
-        "date": "2026-06-07T10:45:33Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/1580894c830dda1a2a3bcf71ae17f2f19c7e9e6b"
       },
       {
-        "sha": "0eddb89",
-        "message": "chore(data): daily refresh 2026-06-06",
-        "date": "2026-06-06T10:38:30Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/0eddb89b32e0abc9fd93826abf32b33647085380"
-      },
-      {
-        "sha": "097dee4",
-        "message": "chore(data): daily refresh 2026-06-05",
-        "date": "2026-06-05T11:06:47Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/097dee4fed624aeba154a1267af98154f1e803bb"
-      },
-      {
-        "sha": "d154fda",
-        "message": "chore(data): daily refresh 2026-06-04",
-        "date": "2026-06-04T11:04:26Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/d154fda7f15dd58aaf598d172db23b1e3ff3605c"
-      },
-      {
-        "sha": "6581e68",
-        "message": "chore(data): daily refresh 2026-06-03",
-        "date": "2026-06-03T11:37:18Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/6581e68cf7299ca7b4774b1bd0f0accffc81ece7"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-06-02",
-        "count": 0
-      },
-      {
-        "date": "2026-06-03",
-        "count": 0
-      },
-      {
-        "date": "2026-06-04",
-        "count": 0
-      },
-      {
-        "date": "2026-06-05",
-        "count": 0
-      },
-      {
-        "date": "2026-06-06",
-        "count": 0
-      },
-      {
-        "date": "2026-06-07",
-        "count": 0
-      },
-      {
-        "date": "2026-06-08",
-        "count": 0
-      }
-    ]
-  },
-  {
-    "name": "hashnode-backup",
-    "description": "",
-    "url": "https://github.com/ThiagoPanini/hashnode-backup",
-    "language": "Unknown",
-    "technologies": [
-      "Unknown"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-06-06T23:37:08Z",
-    "lastCommits": [
-      {
-        "sha": "4518714",
-        "message": "create post: Uma Proposta de Padronização de Aplicações Spark",
-        "date": "2026-06-06T23:37:08Z",
-        "url": "https://github.com/ThiagoPanini/hashnode-backup/commit/451871424cda54e4acb26ff1f81dd4175c121fd7"
-      },
-      {
-        "sha": "ff99c4d",
-        "message": "create post: Arquitetura e Composição de uma Aplicação Spark",
-        "date": "2026-06-06T23:37:06Z",
-        "url": "https://github.com/ThiagoPanini/hashnode-backup/commit/ff99c4dea5972ed11c4c209168f8aa8edba24bc4"
-      },
-      {
-        "sha": "1d71805",
-        "message": "create post: Criando e Submetendo Aplicações Spark: spark-submit",
-        "date": "2026-06-06T23:37:05Z",
-        "url": "https://github.com/ThiagoPanini/hashnode-backup/commit/1d71805132a54e4f8f5bdac004b5947baea1539e"
-      },
-      {
-        "sha": "0e878f7",
-        "message": "create post: Funções Window: Aplicações em Cenários Práticos",
-        "date": "2026-06-06T23:37:03Z",
-        "url": "https://github.com/ThiagoPanini/hashnode-backup/commit/0e878f732e641f3e0e794435b9564fbfbb118876"
-      },
-      {
-        "sha": "13b67e6",
-        "message": "create post: Trabalhando com Tipos Primitivos Complexos",
-        "date": "2026-06-06T23:37:01Z",
-        "url": "https://github.com/ThiagoPanini/hashnode-backup/commit/13b67e68cdf4d90ec9df19f96ce48e683967e4e2"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-06-02",
-        "count": 0
-      },
-      {
-        "date": "2026-06-03",
-        "count": 0
-      },
-      {
-        "date": "2026-06-04",
-        "count": 0
-      },
-      {
-        "date": "2026-06-05",
-        "count": 0
-      },
-      {
-        "date": "2026-06-06",
-        "count": 47
-      },
-      {
-        "date": "2026-06-07",
-        "count": 0
-      },
-      {
-        "date": "2026-06-08",
+        "date": "2026-06-09",
         "count": 0
       }
     ]

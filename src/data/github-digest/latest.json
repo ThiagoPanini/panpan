@@ -1,10 +1,10 @@
 {
-  "weekStart": "2026-06-01",
-  "weekEnd": "2026-06-07",
-  "generatedAt": "2026-06-08T11:36:47.696Z",
-  "summary": "I focus this week on enhancing UX/UI, refining content creation workflows in epistemix, and publishing technical posts on Spark architecture and application standards in hashnode-backup.",
+  "weekStart": "2026-06-02",
+  "weekEnd": "2026-06-08",
+  "generatedAt": "2026-06-09T11:03:58.844Z",
+  "summary": "I focus the week enhancing content and design in epistemix, authoring posts on Spark workflows in hashnode-backup, and iterating on UX, skills integration, and VPS hardening guides, with 81 commits and 33 PRs across both repos.",
   "stats": {
-    "commits": 86,
+    "commits": 81,
     "reposTouched": [
       "epistemix",
       "hashnode-backup"
