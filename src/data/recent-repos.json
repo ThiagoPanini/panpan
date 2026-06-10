@@ -11,26 +11,40 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-06-09T03:22:52Z",
+    "pushedAt": "2026-06-10T03:40:05Z",
     "lastCommits": [
       {
-        "sha": "7904c6a",
-        "message": "feat: walking skeleton — monorepo scaffold + healthcheck ponta a ponta",
-        "date": "2026-06-09T02:19:13Z",
-        "url": "https://github.com/ThiagoPanini/traveltogether/commit/7904c6acf25b12f74c04d7a030ef208704a7e8a9"
+        "sha": "61504fe",
+        "message": "Merge pull request #42 from ThiagoPanini/fix/client-side-api-url-server-actions",
+        "date": "2026-06-10T01:44:24Z",
+        "url": "https://github.com/ThiagoPanini/traveltogether/commit/61504fe088d7b167a20e19b5cd767d137c770159"
       },
       {
-        "sha": "4072157",
-        "message": "chore: initial repo state (docs + ADRs)",
-        "date": "2026-06-09T02:10:21Z",
-        "url": "https://github.com/ThiagoPanini/traveltogether/commit/40721575b983bedf6096c173171bdf6fc3b3aaa1"
+        "sha": "372ea23",
+        "message": "chore: resolve merge com upstream (upvote/chosen persistido + UI boarding pass)",
+        "date": "2026-06-10T01:43:22Z",
+        "url": "https://github.com/ThiagoPanini/traveltogether/commit/372ea23dd03bb2823b8ed65c4c1dfa883d9034b2"
+      },
+      {
+        "sha": "c5c9a51",
+        "message": "fix(web): restaura useRouter removido por engano em legs-panel",
+        "date": "2026-06-10T01:38:21Z",
+        "url": "https://github.com/ThiagoPanini/traveltogether/commit/c5c9a515cb6a5794be8e5a0277d8ac9537978665"
+      },
+      {
+        "sha": "0589d93",
+        "message": "fix(web): corrige a11y e formatação biome em legs-panel e fares-panel",
+        "date": "2026-06-10T01:37:32Z",
+        "url": "https://github.com/ThiagoPanini/traveltogether/commit/0589d93a91b4f241b1cafa317d81662a0c357a72"
+      },
+      {
+        "sha": "b071f2d",
+        "message": "feat(web): redesign visual Cartão de Embarque + refatoração de UI",
+        "date": "2026-06-10T01:34:55Z",
+        "url": "https://github.com/ThiagoPanini/traveltogether/commit/b071f2d0b3e96032293fd4b4e9e6029207b53fd1"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-03",
-        "count": 0
-      },
       {
         "date": "2026-06-04",
         "count": 0
@@ -53,86 +67,11 @@
       },
       {
         "date": "2026-06-09",
-        "count": 2
-      }
-    ]
-  },
-  {
-    "name": "panpan",
-    "description": "✨ A personal webpage where you can find relevant technical information about me",
-    "url": "https://github.com/ThiagoPanini/panpan",
-    "language": "CSS",
-    "technologies": [
-      "CSS",
-      "Astro"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "front-end",
-      "website"
-    ],
-    "pushedAt": "2026-06-08T11:36:49Z",
-    "lastCommits": [
-      {
-        "sha": "541ab32",
-        "message": "chore(data): daily refresh 2026-06-08",
-        "date": "2026-06-08T11:36:48Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/541ab3209d107332a9ae995ce7481ae3374f166c"
+        "count": 30
       },
       {
-        "sha": "1580894",
-        "message": "chore(data): daily refresh 2026-06-07",
-        "date": "2026-06-07T10:45:33Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/1580894c830dda1a2a3bcf71ae17f2f19c7e9e6b"
-      },
-      {
-        "sha": "0eddb89",
-        "message": "chore(data): daily refresh 2026-06-06",
-        "date": "2026-06-06T10:38:30Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/0eddb89b32e0abc9fd93826abf32b33647085380"
-      },
-      {
-        "sha": "097dee4",
-        "message": "chore(data): daily refresh 2026-06-05",
-        "date": "2026-06-05T11:06:47Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/097dee4fed624aeba154a1267af98154f1e803bb"
-      },
-      {
-        "sha": "d154fda",
-        "message": "chore(data): daily refresh 2026-06-04",
-        "date": "2026-06-04T11:04:26Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/d154fda7f15dd58aaf598d172db23b1e3ff3605c"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-06-03",
-        "count": 0
-      },
-      {
-        "date": "2026-06-04",
-        "count": 0
-      },
-      {
-        "date": "2026-06-05",
-        "count": 0
-      },
-      {
-        "date": "2026-06-06",
-        "count": 0
-      },
-      {
-        "date": "2026-06-07",
-        "count": 0
-      },
-      {
-        "date": "2026-06-08",
-        "count": 0
-      },
-      {
-        "date": "2026-06-09",
-        "count": 0
+        "date": "2026-06-10",
+        "count": 5
       }
     ]
   },
@@ -154,7 +93,7 @@
       "slides",
       "technology"
     ],
-    "pushedAt": "2026-06-07T15:37:47Z",
+    "pushedAt": "2026-06-09T12:48:35Z",
     "lastCommits": [
       {
         "sha": "596bbc6",
@@ -189,10 +128,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-06-03",
-        "count": 0
-      },
-      {
         "date": "2026-06-04",
         "count": 9
       },
@@ -214,6 +149,89 @@
       },
       {
         "date": "2026-06-09",
+        "count": 0
+      },
+      {
+        "date": "2026-06-10",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "name": "panpan",
+    "description": "✨ A personal webpage where you can find relevant technical information about me",
+    "url": "https://github.com/ThiagoPanini/panpan",
+    "language": "CSS",
+    "technologies": [
+      "CSS",
+      "Astro"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "front-end",
+      "website"
+    ],
+    "pushedAt": "2026-06-09T11:04:01Z",
+    "lastCommits": [
+      {
+        "sha": "f85ca41",
+        "message": "chore(data): daily refresh 2026-06-09",
+        "date": "2026-06-09T11:04:00Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/f85ca41be88b660e775c45f84eb80b11c786f530"
+      },
+      {
+        "sha": "541ab32",
+        "message": "chore(data): daily refresh 2026-06-08",
+        "date": "2026-06-08T11:36:48Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/541ab3209d107332a9ae995ce7481ae3374f166c"
+      },
+      {
+        "sha": "1580894",
+        "message": "chore(data): daily refresh 2026-06-07",
+        "date": "2026-06-07T10:45:33Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/1580894c830dda1a2a3bcf71ae17f2f19c7e9e6b"
+      },
+      {
+        "sha": "0eddb89",
+        "message": "chore(data): daily refresh 2026-06-06",
+        "date": "2026-06-06T10:38:30Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/0eddb89b32e0abc9fd93826abf32b33647085380"
+      },
+      {
+        "sha": "097dee4",
+        "message": "chore(data): daily refresh 2026-06-05",
+        "date": "2026-06-05T11:06:47Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/097dee4fed624aeba154a1267af98154f1e803bb"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-06-04",
+        "count": 0
+      },
+      {
+        "date": "2026-06-05",
+        "count": 0
+      },
+      {
+        "date": "2026-06-06",
+        "count": 0
+      },
+      {
+        "date": "2026-06-07",
+        "count": 0
+      },
+      {
+        "date": "2026-06-08",
+        "count": 0
+      },
+      {
+        "date": "2026-06-09",
+        "count": 0
+      },
+      {
+        "date": "2026-06-10",
         "count": 0
       }
     ]

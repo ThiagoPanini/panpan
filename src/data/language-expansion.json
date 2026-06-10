@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-06-09T11:04:00.470Z",
+  "generatedAt": "2026-06-10T11:15:47.516Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
   "selectedRepos": [
     "traveltogether",
-    "panpan",
     "epistemix",
+    "panpan",
     "hashnode-backup",
     "tfbox"
   ],
@@ -23,29 +23,29 @@
   ],
   "topLanguages": [
     {
-      "name": "JavaScript",
-      "score": 99.7,
-      "percentage": 37.7
+      "name": "TypeScript",
+      "score": 106,
+      "percentage": 36.5
     },
     {
-      "name": "TypeScript",
-      "score": 85.2,
-      "percentage": 32.2
+      "name": "JavaScript",
+      "score": 98,
+      "percentage": 33.7
     },
     {
       "name": "CSS",
-      "score": 44.9,
-      "percentage": 17
+      "score": 52.9,
+      "percentage": 18.2
     },
     {
       "name": "Astro",
       "score": 29.3,
-      "percentage": 11.1
+      "percentage": 10.1
     },
     {
-      "name": "Dockerfile",
-      "score": 5.6,
-      "percentage": 2.1
+      "name": "MDX",
+      "score": 4.3,
+      "percentage": 1.5
     }
   ]
 }
