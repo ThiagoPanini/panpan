@@ -1,5 +1,85 @@
 [
   {
+    "name": "tfbox",
+    "description": "📦 A collection of production-ready Terraform modules focused on AWS environments",
+    "url": "https://github.com/ThiagoPanini/tfbox",
+    "language": "TypeScript",
+    "technologies": [
+      "TypeScript",
+      "HCL"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "aws",
+      "modules",
+      "terraform"
+    ],
+    "pushedAt": "2026-06-11T05:44:05Z",
+    "lastCommits": [
+      {
+        "sha": "02b1d5a",
+        "message": "chore(deps-dev): bump vitest from 1.6.1 to 4.1.5 in /web (#57)",
+        "date": "2026-04-23T13:39:22Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/02b1d5ab8d0c3b8c920f744f4d16eeee9f809d30"
+      },
+      {
+        "sha": "d871bea",
+        "message": "chore(deps-dev): bump typescript from 6.0.2 to 6.0.3 in /web (#58)",
+        "date": "2026-04-23T13:38:17Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/d871beabb2b70169a62d011112233bec9a94d4d8"
+      },
+      {
+        "sha": "d953f37",
+        "message": "chore(deps): bump @tailwindcss/postcss from 4.2.2 to 4.2.4 in /web (#56)",
+        "date": "2026-04-23T13:37:58Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/d953f373b55c2129e9d3ec28116e1ffcfb316e6a"
+      },
+      {
+        "sha": "b0ab2e5",
+        "message": "chore(deps): bump tailwind-merge from 2.6.1 to 3.5.0 in /web (#54)",
+        "date": "2026-04-23T13:37:37Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/b0ab2e5f6273a2f3b0cd551fd0881c590391d158"
+      },
+      {
+        "sha": "9884ab6",
+        "message": "chore(deps-dev): bump typescript from 6.0.2 to 6.0.3 in /scripts (#53)",
+        "date": "2026-04-23T13:37:28Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/9884ab621f62f46b57709e159034d6742ee31176"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-06-05",
+        "count": 0
+      },
+      {
+        "date": "2026-06-06",
+        "count": 0
+      },
+      {
+        "date": "2026-06-07",
+        "count": 0
+      },
+      {
+        "date": "2026-06-08",
+        "count": 0
+      },
+      {
+        "date": "2026-06-09",
+        "count": 0
+      },
+      {
+        "date": "2026-06-10",
+        "count": 0
+      },
+      {
+        "date": "2026-06-11",
+        "count": 0
+      }
+    ]
+  },
+  {
     "name": "traveltogether",
     "description": "",
     "url": "https://github.com/ThiagoPanini/traveltogether",
@@ -11,8 +91,14 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-06-10T03:40:05Z",
+    "pushedAt": "2026-06-11T01:42:26Z",
     "lastCommits": [
+      {
+        "sha": "cd8ed4f",
+        "message": "feat(trips): itinerário, pesquisa de passagem e polish do MVP (issues #37–#41) (#52)",
+        "date": "2026-06-11T01:39:21Z",
+        "url": "https://github.com/ThiagoPanini/traveltogether/commit/cd8ed4fb5da3a60a155e2045d47ff2598f3e9430"
+      },
       {
         "sha": "61504fe",
         "message": "Merge pull request #42 from ThiagoPanini/fix/client-side-api-url-server-actions",
@@ -36,19 +122,9 @@
         "message": "fix(web): corrige a11y e formatação biome em legs-panel e fares-panel",
         "date": "2026-06-10T01:37:32Z",
         "url": "https://github.com/ThiagoPanini/traveltogether/commit/0589d93a91b4f241b1cafa317d81662a0c357a72"
-      },
-      {
-        "sha": "b071f2d",
-        "message": "feat(web): redesign visual Cartão de Embarque + refatoração de UI",
-        "date": "2026-06-10T01:34:55Z",
-        "url": "https://github.com/ThiagoPanini/traveltogether/commit/b071f2d0b3e96032293fd4b4e9e6029207b53fd1"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-04",
-        "count": 0
-      },
       {
         "date": "2026-06-05",
         "count": 0
@@ -72,88 +148,10 @@
       {
         "date": "2026-06-10",
         "count": 5
-      }
-    ]
-  },
-  {
-    "name": "epistemix",
-    "description": "Hub pessoal de aprendizado — blog, cursos, livros, certificações e apresentações técnicas",
-    "url": "https://github.com/ThiagoPanini/epistemix",
-    "language": "JavaScript",
-    "technologies": [
-      "JavaScript",
-      "Python"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "ai",
-      "decks",
-      "presentation",
-      "slides",
-      "technology"
-    ],
-    "pushedAt": "2026-06-09T12:48:35Z",
-    "lastCommits": [
-      {
-        "sha": "596bbc6",
-        "message": "feat(content): post sobre preparação e hardening de VPS Linux (#36)",
-        "date": "2026-06-07T01:28:57Z",
-        "url": "https://github.com/ThiagoPanini/epistemix/commit/596bbc6ea668664501f37582cc19f7bf024c539b"
       },
       {
-        "sha": "a1f614b",
-        "message": "Refine visual direction and add impeccable skill integration (#35)",
-        "date": "2026-06-07T01:13:09Z",
-        "url": "https://github.com/ThiagoPanini/epistemix/commit/a1f614b7c69fc7b0a629b4dba297e9c3b9bcbf2e"
-      },
-      {
-        "sha": "81e5d86",
-        "message": "chore(skills): handler eptmx de autoria de conteúdo + voz destilada do corpus (#34)",
-        "date": "2026-06-07T01:01:44Z",
-        "url": "https://github.com/ThiagoPanini/epistemix/commit/81e5d869aca1357c3e51221b91e2bba1a9c9a7b8"
-      },
-      {
-        "sha": "f5ccc9f",
-        "message": "Enhance design principles and optional cover image in Source (#33)",
-        "date": "2026-06-06T23:21:18Z",
-        "url": "https://github.com/ThiagoPanini/epistemix/commit/f5ccc9f980a23503a17e19d14fa05e618259c8c4"
-      },
-      {
-        "sha": "c272289",
-        "message": "Aprimoramento de interface, UX e UI (#32)",
-        "date": "2026-06-06T13:12:02Z",
-        "url": "https://github.com/ThiagoPanini/epistemix/commit/c272289fa963d75c749a6a17a2438afca7fe52d4"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-06-04",
-        "count": 9
-      },
-      {
-        "date": "2026-06-05",
-        "count": 16
-      },
-      {
-        "date": "2026-06-06",
-        "count": 3
-      },
-      {
-        "date": "2026-06-07",
-        "count": 3
-      },
-      {
-        "date": "2026-06-08",
-        "count": 0
-      },
-      {
-        "date": "2026-06-09",
-        "count": 0
-      },
-      {
-        "date": "2026-06-10",
-        "count": 0
+        "date": "2026-06-11",
+        "count": 1
       }
     ]
   },
@@ -172,8 +170,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-06-09T11:04:01Z",
+    "pushedAt": "2026-06-10T11:15:48Z",
     "lastCommits": [
+      {
+        "sha": "cdd4d02",
+        "message": "chore(data): daily refresh 2026-06-10",
+        "date": "2026-06-10T11:15:47Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/cdd4d0214a26077f27fe5d834a4a3134c1ef2f24"
+      },
       {
         "sha": "f85ca41",
         "message": "chore(data): daily refresh 2026-06-09",
@@ -197,19 +201,9 @@
         "message": "chore(data): daily refresh 2026-06-06",
         "date": "2026-06-06T10:38:30Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/0eddb89b32e0abc9fd93826abf32b33647085380"
-      },
-      {
-        "sha": "097dee4",
-        "message": "chore(data): daily refresh 2026-06-05",
-        "date": "2026-06-05T11:06:47Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/097dee4fed624aeba154a1267af98154f1e803bb"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-04",
-        "count": 0
-      },
       {
         "date": "2026-06-05",
         "count": 0
@@ -232,6 +226,10 @@
       },
       {
         "date": "2026-06-10",
+        "count": 0
+      },
+      {
+        "date": "2026-06-11",
         "count": 0
       }
     ]
