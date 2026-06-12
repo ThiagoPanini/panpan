@@ -1,58 +1,55 @@
 [
   {
-    "name": "tfbox",
-    "description": "📦 A collection of production-ready Terraform modules focused on AWS environments",
-    "url": "https://github.com/ThiagoPanini/tfbox",
-    "language": "TypeScript",
+    "name": "aidriven",
+    "description": "🔩 A Python CLI tool for getting and installing AI development resources into software projects.",
+    "url": "https://github.com/ThiagoPanini/aidriven",
+    "language": "Python",
     "technologies": [
-      "TypeScript",
-      "HCL"
+      "Python",
+      "Shell"
     ],
     "stars": 0,
     "forks": 0,
     "topics": [
-      "aws",
-      "modules",
-      "terraform"
+      "agent-skills",
+      "ai",
+      "cli",
+      "python"
     ],
-    "pushedAt": "2026-06-11T05:44:05Z",
+    "pushedAt": "2026-06-12T09:53:42Z",
     "lastCommits": [
       {
-        "sha": "02b1d5a",
-        "message": "chore(deps-dev): bump vitest from 1.6.1 to 4.1.5 in /web (#57)",
-        "date": "2026-04-23T13:39:22Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/02b1d5ab8d0c3b8c920f744f4d16eeee9f809d30"
+        "sha": "5bb7ae4",
+        "message": "Merge pull request #47 from ThiagoPanini/v0.2.1/fix-linter-problems",
+        "date": "2026-04-09T13:16:33Z",
+        "url": "https://github.com/ThiagoPanini/aidriven/commit/5bb7ae4685fd02645bfb87fa36bd676262906563"
       },
       {
-        "sha": "d871bea",
-        "message": "chore(deps-dev): bump typescript from 6.0.2 to 6.0.3 in /web (#58)",
-        "date": "2026-04-23T13:38:17Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/d871beabb2b70169a62d011112233bec9a94d4d8"
+        "sha": "5f3ed81",
+        "message": "Merge branch 'main' into v0.2.1/fix-linter-problems",
+        "date": "2026-04-09T13:14:02Z",
+        "url": "https://github.com/ThiagoPanini/aidriven/commit/5f3ed814bf4d91de9185da02f33a631b41012da4"
       },
       {
-        "sha": "d953f37",
-        "message": "chore(deps): bump @tailwindcss/postcss from 4.2.2 to 4.2.4 in /web (#56)",
-        "date": "2026-04-23T13:37:58Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/d953f373b55c2129e9d3ec28116e1ffcfb316e6a"
+        "sha": "7930255",
+        "message": "feat: add unit tests for HTTP retry logic, lockfile handling, manifest parsing, path resolution, planner decisions, and artifact name validation",
+        "date": "2026-04-09T13:11:32Z",
+        "url": "https://github.com/ThiagoPanini/aidriven/commit/7930255ffa0bb12c09e1e85f11eac4df78f410a5"
       },
       {
-        "sha": "b0ab2e5",
-        "message": "chore(deps): bump tailwind-merge from 2.6.1 to 3.5.0 in /web (#54)",
-        "date": "2026-04-23T13:37:37Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/b0ab2e5f6273a2f3b0cd551fd0881c590391d158"
+        "sha": "5258ac1",
+        "message": "Merge pull request #46 from ThiagoPanini/v0.2.0/spec-002-cli-artifact-install",
+        "date": "2026-04-09T13:01:27Z",
+        "url": "https://github.com/ThiagoPanini/aidriven/commit/5258ac1d13e12cc9b9fefe6fa0d35986d2a601e2"
       },
       {
-        "sha": "9884ab6",
-        "message": "chore(deps-dev): bump typescript from 6.0.2 to 6.0.3 in /scripts (#53)",
-        "date": "2026-04-23T13:37:28Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/9884ab621f62f46b57709e159034d6742ee31176"
+        "sha": "02d5c55",
+        "message": "Merge branch 'main' into v0.2.0/spec-002-cli-artifact-install",
+        "date": "2026-04-09T12:59:30Z",
+        "url": "https://github.com/ThiagoPanini/aidriven/commit/02d5c55d50d57b6e8f6e7b6b939bdf5cf44682c7"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-05",
-        "count": 0
-      },
       {
         "date": "2026-06-06",
         "count": 0
@@ -76,6 +73,10 @@
       {
         "date": "2026-06-11",
         "count": 0
+      },
+      {
+        "date": "2026-06-12",
+        "count": 0
       }
     ]
   },
@@ -91,7 +92,7 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-06-11T01:42:26Z",
+    "pushedAt": "2026-06-12T03:56:56Z",
     "lastCommits": [
       {
         "sha": "cd8ed4f",
@@ -126,10 +127,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-06-05",
-        "count": 0
-      },
-      {
         "date": "2026-06-06",
         "count": 0
       },
@@ -152,6 +149,10 @@
       {
         "date": "2026-06-11",
         "count": 1
+      },
+      {
+        "date": "2026-06-12",
+        "count": 0
       }
     ]
   },
@@ -170,8 +171,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-06-10T11:15:48Z",
+    "pushedAt": "2026-06-11T11:31:30Z",
     "lastCommits": [
+      {
+        "sha": "64a387a",
+        "message": "chore(data): daily refresh 2026-06-11",
+        "date": "2026-06-11T11:31:29Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/64a387a55b9bd76a15e09bfb6cb3865bc046608b"
+      },
       {
         "sha": "cdd4d02",
         "message": "chore(data): daily refresh 2026-06-10",
@@ -195,19 +202,9 @@
         "message": "chore(data): daily refresh 2026-06-07",
         "date": "2026-06-07T10:45:33Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/1580894c830dda1a2a3bcf71ae17f2f19c7e9e6b"
-      },
-      {
-        "sha": "0eddb89",
-        "message": "chore(data): daily refresh 2026-06-06",
-        "date": "2026-06-06T10:38:30Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/0eddb89b32e0abc9fd93826abf32b33647085380"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-05",
-        "count": 0
-      },
       {
         "date": "2026-06-06",
         "count": 0
@@ -230,6 +227,10 @@
       },
       {
         "date": "2026-06-11",
+        "count": 0
+      },
+      {
+        "date": "2026-06-12",
         "count": 0
       }
     ]
