@@ -1,15 +1,15 @@
 {
-  "weekStart": "2026-06-07",
-  "weekEnd": "2026-06-13",
-  "generatedAt": "2026-06-14T10:58:30.794Z",
-  "summary": "I focus on enhancing UX and functionality in epistemix and traveltogether, delivering features like group activity panels, itinerary tools, and metadata updates, while resolving bugs and managing collaboration workflows.",
+  "weekStart": "2026-06-08",
+  "weekEnd": "2026-06-14",
+  "generatedAt": "2026-06-15T12:02:33.798Z",
+  "summary": "I focused on enhancing user experiences and fixing UI, accessibility, and functionality issues across traveltogether and epistemix, while delivering features like trip itineraries, email-based login, and post metadata updates.",
   "stats": {
-    "commits": 76,
+    "commits": 73,
     "reposTouched": [
-      "epistemix",
-      "traveltogether"
+      "traveltogether",
+      "epistemix"
     ],
-    "pullRequests": 25
+    "pullRequests": 12
   },
   "source": "github-models-gpt-4o"
 }
