@@ -1,12 +1,13 @@
 {
-  "weekStart": "2026-06-10",
-  "weekEnd": "2026-06-16",
-  "generatedAt": "2026-06-17T11:34:33.933Z",
-  "summary": "I spent the week enhancing the traveltogether web platform by implementing features like a unified dashboard, task aggregation, and refined trip planning modules while closing multiple issues and iterating on user-facing components.",
+  "weekStart": "2026-06-11",
+  "weekEnd": "2026-06-17",
+  "generatedAt": "2026-06-18T11:23:23.243Z",
+  "summary": "I focus this week on enhancing user experiences and functionality across traveltogether and epistemix, delivering 63 commits, 39 PRs, and closing key issues on trip planning, fare research, and content presentation.",
   "stats": {
-    "commits": 39,
+    "commits": 63,
     "reposTouched": [
-      "traveltogether"
+      "traveltogether",
+      "epistemix"
     ],
     "pullRequests": 39
   },
