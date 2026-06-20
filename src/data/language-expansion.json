@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-06-19T11:32:43.222Z",
+  "generatedAt": "2026-06-20T10:48:27.712Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
   "selectedRepos": [
-    "aidriven",
     "traveltogether",
     "panpan",
+    "aidriven",
     "tfbox",
     "epistemix"
   ],
@@ -25,7 +25,7 @@
     {
       "name": "TypeScript",
       "score": 125.6,
-      "percentage": 41.6
+      "percentage": 41.5
     },
     {
       "name": "JavaScript",
@@ -34,8 +34,8 @@
     },
     {
       "name": "CSS",
-      "score": 44.7,
-      "percentage": 14.8
+      "score": 45.5,
+      "percentage": 15
     },
     {
       "name": "Astro",

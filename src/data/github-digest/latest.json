@@ -1,15 +1,15 @@
 {
-  "weekStart": "2026-06-12",
-  "weekEnd": "2026-06-18",
-  "generatedAt": "2026-06-19T11:32:42.278Z",
-  "summary": "I focus this week on delivering new features and fixes across traveltogether and epistemix, including dashboards, route planning, and UI refinements, while closing multiple issues and pushing 63 commits.",
+  "weekStart": "2026-06-13",
+  "weekEnd": "2026-06-19",
+  "generatedAt": "2026-06-20T10:48:26.644Z",
+  "summary": "I focus on enhancing user experiences and refining features across traveltogether and epistemix, delivering dashboard updates, task aggregation, invite management, and interface consistency while addressing micro-fixes and metadata improvements.",
   "stats": {
-    "commits": 63,
+    "commits": 43,
     "reposTouched": [
       "traveltogether",
       "epistemix"
     ],
-    "pullRequests": 36
+    "pullRequests": 29
   },
   "source": "github-models-gpt-4o"
 }
