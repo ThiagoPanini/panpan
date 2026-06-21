@@ -11,8 +11,20 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-06-19T16:32:30Z",
+    "pushedAt": "2026-06-21T00:49:19Z",
     "lastCommits": [
+      {
+        "sha": "d5d0990",
+        "message": "chore(docs): índice de adr, claude.md enxuto, links e skills symlinkadas (#183)",
+        "date": "2026-06-21T00:49:19Z",
+        "url": "https://github.com/ThiagoPanini/traveltogether/commit/d5d09902a369e89a2c7a8a0dae66c19780d90c20"
+      },
+      {
+        "sha": "fe39d4e",
+        "message": "chore(docs): remove documentação legado pré-reconstrução (#182)",
+        "date": "2026-06-21T00:32:58Z",
+        "url": "https://github.com/ThiagoPanini/traveltogether/commit/fe39d4e515e5fef709c2b1bd055e741f02ebbc32"
+      },
       {
         "sha": "aa4826d",
         "message": "feat(web): painel (dashboard) Atlas em /overview (#111) (#132)",
@@ -30,25 +42,9 @@
         "message": "feat(web): inbox de Convites com aceitar/recusar no painel (#106) (#130)",
         "date": "2026-06-16T12:09:03Z",
         "url": "https://github.com/ThiagoPanini/traveltogether/commit/cd82941039cd6f9244b3256e0bb1f1cb13696577"
-      },
-      {
-        "sha": "c419f6c",
-        "message": "feat(web): unifica formatação de Pesquisa e nota de câmbio no Comparar (#104) (#129)",
-        "date": "2026-06-16T12:04:09Z",
-        "url": "https://github.com/ThiagoPanini/traveltogether/commit/c419f6c2042dd9b7f064bdda46db2760cd4d9425"
-      },
-      {
-        "sha": "23b0df3",
-        "message": "feat(web): extrai agrupamento por dia do Roteiro para módulo testado (#105) (#128)",
-        "date": "2026-06-16T11:58:49Z",
-        "url": "https://github.com/ThiagoPanini/traveltogether/commit/23b0df352030df4676472b156b640a8a9d6eab11"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-14",
-        "count": 2
-      },
       {
         "date": "2026-06-15",
         "count": 1
@@ -72,6 +68,10 @@
       {
         "date": "2026-06-20",
         "count": 0
+      },
+      {
+        "date": "2026-06-21",
+        "count": 2
       }
     ]
   },
@@ -90,8 +90,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-06-19T11:32:43Z",
+    "pushedAt": "2026-06-20T10:48:28Z",
     "lastCommits": [
+      {
+        "sha": "9d22287",
+        "message": "chore(data): daily refresh 2026-06-20",
+        "date": "2026-06-20T10:48:27Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/9d222874361b6ac705984170a66dbba67f0feb9e"
+      },
       {
         "sha": "34eac5d",
         "message": "chore(data): daily refresh 2026-06-19",
@@ -115,19 +121,9 @@
         "message": "chore(data): daily refresh 2026-06-16",
         "date": "2026-06-16T11:47:33Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/5c7fbee7078f3ead40e425899f26e4e8964f3f6b"
-      },
-      {
-        "sha": "0a4d825",
-        "message": "chore(data): daily refresh 2026-06-15",
-        "date": "2026-06-15T12:02:35Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/0a4d8250f03a0806755311329fdcc1d7baa9d52f"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-14",
-        "count": 0
-      },
       {
         "date": "2026-06-15",
         "count": 0
@@ -150,6 +146,10 @@
       },
       {
         "date": "2026-06-20",
+        "count": 0
+      },
+      {
+        "date": "2026-06-21",
         "count": 0
       }
     ]
@@ -206,10 +206,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-06-14",
-        "count": 0
-      },
-      {
         "date": "2026-06-15",
         "count": 0
       },
@@ -231,6 +227,10 @@
       },
       {
         "date": "2026-06-20",
+        "count": 0
+      },
+      {
+        "date": "2026-06-21",
         "count": 0
       }
     ]
