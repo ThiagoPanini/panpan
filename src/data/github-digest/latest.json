@@ -1,11 +1,12 @@
 {
-  "weekStart": "2026-06-14",
-  "weekEnd": "2026-06-20",
-  "generatedAt": "2026-06-21T11:03:51.610Z",
-  "summary": "I focus on enhancing the traveltogether repo with features like a dashboard, task view, and invite management, while closing issues, refining UI elements, and organizing infrastructure for better deployment and modularity.",
+  "weekStart": "2026-06-15",
+  "weekEnd": "2026-06-21",
+  "generatedAt": "2026-06-22T12:01:54.634Z",
+  "summary": "I focus on enhancing documentation, refining infrastructure, and delivering new features across Panlabs and TravelTogether, including dashboards, task views, and improved theming.",
   "stats": {
-    "commits": 24,
+    "commits": 28,
     "reposTouched": [
+      "panlabs",
       "traveltogether",
       "epistemix"
     ],
