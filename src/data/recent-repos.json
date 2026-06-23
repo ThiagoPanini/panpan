@@ -1,128 +1,56 @@
 [
   {
-    "name": "aidriven-resources",
-    "description": "🧰 AI resources and artifacts for improving AI development journey",
-    "url": "https://github.com/ThiagoPanini/aidriven-resources",
-    "language": "Python",
+    "name": "ethitorial",
+    "description": "Hub pessoal de aprendizado — blog, cursos, livros, certificações e apresentações técnicas",
+    "url": "https://github.com/ThiagoPanini/ethitorial",
+    "language": "JavaScript",
     "technologies": [
-      "Python",
-      "HTML"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "agents",
-      "sdd",
-      "skills",
-      "specs"
-    ],
-    "pushedAt": "2026-06-22T03:06:49Z",
-    "lastCommits": [
-      {
-        "sha": "8026aac",
-        "message": "release: v0.2.0 (#15)",
-        "date": "2026-04-23T15:09:12Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/8026aac10e5010e970031d21973de4193dfc61db"
-      },
-      {
-        "sha": "76d86e9",
-        "message": "feat: Ai dev setup alert fix (#14)",
-        "date": "2026-04-23T15:07:12Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/76d86e9784043587b00d897275da55ccd477c513"
-      },
-      {
-        "sha": "c2990b5",
-        "message": "feat: Ai dev setup alert fix (#13)",
-        "date": "2026-04-23T14:26:04Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/c2990b5bb2a9296cfce79529cbccc1b137e79770"
-      },
-      {
-        "sha": "ca36891",
-        "message": "release: v0.1.3 (#12)",
-        "date": "2026-04-23T01:44:04Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/ca36891ca8c41d50026928b609866c3a4c25211a"
-      },
-      {
-        "sha": "a282281",
-        "message": "feat: Ai dev setup (#11)",
-        "date": "2026-04-23T01:31:02Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/a282281b562c9e3ec8fe9c0ab6412b38d40b9d0f"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-06-16",
-        "count": 0
-      },
-      {
-        "date": "2026-06-17",
-        "count": 0
-      },
-      {
-        "date": "2026-06-18",
-        "count": 0
-      },
-      {
-        "date": "2026-06-19",
-        "count": 0
-      },
-      {
-        "date": "2026-06-20",
-        "count": 0
-      },
-      {
-        "date": "2026-06-21",
-        "count": 0
-      },
-      {
-        "date": "2026-06-22",
-        "count": 0
-      }
-    ]
-  },
-  {
-    "name": "panlabs",
-    "description": "",
-    "url": "https://github.com/ThiagoPanini/panlabs",
-    "language": "Python",
-    "technologies": [
+      "JavaScript",
       "Python"
     ],
     "stars": 0,
     "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-06-21T23:23:52Z",
+    "topics": [
+      "ai",
+      "decks",
+      "presentation",
+      "slides",
+      "technology"
+    ],
+    "pushedAt": "2026-06-23T02:38:54Z",
     "lastCommits": [
       {
-        "sha": "aa43549",
-        "message": "docs: update context and vision to emphasize product-first approach and clarify indicators",
-        "date": "2026-06-21T23:23:47Z",
-        "url": "https://github.com/ThiagoPanini/panlabs/commit/aa4354948f8373c3495ba4a0bea777d79221a27f"
+        "sha": "aaeb0a8",
+        "message": "feat: removing em-dashes from articles and adding day 2 course posts (#141)",
+        "date": "2026-06-22T14:22:49Z",
+        "url": "https://github.com/ThiagoPanini/ethitorial/commit/aaeb0a88354dd2de1d7e78369cad6d95afe6bc8f"
       },
       {
-        "sha": "a44015f",
-        "message": "chore(repo): add local config scaffolding",
-        "date": "2026-06-21T19:04:41Z",
-        "url": "https://github.com/ThiagoPanini/panlabs/commit/a44015f5587bc10abf898e77e585ec96e0a54e2f"
+        "sha": "6d80381",
+        "message": "docs(ai-ops): registrar cutover do rebatismo ethitorial (#145)",
+        "date": "2026-06-23T02:38:36Z",
+        "url": "https://github.com/ThiagoPanini/ethitorial/commit/6d80381bfd37c4b90426af451c6c73ba8d1c81f1"
       },
       {
-        "sha": "5e009e8",
-        "message": "chore(skills): add local agent skill pack",
-        "date": "2026-06-21T19:04:39Z",
-        "url": "https://github.com/ThiagoPanini/panlabs/commit/5e009e8e3092957ae514a68f0717c8727a441ec0"
+        "sha": "d150975",
+        "message": "refactor: rebatismo epistemix -> ethitorial e migracao para panlabs.tech (#144)",
+        "date": "2026-06-23T02:18:34Z",
+        "url": "https://github.com/ThiagoPanini/ethitorial/commit/d15097584dbef61a90d4655f71c0efd360b1cfac"
       },
       {
-        "sha": "67be6c9",
-        "message": "docs(domain): add panlabs context and ADRs",
-        "date": "2026-06-21T19:04:35Z",
-        "url": "https://github.com/ThiagoPanini/panlabs/commit/67be6c961a3d5cde23f612cb3ca1b36543b9d6bf"
+        "sha": "2cbf9d2",
+        "message": "fix: declare course reading order in source.yml, restore true dates (#143)",
+        "date": "2026-06-22T14:48:29Z",
+        "url": "https://github.com/ThiagoPanini/ethitorial/commit/2cbf9d20713ef2dbb7a874ad5c9e88457cda51f8"
+      },
+      {
+        "sha": "8cba363",
+        "message": "fix: order day-2 course posts by sequential date (#142)",
+        "date": "2026-06-22T14:35:11Z",
+        "url": "https://github.com/ThiagoPanini/ethitorial/commit/8cba363d896eccc445b4df6f48522800c6c7862f"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-16",
-        "count": 0
-      },
       {
         "date": "2026-06-17",
         "count": 0
@@ -141,18 +69,22 @@
       },
       {
         "date": "2026-06-21",
-        "count": 4
+        "count": 0
       },
       {
         "date": "2026-06-22",
+        "count": 1
+      },
+      {
+        "date": "2026-06-23",
         "count": 0
       }
     ]
   },
   {
-    "name": "traveltogether",
+    "name": "travelmanager",
     "description": "",
-    "url": "https://github.com/ThiagoPanini/traveltogether",
+    "url": "https://github.com/ThiagoPanini/travelmanager",
     "language": "TypeScript",
     "technologies": [
       "TypeScript",
@@ -161,44 +93,40 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-06-21T19:06:41Z",
+    "pushedAt": "2026-06-23T02:03:45Z",
     "lastCommits": [
+      {
+        "sha": "4d043a7",
+        "message": "chore(rebrand): renomeia traveltogether para travelmanager (#185)",
+        "date": "2026-06-23T02:03:45Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/4d043a75dec8739efb793f21011c01ec00f54a7b"
+      },
       {
         "sha": "d5d0990",
         "message": "chore(docs): índice de adr, claude.md enxuto, links e skills symlinkadas (#183)",
         "date": "2026-06-21T00:49:19Z",
-        "url": "https://github.com/ThiagoPanini/traveltogether/commit/d5d09902a369e89a2c7a8a0dae66c19780d90c20"
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/d5d09902a369e89a2c7a8a0dae66c19780d90c20"
       },
       {
         "sha": "fe39d4e",
         "message": "chore(docs): remove documentação legado pré-reconstrução (#182)",
         "date": "2026-06-21T00:32:58Z",
-        "url": "https://github.com/ThiagoPanini/traveltogether/commit/fe39d4e515e5fef709c2b1bd055e741f02ebbc32"
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/fe39d4e515e5fef709c2b1bd055e741f02ebbc32"
       },
       {
-        "sha": "aa4826d",
-        "message": "feat(web): painel (dashboard) Atlas em /overview (#111) (#132)",
-        "date": "2026-06-16T12:23:23Z",
-        "url": "https://github.com/ThiagoPanini/traveltogether/commit/aa4826d2729662db908633e3fcf5e6d482a0cae9"
+        "sha": "b7d07df",
+        "message": "chore(infra): landing no ar em producao + readiness robusta ao DATABASE_URL (#181)",
+        "date": "2026-06-20T21:03:10Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/b7d07dfd56d132004dc8b047dd235a2bb04a91fd"
       },
       {
-        "sha": "17100f0",
-        "message": "feat(web): tela global de Tarefas agregando minhas Viagens (#107) (#131)",
-        "date": "2026-06-16T12:17:53Z",
-        "url": "https://github.com/ThiagoPanini/traveltogether/commit/17100f02489abbb1a7ebe252bb2ab53e5a20df3b"
-      },
-      {
-        "sha": "cd82941",
-        "message": "feat(web): inbox de Convites com aceitar/recusar no painel (#106) (#130)",
-        "date": "2026-06-16T12:09:03Z",
-        "url": "https://github.com/ThiagoPanini/traveltogether/commit/cd82941039cd6f9244b3256e0bb1f1cb13696577"
+        "sha": "416fcf0",
+        "message": "feat(web): landing page do Tema B Noturno (#180)",
+        "date": "2026-06-20T20:52:07Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/416fcf0df381ecf3aee734395e6de86161ae3ba4"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-16",
-        "count": 21
-      },
       {
         "date": "2026-06-17",
         "count": 0
@@ -222,6 +150,86 @@
       {
         "date": "2026-06-22",
         "count": 0
+      },
+      {
+        "date": "2026-06-23",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "panlabs",
+    "description": "",
+    "url": "https://github.com/ThiagoPanini/panlabs",
+    "language": "TypeScript",
+    "technologies": [
+      "TypeScript",
+      "CSS"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "pushedAt": "2026-06-23T01:11:16Z",
+    "lastCommits": [
+      {
+        "sha": "f9046fb",
+        "message": "feat(hero): enhance hero section with cover image and typewriter effect",
+        "date": "2026-06-23T01:11:09Z",
+        "url": "https://github.com/ThiagoPanini/panlabs/commit/f9046fb23b7e4379daeb7760231794a934c6baa7"
+      },
+      {
+        "sha": "5664616",
+        "message": "ci(deploy): fail loudly when Coolify secrets are missing (#39)",
+        "date": "2026-06-22T22:57:02Z",
+        "url": "https://github.com/ThiagoPanini/panlabs/commit/5664616d96c18792e3fed4e13b1425a55f30f551"
+      },
+      {
+        "sha": "9aae260",
+        "message": "feat(catalog): card preview fade, hover outline, typewriter hero & draft slot (#38)",
+        "date": "2026-06-22T22:34:43Z",
+        "url": "https://github.com/ThiagoPanini/panlabs/commit/9aae260c0cec58a50bb3b84ca57b2b23e866ec39"
+      },
+      {
+        "sha": "6433ddd",
+        "message": "feat: favicon, Open Graph image, and social meta tags (#9) (#26)",
+        "date": "2026-06-22T17:22:11Z",
+        "url": "https://github.com/ThiagoPanini/panlabs/commit/6433ddd75a9a4f9d0bef8d907834d01e511e5aae"
+      },
+      {
+        "sha": "4ac9bac",
+        "message": "feat: accessibility base layer (#8) (#25)",
+        "date": "2026-06-22T17:18:40Z",
+        "url": "https://github.com/ThiagoPanini/panlabs/commit/4ac9bacb5fe61bc2a278c6385aff8cd23f12f716"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-06-17",
+        "count": 0
+      },
+      {
+        "date": "2026-06-18",
+        "count": 0
+      },
+      {
+        "date": "2026-06-19",
+        "count": 0
+      },
+      {
+        "date": "2026-06-20",
+        "count": 0
+      },
+      {
+        "date": "2026-06-21",
+        "count": 4
+      },
+      {
+        "date": "2026-06-22",
+        "count": 14
+      },
+      {
+        "date": "2026-06-23",
+        "count": 1
       }
     ]
   }

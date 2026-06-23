@@ -1,14 +1,14 @@
 {
-  "weekStart": "2026-06-15",
-  "weekEnd": "2026-06-21",
-  "generatedAt": "2026-06-22T12:01:54.634Z",
-  "summary": "I focus on enhancing documentation, refining infrastructure, and delivering new features across Panlabs and TravelTogether, including dashboards, task views, and improved theming.",
+  "weekStart": "2026-06-16",
+  "weekEnd": "2026-06-22",
+  "generatedAt": "2026-06-23T11:03:27.210Z",
+  "summary": "I focus this week on enhancing accessibility, responsive design, and CI workflows in panlabs, refining documentation and dashboards in travelmanager, and updating articles in ethitorial with 42 commits and 19 PRs across projects.",
   "stats": {
-    "commits": 28,
+    "commits": 42,
     "reposTouched": [
       "panlabs",
-      "traveltogether",
-      "epistemix"
+      "travelmanager",
+      "ethitorial"
     ],
     "pullRequests": 19
   },
