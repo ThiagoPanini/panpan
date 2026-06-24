@@ -1,87 +1,5 @@
 [
   {
-    "name": "ethitorial",
-    "description": "Hub pessoal de aprendizado — blog, cursos, livros, certificações e apresentações técnicas",
-    "url": "https://github.com/ThiagoPanini/ethitorial",
-    "language": "JavaScript",
-    "technologies": [
-      "JavaScript",
-      "Python"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "ai",
-      "decks",
-      "presentation",
-      "slides",
-      "technology"
-    ],
-    "pushedAt": "2026-06-23T02:38:54Z",
-    "lastCommits": [
-      {
-        "sha": "aaeb0a8",
-        "message": "feat: removing em-dashes from articles and adding day 2 course posts (#141)",
-        "date": "2026-06-22T14:22:49Z",
-        "url": "https://github.com/ThiagoPanini/ethitorial/commit/aaeb0a88354dd2de1d7e78369cad6d95afe6bc8f"
-      },
-      {
-        "sha": "6d80381",
-        "message": "docs(ai-ops): registrar cutover do rebatismo ethitorial (#145)",
-        "date": "2026-06-23T02:38:36Z",
-        "url": "https://github.com/ThiagoPanini/ethitorial/commit/6d80381bfd37c4b90426af451c6c73ba8d1c81f1"
-      },
-      {
-        "sha": "d150975",
-        "message": "refactor: rebatismo epistemix -> ethitorial e migracao para panlabs.tech (#144)",
-        "date": "2026-06-23T02:18:34Z",
-        "url": "https://github.com/ThiagoPanini/ethitorial/commit/d15097584dbef61a90d4655f71c0efd360b1cfac"
-      },
-      {
-        "sha": "2cbf9d2",
-        "message": "fix: declare course reading order in source.yml, restore true dates (#143)",
-        "date": "2026-06-22T14:48:29Z",
-        "url": "https://github.com/ThiagoPanini/ethitorial/commit/2cbf9d20713ef2dbb7a874ad5c9e88457cda51f8"
-      },
-      {
-        "sha": "8cba363",
-        "message": "fix: order day-2 course posts by sequential date (#142)",
-        "date": "2026-06-22T14:35:11Z",
-        "url": "https://github.com/ThiagoPanini/ethitorial/commit/8cba363d896eccc445b4df6f48522800c6c7862f"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-06-17",
-        "count": 0
-      },
-      {
-        "date": "2026-06-18",
-        "count": 0
-      },
-      {
-        "date": "2026-06-19",
-        "count": 0
-      },
-      {
-        "date": "2026-06-20",
-        "count": 0
-      },
-      {
-        "date": "2026-06-21",
-        "count": 0
-      },
-      {
-        "date": "2026-06-22",
-        "count": 1
-      },
-      {
-        "date": "2026-06-23",
-        "count": 0
-      }
-    ]
-  },
-  {
     "name": "travelmanager",
     "description": "",
     "url": "https://github.com/ThiagoPanini/travelmanager",
@@ -93,8 +11,14 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-06-23T02:03:45Z",
+    "pushedAt": "2026-06-24T01:54:47Z",
     "lastCommits": [
+      {
+        "sha": "480e880",
+        "message": "feat(api,web): trilhos de identidade — modelos, sessões e plumbing do BFF (#197)",
+        "date": "2026-06-24T01:54:45Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/480e8801b3771902012e8d38a58d156174117c3c"
+      },
       {
         "sha": "4d043a7",
         "message": "chore(rebrand): renomeia traveltogether para travelmanager (#185)",
@@ -114,23 +38,13 @@
         "url": "https://github.com/ThiagoPanini/travelmanager/commit/fe39d4e515e5fef709c2b1bd055e741f02ebbc32"
       },
       {
-        "sha": "b7d07df",
-        "message": "chore(infra): landing no ar em producao + readiness robusta ao DATABASE_URL (#181)",
-        "date": "2026-06-20T21:03:10Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/b7d07dfd56d132004dc8b047dd235a2bb04a91fd"
-      },
-      {
-        "sha": "416fcf0",
-        "message": "feat(web): landing page do Tema B Noturno (#180)",
-        "date": "2026-06-20T20:52:07Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/416fcf0df381ecf3aee734395e6de86161ae3ba4"
+        "sha": "82c909b",
+        "message": "refactor: remove BoardingPassRibbon component and related content; add Reveal and ScrollLayers components with animations and styles (#188)",
+        "date": "2026-06-23T23:14:29Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/82c909b24a495b77afad10e1c624dcc85d896cf6"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-17",
-        "count": 0
-      },
       {
         "date": "2026-06-18",
         "count": 0
@@ -154,6 +68,89 @@
       {
         "date": "2026-06-23",
         "count": 1
+      },
+      {
+        "date": "2026-06-24",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "ethitorial",
+    "description": "🎓 Editorial de aprendizados pessoais materializados em conhecimento",
+    "url": "https://github.com/ThiagoPanini/ethitorial",
+    "language": "TypeScript",
+    "technologies": [
+      "TypeScript",
+      "Python"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "blog",
+      "learning"
+    ],
+    "pushedAt": "2026-06-24T01:18:18Z",
+    "lastCommits": [
+      {
+        "sha": "033ea17",
+        "message": "fix(web): forçar ipv4first no resolver para destravar o hop web→api (#149)",
+        "date": "2026-06-24T01:18:16Z",
+        "url": "https://github.com/ThiagoPanini/ethitorial/commit/033ea1728954573347700eadf17527833c7209ad"
+      },
+      {
+        "sha": "aaeb0a8",
+        "message": "feat: removing em-dashes from articles and adding day 2 course posts (#141)",
+        "date": "2026-06-22T14:22:49Z",
+        "url": "https://github.com/ThiagoPanini/ethitorial/commit/aaeb0a88354dd2de1d7e78369cad6d95afe6bc8f"
+      },
+      {
+        "sha": "c1159ad",
+        "message": "fix(web): destravar abertura de post e proxiar comentários (#148)",
+        "date": "2026-06-24T01:00:24Z",
+        "url": "https://github.com/ThiagoPanini/ethitorial/commit/c1159ad86afae89826dc4e3c2ec4c3cf3120a3ad"
+      },
+      {
+        "sha": "58b7d55",
+        "message": "chore(repo): remove archived skill assets after cutover (#147)",
+        "date": "2026-06-23T15:03:21Z",
+        "url": "https://github.com/ThiagoPanini/ethitorial/commit/58b7d5548c5c0e806c4f4796fd9c31fc7f04fda6"
+      },
+      {
+        "sha": "a6971ef",
+        "message": "docs: enxugar documentação pós-cutover (modelo enxuto inspirado no panlabs) (#146)",
+        "date": "2026-06-23T14:17:11Z",
+        "url": "https://github.com/ThiagoPanini/ethitorial/commit/a6971efc578bfddd1f3af31b84a3f1f4b7645596"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-06-18",
+        "count": 0
+      },
+      {
+        "date": "2026-06-19",
+        "count": 0
+      },
+      {
+        "date": "2026-06-20",
+        "count": 0
+      },
+      {
+        "date": "2026-06-21",
+        "count": 0
+      },
+      {
+        "date": "2026-06-22",
+        "count": 1
+      },
+      {
+        "date": "2026-06-23",
+        "count": 0
+      },
+      {
+        "date": "2026-06-24",
+        "count": 1
       }
     ]
   },
@@ -169,8 +166,14 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-06-23T01:11:16Z",
+    "pushedAt": "2026-06-23T23:20:16Z",
     "lastCommits": [
+      {
+        "sha": "89880c8",
+        "message": "feat(landing): new sections — Manifesto, Domain Architecture, Footer & Reveal (#43)",
+        "date": "2026-06-23T23:20:14Z",
+        "url": "https://github.com/ThiagoPanini/panlabs/commit/89880c83c3987ccd618861bb24301e87412f6cbb"
+      },
       {
         "sha": "f9046fb",
         "message": "feat(hero): enhance hero section with cover image and typewriter effect",
@@ -194,19 +197,9 @@
         "message": "feat: favicon, Open Graph image, and social meta tags (#9) (#26)",
         "date": "2026-06-22T17:22:11Z",
         "url": "https://github.com/ThiagoPanini/panlabs/commit/6433ddd75a9a4f9d0bef8d907834d01e511e5aae"
-      },
-      {
-        "sha": "4ac9bac",
-        "message": "feat: accessibility base layer (#8) (#25)",
-        "date": "2026-06-22T17:18:40Z",
-        "url": "https://github.com/ThiagoPanini/panlabs/commit/4ac9bacb5fe61bc2a278c6385aff8cd23f12f716"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-17",
-        "count": 0
-      },
       {
         "date": "2026-06-18",
         "count": 0
@@ -229,7 +222,11 @@
       },
       {
         "date": "2026-06-23",
-        "count": 1
+        "count": 2
+      },
+      {
+        "date": "2026-06-24",
+        "count": 0
       }
     ]
   }
