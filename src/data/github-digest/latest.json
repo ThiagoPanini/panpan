@@ -1,16 +1,16 @@
 {
-  "weekStart": "2026-06-17",
-  "weekEnd": "2026-06-23",
-  "generatedAt": "2026-06-24T11:02:05.380Z",
-  "summary": "I focused on enhancing panlabs' design and functionality, rebranding travelmanager, and refining ethitorial content, with updates spanning CI pipelines, metadata, responsive previews, and documentation.",
+  "weekStart": "2026-06-18",
+  "weekEnd": "2026-06-24",
+  "generatedAt": "2026-06-25T10:57:27.766Z",
+  "summary": "I focus this week on enhancing authentication security, improving UX, and refining content across travelmanager, ethitorial, and panlabs, while closing issues and merging key PRs.",
   "stats": {
-    "commits": 24,
+    "commits": 44,
     "reposTouched": [
-      "panlabs",
       "travelmanager",
-      "ethitorial"
+      "ethitorial",
+      "panlabs"
     ],
-    "pullRequests": 20
+    "pullRequests": 23
   },
   "source": "github-models-gpt-4o"
 }

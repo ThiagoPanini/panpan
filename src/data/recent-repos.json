@@ -1,54 +1,54 @@
 [
   {
-    "name": "travelmanager",
-    "description": "",
-    "url": "https://github.com/ThiagoPanini/travelmanager",
+    "name": "tfbox",
+    "description": "📦 A collection of production-ready Terraform modules focused on AWS environments",
+    "url": "https://github.com/ThiagoPanini/tfbox",
     "language": "TypeScript",
     "technologies": [
       "TypeScript",
-      "Python"
+      "HCL"
     ],
     "stars": 0,
     "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-06-24T01:54:47Z",
+    "topics": [
+      "aws",
+      "modules",
+      "terraform"
+    ],
+    "pushedAt": "2026-06-25T05:43:46Z",
     "lastCommits": [
       {
-        "sha": "480e880",
-        "message": "feat(api,web): trilhos de identidade — modelos, sessões e plumbing do BFF (#197)",
-        "date": "2026-06-24T01:54:45Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/480e8801b3771902012e8d38a58d156174117c3c"
+        "sha": "02b1d5a",
+        "message": "chore(deps-dev): bump vitest from 1.6.1 to 4.1.5 in /web (#57)",
+        "date": "2026-04-23T13:39:22Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/02b1d5ab8d0c3b8c920f744f4d16eeee9f809d30"
       },
       {
-        "sha": "4d043a7",
-        "message": "chore(rebrand): renomeia traveltogether para travelmanager (#185)",
-        "date": "2026-06-23T02:03:45Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/4d043a75dec8739efb793f21011c01ec00f54a7b"
+        "sha": "d871bea",
+        "message": "chore(deps-dev): bump typescript from 6.0.2 to 6.0.3 in /web (#58)",
+        "date": "2026-04-23T13:38:17Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/d871beabb2b70169a62d011112233bec9a94d4d8"
       },
       {
-        "sha": "d5d0990",
-        "message": "chore(docs): índice de adr, claude.md enxuto, links e skills symlinkadas (#183)",
-        "date": "2026-06-21T00:49:19Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/d5d09902a369e89a2c7a8a0dae66c19780d90c20"
+        "sha": "d953f37",
+        "message": "chore(deps): bump @tailwindcss/postcss from 4.2.2 to 4.2.4 in /web (#56)",
+        "date": "2026-04-23T13:37:58Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/d953f373b55c2129e9d3ec28116e1ffcfb316e6a"
       },
       {
-        "sha": "fe39d4e",
-        "message": "chore(docs): remove documentação legado pré-reconstrução (#182)",
-        "date": "2026-06-21T00:32:58Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/fe39d4e515e5fef709c2b1bd055e741f02ebbc32"
+        "sha": "b0ab2e5",
+        "message": "chore(deps): bump tailwind-merge from 2.6.1 to 3.5.0 in /web (#54)",
+        "date": "2026-04-23T13:37:37Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/b0ab2e5f6273a2f3b0cd551fd0881c590391d158"
       },
       {
-        "sha": "82c909b",
-        "message": "refactor: remove BoardingPassRibbon component and related content; add Reveal and ScrollLayers components with animations and styles (#188)",
-        "date": "2026-06-23T23:14:29Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/82c909b24a495b77afad10e1c624dcc85d896cf6"
+        "sha": "9884ab6",
+        "message": "chore(deps-dev): bump typescript from 6.0.2 to 6.0.3 in /scripts (#53)",
+        "date": "2026-04-23T13:37:28Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/9884ab621f62f46b57709e159034d6742ee31176"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-18",
-        "count": 0
-      },
       {
         "date": "2026-06-19",
         "count": 0
@@ -59,7 +59,7 @@
       },
       {
         "date": "2026-06-21",
-        "count": 2
+        "count": 0
       },
       {
         "date": "2026-06-22",
@@ -67,11 +67,91 @@
       },
       {
         "date": "2026-06-23",
-        "count": 1
+        "count": 0
       },
       {
         "date": "2026-06-24",
-        "count": 1
+        "count": 0
+      },
+      {
+        "date": "2026-06-25",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "name": "campfire",
+    "description": "🔥 A web app that helps groups of friends organize and enjoy their music jam sessions.",
+    "url": "https://github.com/ThiagoPanini/campfire",
+    "language": "JavaScript",
+    "technologies": [
+      "JavaScript",
+      "Python"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "pushedAt": "2026-06-25T05:13:51Z",
+    "lastCommits": [
+      {
+        "sha": "d354d18",
+        "message": "chore(release): promote develop to main (69b7004223626b90b274fdf631c59166284ab1b2) (#35)",
+        "date": "2026-04-30T23:09:09Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/d354d1814c3682a646e7e798c836a68fbf923e20"
+      },
+      {
+        "sha": "331140c",
+        "message": "chore(deps): target develop branch and group dependabot updates (#26) (#27)",
+        "date": "2026-04-30T21:45:03Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/331140c0bde09e0d02b1ffdd4d4fcfd40ab9adbe"
+      },
+      {
+        "sha": "a0b902e",
+        "message": "chore(release): promote develop to main (d9633bc4fe9c5115473baf3f9ee4a82babf56423) (#13)",
+        "date": "2026-04-30T19:01:09Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/a0b902eeb32a856b869f4f30d3a772848df6abd0"
+      },
+      {
+        "sha": "1d1345c",
+        "message": "Merge pull request #9 from ThiagoPanini/004-app-home-redesign",
+        "date": "2026-04-29T15:22:58Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/1d1345c12cba72608ba2859999d9a8dfdbd8f9f9"
+      },
+      {
+        "sha": "e03afc1",
+        "message": "feat(api): add synchronous CORS origins retrieval and corresponding unit test",
+        "date": "2026-04-29T15:20:36Z",
+        "url": "https://github.com/ThiagoPanini/campfire/commit/e03afc16bcb080bd19ffa6728ea7f6a31dd2adbb"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-06-19",
+        "count": 0
+      },
+      {
+        "date": "2026-06-20",
+        "count": 0
+      },
+      {
+        "date": "2026-06-21",
+        "count": 0
+      },
+      {
+        "date": "2026-06-22",
+        "count": 0
+      },
+      {
+        "date": "2026-06-23",
+        "count": 0
+      },
+      {
+        "date": "2026-06-24",
+        "count": 0
+      },
+      {
+        "date": "2026-06-25",
+        "count": 0
       }
     ]
   },
@@ -90,7 +170,7 @@
       "blog",
       "learning"
     ],
-    "pushedAt": "2026-06-24T01:18:18Z",
+    "pushedAt": "2026-06-25T00:34:42Z",
     "lastCommits": [
       {
         "sha": "033ea17",
@@ -105,29 +185,25 @@
         "url": "https://github.com/ThiagoPanini/ethitorial/commit/aaeb0a88354dd2de1d7e78369cad6d95afe6bc8f"
       },
       {
+        "sha": "b1c65a2",
+        "message": "chore: corrigir refs a ADRs renumerados e URL da VPS nos exemplos (#151)",
+        "date": "2026-06-25T00:34:39Z",
+        "url": "https://github.com/ThiagoPanini/ethitorial/commit/b1c65a22f733347de1475695d7b832f0b57a405d"
+      },
+      {
+        "sha": "e5e9e3c",
+        "message": "docs(adr): registrar invariante de network alias app→app no coolify (ADR-0023) (#150)",
+        "date": "2026-06-24T17:47:44Z",
+        "url": "https://github.com/ThiagoPanini/ethitorial/commit/e5e9e3c03b8eec5566f1702bbb17d8bc6b425baf"
+      },
+      {
         "sha": "c1159ad",
         "message": "fix(web): destravar abertura de post e proxiar comentários (#148)",
         "date": "2026-06-24T01:00:24Z",
         "url": "https://github.com/ThiagoPanini/ethitorial/commit/c1159ad86afae89826dc4e3c2ec4c3cf3120a3ad"
-      },
-      {
-        "sha": "58b7d55",
-        "message": "chore(repo): remove archived skill assets after cutover (#147)",
-        "date": "2026-06-23T15:03:21Z",
-        "url": "https://github.com/ThiagoPanini/ethitorial/commit/58b7d5548c5c0e806c4f4796fd9c31fc7f04fda6"
-      },
-      {
-        "sha": "a6971ef",
-        "message": "docs: enxugar documentação pós-cutover (modelo enxuto inspirado no panlabs) (#146)",
-        "date": "2026-06-23T14:17:11Z",
-        "url": "https://github.com/ThiagoPanini/ethitorial/commit/a6971efc578bfddd1f3af31b84a3f1f4b7645596"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-18",
-        "count": 0
-      },
       {
         "date": "2026-06-19",
         "count": 0
@@ -151,81 +227,9 @@
       {
         "date": "2026-06-24",
         "count": 1
-      }
-    ]
-  },
-  {
-    "name": "panlabs",
-    "description": "",
-    "url": "https://github.com/ThiagoPanini/panlabs",
-    "language": "TypeScript",
-    "technologies": [
-      "TypeScript",
-      "CSS"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-06-23T23:20:16Z",
-    "lastCommits": [
-      {
-        "sha": "89880c8",
-        "message": "feat(landing): new sections — Manifesto, Domain Architecture, Footer & Reveal (#43)",
-        "date": "2026-06-23T23:20:14Z",
-        "url": "https://github.com/ThiagoPanini/panlabs/commit/89880c83c3987ccd618861bb24301e87412f6cbb"
       },
       {
-        "sha": "f9046fb",
-        "message": "feat(hero): enhance hero section with cover image and typewriter effect",
-        "date": "2026-06-23T01:11:09Z",
-        "url": "https://github.com/ThiagoPanini/panlabs/commit/f9046fb23b7e4379daeb7760231794a934c6baa7"
-      },
-      {
-        "sha": "5664616",
-        "message": "ci(deploy): fail loudly when Coolify secrets are missing (#39)",
-        "date": "2026-06-22T22:57:02Z",
-        "url": "https://github.com/ThiagoPanini/panlabs/commit/5664616d96c18792e3fed4e13b1425a55f30f551"
-      },
-      {
-        "sha": "9aae260",
-        "message": "feat(catalog): card preview fade, hover outline, typewriter hero & draft slot (#38)",
-        "date": "2026-06-22T22:34:43Z",
-        "url": "https://github.com/ThiagoPanini/panlabs/commit/9aae260c0cec58a50bb3b84ca57b2b23e866ec39"
-      },
-      {
-        "sha": "6433ddd",
-        "message": "feat: favicon, Open Graph image, and social meta tags (#9) (#26)",
-        "date": "2026-06-22T17:22:11Z",
-        "url": "https://github.com/ThiagoPanini/panlabs/commit/6433ddd75a9a4f9d0bef8d907834d01e511e5aae"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-06-18",
-        "count": 0
-      },
-      {
-        "date": "2026-06-19",
-        "count": 0
-      },
-      {
-        "date": "2026-06-20",
-        "count": 0
-      },
-      {
-        "date": "2026-06-21",
-        "count": 4
-      },
-      {
-        "date": "2026-06-22",
-        "count": 14
-      },
-      {
-        "date": "2026-06-23",
-        "count": 2
-      },
-      {
-        "date": "2026-06-24",
+        "date": "2026-06-25",
         "count": 0
       }
     ]
