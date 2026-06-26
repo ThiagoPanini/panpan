@@ -1,65 +1,57 @@
 [
   {
-    "name": "tfbox",
-    "description": "📦 A collection of production-ready Terraform modules focused on AWS environments",
-    "url": "https://github.com/ThiagoPanini/tfbox",
-    "language": "TypeScript",
+    "name": "travelmanager",
+    "description": "",
+    "url": "https://github.com/ThiagoPanini/travelmanager",
+    "language": "Python",
     "technologies": [
-      "TypeScript",
-      "HCL"
+      "Python",
+      "TypeScript"
     ],
     "stars": 0,
     "forks": 0,
-    "topics": [
-      "aws",
-      "modules",
-      "terraform"
-    ],
-    "pushedAt": "2026-06-25T05:43:46Z",
+    "topics": [],
+    "pushedAt": "2026-06-25T20:58:17Z",
     "lastCommits": [
       {
-        "sha": "02b1d5a",
-        "message": "chore(deps-dev): bump vitest from 1.6.1 to 4.1.5 in /web (#57)",
-        "date": "2026-04-23T13:39:22Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/02b1d5ab8d0c3b8c920f744f4d16eeee9f809d30"
+        "sha": "6ebab1b",
+        "message": "Merge pull request #222 from ThiagoPanini/docs/little-improvements-on-agents-docs",
+        "date": "2026-06-25T20:58:17Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/6ebab1b303c94e96e5ee69c33bf883e7c4859926"
       },
       {
-        "sha": "d871bea",
-        "message": "chore(deps-dev): bump typescript from 6.0.2 to 6.0.3 in /web (#58)",
-        "date": "2026-04-23T13:38:17Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/d871beabb2b70169a62d011112233bec9a94d4d8"
+        "sha": "1e2aa05",
+        "message": "docs: update implementation guidelines and clarify ADR reading instructions",
+        "date": "2026-06-25T20:56:48Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/1e2aa05736fc439df763107aee2872f7d85bcbdf"
       },
       {
-        "sha": "d953f37",
-        "message": "chore(deps): bump @tailwindcss/postcss from 4.2.2 to 4.2.4 in /web (#56)",
-        "date": "2026-04-23T13:37:58Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/d953f373b55c2129e9d3ec28116e1ffcfb316e6a"
+        "sha": "8c70f10",
+        "message": "Merge pull request #221 from ThiagoPanini/feat/216-home-foco-central",
+        "date": "2026-06-25T20:51:45Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/8c70f10514f60cd25d29ff6f875420262454f59d"
       },
       {
-        "sha": "b0ab2e5",
-        "message": "chore(deps): bump tailwind-merge from 2.6.1 to 3.5.0 in /web (#54)",
-        "date": "2026-04-23T13:37:37Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/b0ab2e5f6273a2f3b0cd551fd0881c590391d158"
+        "sha": "be9de7b",
+        "message": "Merge pull request #220 from ThiagoPanini/feat/215-onboarding-wizard",
+        "date": "2026-06-25T19:58:03Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/be9de7bfa1486f9038a6bb15ae5306af379b88ee"
       },
       {
-        "sha": "9884ab6",
-        "message": "chore(deps-dev): bump typescript from 6.0.2 to 6.0.3 in /scripts (#53)",
-        "date": "2026-04-23T13:37:28Z",
-        "url": "https://github.com/ThiagoPanini/tfbox/commit/9884ab621f62f46b57709e159034d6742ee31176"
+        "sha": "f4deaec",
+        "message": "feat(web): home foco-central (#216)",
+        "date": "2026-06-25T19:57:39Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/f4deaeca3cf8971554d62e4286a396ed2f3957fc"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-19",
-        "count": 0
-      },
       {
         "date": "2026-06-20",
         "count": 0
       },
       {
         "date": "2026-06-21",
-        "count": 0
+        "count": 2
       },
       {
         "date": "2026-06-22",
@@ -67,68 +59,36 @@
       },
       {
         "date": "2026-06-23",
-        "count": 0
+        "count": 1
       },
       {
         "date": "2026-06-24",
-        "count": 0
+        "count": 19
       },
       {
         "date": "2026-06-25",
+        "count": 18
+      },
+      {
+        "date": "2026-06-26",
         "count": 0
       }
     ]
   },
   {
-    "name": "campfire",
-    "description": "🔥 A web app that helps groups of friends organize and enjoy their music jam sessions.",
-    "url": "https://github.com/ThiagoPanini/campfire",
-    "language": "JavaScript",
+    "name": "allin1",
+    "description": "🎛️ Um painel de controle completo sobre saúde, finanças, tarefas e tudo sobre a vida",
+    "url": "https://github.com/ThiagoPanini/allin1",
+    "language": "Unknown",
     "technologies": [
-      "JavaScript",
-      "Python"
+      "Unknown"
     ],
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-06-25T05:13:51Z",
-    "lastCommits": [
-      {
-        "sha": "d354d18",
-        "message": "chore(release): promote develop to main (69b7004223626b90b274fdf631c59166284ab1b2) (#35)",
-        "date": "2026-04-30T23:09:09Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/d354d1814c3682a646e7e798c836a68fbf923e20"
-      },
-      {
-        "sha": "331140c",
-        "message": "chore(deps): target develop branch and group dependabot updates (#26) (#27)",
-        "date": "2026-04-30T21:45:03Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/331140c0bde09e0d02b1ffdd4d4fcfd40ab9adbe"
-      },
-      {
-        "sha": "a0b902e",
-        "message": "chore(release): promote develop to main (d9633bc4fe9c5115473baf3f9ee4a82babf56423) (#13)",
-        "date": "2026-04-30T19:01:09Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/a0b902eeb32a856b869f4f30d3a772848df6abd0"
-      },
-      {
-        "sha": "1d1345c",
-        "message": "Merge pull request #9 from ThiagoPanini/004-app-home-redesign",
-        "date": "2026-04-29T15:22:58Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/1d1345c12cba72608ba2859999d9a8dfdbd8f9f9"
-      },
-      {
-        "sha": "e03afc1",
-        "message": "feat(api): add synchronous CORS origins retrieval and corresponding unit test",
-        "date": "2026-04-29T15:20:36Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/e03afc16bcb080bd19ffa6728ea7f6a31dd2adbb"
-      }
-    ],
+    "pushedAt": "2026-06-25T18:50:07Z",
+    "lastCommits": [],
     "commitActivity": [
-      {
-        "date": "2026-06-19",
-        "count": 0
-      },
       {
         "date": "2026-06-20",
         "count": 0
@@ -151,6 +111,10 @@
       },
       {
         "date": "2026-06-25",
+        "count": 0
+      },
+      {
+        "date": "2026-06-26",
         "count": 0
       }
     ]
@@ -170,7 +134,7 @@
       "blog",
       "learning"
     ],
-    "pushedAt": "2026-06-25T00:34:42Z",
+    "pushedAt": "2026-06-25T18:28:17Z",
     "lastCommits": [
       {
         "sha": "033ea17",
@@ -185,6 +149,12 @@
         "url": "https://github.com/ThiagoPanini/ethitorial/commit/aaeb0a88354dd2de1d7e78369cad6d95afe6bc8f"
       },
       {
+        "sha": "1254977",
+        "message": "docs(content): remover referências ao projeto pessoal dos posts do curso (#152)",
+        "date": "2026-06-25T18:24:06Z",
+        "url": "https://github.com/ThiagoPanini/ethitorial/commit/1254977ae1e1097f06c337fa7bccfd709d431a9d"
+      },
+      {
         "sha": "b1c65a2",
         "message": "chore: corrigir refs a ADRs renumerados e URL da VPS nos exemplos (#151)",
         "date": "2026-06-25T00:34:39Z",
@@ -195,19 +165,9 @@
         "message": "docs(adr): registrar invariante de network alias app→app no coolify (ADR-0023) (#150)",
         "date": "2026-06-24T17:47:44Z",
         "url": "https://github.com/ThiagoPanini/ethitorial/commit/e5e9e3c03b8eec5566f1702bbb17d8bc6b425baf"
-      },
-      {
-        "sha": "c1159ad",
-        "message": "fix(web): destravar abertura de post e proxiar comentários (#148)",
-        "date": "2026-06-24T01:00:24Z",
-        "url": "https://github.com/ThiagoPanini/ethitorial/commit/c1159ad86afae89826dc4e3c2ec4c3cf3120a3ad"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-19",
-        "count": 0
-      },
       {
         "date": "2026-06-20",
         "count": 0
@@ -230,6 +190,10 @@
       },
       {
         "date": "2026-06-25",
+        "count": 0
+      },
+      {
+        "date": "2026-06-26",
         "count": 0
       }
     ]

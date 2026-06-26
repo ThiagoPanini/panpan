@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-25T10:57:28.857Z",
+  "generatedAt": "2026-06-26T11:01:06.033Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
   "selectedRepos": [
-    "tfbox",
-    "campfire",
-    "ethitorial",
     "travelmanager",
+    "allin1",
+    "ethitorial",
+    "panlabs",
     "panpan"
   ],
   "primaryStack": [
@@ -24,28 +24,28 @@
   "topLanguages": [
     {
       "name": "TypeScript",
-      "score": 147.9,
-      "percentage": 46.6
-    },
-    {
-      "name": "JavaScript",
-      "score": 61.3,
-      "percentage": 19.3
+      "score": 150,
+      "percentage": 50
     },
     {
       "name": "CSS",
-      "score": 52.7,
-      "percentage": 16.6
+      "score": 75.6,
+      "percentage": 25.2
     },
     {
       "name": "Astro",
       "score": 29.3,
-      "percentage": 9.2
+      "percentage": 9.8
     },
     {
       "name": "MDX",
-      "score": 26.2,
-      "percentage": 8.3
+      "score": 25.5,
+      "percentage": 8.5
+    },
+    {
+      "name": "JavaScript",
+      "score": 19.8,
+      "percentage": 6.6
     }
   ]
 }
