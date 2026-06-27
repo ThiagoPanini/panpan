@@ -1,16 +1,16 @@
 {
-  "weekStart": "2026-06-19",
-  "weekEnd": "2026-06-25",
-  "generatedAt": "2026-06-26T11:01:04.744Z",
-  "summary": "I focused on enhancing documentation and implementing new features in travelmanager, refined UI elements in panlabs, and made content updates and fixes in ethitorial while managing 62 commits and 37 PRs across all projects.",
+  "weekStart": "2026-06-20",
+  "weekEnd": "2026-06-26",
+  "generatedAt": "2026-06-27T10:39:45.598Z",
+  "summary": "I focus this week on enhancing travel creation workflows in travelmanager, refining content and features in ethitorial, and expanding panlabs with new sections, improved UI elements, and robust deployment checks.",
   "stats": {
-    "commits": 62,
+    "commits": 69,
     "reposTouched": [
       "travelmanager",
-      "panlabs",
-      "ethitorial"
+      "ethitorial",
+      "panlabs"
     ],
-    "pullRequests": 37
+    "pullRequests": 24
   },
   "source": "github-models-gpt-4o"
 }

@@ -1,54 +1,125 @@
 [
   {
-    "name": "travelmanager",
-    "description": "",
-    "url": "https://github.com/ThiagoPanini/travelmanager",
+    "name": "life-under-control",
+    "description": "🎛️ Um gerenciador pessoal da \"vida adulta\"",
+    "url": "https://github.com/ThiagoPanini/life-under-control",
     "language": "Python",
     "technologies": [
-      "Python",
-      "TypeScript"
+      "Python"
     ],
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-06-25T20:58:17Z",
+    "pushedAt": "2026-06-27T02:31:52Z",
     "lastCommits": [
       {
-        "sha": "6ebab1b",
-        "message": "Merge pull request #222 from ThiagoPanini/docs/little-improvements-on-agents-docs",
-        "date": "2026-06-25T20:58:17Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/6ebab1b303c94e96e5ee69c33bf883e7c4859926"
+        "sha": "2657c16",
+        "message": "chore: add deploy workflow for production with Coolify integration",
+        "date": "2026-06-27T02:30:52Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/2657c1631a91c2b188c4ea046f7263ad7782c1a1"
       },
       {
-        "sha": "1e2aa05",
-        "message": "docs: update implementation guidelines and clarify ADR reading instructions",
-        "date": "2026-06-25T20:56:48Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/1e2aa05736fc439df763107aee2872f7d85bcbdf"
+        "sha": "c5f304a",
+        "message": "ci: reverter gitleaks para v2 — v3.0.0 falha em commits raiz",
+        "date": "2026-06-27T02:26:10Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/c5f304a6d3361a6407f0b871db6cf8030a1cb9a0"
       },
       {
-        "sha": "8c70f10",
-        "message": "Merge pull request #221 from ThiagoPanini/feat/216-home-foco-central",
-        "date": "2026-06-25T20:51:45Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/8c70f10514f60cd25d29ff6f875420262454f59d"
+        "sha": "2616ee9",
+        "message": "ci: pr-checks com actions atualizadas (checkout v7, setup-node v6, pnpm v6, gitleaks v3)",
+        "date": "2026-06-27T02:23:52Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/2616ee9f4be2e926ea236b9e84f09cfec5606e89"
       },
       {
-        "sha": "be9de7b",
-        "message": "Merge pull request #220 from ThiagoPanini/feat/215-onboarding-wizard",
-        "date": "2026-06-25T19:58:03Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/be9de7bfa1486f9038a6bb15ae5306af379b88ee"
+        "sha": "4bbf095",
+        "message": "chore: skills de agentes e symlinks para .claude/skills",
+        "date": "2026-06-27T02:23:41Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/4bbf09574799a54df3aaf2fad11bc4c5437ec619"
       },
       {
-        "sha": "f4deaec",
-        "message": "feat(web): home foco-central (#216)",
-        "date": "2026-06-25T19:57:39Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/f4deaeca3cf8971554d62e4286a396ed2f3957fc"
+        "sha": "e807470",
+        "message": "docs: documentação do workflow e fluxo de agentes",
+        "date": "2026-06-27T02:23:32Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/e80747085e5519e8cf6199cfc946fc010bbb99a0"
       }
     ],
     "commitActivity": [
       {
-        "date": "2026-06-20",
+        "date": "2026-06-21",
         "count": 0
       },
+      {
+        "date": "2026-06-22",
+        "count": 0
+      },
+      {
+        "date": "2026-06-23",
+        "count": 0
+      },
+      {
+        "date": "2026-06-24",
+        "count": 0
+      },
+      {
+        "date": "2026-06-25",
+        "count": 0
+      },
+      {
+        "date": "2026-06-26",
+        "count": 0
+      },
+      {
+        "date": "2026-06-27",
+        "count": 8
+      }
+    ]
+  },
+  {
+    "name": "travelmanager",
+    "description": "🧳Seu organizador de viagens",
+    "url": "https://github.com/ThiagoPanini/travelmanager",
+    "language": "TypeScript",
+    "technologies": [
+      "TypeScript",
+      "Python"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "pushedAt": "2026-06-27T02:03:50Z",
+    "lastCommits": [
+      {
+        "sha": "a336a45",
+        "message": "Merge pull request #233 from ThiagoPanini/feat/criacao-de-viagem",
+        "date": "2026-06-26T16:08:26Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/a336a4536ed6b91d59d5b5115aadc4f1c6fdb368"
+      },
+      {
+        "sha": "900b05b",
+        "message": "feat(web): wizard de criação de viagem e backbone",
+        "date": "2026-06-26T16:05:58Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/900b05b704f9285a166eb23ba7415e8791e6bb21"
+      },
+      {
+        "sha": "d33d3f5",
+        "message": "feat(api): contexto trips — criação atômica de viagem",
+        "date": "2026-06-26T16:05:45Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/d33d3f58a95fb315f92f0df0e204026b6519c64a"
+      },
+      {
+        "sha": "f6d258d",
+        "message": "Merge pull request #223 from ThiagoPanini/docs/little-improvements-on-agents-docs",
+        "date": "2026-06-26T14:28:52Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/f6d258d7b64cb9d51cfdc6f0e5e18206ff172d1e"
+      },
+      {
+        "sha": "dcdf702",
+        "message": "docs: update ADRs with new entries for multi-modal transfer and vector map creation",
+        "date": "2026-06-26T14:26:35Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/dcdf702c3c336d8b41d14113996f5b4ab90836fd"
+      }
+    ],
+    "commitActivity": [
       {
         "date": "2026-06-21",
         "count": 2
@@ -71,50 +142,10 @@
       },
       {
         "date": "2026-06-26",
-        "count": 0
-      }
-    ]
-  },
-  {
-    "name": "allin1",
-    "description": "🎛️ Um painel de controle completo sobre saúde, finanças, tarefas e tudo sobre a vida",
-    "url": "https://github.com/ThiagoPanini/allin1",
-    "language": "Unknown",
-    "technologies": [
-      "Unknown"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-06-25T18:50:07Z",
-    "lastCommits": [],
-    "commitActivity": [
-      {
-        "date": "2026-06-20",
-        "count": 0
+        "count": 6
       },
       {
-        "date": "2026-06-21",
-        "count": 0
-      },
-      {
-        "date": "2026-06-22",
-        "count": 0
-      },
-      {
-        "date": "2026-06-23",
-        "count": 0
-      },
-      {
-        "date": "2026-06-24",
-        "count": 0
-      },
-      {
-        "date": "2026-06-25",
-        "count": 0
-      },
-      {
-        "date": "2026-06-26",
+        "date": "2026-06-27",
         "count": 0
       }
     ]
@@ -123,10 +154,10 @@
     "name": "ethitorial",
     "description": "🎓 Editorial de aprendizados pessoais materializados em conhecimento",
     "url": "https://github.com/ThiagoPanini/ethitorial",
-    "language": "TypeScript",
+    "language": "MDX",
     "technologies": [
-      "TypeScript",
-      "Python"
+      "MDX",
+      "TypeScript"
     ],
     "stars": 0,
     "forks": 0,
@@ -134,8 +165,14 @@
       "blog",
       "learning"
     ],
-    "pushedAt": "2026-06-25T18:28:17Z",
+    "pushedAt": "2026-06-26T18:37:02Z",
     "lastCommits": [
+      {
+        "sha": "94a7fcb",
+        "message": "docs(content): notas dos Dias 02 e 03 do AI Coding for Real Engineers (#154)",
+        "date": "2026-06-26T18:37:00Z",
+        "url": "https://github.com/ThiagoPanini/ethitorial/commit/94a7fcbb24ff5f1faf64e388662f431dfcbaeae9"
+      },
       {
         "sha": "033ea17",
         "message": "fix(web): forçar ipv4first no resolver para destravar o hop web→api (#149)",
@@ -159,19 +196,9 @@
         "message": "chore: corrigir refs a ADRs renumerados e URL da VPS nos exemplos (#151)",
         "date": "2026-06-25T00:34:39Z",
         "url": "https://github.com/ThiagoPanini/ethitorial/commit/b1c65a22f733347de1475695d7b832f0b57a405d"
-      },
-      {
-        "sha": "e5e9e3c",
-        "message": "docs(adr): registrar invariante de network alias app→app no coolify (ADR-0023) (#150)",
-        "date": "2026-06-24T17:47:44Z",
-        "url": "https://github.com/ThiagoPanini/ethitorial/commit/e5e9e3c03b8eec5566f1702bbb17d8bc6b425baf"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-20",
-        "count": 0
-      },
       {
         "date": "2026-06-21",
         "count": 0
@@ -194,6 +221,10 @@
       },
       {
         "date": "2026-06-26",
+        "count": 1
+      },
+      {
+        "date": "2026-06-27",
         "count": 0
       }
     ]
