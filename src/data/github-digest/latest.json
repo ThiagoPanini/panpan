@@ -1,14 +1,15 @@
 {
-  "weekStart": "2026-06-20",
-  "weekEnd": "2026-06-26",
-  "generatedAt": "2026-06-27T10:39:45.598Z",
-  "summary": "I focus this week on enhancing travel creation workflows in travelmanager, refining content and features in ethitorial, and expanding panlabs with new sections, improved UI elements, and robust deployment checks.",
+  "weekStart": "2026-06-21",
+  "weekEnd": "2026-06-27",
+  "generatedAt": "2026-06-28T10:44:35.784Z",
+  "summary": "I focused on enhancing workflows, refining CI pipelines, and delivering new features across life-under-control, travelmanager, panlabs, and ethitorial, while closing multiple issues and documenting key updates.",
   "stats": {
-    "commits": 69,
+    "commits": 78,
     "reposTouched": [
+      "life-under-control",
       "travelmanager",
-      "ethitorial",
-      "panlabs"
+      "panlabs",
+      "ethitorial"
     ],
     "pullRequests": 24
   },

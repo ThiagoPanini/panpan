@@ -10,7 +10,7 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-06-27T02:31:52Z",
+    "pushedAt": "2026-06-27T21:50:11Z",
     "lastCommits": [
       {
         "sha": "2657c16",
@@ -45,10 +45,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-06-21",
-        "count": 0
-      },
-      {
         "date": "2026-06-22",
         "count": 0
       },
@@ -71,6 +67,10 @@
       {
         "date": "2026-06-27",
         "count": 8
+      },
+      {
+        "date": "2026-06-28",
+        "count": 0
       }
     ]
   },
@@ -86,7 +86,7 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-06-27T02:03:50Z",
+    "pushedAt": "2026-06-27T21:09:06Z",
     "lastCommits": [
       {
         "sha": "a336a45",
@@ -121,10 +121,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-06-21",
-        "count": 2
-      },
-      {
         "date": "2026-06-22",
         "count": 0
       },
@@ -147,73 +143,70 @@
       {
         "date": "2026-06-27",
         "count": 0
+      },
+      {
+        "date": "2026-06-28",
+        "count": 0
       }
     ]
   },
   {
-    "name": "ethitorial",
-    "description": "🎓 Editorial de aprendizados pessoais materializados em conhecimento",
-    "url": "https://github.com/ThiagoPanini/ethitorial",
-    "language": "MDX",
+    "name": "panlabs",
+    "description": "",
+    "url": "https://github.com/ThiagoPanini/panlabs",
+    "language": "TypeScript",
     "technologies": [
-      "MDX",
-      "TypeScript"
+      "TypeScript",
+      "CSS"
     ],
     "stars": 0,
     "forks": 0,
-    "topics": [
-      "blog",
-      "learning"
-    ],
-    "pushedAt": "2026-06-26T18:37:02Z",
+    "topics": [],
+    "pushedAt": "2026-06-27T20:54:49Z",
     "lastCommits": [
       {
-        "sha": "94a7fcb",
-        "message": "docs(content): notas dos Dias 02 e 03 do AI Coding for Real Engineers (#154)",
-        "date": "2026-06-26T18:37:00Z",
-        "url": "https://github.com/ThiagoPanini/ethitorial/commit/94a7fcbb24ff5f1faf64e388662f431dfcbaeae9"
+        "sha": "a5ce73c",
+        "message": "feat(catalog): add LUC (life under control) project card (#45)",
+        "date": "2026-06-27T20:54:47Z",
+        "url": "https://github.com/ThiagoPanini/panlabs/commit/a5ce73c28f6bef6765ac46ea9caadd8f531b1c98"
       },
       {
-        "sha": "033ea17",
-        "message": "fix(web): forçar ipv4first no resolver para destravar o hop web→api (#149)",
-        "date": "2026-06-24T01:18:16Z",
-        "url": "https://github.com/ThiagoPanini/ethitorial/commit/033ea1728954573347700eadf17527833c7209ad"
+        "sha": "89880c8",
+        "message": "feat(landing): new sections — Manifesto, Domain Architecture, Footer & Reveal (#43)",
+        "date": "2026-06-23T23:20:14Z",
+        "url": "https://github.com/ThiagoPanini/panlabs/commit/89880c83c3987ccd618861bb24301e87412f6cbb"
       },
       {
-        "sha": "aaeb0a8",
-        "message": "feat: removing em-dashes from articles and adding day 2 course posts (#141)",
-        "date": "2026-06-22T14:22:49Z",
-        "url": "https://github.com/ThiagoPanini/ethitorial/commit/aaeb0a88354dd2de1d7e78369cad6d95afe6bc8f"
+        "sha": "f9046fb",
+        "message": "feat(hero): enhance hero section with cover image and typewriter effect",
+        "date": "2026-06-23T01:11:09Z",
+        "url": "https://github.com/ThiagoPanini/panlabs/commit/f9046fb23b7e4379daeb7760231794a934c6baa7"
       },
       {
-        "sha": "1254977",
-        "message": "docs(content): remover referências ao projeto pessoal dos posts do curso (#152)",
-        "date": "2026-06-25T18:24:06Z",
-        "url": "https://github.com/ThiagoPanini/ethitorial/commit/1254977ae1e1097f06c337fa7bccfd709d431a9d"
+        "sha": "5664616",
+        "message": "ci(deploy): fail loudly when Coolify secrets are missing (#39)",
+        "date": "2026-06-22T22:57:02Z",
+        "url": "https://github.com/ThiagoPanini/panlabs/commit/5664616d96c18792e3fed4e13b1425a55f30f551"
       },
       {
-        "sha": "b1c65a2",
-        "message": "chore: corrigir refs a ADRs renumerados e URL da VPS nos exemplos (#151)",
-        "date": "2026-06-25T00:34:39Z",
-        "url": "https://github.com/ThiagoPanini/ethitorial/commit/b1c65a22f733347de1475695d7b832f0b57a405d"
+        "sha": "9aae260",
+        "message": "feat(catalog): card preview fade, hover outline, typewriter hero & draft slot (#38)",
+        "date": "2026-06-22T22:34:43Z",
+        "url": "https://github.com/ThiagoPanini/panlabs/commit/9aae260c0cec58a50bb3b84ca57b2b23e866ec39"
       }
     ],
     "commitActivity": [
       {
-        "date": "2026-06-21",
-        "count": 0
-      },
-      {
         "date": "2026-06-22",
-        "count": 1
+        "count": 14
       },
       {
         "date": "2026-06-23",
-        "count": 0
+        "count": 2
       },
       {
         "date": "2026-06-24",
-        "count": 1
+        "count": 0
       },
       {
         "date": "2026-06-25",
@@ -221,10 +214,14 @@
       },
       {
         "date": "2026-06-26",
-        "count": 1
+        "count": 0
       },
       {
         "date": "2026-06-27",
+        "count": 1
+      },
+      {
+        "date": "2026-06-28",
         "count": 0
       }
     ]

@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-27T10:39:46.710Z",
+  "generatedAt": "2026-06-28T10:44:36.935Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
   "selectedRepos": [
     "life-under-control",
     "travelmanager",
-    "ethitorial",
+    "panlabs",
     "panpan",
-    "allin1"
+    "ethitorial"
   ],
   "primaryStack": [
     "Python",
@@ -24,28 +24,28 @@
   "topLanguages": [
     {
       "name": "TypeScript",
-      "score": 93.6,
-      "percentage": 41.9
+      "score": 155.8,
+      "percentage": 49.1
     },
     {
       "name": "CSS",
-      "score": 49.2,
-      "percentage": 22
+      "score": 81.3,
+      "percentage": 25.6
     },
     {
       "name": "MDX",
       "score": 31,
-      "percentage": 13.9
+      "percentage": 9.8
     },
     {
       "name": "Astro",
       "score": 29.3,
-      "percentage": 13.1
+      "percentage": 9.2
     },
     {
       "name": "JavaScript",
       "score": 20.2,
-      "percentage": 9
+      "percentage": 6.4
     }
   ]
 }
