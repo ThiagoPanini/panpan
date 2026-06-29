@@ -10,7 +10,7 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-06-27T21:50:11Z",
+    "pushedAt": "2026-06-29T03:49:14Z",
     "lastCommits": [
       {
         "sha": "2657c16",
@@ -45,10 +45,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-06-22",
-        "count": 0
-      },
-      {
         "date": "2026-06-23",
         "count": 0
       },
@@ -71,6 +67,10 @@
       {
         "date": "2026-06-28",
         "count": 0
+      },
+      {
+        "date": "2026-06-29",
+        "count": 0
       }
     ]
   },
@@ -86,7 +86,7 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-06-27T21:09:06Z",
+    "pushedAt": "2026-06-28T23:16:53Z",
     "lastCommits": [
       {
         "sha": "a336a45",
@@ -121,10 +121,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-06-22",
-        "count": 0
-      },
-      {
         "date": "2026-06-23",
         "count": 1
       },
@@ -147,62 +143,65 @@
       {
         "date": "2026-06-28",
         "count": 0
+      },
+      {
+        "date": "2026-06-29",
+        "count": 0
       }
     ]
   },
   {
-    "name": "panlabs",
-    "description": "",
-    "url": "https://github.com/ThiagoPanini/panlabs",
-    "language": "TypeScript",
+    "name": "panpan",
+    "description": "✨ A personal webpage where you can find relevant technical information about me",
+    "url": "https://github.com/ThiagoPanini/panpan",
+    "language": "CSS",
     "technologies": [
-      "TypeScript",
-      "CSS"
+      "CSS",
+      "Astro"
     ],
     "stars": 0,
     "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-06-27T20:54:49Z",
+    "topics": [
+      "front-end",
+      "website"
+    ],
+    "pushedAt": "2026-06-28T10:44:37Z",
     "lastCommits": [
       {
-        "sha": "a5ce73c",
-        "message": "feat(catalog): add LUC (life under control) project card (#45)",
-        "date": "2026-06-27T20:54:47Z",
-        "url": "https://github.com/ThiagoPanini/panlabs/commit/a5ce73c28f6bef6765ac46ea9caadd8f531b1c98"
+        "sha": "f1d9d11",
+        "message": "chore(data): daily refresh 2026-06-28",
+        "date": "2026-06-28T10:44:36Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/f1d9d11cbfd6565dceeb76a830f17976e6f361b4"
       },
       {
-        "sha": "89880c8",
-        "message": "feat(landing): new sections — Manifesto, Domain Architecture, Footer & Reveal (#43)",
-        "date": "2026-06-23T23:20:14Z",
-        "url": "https://github.com/ThiagoPanini/panlabs/commit/89880c83c3987ccd618861bb24301e87412f6cbb"
+        "sha": "5cd9b46",
+        "message": "chore(data): daily refresh 2026-06-27",
+        "date": "2026-06-27T10:39:46Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/5cd9b462513142d3d4b8a23943569ffa6261b681"
       },
       {
-        "sha": "f9046fb",
-        "message": "feat(hero): enhance hero section with cover image and typewriter effect",
-        "date": "2026-06-23T01:11:09Z",
-        "url": "https://github.com/ThiagoPanini/panlabs/commit/f9046fb23b7e4379daeb7760231794a934c6baa7"
+        "sha": "85fc47a",
+        "message": "chore(data): daily refresh 2026-06-26",
+        "date": "2026-06-26T11:01:06Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/85fc47a1412b74af5ede5944a3d1c599dad7b5e7"
       },
       {
-        "sha": "5664616",
-        "message": "ci(deploy): fail loudly when Coolify secrets are missing (#39)",
-        "date": "2026-06-22T22:57:02Z",
-        "url": "https://github.com/ThiagoPanini/panlabs/commit/5664616d96c18792e3fed4e13b1425a55f30f551"
+        "sha": "f46e9b6",
+        "message": "chore(data): daily refresh 2026-06-25",
+        "date": "2026-06-25T10:57:28Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/f46e9b6682b84362929661bf3e5e5179165847b1"
       },
       {
-        "sha": "9aae260",
-        "message": "feat(catalog): card preview fade, hover outline, typewriter hero & draft slot (#38)",
-        "date": "2026-06-22T22:34:43Z",
-        "url": "https://github.com/ThiagoPanini/panlabs/commit/9aae260c0cec58a50bb3b84ca57b2b23e866ec39"
+        "sha": "4649f02",
+        "message": "chore(data): daily refresh 2026-06-24",
+        "date": "2026-06-24T11:02:07Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/4649f02b8db477a324c11d508097d3f8bee86776"
       }
     ],
     "commitActivity": [
       {
-        "date": "2026-06-22",
-        "count": 14
-      },
-      {
         "date": "2026-06-23",
-        "count": 2
+        "count": 0
       },
       {
         "date": "2026-06-24",
@@ -218,10 +217,14 @@
       },
       {
         "date": "2026-06-27",
-        "count": 1
+        "count": 0
       },
       {
         "date": "2026-06-28",
+        "count": 0
+      },
+      {
+        "date": "2026-06-29",
         "count": 0
       }
     ]
