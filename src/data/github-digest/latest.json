@@ -1,17 +1,17 @@
 {
-  "weekStart": "2026-06-22",
-  "weekEnd": "2026-06-28",
-  "generatedAt": "2026-06-29T11:40:08.457Z",
-  "summary": "I drive progress across travelmanager, life-under-control, panlabs, and ethitorial, delivering CI enhancements, refining documentation, closing issues, and shipping features like trip creation wizards, agent workflows, and dynamic UI components.",
+  "weekStart": "2026-06-23",
+  "weekEnd": "2026-06-29",
+  "generatedAt": "2026-06-30T11:02:06.709Z",
+  "summary": "I focus on enhancing workflows, refining documentation, and delivering features across travelmanager, life-under-control, panlabs, and ethitorial, with highlights including CI updates, project cards, and streamlined trip creation.",
   "stats": {
-    "commits": 72,
+    "commits": 57,
     "reposTouched": [
       "travelmanager",
       "life-under-control",
       "panlabs",
       "ethitorial"
     ],
-    "pullRequests": 22
+    "pullRequests": 23
   },
   "source": "github-models-gpt-4o"
 }

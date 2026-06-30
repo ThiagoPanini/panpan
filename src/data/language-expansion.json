@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-29T11:40:10.005Z",
+  "generatedAt": "2026-06-30T11:02:07.960Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
   "selectedRepos": [
-    "life-under-control",
     "travelmanager",
+    "life-under-control",
     "panpan",
     "panlabs",
     "ethitorial"
@@ -24,18 +24,18 @@
   "topLanguages": [
     {
       "name": "TypeScript",
-      "score": 158,
-      "percentage": 49.1
+      "score": 157.5,
+      "percentage": 49.2
     },
     {
       "name": "CSS",
-      "score": 83.4,
-      "percentage": 25.9
+      "score": 82.4,
+      "percentage": 25.7
     },
     {
       "name": "MDX",
       "score": 31,
-      "percentage": 9.6
+      "percentage": 9.7
     },
     {
       "name": "Astro",

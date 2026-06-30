@@ -1,80 +1,5 @@
 [
   {
-    "name": "life-under-control",
-    "description": "🎛️ Um gerenciador pessoal da \"vida adulta\"",
-    "url": "https://github.com/ThiagoPanini/life-under-control",
-    "language": "Python",
-    "technologies": [
-      "Python"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-06-29T03:49:14Z",
-    "lastCommits": [
-      {
-        "sha": "2657c16",
-        "message": "chore: add deploy workflow for production with Coolify integration",
-        "date": "2026-06-27T02:30:52Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/2657c1631a91c2b188c4ea046f7263ad7782c1a1"
-      },
-      {
-        "sha": "c5f304a",
-        "message": "ci: reverter gitleaks para v2 — v3.0.0 falha em commits raiz",
-        "date": "2026-06-27T02:26:10Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/c5f304a6d3361a6407f0b871db6cf8030a1cb9a0"
-      },
-      {
-        "sha": "2616ee9",
-        "message": "ci: pr-checks com actions atualizadas (checkout v7, setup-node v6, pnpm v6, gitleaks v3)",
-        "date": "2026-06-27T02:23:52Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/2616ee9f4be2e926ea236b9e84f09cfec5606e89"
-      },
-      {
-        "sha": "4bbf095",
-        "message": "chore: skills de agentes e symlinks para .claude/skills",
-        "date": "2026-06-27T02:23:41Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/4bbf09574799a54df3aaf2fad11bc4c5437ec619"
-      },
-      {
-        "sha": "e807470",
-        "message": "docs: documentação do workflow e fluxo de agentes",
-        "date": "2026-06-27T02:23:32Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/e80747085e5519e8cf6199cfc946fc010bbb99a0"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-06-23",
-        "count": 0
-      },
-      {
-        "date": "2026-06-24",
-        "count": 0
-      },
-      {
-        "date": "2026-06-25",
-        "count": 0
-      },
-      {
-        "date": "2026-06-26",
-        "count": 0
-      },
-      {
-        "date": "2026-06-27",
-        "count": 8
-      },
-      {
-        "date": "2026-06-28",
-        "count": 0
-      },
-      {
-        "date": "2026-06-29",
-        "count": 0
-      }
-    ]
-  },
-  {
     "name": "travelmanager",
     "description": "🧳Seu organizador de viagens",
     "url": "https://github.com/ThiagoPanini/travelmanager",
@@ -86,7 +11,7 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-06-28T23:16:53Z",
+    "pushedAt": "2026-06-29T22:44:15Z",
     "lastCommits": [
       {
         "sha": "a336a45",
@@ -121,10 +46,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-06-23",
-        "count": 1
-      },
-      {
         "date": "2026-06-24",
         "count": 19
       },
@@ -147,6 +68,85 @@
       {
         "date": "2026-06-29",
         "count": 0
+      },
+      {
+        "date": "2026-06-30",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "name": "life-under-control",
+    "description": "🎛️ Um gerenciador pessoal da \"vida adulta\"",
+    "url": "https://github.com/ThiagoPanini/life-under-control",
+    "language": "Python",
+    "technologies": [
+      "Python"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "pushedAt": "2026-06-29T22:06:44Z",
+    "lastCommits": [
+      {
+        "sha": "2657c16",
+        "message": "chore: add deploy workflow for production with Coolify integration",
+        "date": "2026-06-27T02:30:52Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/2657c1631a91c2b188c4ea046f7263ad7782c1a1"
+      },
+      {
+        "sha": "c5f304a",
+        "message": "ci: reverter gitleaks para v2 — v3.0.0 falha em commits raiz",
+        "date": "2026-06-27T02:26:10Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/c5f304a6d3361a6407f0b871db6cf8030a1cb9a0"
+      },
+      {
+        "sha": "2616ee9",
+        "message": "ci: pr-checks com actions atualizadas (checkout v7, setup-node v6, pnpm v6, gitleaks v3)",
+        "date": "2026-06-27T02:23:52Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/2616ee9f4be2e926ea236b9e84f09cfec5606e89"
+      },
+      {
+        "sha": "4bbf095",
+        "message": "chore: skills de agentes e symlinks para .claude/skills",
+        "date": "2026-06-27T02:23:41Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/4bbf09574799a54df3aaf2fad11bc4c5437ec619"
+      },
+      {
+        "sha": "e807470",
+        "message": "docs: documentação do workflow e fluxo de agentes",
+        "date": "2026-06-27T02:23:32Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/e80747085e5519e8cf6199cfc946fc010bbb99a0"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-06-24",
+        "count": 0
+      },
+      {
+        "date": "2026-06-25",
+        "count": 0
+      },
+      {
+        "date": "2026-06-26",
+        "count": 0
+      },
+      {
+        "date": "2026-06-27",
+        "count": 8
+      },
+      {
+        "date": "2026-06-28",
+        "count": 0
+      },
+      {
+        "date": "2026-06-29",
+        "count": 0
+      },
+      {
+        "date": "2026-06-30",
+        "count": 0
       }
     ]
   },
@@ -165,8 +165,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-06-28T10:44:37Z",
+    "pushedAt": "2026-06-29T11:40:10Z",
     "lastCommits": [
+      {
+        "sha": "d15bec5",
+        "message": "chore(data): daily refresh 2026-06-29",
+        "date": "2026-06-29T11:40:10Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/d15bec5457c26cf1005e2a16ab558519cabeb001"
+      },
       {
         "sha": "f1d9d11",
         "message": "chore(data): daily refresh 2026-06-28",
@@ -190,19 +196,9 @@
         "message": "chore(data): daily refresh 2026-06-25",
         "date": "2026-06-25T10:57:28Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/f46e9b6682b84362929661bf3e5e5179165847b1"
-      },
-      {
-        "sha": "4649f02",
-        "message": "chore(data): daily refresh 2026-06-24",
-        "date": "2026-06-24T11:02:07Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/4649f02b8db477a324c11d508097d3f8bee86776"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-23",
-        "count": 0
-      },
       {
         "date": "2026-06-24",
         "count": 0
@@ -225,6 +221,10 @@
       },
       {
         "date": "2026-06-29",
+        "count": 0
+      },
+      {
+        "date": "2026-06-30",
         "count": 0
       }
     ]
