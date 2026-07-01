@@ -1,81 +1,5 @@
 [
   {
-    "name": "travelmanager",
-    "description": "🧳Seu organizador de viagens",
-    "url": "https://github.com/ThiagoPanini/travelmanager",
-    "language": "TypeScript",
-    "technologies": [
-      "TypeScript",
-      "Python"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-06-29T22:44:15Z",
-    "lastCommits": [
-      {
-        "sha": "a336a45",
-        "message": "Merge pull request #233 from ThiagoPanini/feat/criacao-de-viagem",
-        "date": "2026-06-26T16:08:26Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/a336a4536ed6b91d59d5b5115aadc4f1c6fdb368"
-      },
-      {
-        "sha": "900b05b",
-        "message": "feat(web): wizard de criação de viagem e backbone",
-        "date": "2026-06-26T16:05:58Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/900b05b704f9285a166eb23ba7415e8791e6bb21"
-      },
-      {
-        "sha": "d33d3f5",
-        "message": "feat(api): contexto trips — criação atômica de viagem",
-        "date": "2026-06-26T16:05:45Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/d33d3f58a95fb315f92f0df0e204026b6519c64a"
-      },
-      {
-        "sha": "f6d258d",
-        "message": "Merge pull request #223 from ThiagoPanini/docs/little-improvements-on-agents-docs",
-        "date": "2026-06-26T14:28:52Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/f6d258d7b64cb9d51cfdc6f0e5e18206ff172d1e"
-      },
-      {
-        "sha": "dcdf702",
-        "message": "docs: update ADRs with new entries for multi-modal transfer and vector map creation",
-        "date": "2026-06-26T14:26:35Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/dcdf702c3c336d8b41d14113996f5b4ab90836fd"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-06-24",
-        "count": 19
-      },
-      {
-        "date": "2026-06-25",
-        "count": 18
-      },
-      {
-        "date": "2026-06-26",
-        "count": 6
-      },
-      {
-        "date": "2026-06-27",
-        "count": 0
-      },
-      {
-        "date": "2026-06-28",
-        "count": 0
-      },
-      {
-        "date": "2026-06-29",
-        "count": 0
-      },
-      {
-        "date": "2026-06-30",
-        "count": 0
-      }
-    ]
-  },
-  {
     "name": "life-under-control",
     "description": "🎛️ Um gerenciador pessoal da \"vida adulta\"",
     "url": "https://github.com/ThiagoPanini/life-under-control",
@@ -86,7 +10,7 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-06-29T22:06:44Z",
+    "pushedAt": "2026-06-30T21:02:13Z",
     "lastCommits": [
       {
         "sha": "2657c16",
@@ -121,10 +45,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-06-24",
-        "count": 0
-      },
-      {
         "date": "2026-06-25",
         "count": 0
       },
@@ -147,6 +67,86 @@
       {
         "date": "2026-06-30",
         "count": 0
+      },
+      {
+        "date": "2026-07-01",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "name": "travelmanager",
+    "description": "🧳Seu organizador de viagens",
+    "url": "https://github.com/ThiagoPanini/travelmanager",
+    "language": "TypeScript",
+    "technologies": [
+      "TypeScript",
+      "Python"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "pushedAt": "2026-06-30T15:04:20Z",
+    "lastCommits": [
+      {
+        "sha": "ffe5f6f",
+        "message": "feat(api): add environment variable handling and logging for production",
+        "date": "2026-06-30T15:04:13Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/ffe5f6f164dad7b17cfaa6a7f5b44a89ac243e18"
+      },
+      {
+        "sha": "c60f3aa",
+        "message": "feat: aprimora visual do painel autenticado",
+        "date": "2026-06-30T13:01:50Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/c60f3aa48b5699e53f091f111bc51a54293c877d"
+      },
+      {
+        "sha": "a336a45",
+        "message": "Merge pull request #233 from ThiagoPanini/feat/criacao-de-viagem",
+        "date": "2026-06-26T16:08:26Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/a336a4536ed6b91d59d5b5115aadc4f1c6fdb368"
+      },
+      {
+        "sha": "900b05b",
+        "message": "feat(web): wizard de criação de viagem e backbone",
+        "date": "2026-06-26T16:05:58Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/900b05b704f9285a166eb23ba7415e8791e6bb21"
+      },
+      {
+        "sha": "d33d3f5",
+        "message": "feat(api): contexto trips — criação atômica de viagem",
+        "date": "2026-06-26T16:05:45Z",
+        "url": "https://github.com/ThiagoPanini/travelmanager/commit/d33d3f58a95fb315f92f0df0e204026b6519c64a"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-06-25",
+        "count": 18
+      },
+      {
+        "date": "2026-06-26",
+        "count": 6
+      },
+      {
+        "date": "2026-06-27",
+        "count": 0
+      },
+      {
+        "date": "2026-06-28",
+        "count": 0
+      },
+      {
+        "date": "2026-06-29",
+        "count": 0
+      },
+      {
+        "date": "2026-06-30",
+        "count": 2
+      },
+      {
+        "date": "2026-07-01",
+        "count": 0
       }
     ]
   },
@@ -165,8 +165,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-06-29T11:40:10Z",
+    "pushedAt": "2026-06-30T11:02:08Z",
     "lastCommits": [
+      {
+        "sha": "b27e30b",
+        "message": "chore(data): daily refresh 2026-06-30",
+        "date": "2026-06-30T11:02:07Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/b27e30b16c113967efdcda3db9725ca026899ba4"
+      },
       {
         "sha": "d15bec5",
         "message": "chore(data): daily refresh 2026-06-29",
@@ -190,19 +196,9 @@
         "message": "chore(data): daily refresh 2026-06-26",
         "date": "2026-06-26T11:01:06Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/85fc47a1412b74af5ede5944a3d1c599dad7b5e7"
-      },
-      {
-        "sha": "f46e9b6",
-        "message": "chore(data): daily refresh 2026-06-25",
-        "date": "2026-06-25T10:57:28Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/f46e9b6682b84362929661bf3e5e5179165847b1"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-24",
-        "count": 0
-      },
       {
         "date": "2026-06-25",
         "count": 0
@@ -225,6 +221,10 @@
       },
       {
         "date": "2026-06-30",
+        "count": 0
+      },
+      {
+        "date": "2026-07-01",
         "count": 0
       }
     ]

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-30T11:02:07.960Z",
+  "generatedAt": "2026-07-01T11:05:33.383Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
   "selectedRepos": [
-    "travelmanager",
     "life-under-control",
+    "travelmanager",
     "panpan",
     "panlabs",
     "ethitorial"
@@ -24,13 +24,13 @@
   "topLanguages": [
     {
       "name": "TypeScript",
-      "score": 157.5,
-      "percentage": 49.2
+      "score": 157,
+      "percentage": 48.9
     },
     {
       "name": "CSS",
-      "score": 82.4,
-      "percentage": 25.7
+      "score": 83.7,
+      "percentage": 26.1
     },
     {
       "name": "MDX",
