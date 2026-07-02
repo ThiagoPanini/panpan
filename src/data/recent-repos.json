@@ -1,60 +1,61 @@
 [
   {
-    "name": "life-under-control",
-    "description": "🎛️ Um gerenciador pessoal da \"vida adulta\"",
-    "url": "https://github.com/ThiagoPanini/life-under-control",
-    "language": "Python",
+    "name": "tfbox",
+    "description": "📦 A collection of production-ready Terraform modules focused on AWS environments",
+    "url": "https://github.com/ThiagoPanini/tfbox",
+    "language": "TypeScript",
     "technologies": [
-      "Python"
+      "TypeScript",
+      "HCL"
     ],
     "stars": 0,
     "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-06-30T21:02:13Z",
+    "topics": [
+      "aws",
+      "modules",
+      "terraform"
+    ],
+    "pushedAt": "2026-07-02T05:43:54Z",
     "lastCommits": [
       {
-        "sha": "2657c16",
-        "message": "chore: add deploy workflow for production with Coolify integration",
-        "date": "2026-06-27T02:30:52Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/2657c1631a91c2b188c4ea046f7263ad7782c1a1"
+        "sha": "02b1d5a",
+        "message": "chore(deps-dev): bump vitest from 1.6.1 to 4.1.5 in /web (#57)",
+        "date": "2026-04-23T13:39:22Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/02b1d5ab8d0c3b8c920f744f4d16eeee9f809d30"
       },
       {
-        "sha": "c5f304a",
-        "message": "ci: reverter gitleaks para v2 — v3.0.0 falha em commits raiz",
-        "date": "2026-06-27T02:26:10Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/c5f304a6d3361a6407f0b871db6cf8030a1cb9a0"
+        "sha": "d871bea",
+        "message": "chore(deps-dev): bump typescript from 6.0.2 to 6.0.3 in /web (#58)",
+        "date": "2026-04-23T13:38:17Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/d871beabb2b70169a62d011112233bec9a94d4d8"
       },
       {
-        "sha": "2616ee9",
-        "message": "ci: pr-checks com actions atualizadas (checkout v7, setup-node v6, pnpm v6, gitleaks v3)",
-        "date": "2026-06-27T02:23:52Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/2616ee9f4be2e926ea236b9e84f09cfec5606e89"
+        "sha": "d953f37",
+        "message": "chore(deps): bump @tailwindcss/postcss from 4.2.2 to 4.2.4 in /web (#56)",
+        "date": "2026-04-23T13:37:58Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/d953f373b55c2129e9d3ec28116e1ffcfb316e6a"
       },
       {
-        "sha": "4bbf095",
-        "message": "chore: skills de agentes e symlinks para .claude/skills",
-        "date": "2026-06-27T02:23:41Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/4bbf09574799a54df3aaf2fad11bc4c5437ec619"
+        "sha": "b0ab2e5",
+        "message": "chore(deps): bump tailwind-merge from 2.6.1 to 3.5.0 in /web (#54)",
+        "date": "2026-04-23T13:37:37Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/b0ab2e5f6273a2f3b0cd551fd0881c590391d158"
       },
       {
-        "sha": "e807470",
-        "message": "docs: documentação do workflow e fluxo de agentes",
-        "date": "2026-06-27T02:23:32Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/e80747085e5519e8cf6199cfc946fc010bbb99a0"
+        "sha": "9884ab6",
+        "message": "chore(deps-dev): bump typescript from 6.0.2 to 6.0.3 in /scripts (#53)",
+        "date": "2026-04-23T13:37:28Z",
+        "url": "https://github.com/ThiagoPanini/tfbox/commit/9884ab621f62f46b57709e159034d6742ee31176"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-25",
-        "count": 0
-      },
       {
         "date": "2026-06-26",
         "count": 0
       },
       {
         "date": "2026-06-27",
-        "count": 8
+        "count": 0
       },
       {
         "date": "2026-06-28",
@@ -71,13 +72,17 @@
       {
         "date": "2026-07-01",
         "count": 0
+      },
+      {
+        "date": "2026-07-02",
+        "count": 0
       }
     ]
   },
   {
-    "name": "travelmanager",
-    "description": "🧳Seu organizador de viagens",
-    "url": "https://github.com/ThiagoPanini/travelmanager",
+    "name": "life-under-control",
+    "description": "🎛️ Um gerenciador pessoal da \"vida adulta\"",
+    "url": "https://github.com/ThiagoPanini/life-under-control",
     "language": "TypeScript",
     "technologies": [
       "TypeScript",
@@ -86,51 +91,47 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-06-30T15:04:20Z",
+    "pushedAt": "2026-07-02T02:43:11Z",
     "lastCommits": [
       {
-        "sha": "ffe5f6f",
-        "message": "feat(api): add environment variable handling and logging for production",
-        "date": "2026-06-30T15:04:13Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/ffe5f6f164dad7b17cfaa6a7f5b44a89ac243e18"
+        "sha": "bfc3ba7",
+        "message": "Merge pull request #43 from ThiagoPanini/docs/assunto-nivel-area",
+        "date": "2026-07-01T20:11:29Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/bfc3ba7fde970e4a90cb9b11a4e99ec989a0d2d6"
       },
       {
-        "sha": "c60f3aa",
-        "message": "feat: aprimora visual do painel autenticado",
-        "date": "2026-06-30T13:01:50Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/c60f3aa48b5699e53f091f111bc51a54293c877d"
+        "sha": "aed61c0",
+        "message": "fix(financas): aponta a paleta pro cockpit do Assunto e enxuga o cabeçalho",
+        "date": "2026-07-01T20:09:56Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/aed61c08fec6f4d9a29545dfdbef9fc3adee38ae"
       },
       {
-        "sha": "a336a45",
-        "message": "Merge pull request #233 from ThiagoPanini/feat/criacao-de-viagem",
-        "date": "2026-06-26T16:08:26Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/a336a4536ed6b91d59d5b5115aadc4f1c6fdb368"
+        "sha": "169c934",
+        "message": "feat(financas): introduz o nível Assunto com Pagamentos Recorrentes e mini-Painel",
+        "date": "2026-07-01T19:55:21Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/169c934830cf25333df2cc17f3de05e0d1a117b4"
       },
       {
-        "sha": "900b05b",
-        "message": "feat(web): wizard de criação de viagem e backbone",
-        "date": "2026-06-26T16:05:58Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/900b05b704f9285a166eb23ba7415e8791e6bb21"
+        "sha": "71cba86",
+        "message": "Merge pull request #42 from ThiagoPanini/docs/assunto-nivel-area",
+        "date": "2026-07-01T19:30:55Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/71cba8686f6ed35e0910562523b711a9f1e10a53"
       },
       {
-        "sha": "d33d3f5",
-        "message": "feat(api): contexto trips — criação atômica de viagem",
-        "date": "2026-06-26T16:05:45Z",
-        "url": "https://github.com/ThiagoPanini/travelmanager/commit/d33d3f58a95fb315f92f0df0e204026b6519c64a"
+        "sha": "26afc24",
+        "message": "docs: introduz o nível Assunto em Finanças (ADR-0009)",
+        "date": "2026-07-01T19:29:30Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/26afc2413c21439d473ed8019c3af5512230c69a"
       }
     ],
     "commitActivity": [
       {
-        "date": "2026-06-25",
-        "count": 18
-      },
-      {
         "date": "2026-06-26",
-        "count": 6
+        "count": 0
       },
       {
         "date": "2026-06-27",
-        "count": 0
+        "count": 10
       },
       {
         "date": "2026-06-28",
@@ -138,14 +139,18 @@
       },
       {
         "date": "2026-06-29",
-        "count": 0
+        "count": 9
       },
       {
         "date": "2026-06-30",
-        "count": 2
+        "count": 0
       },
       {
         "date": "2026-07-01",
+        "count": 14
+      },
+      {
+        "date": "2026-07-02",
         "count": 0
       }
     ]
@@ -165,8 +170,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-06-30T11:02:08Z",
+    "pushedAt": "2026-07-01T11:05:34Z",
     "lastCommits": [
+      {
+        "sha": "03e61d9",
+        "message": "chore(data): daily refresh 2026-07-01",
+        "date": "2026-07-01T11:05:33Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/03e61d96246107436d91fa3000c2d9b60941f4ef"
+      },
       {
         "sha": "b27e30b",
         "message": "chore(data): daily refresh 2026-06-30",
@@ -190,19 +201,9 @@
         "message": "chore(data): daily refresh 2026-06-27",
         "date": "2026-06-27T10:39:46Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/5cd9b462513142d3d4b8a23943569ffa6261b681"
-      },
-      {
-        "sha": "85fc47a",
-        "message": "chore(data): daily refresh 2026-06-26",
-        "date": "2026-06-26T11:01:06Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/85fc47a1412b74af5ede5944a3d1c599dad7b5e7"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-25",
-        "count": 0
-      },
       {
         "date": "2026-06-26",
         "count": 0
@@ -225,6 +226,10 @@
       },
       {
         "date": "2026-07-01",
+        "count": 0
+      },
+      {
+        "date": "2026-07-02",
         "count": 0
       }
     ]

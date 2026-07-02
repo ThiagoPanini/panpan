@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-01T11:05:33.383Z",
+  "generatedAt": "2026-07-02T10:54:41.810Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
   "selectedRepos": [
+    "tfbox",
     "life-under-control",
-    "travelmanager",
     "panpan",
-    "panlabs",
-    "ethitorial"
+    "travelmanager",
+    "panlabs"
   ],
   "primaryStack": [
     "Python",
@@ -24,28 +24,28 @@
   "topLanguages": [
     {
       "name": "TypeScript",
-      "score": 157,
-      "percentage": 48.9
+      "score": 272.4,
+      "percentage": 66.9
     },
     {
       "name": "CSS",
-      "score": 83.7,
-      "percentage": 26.1
-    },
-    {
-      "name": "MDX",
-      "score": 31,
-      "percentage": 9.7
+      "score": 82.5,
+      "percentage": 20.3
     },
     {
       "name": "Astro",
       "score": 29.3,
-      "percentage": 9.1
+      "percentage": 7.2
     },
     {
       "name": "JavaScript",
-      "score": 20.2,
-      "percentage": 6.3
+      "score": 21.7,
+      "percentage": 5.3
+    },
+    {
+      "name": "Dockerfile",
+      "score": 1.5,
+      "percentage": 0.4
     }
   ]
 }
