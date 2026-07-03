@@ -1,5 +1,160 @@
 [
   {
+    "name": "life-under-control",
+    "description": "🎛️ Um gerenciador pessoal da \"vida adulta\"",
+    "url": "https://github.com/ThiagoPanini/life-under-control",
+    "language": "TypeScript",
+    "technologies": [
+      "TypeScript",
+      "Python"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "pushedAt": "2026-07-02T20:11:15Z",
+    "lastCommits": [
+      {
+        "sha": "9e13c67",
+        "message": "Merge pull request #75 from ThiagoPanini/feat/55-graficos-visx-competencia",
+        "date": "2026-07-02T17:36:13Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/9e13c673f027086da5d28109c9ccf01fa7762552"
+      },
+      {
+        "sha": "116bd15",
+        "message": "docs(financas): atualiza comentário do BarrasCompetencia pós-merge com #58",
+        "date": "2026-07-02T17:34:36Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/116bd150909b16e92d9b4869f67a1300ff9c8e33"
+      },
+      {
+        "sha": "cea309f",
+        "message": "merge main into feat/55 (reconcile with #58's cockpit redesign)",
+        "date": "2026-07-02T17:33:28Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/cea309f35a3900fd76e49b7caa17874b90c9ba78"
+      },
+      {
+        "sha": "582f80c",
+        "message": "fix(financas): corrige lacuna x fechado em Conta encerrada e polimentos do /review (#55)",
+        "date": "2026-07-02T17:27:49Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/582f80c136a107bc4615f9e315d6b207c985aa71"
+      },
+      {
+        "sha": "7adc706",
+        "message": "feat(financas): barras por competência em visx + ADR-0010 (#55)",
+        "date": "2026-07-02T17:08:21Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/7adc706319e306dacee651f1d9d6d608efc90a35"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-06-27",
+        "count": 10
+      },
+      {
+        "date": "2026-06-28",
+        "count": 0
+      },
+      {
+        "date": "2026-06-29",
+        "count": 9
+      },
+      {
+        "date": "2026-06-30",
+        "count": 0
+      },
+      {
+        "date": "2026-07-01",
+        "count": 14
+      },
+      {
+        "date": "2026-07-02",
+        "count": 7
+      },
+      {
+        "date": "2026-07-03",
+        "count": 0
+      }
+    ]
+  },
+  {
+    "name": "panpan",
+    "description": "✨ A personal webpage where you can find relevant technical information about me",
+    "url": "https://github.com/ThiagoPanini/panpan",
+    "language": "CSS",
+    "technologies": [
+      "CSS",
+      "Astro"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "front-end",
+      "website"
+    ],
+    "pushedAt": "2026-07-02T10:54:42Z",
+    "lastCommits": [
+      {
+        "sha": "b7e706c",
+        "message": "chore(data): daily refresh 2026-07-02",
+        "date": "2026-07-02T10:54:41Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/b7e706ce77f24e011d759d2e24156859aa57af17"
+      },
+      {
+        "sha": "03e61d9",
+        "message": "chore(data): daily refresh 2026-07-01",
+        "date": "2026-07-01T11:05:33Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/03e61d96246107436d91fa3000c2d9b60941f4ef"
+      },
+      {
+        "sha": "b27e30b",
+        "message": "chore(data): daily refresh 2026-06-30",
+        "date": "2026-06-30T11:02:07Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/b27e30b16c113967efdcda3db9725ca026899ba4"
+      },
+      {
+        "sha": "d15bec5",
+        "message": "chore(data): daily refresh 2026-06-29",
+        "date": "2026-06-29T11:40:10Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/d15bec5457c26cf1005e2a16ab558519cabeb001"
+      },
+      {
+        "sha": "f1d9d11",
+        "message": "chore(data): daily refresh 2026-06-28",
+        "date": "2026-06-28T10:44:36Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/f1d9d11cbfd6565dceeb76a830f17976e6f361b4"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-06-27",
+        "count": 0
+      },
+      {
+        "date": "2026-06-28",
+        "count": 0
+      },
+      {
+        "date": "2026-06-29",
+        "count": 0
+      },
+      {
+        "date": "2026-06-30",
+        "count": 0
+      },
+      {
+        "date": "2026-07-01",
+        "count": 0
+      },
+      {
+        "date": "2026-07-02",
+        "count": 0
+      },
+      {
+        "date": "2026-07-03",
+        "count": 0
+      }
+    ]
+  },
+  {
     "name": "tfbox",
     "description": "📦 A collection of production-ready Terraform modules focused on AWS environments",
     "url": "https://github.com/ThiagoPanini/tfbox",
@@ -50,10 +205,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-06-26",
-        "count": 0
-      },
-      {
         "date": "2026-06-27",
         "count": 0
       },
@@ -76,160 +227,9 @@
       {
         "date": "2026-07-02",
         "count": 0
-      }
-    ]
-  },
-  {
-    "name": "life-under-control",
-    "description": "🎛️ Um gerenciador pessoal da \"vida adulta\"",
-    "url": "https://github.com/ThiagoPanini/life-under-control",
-    "language": "TypeScript",
-    "technologies": [
-      "TypeScript",
-      "Python"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-07-02T02:43:11Z",
-    "lastCommits": [
-      {
-        "sha": "bfc3ba7",
-        "message": "Merge pull request #43 from ThiagoPanini/docs/assunto-nivel-area",
-        "date": "2026-07-01T20:11:29Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/bfc3ba7fde970e4a90cb9b11a4e99ec989a0d2d6"
       },
       {
-        "sha": "aed61c0",
-        "message": "fix(financas): aponta a paleta pro cockpit do Assunto e enxuga o cabeçalho",
-        "date": "2026-07-01T20:09:56Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/aed61c08fec6f4d9a29545dfdbef9fc3adee38ae"
-      },
-      {
-        "sha": "169c934",
-        "message": "feat(financas): introduz o nível Assunto com Pagamentos Recorrentes e mini-Painel",
-        "date": "2026-07-01T19:55:21Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/169c934830cf25333df2cc17f3de05e0d1a117b4"
-      },
-      {
-        "sha": "71cba86",
-        "message": "Merge pull request #42 from ThiagoPanini/docs/assunto-nivel-area",
-        "date": "2026-07-01T19:30:55Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/71cba8686f6ed35e0910562523b711a9f1e10a53"
-      },
-      {
-        "sha": "26afc24",
-        "message": "docs: introduz o nível Assunto em Finanças (ADR-0009)",
-        "date": "2026-07-01T19:29:30Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/26afc2413c21439d473ed8019c3af5512230c69a"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-06-26",
-        "count": 0
-      },
-      {
-        "date": "2026-06-27",
-        "count": 10
-      },
-      {
-        "date": "2026-06-28",
-        "count": 0
-      },
-      {
-        "date": "2026-06-29",
-        "count": 9
-      },
-      {
-        "date": "2026-06-30",
-        "count": 0
-      },
-      {
-        "date": "2026-07-01",
-        "count": 14
-      },
-      {
-        "date": "2026-07-02",
-        "count": 0
-      }
-    ]
-  },
-  {
-    "name": "panpan",
-    "description": "✨ A personal webpage where you can find relevant technical information about me",
-    "url": "https://github.com/ThiagoPanini/panpan",
-    "language": "CSS",
-    "technologies": [
-      "CSS",
-      "Astro"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "front-end",
-      "website"
-    ],
-    "pushedAt": "2026-07-01T11:05:34Z",
-    "lastCommits": [
-      {
-        "sha": "03e61d9",
-        "message": "chore(data): daily refresh 2026-07-01",
-        "date": "2026-07-01T11:05:33Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/03e61d96246107436d91fa3000c2d9b60941f4ef"
-      },
-      {
-        "sha": "b27e30b",
-        "message": "chore(data): daily refresh 2026-06-30",
-        "date": "2026-06-30T11:02:07Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/b27e30b16c113967efdcda3db9725ca026899ba4"
-      },
-      {
-        "sha": "d15bec5",
-        "message": "chore(data): daily refresh 2026-06-29",
-        "date": "2026-06-29T11:40:10Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/d15bec5457c26cf1005e2a16ab558519cabeb001"
-      },
-      {
-        "sha": "f1d9d11",
-        "message": "chore(data): daily refresh 2026-06-28",
-        "date": "2026-06-28T10:44:36Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/f1d9d11cbfd6565dceeb76a830f17976e6f361b4"
-      },
-      {
-        "sha": "5cd9b46",
-        "message": "chore(data): daily refresh 2026-06-27",
-        "date": "2026-06-27T10:39:46Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/5cd9b462513142d3d4b8a23943569ffa6261b681"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-06-26",
-        "count": 0
-      },
-      {
-        "date": "2026-06-27",
-        "count": 0
-      },
-      {
-        "date": "2026-06-28",
-        "count": 0
-      },
-      {
-        "date": "2026-06-29",
-        "count": 0
-      },
-      {
-        "date": "2026-06-30",
-        "count": 0
-      },
-      {
-        "date": "2026-07-01",
-        "count": 0
-      },
-      {
-        "date": "2026-07-02",
+        "date": "2026-07-03",
         "count": 0
       }
     ]

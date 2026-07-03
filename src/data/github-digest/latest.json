@@ -1,17 +1,15 @@
 {
-  "weekStart": "2026-06-25",
-  "weekEnd": "2026-07-01",
-  "generatedAt": "2026-07-02T10:54:40.577Z",
-  "summary": "I focus this week on enhancing Life Under Control's financial and design workflows, advancing TravelManager's trip creation and UI, adding LUC to Panlabs' catalog, and documenting AI coding insights in Ethitorial.",
+  "weekStart": "2026-06-26",
+  "weekEnd": "2026-07-02",
+  "generatedAt": "2026-07-03T12:05:14.048Z",
+  "summary": "I focused on enhancing financial visualization and functionality in life-under-control while advancing trip creation workflows and production readiness in travelmanager, closing multiple issues and delivering features across both projects.",
   "stats": {
-    "commits": 61,
+    "commits": 48,
     "reposTouched": [
       "life-under-control",
-      "travelmanager",
-      "panlabs",
-      "ethitorial"
+      "travelmanager"
     ],
-    "pullRequests": 7
+    "pullRequests": 6
   },
   "source": "github-models-gpt-4o"
 }
