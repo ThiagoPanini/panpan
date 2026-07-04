@@ -11,8 +11,14 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-07-02T20:11:15Z",
+    "pushedAt": "2026-07-04T04:55:23Z",
     "lastCommits": [
+      {
+        "sha": "40e59c8",
+        "message": "feat(financas): heading destacado com ícone e remoções da página de Pagamentos Recorrentes (#86) (#89)",
+        "date": "2026-07-03T19:45:30Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/40e59c8e6781a9f977736ae65aa3f9fd504b7c28"
+      },
       {
         "sha": "9e13c67",
         "message": "Merge pull request #75 from ThiagoPanini/feat/55-graficos-visx-competencia",
@@ -36,19 +42,9 @@
         "message": "fix(financas): corrige lacuna x fechado em Conta encerrada e polimentos do /review (#55)",
         "date": "2026-07-02T17:27:49Z",
         "url": "https://github.com/ThiagoPanini/life-under-control/commit/582f80c136a107bc4615f9e315d6b207c985aa71"
-      },
-      {
-        "sha": "7adc706",
-        "message": "feat(financas): barras por competência em visx + ADR-0010 (#55)",
-        "date": "2026-07-02T17:08:21Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/7adc706319e306dacee651f1d9d6d608efc90a35"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-27",
-        "count": 10
-      },
       {
         "date": "2026-06-28",
         "count": 0
@@ -71,6 +67,10 @@
       },
       {
         "date": "2026-07-03",
+        "count": 1
+      },
+      {
+        "date": "2026-07-04",
         "count": 0
       }
     ]
@@ -90,8 +90,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-07-02T10:54:42Z",
+    "pushedAt": "2026-07-03T12:05:16Z",
     "lastCommits": [
+      {
+        "sha": "4cffaa5",
+        "message": "chore(data): daily refresh 2026-07-03",
+        "date": "2026-07-03T12:05:15Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/4cffaa5e16cf697e9e3bbf1354c85e5cb6e22cbb"
+      },
       {
         "sha": "b7e706c",
         "message": "chore(data): daily refresh 2026-07-02",
@@ -115,19 +121,9 @@
         "message": "chore(data): daily refresh 2026-06-29",
         "date": "2026-06-29T11:40:10Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/d15bec5457c26cf1005e2a16ab558519cabeb001"
-      },
-      {
-        "sha": "f1d9d11",
-        "message": "chore(data): daily refresh 2026-06-28",
-        "date": "2026-06-28T10:44:36Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/f1d9d11cbfd6565dceeb76a830f17976e6f361b4"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-27",
-        "count": 0
-      },
       {
         "date": "2026-06-28",
         "count": 0
@@ -150,6 +146,10 @@
       },
       {
         "date": "2026-07-03",
+        "count": 0
+      },
+      {
+        "date": "2026-07-04",
         "count": 0
       }
     ]
@@ -205,10 +205,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-06-27",
-        "count": 0
-      },
-      {
         "date": "2026-06-28",
         "count": 0
       },
@@ -230,6 +226,10 @@
       },
       {
         "date": "2026-07-03",
+        "count": 0
+      },
+      {
+        "date": "2026-07-04",
         "count": 0
       }
     ]

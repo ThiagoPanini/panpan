@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-03T12:05:15.258Z",
+  "generatedAt": "2026-07-04T11:22:15.786Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
@@ -24,12 +24,12 @@
   "topLanguages": [
     {
       "name": "TypeScript",
-      "score": 274.4,
-      "percentage": 67.2
+      "score": 275,
+      "percentage": 67.3
     },
     {
       "name": "CSS",
-      "score": 82.1,
+      "score": 82,
       "percentage": 20.1
     },
     {
@@ -39,12 +39,12 @@
     },
     {
       "name": "JavaScript",
-      "score": 21.3,
+      "score": 21.2,
       "percentage": 5.2
     },
     {
       "name": "Dockerfile",
-      "score": 1.4,
+      "score": 1.3,
       "percentage": 0.3
     }
   ]
