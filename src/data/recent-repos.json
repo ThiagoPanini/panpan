@@ -11,8 +11,20 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-07-05T02:22:25Z",
+    "pushedAt": "2026-07-06T02:04:30Z",
     "lastCommits": [
+      {
+        "sha": "812fbad",
+        "message": "fix(financas): alinha toggle com cabeçalho do mapa (#136)",
+        "date": "2026-07-05T23:44:20Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/812fbad84bb38125ee0a343e670df0dd4861c5ce"
+      },
+      {
+        "sha": "b92580f",
+        "message": "feat(financas): aprimora detalhes das contas recorrentes (#135)",
+        "date": "2026-07-05T23:30:35Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/b92580f193fb82fdd698d16bbc7ad7d09b19880c"
+      },
       {
         "sha": "40e59c8",
         "message": "feat(financas): heading destacado com ícone e remoções da página de Pagamentos Recorrentes (#86) (#89)",
@@ -30,25 +42,9 @@
         "message": "docs(financas): atualiza comentário do BarrasCompetencia pós-merge com #58",
         "date": "2026-07-02T17:34:36Z",
         "url": "https://github.com/ThiagoPanini/life-under-control/commit/116bd150909b16e92d9b4869f67a1300ff9c8e33"
-      },
-      {
-        "sha": "cea309f",
-        "message": "merge main into feat/55 (reconcile with #58's cockpit redesign)",
-        "date": "2026-07-02T17:33:28Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/cea309f35a3900fd76e49b7caa17874b90c9ba78"
-      },
-      {
-        "sha": "582f80c",
-        "message": "fix(financas): corrige lacuna x fechado em Conta encerrada e polimentos do /review (#55)",
-        "date": "2026-07-02T17:27:49Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/582f80c136a107bc4615f9e315d6b207c985aa71"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-29",
-        "count": 9
-      },
       {
         "date": "2026-06-30",
         "count": 0
@@ -71,6 +67,10 @@
       },
       {
         "date": "2026-07-05",
+        "count": 2
+      },
+      {
+        "date": "2026-07-06",
         "count": 0
       }
     ]
@@ -90,8 +90,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-07-04T11:22:16Z",
+    "pushedAt": "2026-07-05T11:26:27Z",
     "lastCommits": [
+      {
+        "sha": "1d246d9",
+        "message": "chore(data): daily refresh 2026-07-05",
+        "date": "2026-07-05T11:26:26Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/1d246d918e5a05e6d60542c7ba75894f5556e5e4"
+      },
       {
         "sha": "934a6ee",
         "message": "chore(data): daily refresh 2026-07-04",
@@ -115,19 +121,9 @@
         "message": "chore(data): daily refresh 2026-07-01",
         "date": "2026-07-01T11:05:33Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/03e61d96246107436d91fa3000c2d9b60941f4ef"
-      },
-      {
-        "sha": "b27e30b",
-        "message": "chore(data): daily refresh 2026-06-30",
-        "date": "2026-06-30T11:02:07Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/b27e30b16c113967efdcda3db9725ca026899ba4"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-06-29",
-        "count": 0
-      },
       {
         "date": "2026-06-30",
         "count": 0
@@ -150,6 +146,10 @@
       },
       {
         "date": "2026-07-05",
+        "count": 0
+      },
+      {
+        "date": "2026-07-06",
         "count": 0
       }
     ]
@@ -205,10 +205,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-06-29",
-        "count": 0
-      },
-      {
         "date": "2026-06-30",
         "count": 0
       },
@@ -230,6 +226,10 @@
       },
       {
         "date": "2026-07-05",
+        "count": 0
+      },
+      {
+        "date": "2026-07-06",
         "count": 0
       }
     ]
