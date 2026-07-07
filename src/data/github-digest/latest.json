@@ -1,14 +1,15 @@
 {
-  "weekStart": "2026-06-29",
-  "weekEnd": "2026-07-05",
-  "generatedAt": "2026-07-06T13:40:21.209Z",
-  "summary": "I focused on enhancing functionality in life-under-control with 33 commits, 7 PRs, and issue resolutions, improving financial features, refining analytics, and aligning UI elements.",
+  "weekStart": "2026-06-30",
+  "weekEnd": "2026-07-06",
+  "generatedAt": "2026-07-07T12:23:43.713Z",
+  "summary": "I focused on enhancing features and documentation for life-under-control, tackling financial UI improvements, AWS/Bedrock integrations, and closing multiple issues to streamline workflows.",
   "stats": {
-    "commits": 33,
+    "commits": 26,
     "reposTouched": [
-      "life-under-control"
+      "life-under-control",
+      "ethitorial"
     ],
-    "pullRequests": 7
+    "pullRequests": 9
   },
   "source": "github-models-gpt-4o"
 }
