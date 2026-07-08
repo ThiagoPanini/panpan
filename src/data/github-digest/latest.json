@@ -1,15 +1,15 @@
 {
-  "weekStart": "2026-06-30",
-  "weekEnd": "2026-07-06",
-  "generatedAt": "2026-07-07T12:23:43.713Z",
-  "summary": "I focused on enhancing features and documentation for life-under-control, tackling financial UI improvements, AWS/Bedrock integrations, and closing multiple issues to streamline workflows.",
+  "weekStart": "2026-07-01",
+  "weekEnd": "2026-07-07",
+  "generatedAt": "2026-07-08T11:43:37.960Z",
+  "summary": "I focus this week on enhancing WhatsApp integrations, adding secure webhooks, refining account matching with LLMs, and documenting best practices across the life-under-control repo.",
   "stats": {
-    "commits": 26,
+    "commits": 30,
     "reposTouched": [
       "life-under-control",
       "ethitorial"
     ],
-    "pullRequests": 9
+    "pullRequests": 17
   },
   "source": "github-models-gpt-4o"
 }
