@@ -1,10 +1,10 @@
 {
-  "weekStart": "2026-07-01",
-  "weekEnd": "2026-07-07",
-  "generatedAt": "2026-07-08T11:43:37.960Z",
-  "summary": "I focus this week on enhancing WhatsApp integrations, adding secure webhooks, refining account matching with LLMs, and documenting best practices across the life-under-control repo.",
+  "weekStart": "2026-07-03",
+  "weekEnd": "2026-07-09",
+  "generatedAt": "2026-07-10T12:21:29.760Z",
+  "summary": "I focus the week on enhancing WhatsApp integrations, refining authentication gates, and documenting best practices across life-under-control with 9 commits and 17 PRs.",
   "stats": {
-    "commits": 30,
+    "commits": 9,
     "reposTouched": [
       "life-under-control",
       "ethitorial"
