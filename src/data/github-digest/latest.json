@@ -1,8 +1,8 @@
 {
-  "weekStart": "2026-07-04",
-  "weekEnd": "2026-07-10",
-  "generatedAt": "2026-07-11T10:58:50.334Z",
-  "summary": "I focus the week on enhancing WhatsApp integrations and documentation in life-under-control, closing issues, refining secure webhooks, and iterating on account matching and proposal editing workflows.",
+  "weekStart": "2026-07-05",
+  "weekEnd": "2026-07-11",
+  "generatedAt": "2026-07-12T11:06:47.416Z",
+  "summary": "I focus on enhancing life-under-control with secure webhooks, typed contracts, backend modernization, and CI improvements, while addressing issues and refining documentation.",
   "stats": {
     "commits": 8,
     "reposTouched": [
