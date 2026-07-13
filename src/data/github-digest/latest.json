@@ -1,10 +1,10 @@
 {
-  "weekStart": "2026-07-05",
-  "weekEnd": "2026-07-11",
-  "generatedAt": "2026-07-12T11:06:47.416Z",
-  "summary": "I focus on enhancing life-under-control with secure webhooks, typed contracts, backend modernization, and CI improvements, while addressing issues and refining documentation.",
+  "weekStart": "2026-07-06",
+  "weekEnd": "2026-07-12",
+  "generatedAt": "2026-07-13T12:27:42.615Z",
+  "summary": "I focus the week on enhancing webhooks, documentation, and account matching features in life-under-control while streamlining issues and branching workflows.",
   "stats": {
-    "commits": 8,
+    "commits": 6,
     "reposTouched": [
       "life-under-control",
       "ethitorial"

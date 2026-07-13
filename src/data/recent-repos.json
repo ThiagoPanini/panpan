@@ -11,7 +11,7 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-07-11T19:38:39Z",
+    "pushedAt": "2026-07-12T14:39:23Z",
     "lastCommits": [
       {
         "sha": "9aa90e8",
@@ -38,17 +38,13 @@
         "url": "https://github.com/ThiagoPanini/life-under-control/commit/b209850aa74b4342929d30a797d01f2d55bf994c"
       },
       {
-        "sha": "a91ef8f",
-        "message": "docs(env): recomenda IAM dedicado e escopado pro Bedrock (#154) (#169)",
-        "date": "2026-07-06T23:57:35Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/a91ef8f6f7a417a31d71fe7c5011a9859b2c844b"
+        "sha": "fe7642a",
+        "message": "feat(shared): dinheiro, datas civis, erros e Clock no apps/api (suíte 1:1) (#206)",
+        "date": "2026-07-12T14:39:21Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/fe7642a3ffa1f8861476da8940bd5ccbafeb8c0d"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-07-06",
-        "count": 2
-      },
       {
         "date": "2026-07-07",
         "count": 4
@@ -72,6 +68,10 @@
       {
         "date": "2026-07-12",
         "count": 0
+      },
+      {
+        "date": "2026-07-13",
+        "count": 0
       }
     ]
   },
@@ -90,8 +90,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-07-11T10:58:52Z",
+    "pushedAt": "2026-07-12T11:06:49Z",
     "lastCommits": [
+      {
+        "sha": "e07e41b",
+        "message": "chore(data): daily refresh 2026-07-12",
+        "date": "2026-07-12T11:06:48Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/e07e41b0d2dbd7892e7c7300fc5b62cef1e3907c"
+      },
       {
         "sha": "d0c1991",
         "message": "chore(data): daily refresh 2026-07-11",
@@ -115,19 +121,9 @@
         "message": "chore(data): daily refresh 2026-07-07",
         "date": "2026-07-07T12:23:45Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/6406f79efec56675c425f2dff24212c0921f44d0"
-      },
-      {
-        "sha": "080b97a",
-        "message": "chore(data): daily refresh 2026-07-06",
-        "date": "2026-07-06T13:40:22Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/080b97a54c9d72d81440dbb55c5a61909508681b"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-07-06",
-        "count": 0
-      },
       {
         "date": "2026-07-07",
         "count": 0
@@ -150,6 +146,10 @@
       },
       {
         "date": "2026-07-12",
+        "count": 0
+      },
+      {
+        "date": "2026-07-13",
         "count": 0
       }
     ]
@@ -205,10 +205,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-07-06",
-        "count": 0
-      },
-      {
         "date": "2026-07-07",
         "count": 0
       },
@@ -230,6 +226,10 @@
       },
       {
         "date": "2026-07-12",
+        "count": 0
+      },
+      {
+        "date": "2026-07-13",
         "count": 0
       }
     ]
