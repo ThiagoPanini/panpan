@@ -11,44 +11,40 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-07-12T14:39:23Z",
+    "pushedAt": "2026-07-14T01:37:19Z",
     "lastCommits": [
       {
-        "sha": "9aa90e8",
-        "message": "fix(financas): libera /api/webhooks no gate de autenticação (#173)",
-        "date": "2026-07-07T03:17:28Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/9aa90e8002c0346800c4a70955cf1eabc3a61d7c"
+        "sha": "f398866",
+        "message": "refactor(api): kernel shared em inglês integral e datas civis em datetime.date (#207) (#209)",
+        "date": "2026-07-14T01:37:17Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/f39886651bd3330e3ff9f2346d28b8cdc6a73d11"
       },
       {
-        "sha": "4d323b8",
-        "message": "feat(financas): webhook seguro do WhatsApp + eco ponta a ponta (fase 0) (#155) (#172)",
-        "date": "2026-07-07T01:58:36Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/4d323b82f53a846a9d96f4af22d040d5924feb7b"
-      },
-      {
-        "sha": "6d86e4a",
-        "message": "docs(financas): fixa Opus 4.6 como modelo do extrator de comprovante (#154) (#171)",
-        "date": "2026-07-07T01:32:19Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/6d86e4a50969f7949193a7390cdfc959d6f1b581"
-      },
-      {
-        "sha": "b209850",
-        "message": "feat(financas): matching de Conta + inferência de Competência do WhatsApp (fase 1) (#170)",
-        "date": "2026-07-07T00:17:14Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/b209850aa74b4342929d30a797d01f2d55bf994c"
+        "sha": "ab491f5",
+        "message": "docs(adr): padrões do apps/api — forma do domínio (0015) e inglês integral no código (0016) (#208)",
+        "date": "2026-07-14T00:40:30Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/ab491f529f28325914e94c798102fbf2a6b54824"
       },
       {
         "sha": "fe7642a",
         "message": "feat(shared): dinheiro, datas civis, erros e Clock no apps/api (suíte 1:1) (#206)",
         "date": "2026-07-12T14:39:21Z",
         "url": "https://github.com/ThiagoPanini/life-under-control/commit/fe7642a3ffa1f8861476da8940bd5ccbafeb8c0d"
+      },
+      {
+        "sha": "b664681",
+        "message": "chore(deploy): imagem GHCR do apps/api + healthcheck + redeploy do luc-api (#186) (#205)",
+        "date": "2026-07-11T19:38:28Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/b664681e74a9b80967a67efcb1fce3ecfacd5cc0"
+      },
+      {
+        "sha": "148a709",
+        "message": "chore(api): esqueleto do apps/api — uv + fastapi, régua e job api no pr-checks (#185) (#204)",
+        "date": "2026-07-11T19:22:37Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/148a709c1379e70f9ac0a38f897e0130d8c288e3"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-07-07",
-        "count": 4
-      },
       {
         "date": "2026-07-08",
         "count": 0
@@ -72,6 +68,10 @@
       {
         "date": "2026-07-13",
         "count": 0
+      },
+      {
+        "date": "2026-07-14",
+        "count": 0
       }
     ]
   },
@@ -90,8 +90,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-07-12T11:06:49Z",
+    "pushedAt": "2026-07-13T12:27:45Z",
     "lastCommits": [
+      {
+        "sha": "265a0f9",
+        "message": "chore(data): daily refresh 2026-07-13",
+        "date": "2026-07-13T12:27:44Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/265a0f951fbe614aba42e53d486119d8a17a0238"
+      },
       {
         "sha": "e07e41b",
         "message": "chore(data): daily refresh 2026-07-12",
@@ -115,19 +121,9 @@
         "message": "chore(data): daily refresh 2026-07-08",
         "date": "2026-07-08T11:43:39Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/dd6e534be1e8d127f09a36bde0ad3dda89e2900f"
-      },
-      {
-        "sha": "6406f79",
-        "message": "chore(data): daily refresh 2026-07-07",
-        "date": "2026-07-07T12:23:45Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/6406f79efec56675c425f2dff24212c0921f44d0"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-07-07",
-        "count": 0
-      },
       {
         "date": "2026-07-08",
         "count": 0
@@ -150,6 +146,10 @@
       },
       {
         "date": "2026-07-13",
+        "count": 0
+      },
+      {
+        "date": "2026-07-14",
         "count": 0
       }
     ]
@@ -205,10 +205,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-07-07",
-        "count": 0
-      },
-      {
         "date": "2026-07-08",
         "count": 0
       },
@@ -230,6 +226,10 @@
       },
       {
         "date": "2026-07-13",
+        "count": 0
+      },
+      {
+        "date": "2026-07-14",
         "count": 0
       }
     ]
