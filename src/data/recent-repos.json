@@ -11,8 +11,14 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-07-14T01:37:19Z",
+    "pushedAt": "2026-07-15T00:38:33Z",
     "lastCommits": [
+      {
+        "sha": "ad7980d",
+        "message": "Add Clean DDD Hexagonal Architecture Documentation and Testing Patterns (#210)",
+        "date": "2026-07-14T23:49:21Z",
+        "url": "https://github.com/ThiagoPanini/life-under-control/commit/ad7980d4b9d267ccedf43e97a8cf4b65e2c8f7af"
+      },
       {
         "sha": "f398866",
         "message": "refactor(api): kernel shared em inglês integral e datas civis em datetime.date (#207) (#209)",
@@ -36,19 +42,9 @@
         "message": "chore(deploy): imagem GHCR do apps/api + healthcheck + redeploy do luc-api (#186) (#205)",
         "date": "2026-07-11T19:38:28Z",
         "url": "https://github.com/ThiagoPanini/life-under-control/commit/b664681e74a9b80967a67efcb1fce3ecfacd5cc0"
-      },
-      {
-        "sha": "148a709",
-        "message": "chore(api): esqueleto do apps/api — uv + fastapi, régua e job api no pr-checks (#185) (#204)",
-        "date": "2026-07-11T19:22:37Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/148a709c1379e70f9ac0a38f897e0130d8c288e3"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-07-08",
-        "count": 0
-      },
       {
         "date": "2026-07-09",
         "count": 0
@@ -72,6 +68,10 @@
       {
         "date": "2026-07-14",
         "count": 0
+      },
+      {
+        "date": "2026-07-15",
+        "count": 0
       }
     ]
   },
@@ -90,8 +90,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-07-13T12:27:45Z",
+    "pushedAt": "2026-07-14T11:21:45Z",
     "lastCommits": [
+      {
+        "sha": "b3a6938",
+        "message": "chore(data): daily refresh 2026-07-14",
+        "date": "2026-07-14T11:21:45Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/b3a693892a2676f0ad29b5512307eecafe56d021"
+      },
       {
         "sha": "265a0f9",
         "message": "chore(data): daily refresh 2026-07-13",
@@ -115,19 +121,9 @@
         "message": "chore(data): daily refresh 2026-07-10",
         "date": "2026-07-10T12:21:31Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/a57507d342509924ca0e6d4c1a282dd775475bcb"
-      },
-      {
-        "sha": "dd6e534",
-        "message": "chore(data): daily refresh 2026-07-08",
-        "date": "2026-07-08T11:43:39Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/dd6e534be1e8d127f09a36bde0ad3dda89e2900f"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-07-08",
-        "count": 0
-      },
       {
         "date": "2026-07-09",
         "count": 0
@@ -150,6 +146,10 @@
       },
       {
         "date": "2026-07-14",
+        "count": 0
+      },
+      {
+        "date": "2026-07-15",
         "count": 0
       }
     ]
@@ -205,10 +205,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-07-08",
-        "count": 0
-      },
-      {
         "date": "2026-07-09",
         "count": 0
       },
@@ -230,6 +226,10 @@
       },
       {
         "date": "2026-07-14",
+        "count": 0
+      },
+      {
+        "date": "2026-07-15",
         "count": 0
       }
     ]

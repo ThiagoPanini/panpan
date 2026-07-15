@@ -1,14 +1,14 @@
 {
-  "weekStart": "2026-07-07",
-  "weekEnd": "2026-07-13",
-  "generatedAt": "2026-07-14T11:21:43.950Z",
-  "summary": "I focus on enhancing life-under-control with secure webhooks, FastAPI tooling, and backend transitions, while closing issues, managing branches, and iterating on infrastructure and documentation.",
+  "weekStart": "2026-07-08",
+  "weekEnd": "2026-07-14",
+  "generatedAt": "2026-07-15T11:25:12.569Z",
+  "summary": "I focused on issue management, branch organization, and cleanup tasks in the life-under-control repository, streamlining workflows and iterating on shared kernel standards and API structures.",
   "stats": {
-    "commits": 4,
+    "commits": 0,
     "reposTouched": [
       "life-under-control"
     ],
-    "pullRequests": 8
+    "pullRequests": 0
   },
   "source": "github-models-gpt-4o"
 }
