@@ -1,8 +1,8 @@
 {
-  "weekStart": "2026-07-08",
-  "weekEnd": "2026-07-14",
-  "generatedAt": "2026-07-15T11:25:12.569Z",
-  "summary": "I focused on issue management, branch organization, and cleanup tasks in the life-under-control repository, streamlining workflows and iterating on shared kernel standards and API structures.",
+  "weekStart": "2026-07-09",
+  "weekEnd": "2026-07-15",
+  "generatedAt": "2026-07-16T11:28:19.854Z",
+  "summary": "I focus this week on iterating branches, closing issues, and improving workflows in the life-under-control repository.",
   "stats": {
     "commits": 0,
     "reposTouched": [
