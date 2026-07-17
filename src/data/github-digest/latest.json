@@ -1,14 +1,14 @@
 {
-  "weekStart": "2026-07-09",
-  "weekEnd": "2026-07-15",
-  "generatedAt": "2026-07-16T11:28:19.854Z",
-  "summary": "I focus this week on iterating branches, closing issues, and improving workflows in the life-under-control repository.",
+  "weekStart": "2026-07-10",
+  "weekEnd": "2026-07-16",
+  "generatedAt": "2026-07-17T11:18:00.455Z",
+  "summary": "I focus on streamlining R2 attachment handling, closing multiple issues, and managing branches and PRs to enhance functionality and organization in life-under-control.",
   "stats": {
-    "commits": 0,
+    "commits": 1,
     "reposTouched": [
       "life-under-control"
     ],
-    "pullRequests": 0
+    "pullRequests": 2
   },
   "source": "github-models-gpt-4o"
 }

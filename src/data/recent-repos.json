@@ -1,5 +1,84 @@
 [
   {
+    "name": "panpan",
+    "description": "✨ A personal webpage where you can find relevant technical information about me",
+    "url": "https://github.com/ThiagoPanini/panpan",
+    "language": "CSS",
+    "technologies": [
+      "CSS",
+      "Astro"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "front-end",
+      "website"
+    ],
+    "pushedAt": "2026-07-16T11:28:21Z",
+    "lastCommits": [
+      {
+        "sha": "f5578b6",
+        "message": "chore(data): daily refresh 2026-07-16",
+        "date": "2026-07-16T11:28:20Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/f5578b68f8c21e2f2a753a1573430d9dc77321cd"
+      },
+      {
+        "sha": "875afa9",
+        "message": "chore(data): daily refresh 2026-07-15",
+        "date": "2026-07-15T11:25:13Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/875afa98acaa8fb05b06c80a79986dd0046d5a45"
+      },
+      {
+        "sha": "b3a6938",
+        "message": "chore(data): daily refresh 2026-07-14",
+        "date": "2026-07-14T11:21:45Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/b3a693892a2676f0ad29b5512307eecafe56d021"
+      },
+      {
+        "sha": "265a0f9",
+        "message": "chore(data): daily refresh 2026-07-13",
+        "date": "2026-07-13T12:27:44Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/265a0f951fbe614aba42e53d486119d8a17a0238"
+      },
+      {
+        "sha": "e07e41b",
+        "message": "chore(data): daily refresh 2026-07-12",
+        "date": "2026-07-12T11:06:48Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/e07e41b0d2dbd7892e7c7300fc5b62cef1e3907c"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-07-11",
+        "count": 0
+      },
+      {
+        "date": "2026-07-12",
+        "count": 0
+      },
+      {
+        "date": "2026-07-13",
+        "count": 0
+      },
+      {
+        "date": "2026-07-14",
+        "count": 0
+      },
+      {
+        "date": "2026-07-15",
+        "count": 0
+      },
+      {
+        "date": "2026-07-16",
+        "count": 0
+      },
+      {
+        "date": "2026-07-17",
+        "count": 0
+      }
+    ]
+  },
+  {
     "name": "tfbox",
     "description": "📦 A collection of production-ready Terraform modules focused on AWS environments",
     "url": "https://github.com/ThiagoPanini/tfbox",
@@ -50,10 +129,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-07-10",
-        "count": 0
-      },
-      {
         "date": "2026-07-11",
         "count": 0
       },
@@ -75,6 +150,10 @@
       },
       {
         "date": "2026-07-16",
+        "count": 0
+      },
+      {
+        "date": "2026-07-17",
         "count": 0
       }
     ]
@@ -126,10 +205,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-07-10",
-        "count": 0
-      },
-      {
         "date": "2026-07-11",
         "count": 0
       },
@@ -152,82 +227,10 @@
       {
         "date": "2026-07-16",
         "count": 0
-      }
-    ]
-  },
-  {
-    "name": "life-under-control",
-    "description": "🎛️ Um gerenciador pessoal da \"vida adulta\"",
-    "url": "https://github.com/ThiagoPanini/life-under-control",
-    "language": "TypeScript",
-    "technologies": [
-      "TypeScript",
-      "Python"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-07-16T01:44:14Z",
-    "lastCommits": [
-      {
-        "sha": "5643833",
-        "message": "feat(api): R2AttachmentStore — presign PUT/GET, cópia staging→canônico (#194) (#214)",
-        "date": "2026-07-16T00:39:56Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/5643833b7f6557e8b8b1df0ad960c45079df337b"
       },
       {
-        "sha": "09a70e8",
-        "message": "feat(api): repos whatsapp — proposals CAS + índice único parcial e events claim/release (seam-2) (#193) (#218)",
-        "date": "2026-07-16T01:44:12Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/09a70e8eaa190c54c9bf019e895ef34069db8072"
-      },
-      {
-        "sha": "d202d0a",
-        "message": "fix(api): financas — corrige derive-* pos code-review (#189) (#217)",
-        "date": "2026-07-16T01:42:28Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/d202d0aa48ea9574b06a06d88a4c6643dac88e5b"
-      },
-      {
-        "sha": "6b80946",
-        "message": "feat(api): whatsapp núcleo — proposta de lançamento, cas-último, compensação e menu alterar (#190) (#216)",
-        "date": "2026-07-16T01:13:58Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/6b80946b1133540cfce6b2bd5c8168e3f671011f"
-      },
-      {
-        "sha": "4b19f34",
-        "message": "feat(api): postgres/core base — metadata das 7 tabelas, baseline-stamp alembic e repos de financas+identidade (seam-2) (#215)",
-        "date": "2026-07-16T01:04:02Z",
-        "url": "https://github.com/ThiagoPanini/life-under-control/commit/4b19f3447be9015b57d0fcef9e5d778c940c33e5"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-07-10",
+        "date": "2026-07-17",
         "count": 0
-      },
-      {
-        "date": "2026-07-11",
-        "count": 0
-      },
-      {
-        "date": "2026-07-12",
-        "count": 0
-      },
-      {
-        "date": "2026-07-13",
-        "count": 0
-      },
-      {
-        "date": "2026-07-14",
-        "count": 0
-      },
-      {
-        "date": "2026-07-15",
-        "count": 0
-      },
-      {
-        "date": "2026-07-16",
-        "count": 1
       }
     ]
   }
