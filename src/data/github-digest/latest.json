@@ -1,8 +1,8 @@
 {
-  "weekStart": "2026-07-10",
-  "weekEnd": "2026-07-16",
-  "generatedAt": "2026-07-17T11:18:00.455Z",
-  "summary": "I focus on streamlining R2 attachment handling, closing multiple issues, and managing branches and PRs to enhance functionality and organization in life-under-control.",
+  "weekStart": "2026-07-11",
+  "weekEnd": "2026-07-17",
+  "generatedAt": "2026-07-18T10:57:16.319Z",
+  "summary": "I focus on enhancing Python standards in life-under-control, closing research and audit issues, creating branches, and delivering API improvements with a presign PUT/GET feature.",
   "stats": {
     "commits": 1,
     "reposTouched": [

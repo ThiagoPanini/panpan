@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-17T11:18:01.659Z",
+  "generatedAt": "2026-07-18T10:57:17.533Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
   "selectedRepos": [
+    "life-under-control",
     "panpan",
     "tfbox",
     "campfire",
-    "life-under-control",
     "ethitorial"
   ],
   "primaryStack": [
