@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-07-18T10:57:17.533Z",
+  "generatedAt": "2026-07-19T11:06:23.570Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
   "selectedRepos": [
-    "life-under-control",
     "panpan",
-    "tfbox",
     "campfire",
-    "ethitorial"
+    "allin1",
+    "aidriven-resources",
+    "aidriven"
   ],
   "primaryStack": [
     "Python",
@@ -23,29 +23,29 @@
   ],
   "topLanguages": [
     {
-      "name": "TypeScript",
-      "score": 175.8,
-      "percentage": 50.8
+      "name": "JavaScript",
+      "score": 60.4,
+      "percentage": 29
     },
     {
-      "name": "JavaScript",
-      "score": 61.3,
-      "percentage": 17.7
+      "name": "HTML",
+      "score": 45.9,
+      "percentage": 22
     },
     {
       "name": "CSS",
-      "score": 49,
-      "percentage": 14.1
+      "score": 40.3,
+      "percentage": 19.3
     },
     {
-      "name": "MDX",
-      "score": 31,
-      "percentage": 8.9
+      "name": "Shell",
+      "score": 32.6,
+      "percentage": 15.6
     },
     {
       "name": "Astro",
       "score": 29.3,
-      "percentage": 8.5
+      "percentage": 14.1
     }
   ]
 }

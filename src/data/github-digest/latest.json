@@ -1,12 +1,12 @@
 {
-  "weekStart": "2026-07-11",
-  "weekEnd": "2026-07-17",
-  "generatedAt": "2026-07-18T10:57:16.319Z",
-  "summary": "I focus on enhancing Python standards in life-under-control, closing research and audit issues, creating branches, and delivering API improvements with a presign PUT/GET feature.",
+  "weekStart": "2026-07-12",
+  "weekEnd": "2026-07-18",
+  "generatedAt": "2026-07-19T11:06:22.626Z",
+  "summary": "I focus this week on closing multiple issues, creating branches, and contributing to discussions around Python standards and research within the panlabs-tech/life-under-control repository.",
   "stats": {
-    "commits": 1,
+    "commits": 0,
     "reposTouched": [
-      "life-under-control"
+      "panlabs-tech/life-under-control"
     ],
     "pullRequests": 2
   },
