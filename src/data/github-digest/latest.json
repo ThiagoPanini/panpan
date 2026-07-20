@@ -1,14 +1,16 @@
 {
-  "weekStart": "2026-07-12",
-  "weekEnd": "2026-07-18",
-  "generatedAt": "2026-07-19T11:06:22.626Z",
-  "summary": "I focus this week on closing multiple issues, creating branches, and contributing to discussions around Python standards and research within the panlabs-tech/life-under-control repository.",
+  "weekStart": "2026-07-13",
+  "weekEnd": "2026-07-19",
+  "generatedAt": "2026-07-20T12:12:23.314Z",
+  "summary": "I focus on disk hygiene, WSL2 optimization, and permission strategies across panlabs-tech/panlabs while contributing to panlabs-tech/life-under-control with PRs and issue tracking.",
   "stats": {
     "commits": 0,
     "reposTouched": [
-      "panlabs-tech/life-under-control"
+      "panlabs-tech/panlabs",
+      "panlabs-tech/life-under-control",
+      "panlabs-tech/skills"
     ],
-    "pullRequests": 2
+    "pullRequests": 7
   },
   "source": "github-models-gpt-4o"
 }
