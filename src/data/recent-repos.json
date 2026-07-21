@@ -14,8 +14,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-07-19T11:06:24Z",
+    "pushedAt": "2026-07-20T12:12:26Z",
     "lastCommits": [
+      {
+        "sha": "e25c0de",
+        "message": "chore(data): daily refresh 2026-07-20",
+        "date": "2026-07-20T12:12:25Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/e25c0de966be497e50deba60f91d840cb5966c73"
+      },
       {
         "sha": "e4e96ac",
         "message": "chore(data): daily refresh 2026-07-19",
@@ -39,19 +45,9 @@
         "message": "chore(data): daily refresh 2026-07-16",
         "date": "2026-07-16T11:28:20Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/f5578b68f8c21e2f2a753a1573430d9dc77321cd"
-      },
-      {
-        "sha": "875afa9",
-        "message": "chore(data): daily refresh 2026-07-15",
-        "date": "2026-07-15T11:25:13Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/875afa98acaa8fb05b06c80a79986dd0046d5a45"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-07-14",
-        "count": 0
-      },
       {
         "date": "2026-07-15",
         "count": 0
@@ -74,6 +70,10 @@
       },
       {
         "date": "2026-07-20",
+        "count": 0
+      },
+      {
+        "date": "2026-07-21",
         "count": 0
       }
     ]
@@ -125,10 +125,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-07-14",
-        "count": 0
-      },
-      {
         "date": "2026-07-15",
         "count": 0
       },
@@ -150,6 +146,10 @@
       },
       {
         "date": "2026-07-20",
+        "count": 0
+      },
+      {
+        "date": "2026-07-21",
         "count": 0
       }
     ]
@@ -169,10 +169,6 @@
     "lastCommits": [],
     "commitActivity": [
       {
-        "date": "2026-07-14",
-        "count": 0
-      },
-      {
         "date": "2026-07-15",
         "count": 0
       },
@@ -194,6 +190,10 @@
       },
       {
         "date": "2026-07-20",
+        "count": 0
+      },
+      {
+        "date": "2026-07-21",
         "count": 0
       }
     ]
