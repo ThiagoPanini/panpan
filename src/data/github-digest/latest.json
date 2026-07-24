@@ -1,16 +1,19 @@
 {
-  "weekStart": "2026-07-16",
-  "weekEnd": "2026-07-22",
-  "generatedAt": "2026-07-23T11:47:02.223Z",
-  "summary": "I focused on organizing configurations, resolving issues, and contributing to workflow improvements across panlabs-tech/panlabs and panlabs-tech/skills.",
+  "weekStart": "2026-07-17",
+  "weekEnd": "2026-07-23",
+  "generatedAt": "2026-07-24T11:37:41.449Z",
+  "summary": "I focused on streamlining workflows across panlabs-tech repos, opening 18 PRs, closing issues on CI, config, and toolchain topics, and managing branches for projects like panlabs, tfbox, and life-under-control.",
   "stats": {
     "commits": 0,
     "reposTouched": [
       "panlabs-tech/panlabs",
-      "panlabs-tech/skills",
-      "panlabs-tech/life-under-control"
+      "panlabs-tech/tfbox",
+      "panlabs-tech/life-under-control",
+      "panlabs-tech/travelmanager",
+      "panlabs-tech/ethitorial",
+      "panlabs-tech/skills"
     ],
-    "pullRequests": 12
+    "pullRequests": 18
   },
   "source": "github-models-gpt-4o"
 }
