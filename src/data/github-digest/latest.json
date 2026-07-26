@@ -1,20 +1,20 @@
 {
-  "weekStart": "2026-07-18",
-  "weekEnd": "2026-07-24",
-  "generatedAt": "2026-07-25T11:04:58.788Z",
-  "summary": "I focus this week on streamlining workflows, managing issues, and merging PRs across panlabs-tech/.github and panlabs-tech/panlabs to enhance compliance, CI pipelines, and foundational scripts.",
+  "weekStart": "2026-07-19",
+  "weekEnd": "2026-07-25",
+  "generatedAt": "2026-07-26T11:15:08.982Z",
+  "summary": "I focus on organizing branches, managing issues, and streamlining workflows across panlabs-tech/.github, life-under-control, and tfbox, with an emphasis on improving tooling, processes, and repository structure.",
   "stats": {
     "commits": 0,
     "reposTouched": [
       "panlabs-tech/.github",
-      "panlabs-tech/panlabs",
-      "panlabs-tech/life-under-control",
       "panlabs-tech/tfbox",
+      "panlabs-tech/life-under-control",
+      "panlabs-tech/skills",
+      "panlabs-tech/panlabs",
       "panlabs-tech/travelmanager",
-      "panlabs-tech/ethitorial",
-      "panlabs-tech/skills"
+      "panlabs-tech/ethitorial"
     ],
-    "pullRequests": 24
+    "pullRequests": 31
   },
   "source": "github-models-gpt-4o"
 }
