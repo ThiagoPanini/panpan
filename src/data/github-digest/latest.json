@@ -1,8 +1,8 @@
 {
-  "weekStart": "2026-07-23",
-  "weekEnd": "2026-07-29",
-  "generatedAt": "2026-07-30T11:47:16.102Z",
-  "summary": "I focus this week on streamlining workflows, managing branches, and resolving issues across panlabs-tech/.github, life-under-control, ethitorial, and travelmanager while cleaning up deprecated repositories.",
+  "weekStart": "2026-07-24",
+  "weekEnd": "2026-07-30",
+  "generatedAt": "2026-07-31T11:54:05.349Z",
+  "summary": "33 PRs, 32 issues closed across panlabs-tech/life-under-control, panlabs-tech/ethitorial, panlabs-tech/travelmanager this week.",
   "stats": {
     "commits": 0,
     "reposTouched": [
@@ -16,5 +16,5 @@
     ],
     "pullRequests": 33
   },
-  "source": "github-models-gpt-4o"
+  "source": "template"
 }
