@@ -1,8 +1,8 @@
 {
-  "weekStart": "2026-07-24",
-  "weekEnd": "2026-07-30",
-  "generatedAt": "2026-07-31T11:54:05.349Z",
-  "summary": "33 PRs, 32 issues closed across panlabs-tech/life-under-control, panlabs-tech/ethitorial, panlabs-tech/travelmanager this week.",
+  "weekStart": "2026-07-25",
+  "weekEnd": "2026-07-31",
+  "generatedAt": "2026-08-01T11:12:22.274Z",
+  "summary": "25 PRs, 24 issues closed across panlabs-tech/life-under-control, panlabs-tech/ethitorial, panlabs-tech/travelmanager this week.",
   "stats": {
     "commits": 0,
     "reposTouched": [
@@ -14,7 +14,7 @@
       "panlabs-tech/skills",
       "panlabs-tech/panlabs"
     ],
-    "pullRequests": 33
+    "pullRequests": 25
   },
   "source": "template"
 }
