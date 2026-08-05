@@ -1,18 +1,12 @@
 {
-  "weekStart": "2026-07-28",
-  "weekEnd": "2026-08-03",
-  "generatedAt": "2026-08-04T11:59:24.704Z",
-  "summary": "1 PR, 9 issues closed across panlabs-tech/life-under-control, panlabs-tech/ethitorial, panlabs-tech/travelmanager this week.",
+  "weekStart": "2026-07-29",
+  "weekEnd": "2026-08-04",
+  "generatedAt": "2026-08-05T11:53:38.180Z",
+  "summary": "No recorded GitHub activity from 2026-07-29 to 2026-08-04.",
   "stats": {
     "commits": 0,
-    "reposTouched": [
-      "panlabs-tech/life-under-control",
-      "panlabs-tech/ethitorial",
-      "panlabs-tech/travelmanager",
-      "panlabs-tech/.github",
-      "panlabs-tech/tfbox"
-    ],
-    "pullRequests": 1
+    "reposTouched": [],
+    "pullRequests": 0
   },
   "source": "template"
 }
