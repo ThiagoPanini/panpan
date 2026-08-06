@@ -1,12 +1,14 @@
 {
-  "weekStart": "2026-07-29",
-  "weekEnd": "2026-08-04",
-  "generatedAt": "2026-08-05T11:53:38.180Z",
-  "summary": "No recorded GitHub activity from 2026-07-29 to 2026-08-04.",
+  "weekStart": "2026-07-30",
+  "weekEnd": "2026-08-05",
+  "generatedAt": "2026-08-06T11:59:10.052Z",
+  "summary": "2 PRs, 12 issues closed across panlabs-tech/shinydoc-docusaurus this week.",
   "stats": {
     "commits": 0,
-    "reposTouched": [],
-    "pullRequests": 0
+    "reposTouched": [
+      "panlabs-tech/shinydoc-docusaurus"
+    ],
+    "pullRequests": 2
   },
   "source": "template"
 }

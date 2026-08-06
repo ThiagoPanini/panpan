@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-05T11:53:39.574Z",
+  "generatedAt": "2026-08-06T11:59:11.528Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
