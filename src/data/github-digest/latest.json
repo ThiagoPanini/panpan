@@ -1,15 +1,15 @@
 {
-  "weekStart": "2026-08-01",
-  "weekEnd": "2026-08-07",
-  "generatedAt": "2026-08-08T10:24:42.832Z",
-  "summary": "30 PRs, 29 issues closed across panlabs-tech/overpower, panlabs-tech/shinydoc-docusaurus this week.",
+  "weekStart": "2026-08-02",
+  "weekEnd": "2026-08-08",
+  "generatedAt": "2026-08-09T10:27:06.004Z",
+  "summary": "46 PRs, 22 issues closed across panlabs-tech/overpower, panlabs-tech/shinydoc-docusaurus this week.",
   "stats": {
     "commits": 0,
     "reposTouched": [
       "panlabs-tech/overpower",
       "panlabs-tech/shinydoc-docusaurus"
     ],
-    "pullRequests": 30
+    "pullRequests": 46
   },
   "source": "template"
 }
