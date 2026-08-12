@@ -14,8 +14,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-08-10T11:02:09Z",
+    "pushedAt": "2026-08-11T10:44:43Z",
     "lastCommits": [
+      {
+        "sha": "bd2da00",
+        "message": "chore(data): daily refresh 2026-08-11",
+        "date": "2026-08-11T10:44:42Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/bd2da007fa8f00ec042188fae30b896a3149bf72"
+      },
       {
         "sha": "7f2dfac",
         "message": "chore(data): daily refresh 2026-08-10",
@@ -39,19 +45,9 @@
         "message": "chore(data): daily refresh 2026-08-07",
         "date": "2026-08-07T10:46:31Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/45f8fc51d45a343d99e946873b28fe1e86f70796"
-      },
-      {
-        "sha": "c96ce4f",
-        "message": "chore(data): daily refresh 2026-08-06",
-        "date": "2026-08-06T11:59:11Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/c96ce4fcfa0060f23101021f8ed3a0bb2bee42d7"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-08-05",
-        "count": 0
-      },
       {
         "date": "2026-08-06",
         "count": 0
@@ -74,6 +70,10 @@
       },
       {
         "date": "2026-08-11",
+        "count": 0
+      },
+      {
+        "date": "2026-08-12",
         "count": 0
       }
     ]
@@ -130,10 +130,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-08-05",
-        "count": 0
-      },
-      {
         "date": "2026-08-06",
         "count": 0
       },
@@ -155,6 +151,10 @@
       },
       {
         "date": "2026-08-11",
+        "count": 0
+      },
+      {
+        "date": "2026-08-12",
         "count": 0
       }
     ]
@@ -206,10 +206,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-08-05",
-        "count": 0
-      },
-      {
         "date": "2026-08-06",
         "count": 0
       },
@@ -231,6 +227,10 @@
       },
       {
         "date": "2026-08-11",
+        "count": 0
+      },
+      {
+        "date": "2026-08-12",
         "count": 0
       }
     ]
