@@ -1,5 +1,167 @@
 [
   {
+    "name": "panlabs-docs",
+    "description": "Documentação de soluções técnicas em um único lugar",
+    "url": "https://github.com/ThiagoPanini/panlabs-docs",
+    "language": "JavaScript",
+    "technologies": [
+      "JavaScript",
+      "CSS"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "css",
+      "design-system",
+      "documentation",
+      "docusaurus"
+    ],
+    "pushedAt": "2026-08-21T00:14:59Z",
+    "lastCommits": [
+      {
+        "sha": "7338ef3",
+        "message": "As telas reais do terminal entram na doc, o painel para de repetir a regra, e o atalho `op` sai (#137)",
+        "date": "2026-08-21T00:14:57Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/7338ef3c294b49156aececcf92c0a93d5c3920eb"
+      },
+      {
+        "sha": "0ca58cb",
+        "message": "A seta de categoria da sidebar ganha cor própria, e fica mais sutil como no Devin Docs (#135)",
+        "date": "2026-08-21T00:08:07Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/0ca58cb9137843ddff282ac6bb1ea469884086ed"
+      },
+      {
+        "sha": "95ed032",
+        "message": "fix: a varredura alcança a 0.27.3, e o código de saída ganha a nota que faltava (#136)",
+        "date": "2026-08-21T00:02:38Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/95ed032147101d30f41830f2fb308e0a091c44b2"
+      },
+      {
+        "sha": "083172d",
+        "message": "A doc do overpower reescrita: o contrato que sabe dizer opcional, o ramo que separa dois leitores, e a prosa em voz plana (#134)",
+        "date": "2026-08-20T22:56:07Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/083172de1cab584a1d94f70a08be3c94a2d843ec"
+      },
+      {
+        "sha": "6f1a18a",
+        "message": "A varredura do overpower deixa de ser humana, e o pino é o que a cobra (#132)",
+        "date": "2026-08-20T17:53:01Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/6f1a18a3d16740bacdc33a5c272b4ddca8f57167"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-08-15",
+        "count": 5
+      },
+      {
+        "date": "2026-08-16",
+        "count": 0
+      },
+      {
+        "date": "2026-08-17",
+        "count": 1
+      },
+      {
+        "date": "2026-08-18",
+        "count": 2
+      },
+      {
+        "date": "2026-08-19",
+        "count": 7
+      },
+      {
+        "date": "2026-08-20",
+        "count": 4
+      },
+      {
+        "date": "2026-08-21",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name": "overpower",
+    "description": "🪛 A CLI tool for everything that is needed in a day to day software development basis",
+    "url": "https://github.com/ThiagoPanini/overpower",
+    "language": "Python",
+    "technologies": [
+      "Python",
+      "Shell"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "ai",
+      "cli",
+      "cli-tool",
+      "python"
+    ],
+    "pushedAt": "2026-08-20T22:56:36Z",
+    "lastCommits": [
+      {
+        "sha": "2d6a648",
+        "message": "fix: a tabela de códigos de saída ganha a exceção do --version (#158) (#161)",
+        "date": "2026-08-20T22:56:24Z",
+        "url": "https://github.com/ThiagoPanini/overpower/commit/2d6a6480c7744eb77d80457f13fe87f055092409"
+      },
+      {
+        "sha": "494bb4e",
+        "message": "fix: o docstring de escopo do runtime confundia a tabela de skills com o total aceito (#160)",
+        "date": "2026-08-20T21:16:12Z",
+        "url": "https://github.com/ThiagoPanini/overpower/commit/494bb4e9553620433b30daee0e8a02a60c78418d"
+      },
+      {
+        "sha": "517bae2",
+        "message": "fix: o help de --dry-run diz que recusa destino ocupado e busca a rede (#159)",
+        "date": "2026-08-20T20:59:57Z",
+        "url": "https://github.com/ThiagoPanini/overpower/commit/517bae237ffb3cf1bf3ed458c5657ef848c428d9"
+      },
+      {
+        "sha": "7f463a7",
+        "message": "chore: o gatilho da varredura fala inglês, e o idioma do código vira mandato (#155)",
+        "date": "2026-08-20T19:14:02Z",
+        "url": "https://github.com/ThiagoPanini/overpower/commit/7f463a7dfce233f37f3abc0bc6cd68a793dbea05"
+      },
+      {
+        "sha": "1ae7f11",
+        "message": "O gatilho da varredura: um post-merge destacado que pergunta ao pino do panlabs-docs (#154)",
+        "date": "2026-08-20T17:54:50Z",
+        "url": "https://github.com/ThiagoPanini/overpower/commit/1ae7f11b6c5374e379748ece633407368b40122a"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-08-15",
+        "count": 9
+      },
+      {
+        "date": "2026-08-16",
+        "count": 1
+      },
+      {
+        "date": "2026-08-17",
+        "count": 15
+      },
+      {
+        "date": "2026-08-18",
+        "count": 12
+      },
+      {
+        "date": "2026-08-19",
+        "count": 11
+      },
+      {
+        "date": "2026-08-20",
+        "count": 14
+      },
+      {
+        "date": "2026-08-21",
+        "count": 0
+      }
+    ]
+  },
+  {
     "name": "panpan",
     "description": "✨ A personal webpage where you can find relevant technical information about me",
     "url": "https://github.com/ThiagoPanini/panpan",
@@ -14,8 +176,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-08-19T10:21:44Z",
+    "pushedAt": "2026-08-20T10:22:48Z",
     "lastCommits": [
+      {
+        "sha": "e593ce0",
+        "message": "chore(data): daily refresh 2026-08-20",
+        "date": "2026-08-20T10:22:47Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/e593ce0ef2597399c98faa98bf3129335f6c028d"
+      },
       {
         "sha": "13de3af",
         "message": "chore(data): daily refresh 2026-08-19",
@@ -39,19 +207,9 @@
         "message": "chore(data): daily refresh 2026-08-16",
         "date": "2026-08-16T10:16:40Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/182028e0049d894fcdc9aa5dacfca01c9b4464b8"
-      },
-      {
-        "sha": "52e6fc7",
-        "message": "chore(data): daily refresh 2026-08-15",
-        "date": "2026-08-15T10:15:59Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/52e6fc7e2a02fbe76e4af8f3f1b8ae5ef909b29e"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-08-14",
-        "count": 0
-      },
       {
         "date": "2026-08-15",
         "count": 0
@@ -75,162 +233,9 @@
       {
         "date": "2026-08-20",
         "count": 0
-      }
-    ]
-  },
-  {
-    "name": "aidriven-resources",
-    "description": "🧰 AI resources and artifacts for improving AI development journey",
-    "url": "https://github.com/ThiagoPanini/aidriven-resources",
-    "language": "Python",
-    "technologies": [
-      "Python",
-      "HTML"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "agents",
-      "sdd",
-      "skills",
-      "specs"
-    ],
-    "pushedAt": "2026-07-27T03:07:05Z",
-    "lastCommits": [
-      {
-        "sha": "8026aac",
-        "message": "release: v0.2.0 (#15)",
-        "date": "2026-04-23T15:09:12Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/8026aac10e5010e970031d21973de4193dfc61db"
       },
       {
-        "sha": "76d86e9",
-        "message": "feat: Ai dev setup alert fix (#14)",
-        "date": "2026-04-23T15:07:12Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/76d86e9784043587b00d897275da55ccd477c513"
-      },
-      {
-        "sha": "c2990b5",
-        "message": "feat: Ai dev setup alert fix (#13)",
-        "date": "2026-04-23T14:26:04Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/c2990b5bb2a9296cfce79529cbccc1b137e79770"
-      },
-      {
-        "sha": "ca36891",
-        "message": "release: v0.1.3 (#12)",
-        "date": "2026-04-23T01:44:04Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/ca36891ca8c41d50026928b609866c3a4c25211a"
-      },
-      {
-        "sha": "a282281",
-        "message": "feat: Ai dev setup (#11)",
-        "date": "2026-04-23T01:31:02Z",
-        "url": "https://github.com/ThiagoPanini/aidriven-resources/commit/a282281b562c9e3ec8fe9c0ab6412b38d40b9d0f"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-08-14",
-        "count": 0
-      },
-      {
-        "date": "2026-08-15",
-        "count": 0
-      },
-      {
-        "date": "2026-08-16",
-        "count": 0
-      },
-      {
-        "date": "2026-08-17",
-        "count": 0
-      },
-      {
-        "date": "2026-08-18",
-        "count": 0
-      },
-      {
-        "date": "2026-08-19",
-        "count": 0
-      },
-      {
-        "date": "2026-08-20",
-        "count": 0
-      }
-    ]
-  },
-  {
-    "name": "campfire",
-    "description": "🔥 A web app that helps groups of friends organize and enjoy their music jam sessions.",
-    "url": "https://github.com/ThiagoPanini/campfire",
-    "language": "JavaScript",
-    "technologies": [
-      "JavaScript",
-      "Python"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-07-23T05:13:32Z",
-    "lastCommits": [
-      {
-        "sha": "d354d18",
-        "message": "chore(release): promote develop to main (69b7004223626b90b274fdf631c59166284ab1b2) (#35)",
-        "date": "2026-04-30T23:09:09Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/d354d1814c3682a646e7e798c836a68fbf923e20"
-      },
-      {
-        "sha": "331140c",
-        "message": "chore(deps): target develop branch and group dependabot updates (#26) (#27)",
-        "date": "2026-04-30T21:45:03Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/331140c0bde09e0d02b1ffdd4d4fcfd40ab9adbe"
-      },
-      {
-        "sha": "a0b902e",
-        "message": "chore(release): promote develop to main (d9633bc4fe9c5115473baf3f9ee4a82babf56423) (#13)",
-        "date": "2026-04-30T19:01:09Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/a0b902eeb32a856b869f4f30d3a772848df6abd0"
-      },
-      {
-        "sha": "1d1345c",
-        "message": "Merge pull request #9 from ThiagoPanini/004-app-home-redesign",
-        "date": "2026-04-29T15:22:58Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/1d1345c12cba72608ba2859999d9a8dfdbd8f9f9"
-      },
-      {
-        "sha": "e03afc1",
-        "message": "feat(api): add synchronous CORS origins retrieval and corresponding unit test",
-        "date": "2026-04-29T15:20:36Z",
-        "url": "https://github.com/ThiagoPanini/campfire/commit/e03afc16bcb080bd19ffa6728ea7f6a31dd2adbb"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-08-14",
-        "count": 0
-      },
-      {
-        "date": "2026-08-15",
-        "count": 0
-      },
-      {
-        "date": "2026-08-16",
-        "count": 0
-      },
-      {
-        "date": "2026-08-17",
-        "count": 0
-      },
-      {
-        "date": "2026-08-18",
-        "count": 0
-      },
-      {
-        "date": "2026-08-19",
-        "count": 0
-      },
-      {
-        "date": "2026-08-20",
+        "date": "2026-08-21",
         "count": 0
       }
     ]
