@@ -1,82 +1,77 @@
 [
   {
-    "name": "panlabs-docs",
-    "description": "Documentação de soluções técnicas em um único lugar",
-    "url": "https://github.com/ThiagoPanini/panlabs-docs",
-    "language": "JavaScript",
+    "name": "panlabs-skills",
+    "description": "🪚 My AI skills toolbox",
+    "url": "https://github.com/ThiagoPanini/panlabs-skills",
+    "language": "HTML",
     "technologies": [
-      "JavaScript",
-      "CSS"
+      "HTML",
+      "JavaScript"
     ],
     "stars": 0,
     "forks": 0,
-    "topics": [
-      "css",
-      "design-system",
-      "documentation",
-      "docusaurus"
-    ],
-    "pushedAt": "2026-08-21T00:14:59Z",
+    "topics": [],
+    "pushedAt": "2026-08-22T02:17:04Z",
     "lastCommits": [
       {
-        "sha": "7338ef3",
-        "message": "As telas reais do terminal entram na doc, o painel para de repetir a regra, e o atalho `op` sai (#137)",
-        "date": "2026-08-21T00:14:57Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/7338ef3c294b49156aececcf92c0a93d5c3920eb"
+        "sha": "750251a",
+        "message": "Merge prototipos/q19: AZ vira dimensão da subnet, não container (#19)",
+        "date": "2026-08-22T01:56:10Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/750251a41b74af01a4e75defd8de6273798f019e"
       },
       {
-        "sha": "0ca58cb",
-        "message": "A seta de categoria da sidebar ganha cor própria, e fica mais sutil como no Devin Docs (#135)",
-        "date": "2026-08-21T00:08:07Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/0ca58cb9137843ddff282ac6bb1ea469884086ed"
+        "sha": "1af0a41",
+        "message": "Merge prototipos/q14: vista lógica → vista técnica, .drawio como persistência (#14)",
+        "date": "2026-08-22T01:56:10Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/1af0a4174c5e54162d8c5edff12dce46ddadb9a4"
       },
       {
-        "sha": "95ed032",
-        "message": "fix: a varredura alcança a 0.27.3, e o código de saída ganha a nota que faltava (#136)",
-        "date": "2026-08-21T00:02:38Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/95ed032147101d30f41830f2fb308e0a091c44b2"
+        "sha": "5bad3ae",
+        "message": "Merge prototipos/q13: camada de estilo e tema, portão de contraste (#13)",
+        "date": "2026-08-22T01:56:05Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/5bad3aef96decc1d57f9a42a9fcd7eb6f25dc52c"
       },
       {
-        "sha": "083172d",
-        "message": "A doc do overpower reescrita: o contrato que sabe dizer opcional, o ramo que separa dois leitores, e a prosa em voz plana (#134)",
-        "date": "2026-08-20T22:56:07Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/083172de1cab584a1d94f70a08be3c94a2d843ec"
+        "sha": "967ef18",
+        "message": "Merge prototipos/q18: validador geométrico, as 62 checagens da rubrica (#18)",
+        "date": "2026-08-22T01:56:01Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/967ef181f348c11e1abb99700486a5951c1340c0"
       },
       {
-        "sha": "6f1a18a",
-        "message": "A varredura do overpower deixa de ser humana, e o pino é o que a cobra (#132)",
-        "date": "2026-08-20T17:53:01Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/6f1a18a3d16740bacdc33a5c272b4ddca8f57167"
+        "sha": "d3b2f4f",
+        "message": "Merge prototipos/q16: contrato do context pack corporativo (#16)",
+        "date": "2026-08-22T01:55:03Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/d3b2f4f229a03a3b8c68211d8d4af19c70cf0a07"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-08-15",
-        "count": 5
-      },
       {
         "date": "2026-08-16",
         "count": 0
       },
       {
         "date": "2026-08-17",
-        "count": 1
+        "count": 0
       },
       {
         "date": "2026-08-18",
-        "count": 2
+        "count": 0
       },
       {
         "date": "2026-08-19",
-        "count": 7
+        "count": 0
       },
       {
         "date": "2026-08-20",
-        "count": 4
+        "count": 0
       },
       {
         "date": "2026-08-21",
-        "count": 3
+        "count": 6
+      },
+      {
+        "date": "2026-08-22",
+        "count": 15
       }
     ]
   },
@@ -97,44 +92,40 @@
       "cli-tool",
       "python"
     ],
-    "pushedAt": "2026-08-20T22:56:36Z",
+    "pushedAt": "2026-08-21T20:12:43Z",
     "lastCommits": [
       {
-        "sha": "2d6a648",
-        "message": "fix: a tabela de códigos de saída ganha a exceção do --version (#158) (#161)",
-        "date": "2026-08-20T22:56:24Z",
-        "url": "https://github.com/ThiagoPanini/overpower/commit/2d6a6480c7744eb77d80457f13fe87f055092409"
+        "sha": "ff0168a",
+        "message": "Merge pull request #172 from ThiagoPanini/feat/165-a-fonte-e-endereco-nao-clone",
+        "date": "2026-08-21T20:12:30Z",
+        "url": "https://github.com/ThiagoPanini/overpower/commit/ff0168a48a21dac807e57120dc6154efb6eb8609"
       },
       {
-        "sha": "494bb4e",
-        "message": "fix: o docstring de escopo do runtime confundia a tabela de skills com o total aceito (#160)",
-        "date": "2026-08-20T21:16:12Z",
-        "url": "https://github.com/ThiagoPanini/overpower/commit/494bb4e9553620433b30daee0e8a02a60c78418d"
+        "sha": "adad633",
+        "message": "chore: a versão sobe para 0.31.0, a #166 levou 0.30.0 primeiro (#165)",
+        "date": "2026-08-21T20:10:28Z",
+        "url": "https://github.com/ThiagoPanini/overpower/commit/adad6332de64635a507bfed950c97ac94e6eac03"
       },
       {
-        "sha": "517bae2",
-        "message": "fix: o help de --dry-run diz que recusa destino ocupado e busca a rede (#159)",
-        "date": "2026-08-20T20:59:57Z",
-        "url": "https://github.com/ThiagoPanini/overpower/commit/517bae237ffb3cf1bf3ed458c5657ef848c428d9"
+        "sha": "0d4ff64",
+        "message": "fix: o teste de bundle que carrega fonte segue a #166 no rebase (#165)",
+        "date": "2026-08-21T20:10:04Z",
+        "url": "https://github.com/ThiagoPanini/overpower/commit/0d4ff6467c5ea59f6e8434991a26988a1eda635d"
       },
       {
-        "sha": "7f463a7",
-        "message": "chore: o gatilho da varredura fala inglês, e o idioma do código vira mandato (#155)",
-        "date": "2026-08-20T19:14:02Z",
-        "url": "https://github.com/ThiagoPanini/overpower/commit/7f463a7dfce233f37f3abc0bc6cd68a793dbea05"
+        "sha": "accfa3b",
+        "message": "test: o coto executável some para tests/support/, e a origem ganha teste no list",
+        "date": "2026-08-21T19:58:21Z",
+        "url": "https://github.com/ThiagoPanini/overpower/commit/accfa3bd548ad50d84de12b50b2e96b58851d9df"
       },
       {
-        "sha": "1ae7f11",
-        "message": "O gatilho da varredura: um post-merge destacado que pergunta ao pino do panlabs-docs (#154)",
-        "date": "2026-08-20T17:54:50Z",
-        "url": "https://github.com/ThiagoPanini/overpower/commit/1ae7f11b6c5374e379748ece633407368b40122a"
+        "sha": "694f0fd",
+        "message": "feat: a fonte vira endereço, e o comando quem resolve é o ferramental (#165)",
+        "date": "2026-08-21T19:49:01Z",
+        "url": "https://github.com/ThiagoPanini/overpower/commit/694f0fdcc78e6022c67c28bf1684dfc319247197"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-08-15",
-        "count": 9
-      },
       {
         "date": "2026-08-16",
         "count": 1
@@ -157,85 +148,91 @@
       },
       {
         "date": "2026-08-21",
+        "count": 18
+      },
+      {
+        "date": "2026-08-22",
         "count": 0
       }
     ]
   },
   {
-    "name": "panpan",
-    "description": "✨ A personal webpage where you can find relevant technical information about me",
-    "url": "https://github.com/ThiagoPanini/panpan",
-    "language": "CSS",
+    "name": "panlabs-docs",
+    "description": "Documentação de soluções técnicas em um único lugar",
+    "url": "https://github.com/ThiagoPanini/panlabs-docs",
+    "language": "JavaScript",
     "technologies": [
-      "CSS",
-      "Astro"
+      "JavaScript",
+      "CSS"
     ],
     "stars": 0,
     "forks": 0,
     "topics": [
-      "front-end",
-      "website"
+      "css",
+      "design-system",
+      "documentation",
+      "docusaurus"
     ],
-    "pushedAt": "2026-08-20T10:22:48Z",
+    "pushedAt": "2026-08-21T19:42:23Z",
     "lastCommits": [
       {
-        "sha": "e593ce0",
-        "message": "chore(data): daily refresh 2026-08-20",
-        "date": "2026-08-20T10:22:47Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/e593ce0ef2597399c98faa98bf3129335f6c028d"
+        "sha": "9574414",
+        "message": "fix: pílula de item ativo na sidebar não sobe mais para o pai (#144)",
+        "date": "2026-08-21T19:42:21Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/957441423c31afff6208d45e3c193a19a176c619"
       },
       {
-        "sha": "13de3af",
-        "message": "chore(data): daily refresh 2026-08-19",
-        "date": "2026-08-19T10:21:43Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/13de3afbd711f489e3c0479f383844d40ef6dea0"
+        "sha": "576bf27",
+        "message": "feat: a árvore de `Jornadas` vira trilha, `Procedimentos` e `Times` viram marcador de lugar, e a varredura do overpower cobre a 0.28.0 e a 0.29.0 (#143)",
+        "date": "2026-08-21T19:18:36Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/576bf27e4c4a7ef04e29b9cc79334ea618a24149"
       },
       {
-        "sha": "c71adf7",
-        "message": "chore(data): daily refresh 2026-08-18",
-        "date": "2026-08-18T10:21:21Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/c71adf7c9c19ebf3bf1f97ab5c28cd28b9cd94c7"
+        "sha": "f89e5ab",
+        "message": "fix: rename skill from `varredura-overpower` to `panlabs-overpower-docs-update` (#142)",
+        "date": "2026-08-21T16:02:21Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/f89e5ab30098307478ec82ff6d8fe845f8eb276e"
       },
       {
-        "sha": "1d4c067",
-        "message": "chore(data): daily refresh 2026-08-17",
-        "date": "2026-08-17T10:25:35Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/1d4c067cd9734470c69b462912f6927bfcc05daf"
+        "sha": "6b56d77",
+        "message": "feat: add documentation-writer skill and corresponding skill lock (#141)",
+        "date": "2026-08-21T15:57:32Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/6b56d779dced2145a471c0b1559a2752ebc8827c"
       },
       {
-        "sha": "182028e",
-        "message": "chore(data): daily refresh 2026-08-16",
-        "date": "2026-08-16T10:16:40Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/182028e0049d894fcdc9aa5dacfca01c9b4464b8"
+        "sha": "aae0689",
+        "message": "fix: a raiz seguia apontando para `Jornadas` depois que `Ferramentas` passou à frente (#140)",
+        "date": "2026-08-21T13:48:47Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/aae0689639f9e95d4446227046d4704d42f3c7a8"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-08-15",
-        "count": 0
-      },
       {
         "date": "2026-08-16",
         "count": 0
       },
       {
         "date": "2026-08-17",
-        "count": 0
+        "count": 1
       },
       {
         "date": "2026-08-18",
-        "count": 0
+        "count": 2
       },
       {
         "date": "2026-08-19",
-        "count": 0
+        "count": 7
       },
       {
         "date": "2026-08-20",
-        "count": 0
+        "count": 4
       },
       {
         "date": "2026-08-21",
+        "count": 10
+      },
+      {
+        "date": "2026-08-22",
         "count": 0
       }
     ]
