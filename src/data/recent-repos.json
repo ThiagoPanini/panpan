@@ -3,52 +3,48 @@
     "name": "panlabs-skills",
     "description": "🪚 My AI skills toolbox",
     "url": "https://github.com/ThiagoPanini/panlabs-skills",
-    "language": "HTML",
+    "language": "JavaScript",
     "technologies": [
-      "HTML",
-      "JavaScript"
+      "JavaScript",
+      "Shell"
     ],
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-08-23T02:02:06Z",
+    "pushedAt": "2026-08-24T01:30:15Z",
     "lastCommits": [
       {
-        "sha": "750251a",
-        "message": "Merge prototipos/q19: AZ vira dimensão da subnet, não container (#19)",
-        "date": "2026-08-22T01:56:10Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/750251a41b74af01a4e75defd8de6273798f019e"
+        "sha": "a2a08ae",
+        "message": "Reconcilia com o PR #29, que mergeou a mesma branch na origin",
+        "date": "2026-08-24T01:28:44Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/a2a08aee083a6136c0ee9bc6db2ec3c788ef1853"
       },
       {
-        "sha": "1af0a41",
-        "message": "Merge prototipos/q14: vista lógica → vista técnica, .drawio como persistência (#14)",
-        "date": "2026-08-22T01:56:10Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/1af0a4174c5e54162d8c5edff12dce46ddadb9a4"
+        "sha": "6cc1575",
+        "message": "A auditoria, e o relatorio que ela produziu",
+        "date": "2026-08-24T01:27:20Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/6cc1575125a0cfa1356c780d83245eba0f2bfe36"
       },
       {
-        "sha": "5bad3ae",
-        "message": "Merge prototipos/q13: camada de estilo e tema, portão de contraste (#13)",
-        "date": "2026-08-22T01:56:05Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/5bad3aef96decc1d57f9a42a9fcd7eb6f25dc52c"
+        "sha": "1d22d03",
+        "message": "Seis casos de uso rodados ponta a ponta, com necessidade, modelo, diagrama e laudo",
+        "date": "2026-08-24T01:19:12Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/1d22d0319105a5937b7980a6c681489c99eaea40"
       },
       {
-        "sha": "967ef18",
-        "message": "Merge prototipos/q18: validador geométrico, as 62 checagens da rubrica (#18)",
-        "date": "2026-08-22T01:56:01Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/967ef181f348c11e1abb99700486a5951c1340c0"
+        "sha": "088c145",
+        "message": "Tres campos que so existiam em modelo@1 chegam ao sessao@1, e o qualificador que vaza passa a avisar",
+        "date": "2026-08-24T01:13:49Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/088c145327bad47b97d7224170a8c948ef7ea7ae"
       },
       {
-        "sha": "d3b2f4f",
-        "message": "Merge prototipos/q16: contrato do context pack corporativo (#16)",
-        "date": "2026-08-22T01:55:03Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/d3b2f4f229a03a3b8c68211d8d4af19c70cf0a07"
+        "sha": "9b7de33",
+        "message": "O teto de 30 MB vira comando, e a camada 0 passa a medi-lo",
+        "date": "2026-08-24T00:56:29Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/9b7de33be827d0fe27134498e9831ddcc71e06b3"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-08-17",
-        "count": 0
-      },
       {
         "date": "2026-08-18",
         "count": 0
@@ -67,11 +63,15 @@
       },
       {
         "date": "2026-08-22",
-        "count": 15
+        "count": 18
       },
       {
         "date": "2026-08-23",
-        "count": 0
+        "count": 26
+      },
+      {
+        "date": "2026-08-24",
+        "count": 10
       }
     ]
   },
@@ -90,8 +90,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-08-22T10:16:30Z",
+    "pushedAt": "2026-08-23T10:17:00Z",
     "lastCommits": [
+      {
+        "sha": "c13268a",
+        "message": "chore(data): daily refresh 2026-08-23",
+        "date": "2026-08-23T10:16:59Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/c13268a8dfad4107b6162d3e484a09f5b88dd9cc"
+      },
       {
         "sha": "0ac7a76",
         "message": "chore(data): daily refresh 2026-08-22",
@@ -115,19 +121,9 @@
         "message": "chore(data): daily refresh 2026-08-19",
         "date": "2026-08-19T10:21:43Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/13de3afbd711f489e3c0479f383844d40ef6dea0"
-      },
-      {
-        "sha": "c71adf7",
-        "message": "chore(data): daily refresh 2026-08-18",
-        "date": "2026-08-18T10:21:21Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/c71adf7c9c19ebf3bf1f97ab5c28cd28b9cd94c7"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-08-17",
-        "count": 0
-      },
       {
         "date": "2026-08-18",
         "count": 0
@@ -150,6 +146,10 @@
       },
       {
         "date": "2026-08-23",
+        "count": 0
+      },
+      {
+        "date": "2026-08-24",
         "count": 0
       }
     ]
@@ -206,10 +206,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-08-17",
-        "count": 15
-      },
-      {
         "date": "2026-08-18",
         "count": 12
       },
@@ -231,6 +227,10 @@
       },
       {
         "date": "2026-08-23",
+        "count": 0
+      },
+      {
+        "date": "2026-08-24",
         "count": 0
       }
     ]
