@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T10:31:18.635Z",
+  "generatedAt": "2026-08-25T10:24:40.526Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
@@ -24,7 +24,7 @@
   "topLanguages": [
     {
       "name": "JavaScript",
-      "score": 165.4,
+      "score": 165.5,
       "percentage": 52.3
     },
     {
@@ -45,7 +45,7 @@
     {
       "name": "HTML",
       "score": 25.8,
-      "percentage": 8.2
+      "percentage": 8.1
     }
   ]
 }

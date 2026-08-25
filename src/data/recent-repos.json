@@ -11,8 +11,14 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-08-24T01:30:15Z",
+    "pushedAt": "2026-08-25T02:48:04Z",
     "lastCommits": [
+      {
+        "sha": "c70ec0e",
+        "message": "A faixa que engoliria um não-membro vira rótulo, não caixa (#31)",
+        "date": "2026-08-25T02:47:24Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/c70ec0e121d2433cf03a490472b360c7145244f3"
+      },
       {
         "sha": "a2a08ae",
         "message": "Reconcilia com o PR #29, que mergeou a mesma branch na origin",
@@ -36,19 +42,9 @@
         "message": "Tres campos que so existiam em modelo@1 chegam ao sessao@1, e o qualificador que vaza passa a avisar",
         "date": "2026-08-24T01:13:49Z",
         "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/088c145327bad47b97d7224170a8c948ef7ea7ae"
-      },
-      {
-        "sha": "9b7de33",
-        "message": "O teto de 30 MB vira comando, e a camada 0 passa a medi-lo",
-        "date": "2026-08-24T00:56:29Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/9b7de33be827d0fe27134498e9831ddcc71e06b3"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-08-18",
-        "count": 0
-      },
       {
         "date": "2026-08-19",
         "count": 0
@@ -72,6 +68,10 @@
       {
         "date": "2026-08-24",
         "count": 10
+      },
+      {
+        "date": "2026-08-25",
+        "count": 1
       }
     ]
   },
@@ -90,8 +90,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-08-23T10:17:00Z",
+    "pushedAt": "2026-08-24T10:31:19Z",
     "lastCommits": [
+      {
+        "sha": "af579d0",
+        "message": "chore(data): daily refresh 2026-08-24",
+        "date": "2026-08-24T10:31:18Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/af579d07506f27db5110a9c4a88997ebfa4ff97c"
+      },
       {
         "sha": "c13268a",
         "message": "chore(data): daily refresh 2026-08-23",
@@ -115,19 +121,9 @@
         "message": "chore(data): daily refresh 2026-08-20",
         "date": "2026-08-20T10:22:47Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/e593ce0ef2597399c98faa98bf3129335f6c028d"
-      },
-      {
-        "sha": "13de3af",
-        "message": "chore(data): daily refresh 2026-08-19",
-        "date": "2026-08-19T10:21:43Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/13de3afbd711f489e3c0479f383844d40ef6dea0"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-08-18",
-        "count": 0
-      },
       {
         "date": "2026-08-19",
         "count": 0
@@ -150,6 +146,10 @@
       },
       {
         "date": "2026-08-24",
+        "count": 0
+      },
+      {
+        "date": "2026-08-25",
         "count": 0
       }
     ]
@@ -206,10 +206,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-08-18",
-        "count": 12
-      },
-      {
         "date": "2026-08-19",
         "count": 11
       },
@@ -231,6 +227,10 @@
       },
       {
         "date": "2026-08-24",
+        "count": 0
+      },
+      {
+        "date": "2026-08-25",
         "count": 0
       }
     ]
