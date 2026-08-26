@@ -11,44 +11,40 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-08-25T02:48:04Z",
+    "pushedAt": "2026-08-26T01:28:04Z",
     "lastCommits": [
       {
-        "sha": "c70ec0e",
-        "message": "A faixa que engoliria um não-membro vira rótulo, não caixa (#31)",
-        "date": "2026-08-25T02:47:24Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/c70ec0e121d2433cf03a490472b360c7145244f3"
+        "sha": "b16abba",
+        "message": "O material de referência ganha lugar durável, e a redação que o deixa caber num repo público (#95) (#101)",
+        "date": "2026-08-26T01:25:08Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/b16abba95d25c49312a69526761ed8a0c2559c9d"
       },
       {
-        "sha": "a2a08ae",
-        "message": "Reconcilia com o PR #29, que mergeou a mesma branch na origin",
-        "date": "2026-08-24T01:28:44Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/a2a08aee083a6136c0ee9bc6db2ec3c788ef1853"
+        "sha": "a36a752",
+        "message": "A porta da frente: o README que descreve a árvore e as convenções do portão (#88) (#89)",
+        "date": "2026-08-25T18:02:13Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/a36a75208981d63090de055db8eac50b023b04a8"
       },
       {
-        "sha": "6cc1575",
-        "message": "A auditoria, e o relatorio que ela produziu",
-        "date": "2026-08-24T01:27:20Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/6cc1575125a0cfa1356c780d83245eba0f2bfe36"
+        "sha": "5fc224f",
+        "message": "A diretiva que o portão não entrega, e o CONTEXT.md que o CLAUDE.md prometia (#74) (#87)",
+        "date": "2026-08-25T17:53:39Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/5fc224f92f0c2f37617461218e85ed1df6a57248"
       },
       {
-        "sha": "1d22d03",
-        "message": "Seis casos de uso rodados ponta a ponta, com necessidade, modelo, diagrama e laudo",
-        "date": "2026-08-24T01:19:12Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/1d22d0319105a5937b7980a6c681489c99eaea40"
+        "sha": "1c89b6c",
+        "message": "A esteira liga: o mesmo comando em todo push e todo PR, e a tranca na main (#72) (#86)",
+        "date": "2026-08-25T17:49:45Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/1c89b6cf4c8374ca8fcee6473a17cab7a8519b03"
       },
       {
-        "sha": "088c145",
-        "message": "Tres campos que so existiam em modelo@1 chegam ao sessao@1, e o qualificador que vaza passa a avisar",
-        "date": "2026-08-24T01:13:49Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/088c145327bad47b97d7224170a8c948ef7ea7ae"
+        "sha": "779a904",
+        "message": "A família do peso entra no harness: teto de 30 MB no universo do empacotador oficial, orçamento de SKILL.md, e cerca de código não fechada (#70) (#85)",
+        "date": "2026-08-25T17:25:20Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/779a90472fa0358d6edbbaf427fb17538a700a46"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-08-19",
-        "count": 0
-      },
       {
         "date": "2026-08-20",
         "count": 0
@@ -71,6 +67,10 @@
       },
       {
         "date": "2026-08-25",
+        "count": 26
+      },
+      {
+        "date": "2026-08-26",
         "count": 1
       }
     ]
@@ -90,8 +90,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-08-24T10:31:19Z",
+    "pushedAt": "2026-08-25T10:24:41Z",
     "lastCommits": [
+      {
+        "sha": "1233ee9",
+        "message": "chore(data): daily refresh 2026-08-25",
+        "date": "2026-08-25T10:24:40Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/1233ee9c31d48b2556bd75e6e4c292d519387078"
+      },
       {
         "sha": "af579d0",
         "message": "chore(data): daily refresh 2026-08-24",
@@ -115,19 +121,9 @@
         "message": "chore(data): daily refresh 2026-08-21",
         "date": "2026-08-21T10:22:53Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/f4b04287c76a15e2d896e55e845c4994e0bdeb5d"
-      },
-      {
-        "sha": "e593ce0",
-        "message": "chore(data): daily refresh 2026-08-20",
-        "date": "2026-08-20T10:22:47Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/e593ce0ef2597399c98faa98bf3129335f6c028d"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-08-19",
-        "count": 0
-      },
       {
         "date": "2026-08-20",
         "count": 0
@@ -150,6 +146,10 @@
       },
       {
         "date": "2026-08-25",
+        "count": 0
+      },
+      {
+        "date": "2026-08-26",
         "count": 0
       }
     ]
@@ -206,10 +206,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-08-19",
-        "count": 11
-      },
-      {
         "date": "2026-08-20",
         "count": 14
       },
@@ -231,6 +227,10 @@
       },
       {
         "date": "2026-08-25",
+        "count": 0
+      },
+      {
+        "date": "2026-08-26",
         "count": 0
       }
     ]
