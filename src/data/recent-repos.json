@@ -11,51 +11,47 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-08-26T01:28:04Z",
+    "pushedAt": "2026-08-27T19:47:09Z",
     "lastCommits": [
       {
-        "sha": "b16abba",
-        "message": "O material de referência ganha lugar durável, e a redação que o deixa caber num repo público (#95) (#101)",
-        "date": "2026-08-26T01:25:08Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/b16abba95d25c49312a69526761ed8a0c2559c9d"
+        "sha": "70587ad",
+        "message": "O desempate de substring que deixava a palavra errada vencer sai, e 'vpc endpoint' e 'aurora serverless' recusam em vez de casar com o ícone errado (#139) (#149)",
+        "date": "2026-08-27T19:46:57Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/70587add2d29f266480d2edd8fde8df0cfc31713"
       },
       {
-        "sha": "a36a752",
-        "message": "A porta da frente: o README que descreve a árvore e as convenções do portão (#88) (#89)",
-        "date": "2026-08-25T18:02:13Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/a36a75208981d63090de055db8eac50b023b04a8"
+        "sha": "b25a96c",
+        "message": "O teardown para de apagar o que não construiu, e a prova volta a medir o que diz medir (#148)",
+        "date": "2026-08-27T19:40:07Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/b25a96cf7196bdc40f5c2741e65702675d8e0707"
       },
       {
-        "sha": "5fc224f",
-        "message": "A diretiva que o portão não entrega, e o CONTEXT.md que o CLAUDE.md prometia (#74) (#87)",
-        "date": "2026-08-25T17:53:39Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/5fc224f92f0c2f37617461218e85ed1df6a57248"
+        "sha": "0d94446",
+        "message": "A vista de detalhe por conta volta a sair com VPC dentro: a grade de AZ aceita a conta como raiz, e o relatório aponta quem faltou sem nove avisos (#137) (#147)",
+        "date": "2026-08-27T19:39:02Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/0d94446f7c163729914ca55f61702e99fc01f183"
       },
       {
-        "sha": "1c89b6c",
-        "message": "A esteira liga: o mesmo comando em todo push e todo PR, e a tranca na main (#72) (#86)",
-        "date": "2026-08-25T17:49:45Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/1c89b6cf4c8374ca8fcee6473a17cab7a8519b03"
+        "sha": "450b1dd",
+        "message": "O render passa a dizer quem encerrou o processo e a matar o que travou, e a bisseção para de imprimir o mesmo `✗` para o desenho e para a máquina (#128)",
+        "date": "2026-08-27T18:56:58Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/450b1dd0efd4eab6f5af3d355b391e9fc60b70a0"
       },
       {
-        "sha": "779a904",
-        "message": "A família do peso entra no harness: teto de 30 MB no universo do empacotador oficial, orçamento de SKILL.md, e cerca de código não fechada (#70) (#85)",
-        "date": "2026-08-25T17:25:20Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/779a90472fa0358d6edbbaf427fb17538a700a46"
+        "sha": "49734e5",
+        "message": "A simulação cega ganha um projeto de chamador crível, e toda porta da máquina aponta para a cópia isolada (#121) (#131)",
+        "date": "2026-08-27T18:47:55Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/49734e5a32c9bba4bf69f84be92089bd4b10a5b2"
       }
     ],
     "commitActivity": [
       {
-        "date": "2026-08-20",
+        "date": "2026-08-21",
         "count": 0
       },
       {
-        "date": "2026-08-21",
-        "count": 6
-      },
-      {
         "date": "2026-08-22",
-        "count": 18
+        "count": 12
       },
       {
         "date": "2026-08-23",
@@ -71,7 +67,92 @@
       },
       {
         "date": "2026-08-26",
-        "count": 1
+        "count": 11
+      },
+      {
+        "date": "2026-08-27",
+        "count": 15
+      }
+    ]
+  },
+  {
+    "name": "panlabs-docs",
+    "description": "Documentação de soluções técnicas em um único lugar",
+    "url": "https://github.com/ThiagoPanini/panlabs-docs",
+    "language": "JavaScript",
+    "technologies": [
+      "JavaScript",
+      "CSS"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "css",
+      "design-system",
+      "documentation",
+      "docusaurus"
+    ],
+    "pushedAt": "2026-08-27T19:19:59Z",
+    "lastCommits": [
+      {
+        "sha": "b368f5d",
+        "message": "feat: diagrama draw.io na página, pelo híbrido `.drawio.svg` (#146)",
+        "date": "2026-08-27T19:19:57Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/b368f5dc89e931732010704b25b1fd987b255169"
+      },
+      {
+        "sha": "5a73886",
+        "message": "fix: a varredura do overpower alcança a 0.30.0 e a 0.31.0 (#147)",
+        "date": "2026-08-27T19:16:16Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/5a738861a9309adbcc7c17db1fcdfda3baedc25a"
+      },
+      {
+        "sha": "9574414",
+        "message": "fix: pílula de item ativo na sidebar não sobe mais para o pai (#144)",
+        "date": "2026-08-21T19:42:21Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/957441423c31afff6208d45e3c193a19a176c619"
+      },
+      {
+        "sha": "576bf27",
+        "message": "feat: a árvore de `Jornadas` vira trilha, `Procedimentos` e `Times` viram marcador de lugar, e a varredura do overpower cobre a 0.28.0 e a 0.29.0 (#143)",
+        "date": "2026-08-21T19:18:36Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/576bf27e4c4a7ef04e29b9cc79334ea618a24149"
+      },
+      {
+        "sha": "f89e5ab",
+        "message": "fix: rename skill from `varredura-overpower` to `panlabs-overpower-docs-update` (#142)",
+        "date": "2026-08-21T16:02:21Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/f89e5ab30098307478ec82ff6d8fe845f8eb276e"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-08-21",
+        "count": 10
+      },
+      {
+        "date": "2026-08-22",
+        "count": 0
+      },
+      {
+        "date": "2026-08-23",
+        "count": 0
+      },
+      {
+        "date": "2026-08-24",
+        "count": 0
+      },
+      {
+        "date": "2026-08-25",
+        "count": 0
+      },
+      {
+        "date": "2026-08-26",
+        "count": 0
+      },
+      {
+        "date": "2026-08-27",
+        "count": 2
       }
     ]
   },
@@ -90,8 +171,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-08-25T10:24:41Z",
+    "pushedAt": "2026-08-26T10:29:06Z",
     "lastCommits": [
+      {
+        "sha": "7d54236",
+        "message": "chore(data): daily refresh 2026-08-26",
+        "date": "2026-08-26T10:29:05Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/7d542362ecb49357e578f6b0c4087b010c3c3d22"
+      },
       {
         "sha": "1233ee9",
         "message": "chore(data): daily refresh 2026-08-25",
@@ -115,19 +202,9 @@
         "message": "chore(data): daily refresh 2026-08-22",
         "date": "2026-08-22T10:16:29Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/0ac7a7620eba41327396914953414c756b12a8af"
-      },
-      {
-        "sha": "f4b0428",
-        "message": "chore(data): daily refresh 2026-08-21",
-        "date": "2026-08-21T10:22:53Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/f4b04287c76a15e2d896e55e845c4994e0bdeb5d"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-08-20",
-        "count": 0
-      },
       {
         "date": "2026-08-21",
         "count": 0
@@ -151,86 +228,9 @@
       {
         "date": "2026-08-26",
         "count": 0
-      }
-    ]
-  },
-  {
-    "name": "overpower",
-    "description": "🪛 A CLI tool for everything that is needed in a day to day software development basis",
-    "url": "https://github.com/ThiagoPanini/overpower",
-    "language": "Python",
-    "technologies": [
-      "Python",
-      "Shell"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "ai",
-      "cli",
-      "cli-tool",
-      "python"
-    ],
-    "pushedAt": "2026-08-21T20:12:43Z",
-    "lastCommits": [
-      {
-        "sha": "ff0168a",
-        "message": "Merge pull request #172 from ThiagoPanini/feat/165-a-fonte-e-endereco-nao-clone",
-        "date": "2026-08-21T20:12:30Z",
-        "url": "https://github.com/ThiagoPanini/overpower/commit/ff0168a48a21dac807e57120dc6154efb6eb8609"
       },
       {
-        "sha": "adad633",
-        "message": "chore: a versão sobe para 0.31.0, a #166 levou 0.30.0 primeiro (#165)",
-        "date": "2026-08-21T20:10:28Z",
-        "url": "https://github.com/ThiagoPanini/overpower/commit/adad6332de64635a507bfed950c97ac94e6eac03"
-      },
-      {
-        "sha": "0d4ff64",
-        "message": "fix: o teste de bundle que carrega fonte segue a #166 no rebase (#165)",
-        "date": "2026-08-21T20:10:04Z",
-        "url": "https://github.com/ThiagoPanini/overpower/commit/0d4ff6467c5ea59f6e8434991a26988a1eda635d"
-      },
-      {
-        "sha": "accfa3b",
-        "message": "test: o coto executável some para tests/support/, e a origem ganha teste no list",
-        "date": "2026-08-21T19:58:21Z",
-        "url": "https://github.com/ThiagoPanini/overpower/commit/accfa3bd548ad50d84de12b50b2e96b58851d9df"
-      },
-      {
-        "sha": "694f0fd",
-        "message": "feat: a fonte vira endereço, e o comando quem resolve é o ferramental (#165)",
-        "date": "2026-08-21T19:49:01Z",
-        "url": "https://github.com/ThiagoPanini/overpower/commit/694f0fdcc78e6022c67c28bf1684dfc319247197"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-08-20",
-        "count": 14
-      },
-      {
-        "date": "2026-08-21",
-        "count": 18
-      },
-      {
-        "date": "2026-08-22",
-        "count": 0
-      },
-      {
-        "date": "2026-08-23",
-        "count": 0
-      },
-      {
-        "date": "2026-08-24",
-        "count": 0
-      },
-      {
-        "date": "2026-08-25",
-        "count": 0
-      },
-      {
-        "date": "2026-08-26",
+        "date": "2026-08-27",
         "count": 0
       }
     ]
