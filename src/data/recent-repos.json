@@ -1,54 +1,131 @@
 [
   {
+    "name": "panlabs-docs",
+    "description": "Documentação de soluções técnicas em um único lugar",
+    "url": "https://github.com/ThiagoPanini/panlabs-docs",
+    "language": "CSS",
+    "technologies": [
+      "CSS",
+      "JavaScript"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "css",
+      "design-system",
+      "documentation",
+      "docusaurus"
+    ],
+    "pushedAt": "2026-08-30T14:29:09Z",
+    "lastCommits": [
+      {
+        "sha": "03f281b",
+        "message": "DECISIONS.md resume os doze ADRs em oito decisões vigentes (#168)",
+        "date": "2026-08-30T14:29:07Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/03f281b96bd51a3f33b8c6d88b23e078a4cf7aec"
+      },
+      {
+        "sha": "1f36dff",
+        "message": "O CLAUDE.md passa a linkar docs/agents/workflow.md (#167)",
+        "date": "2026-08-29T23:08:30Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/1f36dff1179a84433950fab51404674b32f55930"
+      },
+      {
+        "sha": "a131906",
+        "message": "Amputação do i18n: o site passa a ter locale único (#166)",
+        "date": "2026-08-29T23:06:34Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/a13190628468bc9cc02a3344a5849a1b08316fe3"
+      },
+      {
+        "sha": "6b83837",
+        "message": "Os documentos: a tag, a poda de `docs/design`, o `CONTEXT.md` e o `CLAUDE.md` novo (#157)",
+        "date": "2026-08-29T21:37:07Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/6b83837d8837e8a68ec58e11312b07b3e185b1cc"
+      },
+      {
+        "sha": "b9499d8",
+        "message": "fix: a citação de \"mensagem\" no contrato vira \"message\" (#156)",
+        "date": "2026-08-29T16:53:32Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/b9499d8beb937d30bdb36c35f8e7602b145a3eff"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-08-24",
+        "count": 0
+      },
+      {
+        "date": "2026-08-25",
+        "count": 0
+      },
+      {
+        "date": "2026-08-26",
+        "count": 0
+      },
+      {
+        "date": "2026-08-27",
+        "count": 2
+      },
+      {
+        "date": "2026-08-28",
+        "count": 0
+      },
+      {
+        "date": "2026-08-29",
+        "count": 7
+      },
+      {
+        "date": "2026-08-30",
+        "count": 1
+      }
+    ]
+  },
+  {
     "name": "panlabs-skills",
     "description": "🪚 My AI skills toolbox",
     "url": "https://github.com/ThiagoPanini/panlabs-skills",
     "language": "JavaScript",
     "technologies": [
       "JavaScript",
-      "Shell"
+      "Python"
     ],
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-08-29T03:16:58Z",
+    "pushedAt": "2026-08-29T22:03:37Z",
     "lastCommits": [
       {
-        "sha": "0cd21e7",
-        "message": "O `elaboration@1` ganha `bands`, e o arco de duas vistas passa a desenhar Auto Scaling group (#170) (#188)",
-        "date": "2026-08-29T03:16:48Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/0cd21e78396811805ada78253074f73ee4ec3e6d"
+        "sha": "a2ca701",
+        "message": "A jornada nasce mostrando antes de perguntar, e a skill se expõe nos dois caminhos da casa (#158) (#194)",
+        "date": "2026-08-29T22:02:59Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/a2ca701666e07e142d1f3cdd5696e7087e5946ad"
       },
       {
-        "sha": "4776b10",
-        "message": "O cidr fica declarado, e a projecao para de fingir que o le (#169) (#187)",
-        "date": "2026-08-29T03:11:02Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/4776b108e482b763be28b232adaa013a7c046318"
+        "sha": "26ddb58",
+        "message": "A vista de detalhe por conta ganha o tratamento de outsiders que o #30 já dava à nuvem, e o aviso lista todos os nós não suportados (#190) (#193)",
+        "date": "2026-08-29T21:39:44Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/26ddb580e2fa9936d85bfa708bdc5f86b08759c3"
       },
       {
-        "sha": "44d1bdb",
-        "message": "`elaborate.cjs` passa a rejeitar chave desconhecida dentro do valor de `refines`, e `by` para de sumir em silêncio junto com `labels` (#171) (#186)",
-        "date": "2026-08-29T03:10:57Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/44d1bdb7829ccf98e9df91f5a51a5c2d4b956928"
+        "sha": "a992e09",
+        "message": "O portão de render: dez famílias medem sobre um Chromium real (#157) (#192)",
+        "date": "2026-08-29T21:07:41Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/a992e096790e9da8431861e7075a1d6740bc1bd0"
       },
       {
-        "sha": "8c63c86",
-        "message": "O README da skill sai da árvore publicada para o workspace irmão, e as quatro afirmações falsas sobre elaboration@1 saem com ele (#173) (#184)",
-        "date": "2026-08-29T03:05:59Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/8c63c860a209adb87533a946bf4f5ec4d1d891b8"
+        "sha": "1399195",
+        "message": "A faixa auto-scaling passa a ceder o próprio traço para o balde de área do gate rápido, e o ASG de zona única deixa de exigir --force (#185) (#191)",
+        "date": "2026-08-29T16:59:59Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/13991954fdba48582a559d69262c7e2de9754d12"
       },
       {
-        "sha": "a9d1d33",
-        "message": "A A2.5 passa a medir o ícone do catálogo, não a caixa que o rótulo alargou, e para de acusar 20 dos 24 modelos do corpus (#166) (#183)",
-        "date": "2026-08-29T02:59:12Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/a9d1d33817727bc5da496fa701a0f53920f36bfc"
+        "sha": "885d5b2",
+        "message": "A faixa de membros no caminho ELK degrada para rótulo em vez de abraçar um não-membro por acidente de layout (#168) (#189)",
+        "date": "2026-08-29T16:13:48Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/885d5b29d935f1e95d7b9716f5a773595599b3de"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-08-23",
-        "count": 20
-      },
       {
         "date": "2026-08-24",
         "count": 10
@@ -71,88 +148,11 @@
       },
       {
         "date": "2026-08-29",
-        "count": 14
-      }
-    ]
-  },
-  {
-    "name": "panlabs-docs",
-    "description": "Documentação de soluções técnicas em um único lugar",
-    "url": "https://github.com/ThiagoPanini/panlabs-docs",
-    "language": "CSS",
-    "technologies": [
-      "CSS",
-      "JavaScript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "css",
-      "design-system",
-      "documentation",
-      "docusaurus"
-    ],
-    "pushedAt": "2026-08-29T01:34:30Z",
-    "lastCommits": [
-      {
-        "sha": "89f88f1",
-        "message": "A subtração e o desmonte: 26 scripts saem, a CI vira um passo, e o hook morre (#154)",
-        "date": "2026-08-29T01:34:28Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/89f88f11e0457e167deb6c1d7864f75e0dffe06f"
+        "count": 19
       },
       {
-        "sha": "bdb41f2",
-        "message": "fix: o pino sai da CI, e o `strict` sai do ruleset da `main` (#153)",
-        "date": "2026-08-29T01:25:03Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/bdb41f2161bbf269a58f91f97620ef4b0e747ee1"
-      },
-      {
-        "sha": "b368f5d",
-        "message": "feat: diagrama draw.io na página, pelo híbrido `.drawio.svg` (#146)",
-        "date": "2026-08-27T19:19:57Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/b368f5dc89e931732010704b25b1fd987b255169"
-      },
-      {
-        "sha": "5a73886",
-        "message": "fix: a varredura do overpower alcança a 0.30.0 e a 0.31.0 (#147)",
-        "date": "2026-08-27T19:16:16Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/5a738861a9309adbcc7c17db1fcdfda3baedc25a"
-      },
-      {
-        "sha": "9574414",
-        "message": "fix: pílula de item ativo na sidebar não sobe mais para o pai (#144)",
-        "date": "2026-08-21T19:42:21Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/957441423c31afff6208d45e3c193a19a176c619"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-08-23",
+        "date": "2026-08-30",
         "count": 0
-      },
-      {
-        "date": "2026-08-24",
-        "count": 0
-      },
-      {
-        "date": "2026-08-25",
-        "count": 0
-      },
-      {
-        "date": "2026-08-26",
-        "count": 0
-      },
-      {
-        "date": "2026-08-27",
-        "count": 2
-      },
-      {
-        "date": "2026-08-28",
-        "count": 0
-      },
-      {
-        "date": "2026-08-29",
-        "count": 2
       }
     ]
   },
@@ -171,8 +171,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-08-28T21:03:13Z",
+    "pushedAt": "2026-08-29T14:53:30Z",
     "lastCommits": [
+      {
+        "sha": "ba794a8",
+        "message": "chore(data): daily refresh 2026-08-29",
+        "date": "2026-08-29T14:53:30Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/ba794a8f78d563e3d1ae003e19c7fb1a51ee418d"
+      },
       {
         "sha": "afc01a3",
         "message": "chore(data): daily refresh 2026-08-28",
@@ -196,19 +202,9 @@
         "message": "chore(data): daily refresh 2026-08-25",
         "date": "2026-08-25T10:24:40Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/1233ee9c31d48b2556bd75e6e4c292d519387078"
-      },
-      {
-        "sha": "af579d0",
-        "message": "chore(data): daily refresh 2026-08-24",
-        "date": "2026-08-24T10:31:18Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/af579d07506f27db5110a9c4a88997ebfa4ff97c"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-08-23",
-        "count": 0
-      },
       {
         "date": "2026-08-24",
         "count": 0
@@ -231,6 +227,10 @@
       },
       {
         "date": "2026-08-29",
+        "count": 0
+      },
+      {
+        "date": "2026-08-30",
         "count": 0
       }
     ]
