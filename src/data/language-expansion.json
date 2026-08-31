@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T14:38:00.436Z",
+  "generatedAt": "2026-08-31T17:20:51.468Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
@@ -24,18 +24,18 @@
   "topLanguages": [
     {
       "name": "JavaScript",
-      "score": 135.9,
-      "percentage": 44.3
+      "score": 135.6,
+      "percentage": 44.2
     },
     {
       "name": "CSS",
-      "score": 87.1,
-      "percentage": 28.4
+      "score": 87.8,
+      "percentage": 28.6
     },
     {
       "name": "HTML",
-      "score": 31.6,
-      "percentage": 10.3
+      "score": 31.4,
+      "percentage": 10.2
     },
     {
       "name": "Astro",
@@ -44,7 +44,7 @@
     },
     {
       "name": "Shell",
-      "score": 23.1,
+      "score": 22.9,
       "percentage": 7.5
     }
   ]
