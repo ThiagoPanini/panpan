@@ -3,10 +3,10 @@
     "name": "panlabs-docs",
     "description": "Documentação de soluções técnicas em um único lugar",
     "url": "https://github.com/ThiagoPanini/panlabs-docs",
-    "language": "CSS",
+    "language": "JavaScript",
     "technologies": [
-      "CSS",
-      "JavaScript"
+      "JavaScript",
+      "CSS"
     ],
     "stars": 0,
     "forks": 0,
@@ -16,44 +16,40 @@
       "documentation",
       "docusaurus"
     ],
-    "pushedAt": "2026-08-30T22:48:15Z",
+    "pushedAt": "2026-09-01T00:51:11Z",
     "lastCommits": [
+      {
+        "sha": "845c40f",
+        "message": "Seleciona a aba do diagrama pelo slug, no import (#186)",
+        "date": "2026-09-01T00:51:09Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/845c40fa03953b52bed4d5b828f0329458f8194b"
+      },
+      {
+        "sha": "e19f877",
+        "message": "Lightbox de diagrama, com zoom e navegação (#184)",
+        "date": "2026-08-31T22:08:24Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/e19f87746452106b3609fb6a44a2dd7306aa8c90"
+      },
+      {
+        "sha": "359203b",
+        "message": "`<Icon>` do MDX por slug do Lucide, e o fim do manifesto (#183)",
+        "date": "2026-08-31T20:58:43Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/359203bdcc26a551c7b0635b6b8d8b98553f2296"
+      },
+      {
+        "sha": "be3a335",
+        "message": "Ícone de sidebar por slug do Lucide, e o fim do vendorizador (#182)",
+        "date": "2026-08-31T19:45:19Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/be3a335f1f19f436b82df2d20a8da1170c133143"
+      },
       {
         "sha": "70d0878",
         "message": "Corrige os resíduos da varredura final (#177) (#178)",
         "date": "2026-08-30T22:48:13Z",
         "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/70d08789663847d5443b15933940015275f81206"
-      },
-      {
-        "sha": "a412997",
-        "message": "Apaga docs/adr, docs/research, skills locais e o protocolo de economia de contexto (#176)",
-        "date": "2026-08-30T22:08:04Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/a41299716fbbdfc49d67d1ca16fe09740e35ce21"
-      },
-      {
-        "sha": "800ec87",
-        "message": "Reescreve a raiz e as regras em inglês, sem enquadramento corporativo (#175)",
-        "date": "2026-08-30T20:58:15Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/800ec87a9a779558db3d5c8cc45348adcfb159f8"
-      },
-      {
-        "sha": "593592c",
-        "message": "Poda e traduz para inglês o comentário do catálogo e do tema (#174)",
-        "date": "2026-08-30T20:38:46Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/593592cc3b1cfe6550ea2bd6079c44ec3bbeffcf"
-      },
-      {
-        "sha": "fe00b98",
-        "message": "Poda e traduz para inglês o comentário de scripts, plugins, ícones, config, sidebars e workflows (#173)",
-        "date": "2026-08-30T20:29:14Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/fe00b9865eb8724b2dcdaa9c887a4bc0cd9ff70c"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-08-25",
-        "count": 0
-      },
       {
         "date": "2026-08-26",
         "count": 0
@@ -76,6 +72,89 @@
       },
       {
         "date": "2026-08-31",
+        "count": 3
+      },
+      {
+        "date": "2026-09-01",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "panpan",
+    "description": "✨ A personal webpage where you can find relevant technical information about me",
+    "url": "https://github.com/ThiagoPanini/panpan",
+    "language": "CSS",
+    "technologies": [
+      "CSS",
+      "Astro"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "front-end",
+      "website"
+    ],
+    "pushedAt": "2026-08-31T17:20:52Z",
+    "lastCommits": [
+      {
+        "sha": "8e9d24f",
+        "message": "chore(data): daily refresh 2026-08-31",
+        "date": "2026-08-31T17:20:51Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/8e9d24fbcd164ab9fe64d5cd27007222668ce42e"
+      },
+      {
+        "sha": "74a35fe",
+        "message": "chore(data): daily refresh 2026-08-30",
+        "date": "2026-08-30T14:38:00Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/74a35fea68700a5757012e8c1ec3adac52c146c3"
+      },
+      {
+        "sha": "ba794a8",
+        "message": "chore(data): daily refresh 2026-08-29",
+        "date": "2026-08-29T14:53:30Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/ba794a8f78d563e3d1ae003e19c7fb1a51ee418d"
+      },
+      {
+        "sha": "afc01a3",
+        "message": "chore(data): daily refresh 2026-08-28",
+        "date": "2026-08-28T21:03:12Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/afc01a3c404349a5e397841bee8e1993d8fc6851"
+      },
+      {
+        "sha": "9ca915c",
+        "message": "chore(data): daily refresh 2026-08-27",
+        "date": "2026-08-27T20:05:55Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/9ca915c97ebba6292708d592c747852b5f2a2e03"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-08-26",
+        "count": 0
+      },
+      {
+        "date": "2026-08-27",
+        "count": 0
+      },
+      {
+        "date": "2026-08-28",
+        "count": 0
+      },
+      {
+        "date": "2026-08-29",
+        "count": 0
+      },
+      {
+        "date": "2026-08-30",
+        "count": 0
+      },
+      {
+        "date": "2026-08-31",
+        "count": 0
+      },
+      {
+        "date": "2026-09-01",
         "count": 0
       }
     ]
@@ -127,10 +206,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-08-25",
-        "count": 26
-      },
-      {
         "date": "2026-08-26",
         "count": 11
       },
@@ -153,84 +228,9 @@
       {
         "date": "2026-08-31",
         "count": 0
-      }
-    ]
-  },
-  {
-    "name": "panpan",
-    "description": "✨ A personal webpage where you can find relevant technical information about me",
-    "url": "https://github.com/ThiagoPanini/panpan",
-    "language": "CSS",
-    "technologies": [
-      "CSS",
-      "Astro"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "front-end",
-      "website"
-    ],
-    "pushedAt": "2026-08-30T14:38:01Z",
-    "lastCommits": [
-      {
-        "sha": "74a35fe",
-        "message": "chore(data): daily refresh 2026-08-30",
-        "date": "2026-08-30T14:38:00Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/74a35fea68700a5757012e8c1ec3adac52c146c3"
       },
       {
-        "sha": "ba794a8",
-        "message": "chore(data): daily refresh 2026-08-29",
-        "date": "2026-08-29T14:53:30Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/ba794a8f78d563e3d1ae003e19c7fb1a51ee418d"
-      },
-      {
-        "sha": "afc01a3",
-        "message": "chore(data): daily refresh 2026-08-28",
-        "date": "2026-08-28T21:03:12Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/afc01a3c404349a5e397841bee8e1993d8fc6851"
-      },
-      {
-        "sha": "9ca915c",
-        "message": "chore(data): daily refresh 2026-08-27",
-        "date": "2026-08-27T20:05:55Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/9ca915c97ebba6292708d592c747852b5f2a2e03"
-      },
-      {
-        "sha": "7d54236",
-        "message": "chore(data): daily refresh 2026-08-26",
-        "date": "2026-08-26T10:29:05Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/7d542362ecb49357e578f6b0c4087b010c3c3d22"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-08-25",
-        "count": 0
-      },
-      {
-        "date": "2026-08-26",
-        "count": 0
-      },
-      {
-        "date": "2026-08-27",
-        "count": 0
-      },
-      {
-        "date": "2026-08-28",
-        "count": 0
-      },
-      {
-        "date": "2026-08-29",
-        "count": 0
-      },
-      {
-        "date": "2026-08-30",
-        "count": 0
-      },
-      {
-        "date": "2026-08-31",
+        "date": "2026-09-01",
         "count": 0
       }
     ]
