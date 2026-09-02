@@ -16,8 +16,14 @@
       "documentation",
       "docusaurus"
     ],
-    "pushedAt": "2026-09-01T00:51:11Z",
+    "pushedAt": "2026-09-02T12:51:02Z",
     "lastCommits": [
+      {
+        "sha": "a68cd18",
+        "message": "Versiona os insumos que publicam o catálogo no Claude Design (#187)",
+        "date": "2026-09-02T12:50:59Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/a68cd184aa55eb097e58af976d3ba9646c252e2e"
+      },
       {
         "sha": "845c40f",
         "message": "Seleciona a aba do diagrama pelo slug, no import (#186)",
@@ -41,19 +47,9 @@
         "message": "Ícone de sidebar por slug do Lucide, e o fim do vendorizador (#182)",
         "date": "2026-08-31T19:45:19Z",
         "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/be3a335f1f19f436b82df2d20a8da1170c133143"
-      },
-      {
-        "sha": "70d0878",
-        "message": "Corrige os resíduos da varredura final (#177) (#178)",
-        "date": "2026-08-30T22:48:13Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/70d08789663847d5443b15933940015275f81206"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-08-26",
-        "count": 0
-      },
       {
         "date": "2026-08-27",
         "count": 2
@@ -77,6 +73,10 @@
       {
         "date": "2026-09-01",
         "count": 1
+      },
+      {
+        "date": "2026-09-02",
+        "count": 1
       }
     ]
   },
@@ -95,8 +95,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-08-31T17:20:52Z",
+    "pushedAt": "2026-09-01T14:27:21Z",
     "lastCommits": [
+      {
+        "sha": "202e83f",
+        "message": "chore(data): daily refresh 2026-09-01",
+        "date": "2026-09-01T14:27:20Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/202e83f8747307ac9d5b3748ded42cb37d28cbd3"
+      },
       {
         "sha": "8e9d24f",
         "message": "chore(data): daily refresh 2026-08-31",
@@ -120,19 +126,9 @@
         "message": "chore(data): daily refresh 2026-08-28",
         "date": "2026-08-28T21:03:12Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/afc01a3c404349a5e397841bee8e1993d8fc6851"
-      },
-      {
-        "sha": "9ca915c",
-        "message": "chore(data): daily refresh 2026-08-27",
-        "date": "2026-08-27T20:05:55Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/9ca915c97ebba6292708d592c747852b5f2a2e03"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-08-26",
-        "count": 0
-      },
       {
         "date": "2026-08-27",
         "count": 0
@@ -155,6 +151,10 @@
       },
       {
         "date": "2026-09-01",
+        "count": 0
+      },
+      {
+        "date": "2026-09-02",
         "count": 0
       }
     ]
@@ -206,10 +206,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-08-26",
-        "count": 11
-      },
-      {
         "date": "2026-08-27",
         "count": 19
       },
@@ -231,6 +227,10 @@
       },
       {
         "date": "2026-09-01",
+        "count": 0
+      },
+      {
+        "date": "2026-09-02",
         "count": 0
       }
     ]
