@@ -16,8 +16,26 @@
       "documentation",
       "docusaurus"
     ],
-    "pushedAt": "2026-09-02T12:51:02Z",
+    "pushedAt": "2026-09-02T21:12:00Z",
     "lastCommits": [
+      {
+        "sha": "c76c954",
+        "message": "Devolve a landing à raiz, com os três movimentos consumidos (#192)",
+        "date": "2026-09-02T21:11:58Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/c76c9548c5d8552a12a272d842c3bd6db050a266"
+      },
+      {
+        "sha": "6896aa1",
+        "message": "Nomeia a aba no import, e guarda o que sobrou do experimento (#190)",
+        "date": "2026-09-02T17:51:37Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/6896aa16ada0482553ffc7212860ce48f74d5bd5"
+      },
+      {
+        "sha": "b3d207b",
+        "message": "Renderiza a aba pedida antes de cada compile (#189)",
+        "date": "2026-09-02T17:41:00Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/b3d207ba5b5fe36c2505b4cd0ebebb1e90cb835f"
+      },
       {
         "sha": "a68cd18",
         "message": "Versiona os insumos que publicam o catálogo no Claude Design (#187)",
@@ -29,31 +47,9 @@
         "message": "Seleciona a aba do diagrama pelo slug, no import (#186)",
         "date": "2026-09-01T00:51:09Z",
         "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/845c40fa03953b52bed4d5b828f0329458f8194b"
-      },
-      {
-        "sha": "e19f877",
-        "message": "Lightbox de diagrama, com zoom e navegação (#184)",
-        "date": "2026-08-31T22:08:24Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/e19f87746452106b3609fb6a44a2dd7306aa8c90"
-      },
-      {
-        "sha": "359203b",
-        "message": "`<Icon>` do MDX por slug do Lucide, e o fim do manifesto (#183)",
-        "date": "2026-08-31T20:58:43Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/359203bdcc26a551c7b0635b6b8d8b98553f2296"
-      },
-      {
-        "sha": "be3a335",
-        "message": "Ícone de sidebar por slug do Lucide, e o fim do vendorizador (#182)",
-        "date": "2026-08-31T19:45:19Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/be3a335f1f19f436b82df2d20a8da1170c133143"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-08-27",
-        "count": 2
-      },
       {
         "date": "2026-08-28",
         "count": 0
@@ -76,7 +72,11 @@
       },
       {
         "date": "2026-09-02",
-        "count": 1
+        "count": 4
+      },
+      {
+        "date": "2026-09-03",
+        "count": 0
       }
     ]
   },
@@ -95,8 +95,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-09-01T14:27:21Z",
+    "pushedAt": "2026-09-02T14:00:27Z",
     "lastCommits": [
+      {
+        "sha": "a7c5cec",
+        "message": "chore(data): daily refresh 2026-09-02",
+        "date": "2026-09-02T14:00:25Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/a7c5cecea190ab35b15a8332655d753f100d6ca6"
+      },
       {
         "sha": "202e83f",
         "message": "chore(data): daily refresh 2026-09-01",
@@ -120,19 +126,9 @@
         "message": "chore(data): daily refresh 2026-08-29",
         "date": "2026-08-29T14:53:30Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/ba794a8f78d563e3d1ae003e19c7fb1a51ee418d"
-      },
-      {
-        "sha": "afc01a3",
-        "message": "chore(data): daily refresh 2026-08-28",
-        "date": "2026-08-28T21:03:12Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/afc01a3c404349a5e397841bee8e1993d8fc6851"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-08-27",
-        "count": 0
-      },
       {
         "date": "2026-08-28",
         "count": 0
@@ -155,6 +151,10 @@
       },
       {
         "date": "2026-09-02",
+        "count": 0
+      },
+      {
+        "date": "2026-09-03",
         "count": 0
       }
     ]
@@ -206,10 +206,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-08-27",
-        "count": 19
-      },
-      {
         "date": "2026-08-28",
         "count": 0
       },
@@ -231,6 +227,10 @@
       },
       {
         "date": "2026-09-02",
+        "count": 0
+      },
+      {
+        "date": "2026-09-03",
         "count": 0
       }
     ]
