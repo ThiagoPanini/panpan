@@ -16,44 +16,40 @@
       "documentation",
       "docusaurus"
     ],
-    "pushedAt": "2026-09-07T15:26:18Z",
+    "pushedAt": "2026-09-08T02:52:57Z",
     "lastCommits": [
+      {
+        "sha": "1c3c7f2",
+        "message": "Troca o tipo do artigo por assunto e redesenha índice e artigo (#204)",
+        "date": "2026-09-08T02:52:55Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/1c3c7f27af4420a3212219ee908acc88fc92c9fb"
+      },
+      {
+        "sha": "fe22e5f",
+        "message": "Publica o artigo semente sobre o modelo de skills do Matt Pocock (#202)",
+        "date": "2026-09-07T17:29:59Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/fe22e5ffbee1334ab8853440897a9cd248fd879b"
+      },
+      {
+        "sha": "ae47b8d",
+        "message": "Estende busca, llms.txt e .md por rota até os artigos do blog (#201)",
+        "date": "2026-09-07T17:10:14Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/ae47b8d4517f26407a5adc7a42e799f7627f09ee"
+      },
+      {
+        "sha": "831a691",
+        "message": "Dá ao blog índice, artigo e tags próprios, sem tocar em src/theme/ (#200)",
+        "date": "2026-09-07T16:41:54Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/831a6913d27722fa8027ab78a11809ddc86d01bb"
+      },
       {
         "sha": "b5a95d5",
         "message": "Liga o blog como quinta aba, com o contrato do artigo validado no build (#199)",
         "date": "2026-09-07T15:26:16Z",
         "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/b5a95d5d6872195d63a4174a5aa2a40c958559dc"
-      },
-      {
-        "sha": "d344c81",
-        "message": "chore: improve landing page (#193)",
-        "date": "2026-09-03T19:11:03Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/d344c81889bf3199dd0842964ea8e304928c9900"
-      },
-      {
-        "sha": "c76c954",
-        "message": "Devolve a landing à raiz, com os três movimentos consumidos (#192)",
-        "date": "2026-09-02T21:11:58Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/c76c9548c5d8552a12a272d842c3bd6db050a266"
-      },
-      {
-        "sha": "6896aa1",
-        "message": "Nomeia a aba no import, e guarda o que sobrou do experimento (#190)",
-        "date": "2026-09-02T17:51:37Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/6896aa16ada0482553ffc7212860ce48f74d5bd5"
-      },
-      {
-        "sha": "b3d207b",
-        "message": "Renderiza a aba pedida antes de cada compile (#189)",
-        "date": "2026-09-02T17:41:00Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-docs/commit/b3d207ba5b5fe36c2505b4cd0ebebb1e90cb835f"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-09-01",
-        "count": 1
-      },
       {
         "date": "2026-09-02",
         "count": 4
@@ -76,6 +72,86 @@
       },
       {
         "date": "2026-09-07",
+        "count": 4
+      },
+      {
+        "date": "2026-09-08",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "panlabs-skills",
+    "description": "🪚 My AI skills toolbox",
+    "url": "https://github.com/ThiagoPanini/panlabs-skills",
+    "language": "JavaScript",
+    "technologies": [
+      "JavaScript",
+      "Shell"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "pushedAt": "2026-09-08T02:18:45Z",
+    "lastCommits": [
+      {
+        "sha": "8f5c46a",
+        "message": "O compilador desenha os gráficos a partir de dados escritos no próprio slide (#213)",
+        "date": "2026-09-08T02:18:28Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/8f5c46a61424fb6d8e99d2287c13a7b0c24fa330"
+      },
+      {
+        "sha": "94fbfc0",
+        "message": "Colunas, comparação e lista com ícones entram, e o sprite Lucide passa a morar no tema base (#211) (#225)",
+        "date": "2026-09-07T23:38:36Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/94fbfc030d35830d8dda8cf8837e0de0759020d2"
+      },
+      {
+        "sha": "ea1b36e",
+        "message": "Número gigante, métricas em linha, linha do tempo e tabela entram no catálogo, e o compilador ganha o grupo como segunda forma de slot (#224)",
+        "date": "2026-09-07T22:41:46Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/ea1b36edd7f1f6f3faa99932619d95811c32262c"
+      },
+      {
+        "sha": "aef5530",
+        "message": "Sete padrões de poucas palavras entram no catálogo, e as três réguas de doutrina passam a medir (#223)",
+        "date": "2026-09-07T18:17:04Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/aef5530f072d2f22b7e0ae338bd2389cdb348905"
+      },
+      {
+        "sha": "b5e9c5e",
+        "message": "O portão de render volta para dentro da skill, e a folha de contato nasce (#222)",
+        "date": "2026-09-07T17:26:55Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/b5e9c5e539d6196fea0f7a09adf06290af35650b"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-09-02",
+        "count": 0
+      },
+      {
+        "date": "2026-09-03",
+        "count": 0
+      },
+      {
+        "date": "2026-09-04",
+        "count": 0
+      },
+      {
+        "date": "2026-09-05",
+        "count": 0
+      },
+      {
+        "date": "2026-09-06",
+        "count": 0
+      },
+      {
+        "date": "2026-09-07",
+        "count": 5
+      },
+      {
+        "date": "2026-09-08",
         "count": 1
       }
     ]
@@ -95,8 +171,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-09-06T13:20:24Z",
+    "pushedAt": "2026-09-07T15:26:43Z",
     "lastCommits": [
+      {
+        "sha": "0932b3f",
+        "message": "chore(data): daily refresh 2026-09-07",
+        "date": "2026-09-07T15:26:42Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/0932b3fece0f5bb8efbb4f8aaa98d296a19ea3d4"
+      },
       {
         "sha": "763ede2",
         "message": "chore(data): daily refresh 2026-09-06",
@@ -120,19 +202,9 @@
         "message": "chore(data): daily refresh 2026-09-03",
         "date": "2026-09-03T14:03:12Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/f7ef9c4104c8ee37cf63b2875f9d85779a80f17e"
-      },
-      {
-        "sha": "a7c5cec",
-        "message": "chore(data): daily refresh 2026-09-02",
-        "date": "2026-09-02T14:00:25Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/a7c5cecea190ab35b15a8332655d753f100d6ca6"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-09-01",
-        "count": 0
-      },
       {
         "date": "2026-09-02",
         "count": 0
@@ -156,81 +228,9 @@
       {
         "date": "2026-09-07",
         "count": 0
-      }
-    ]
-  },
-  {
-    "name": "panlabs-skills",
-    "description": "🪚 My AI skills toolbox",
-    "url": "https://github.com/ThiagoPanini/panlabs-skills",
-    "language": "JavaScript",
-    "technologies": [
-      "JavaScript",
-      "Python"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-08-30T20:48:03Z",
-    "lastCommits": [
-      {
-        "sha": "6fef270",
-        "message": "O corredor da fila encontra a lacuna verdadeira, e a margem dos forasteiros para de sumir na aresta cruzada (#206)",
-        "date": "2026-08-30T20:47:43Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/6fef2701f36845dfd9b5da0bf19d05da4ac60b2a"
       },
       {
-        "sha": "416bdf8",
-        "message": "O caminho normal deixa de forjar acordo que nunca houve (#201)",
-        "date": "2026-08-30T16:53:57Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/416bdf891f6a0fbed0619a7deb60215acd09a550"
-      },
-      {
-        "sha": "9b0a861",
-        "message": "O ELK volta a saber quebrar linha, e a página deixa de virar tira panorâmica (#205)",
-        "date": "2026-08-30T16:09:13Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/9b0a8617dfa66945dc1dd2a4353f6b41a0afbe7d"
-      },
-      {
-        "sha": "f2cd490",
-        "message": "A caixa que o rótulo alargou some do XML, e o ícone AWS volta a sair 1:1 (#204)",
-        "date": "2026-08-30T15:16:12Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/f2cd490ce7e6a6f20f282684dfbb3647e5382f93"
-      },
-      {
-        "sha": "1baffe2",
-        "message": "O render solicitado distingue quatro estados, e o sandbox do host ganha nome e código próprios (#196) (#203)",
-        "date": "2026-08-30T14:52:59Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/1baffe292a08bd69c8fad49e96f944482fcc49b5"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-09-01",
-        "count": 0
-      },
-      {
-        "date": "2026-09-02",
-        "count": 0
-      },
-      {
-        "date": "2026-09-03",
-        "count": 0
-      },
-      {
-        "date": "2026-09-04",
-        "count": 0
-      },
-      {
-        "date": "2026-09-05",
-        "count": 0
-      },
-      {
-        "date": "2026-09-06",
-        "count": 0
-      },
-      {
-        "date": "2026-09-07",
+        "date": "2026-09-08",
         "count": 0
       }
     ]
