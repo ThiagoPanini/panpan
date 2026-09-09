@@ -1,5 +1,160 @@
 [
   {
+    "name": "panlabs-skills",
+    "description": "🪚 My AI skills toolbox",
+    "url": "https://github.com/ThiagoPanini/panlabs-skills",
+    "language": "JavaScript",
+    "technologies": [
+      "JavaScript",
+      "Python"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "pushedAt": "2026-09-09T13:36:32Z",
+    "lastCommits": [
+      {
+        "sha": "c998662",
+        "message": "A figura sob medida fecha o catálogo, e a imagem por caminho vira bytes na página (#214) (#227)",
+        "date": "2026-09-09T13:36:15Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/c998662caf34af33ad62688744b6e17b56bc766a"
+      },
+      {
+        "sha": "8f5c46a",
+        "message": "O compilador desenha os gráficos a partir de dados escritos no próprio slide (#213)",
+        "date": "2026-09-08T02:18:28Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/8f5c46a61424fb6d8e99d2287c13a7b0c24fa330"
+      },
+      {
+        "sha": "94fbfc0",
+        "message": "Colunas, comparação e lista com ícones entram, e o sprite Lucide passa a morar no tema base (#211) (#225)",
+        "date": "2026-09-07T23:38:36Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/94fbfc030d35830d8dda8cf8837e0de0759020d2"
+      },
+      {
+        "sha": "ea1b36e",
+        "message": "Número gigante, métricas em linha, linha do tempo e tabela entram no catálogo, e o compilador ganha o grupo como segunda forma de slot (#224)",
+        "date": "2026-09-07T22:41:46Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/ea1b36edd7f1f6f3faa99932619d95811c32262c"
+      },
+      {
+        "sha": "aef5530",
+        "message": "Sete padrões de poucas palavras entram no catálogo, e as três réguas de doutrina passam a medir (#223)",
+        "date": "2026-09-07T18:17:04Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/aef5530f072d2f22b7e0ae338bd2389cdb348905"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-09-03",
+        "count": 0
+      },
+      {
+        "date": "2026-09-04",
+        "count": 0
+      },
+      {
+        "date": "2026-09-05",
+        "count": 0
+      },
+      {
+        "date": "2026-09-06",
+        "count": 0
+      },
+      {
+        "date": "2026-09-07",
+        "count": 5
+      },
+      {
+        "date": "2026-09-08",
+        "count": 1
+      },
+      {
+        "date": "2026-09-09",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "panpan",
+    "description": "✨ A personal webpage where you can find relevant technical information about me",
+    "url": "https://github.com/ThiagoPanini/panpan",
+    "language": "CSS",
+    "technologies": [
+      "CSS",
+      "Astro"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "front-end",
+      "website"
+    ],
+    "pushedAt": "2026-09-08T14:03:22Z",
+    "lastCommits": [
+      {
+        "sha": "4eb7031",
+        "message": "chore(data): daily refresh 2026-09-08",
+        "date": "2026-09-08T14:03:21Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/4eb7031dd5918c672e11571d19a96ba91ac7aea9"
+      },
+      {
+        "sha": "0932b3f",
+        "message": "chore(data): daily refresh 2026-09-07",
+        "date": "2026-09-07T15:26:42Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/0932b3fece0f5bb8efbb4f8aaa98d296a19ea3d4"
+      },
+      {
+        "sha": "763ede2",
+        "message": "chore(data): daily refresh 2026-09-06",
+        "date": "2026-09-06T13:20:23Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/763ede278af5281cfec86d6d252afd3933fd7dad"
+      },
+      {
+        "sha": "bc8388b",
+        "message": "chore(data): daily refresh 2026-09-05",
+        "date": "2026-09-05T13:11:31Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/bc8388bab1175fd240a6e7f9f54c3e953386ecb2"
+      },
+      {
+        "sha": "b2263f6",
+        "message": "chore(data): daily refresh 2026-09-04",
+        "date": "2026-09-04T13:55:43Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/b2263f6fc39d8a2a48b85f360734817a27529ec8"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-09-03",
+        "count": 0
+      },
+      {
+        "date": "2026-09-04",
+        "count": 0
+      },
+      {
+        "date": "2026-09-05",
+        "count": 0
+      },
+      {
+        "date": "2026-09-06",
+        "count": 0
+      },
+      {
+        "date": "2026-09-07",
+        "count": 0
+      },
+      {
+        "date": "2026-09-08",
+        "count": 0
+      },
+      {
+        "date": "2026-09-09",
+        "count": 0
+      }
+    ]
+  },
+  {
     "name": "panlabs-docs",
     "description": "Documentação de soluções técnicas em um único lugar",
     "url": "https://github.com/ThiagoPanini/panlabs-docs",
@@ -51,10 +206,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-09-02",
-        "count": 4
-      },
-      {
         "date": "2026-09-03",
         "count": 1
       },
@@ -77,160 +228,9 @@
       {
         "date": "2026-09-08",
         "count": 1
-      }
-    ]
-  },
-  {
-    "name": "panlabs-skills",
-    "description": "🪚 My AI skills toolbox",
-    "url": "https://github.com/ThiagoPanini/panlabs-skills",
-    "language": "JavaScript",
-    "technologies": [
-      "JavaScript",
-      "Shell"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-09-08T02:18:45Z",
-    "lastCommits": [
-      {
-        "sha": "8f5c46a",
-        "message": "O compilador desenha os gráficos a partir de dados escritos no próprio slide (#213)",
-        "date": "2026-09-08T02:18:28Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/8f5c46a61424fb6d8e99d2287c13a7b0c24fa330"
       },
       {
-        "sha": "94fbfc0",
-        "message": "Colunas, comparação e lista com ícones entram, e o sprite Lucide passa a morar no tema base (#211) (#225)",
-        "date": "2026-09-07T23:38:36Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/94fbfc030d35830d8dda8cf8837e0de0759020d2"
-      },
-      {
-        "sha": "ea1b36e",
-        "message": "Número gigante, métricas em linha, linha do tempo e tabela entram no catálogo, e o compilador ganha o grupo como segunda forma de slot (#224)",
-        "date": "2026-09-07T22:41:46Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/ea1b36edd7f1f6f3faa99932619d95811c32262c"
-      },
-      {
-        "sha": "aef5530",
-        "message": "Sete padrões de poucas palavras entram no catálogo, e as três réguas de doutrina passam a medir (#223)",
-        "date": "2026-09-07T18:17:04Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/aef5530f072d2f22b7e0ae338bd2389cdb348905"
-      },
-      {
-        "sha": "b5e9c5e",
-        "message": "O portão de render volta para dentro da skill, e a folha de contato nasce (#222)",
-        "date": "2026-09-07T17:26:55Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/b5e9c5e539d6196fea0f7a09adf06290af35650b"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-09-02",
-        "count": 0
-      },
-      {
-        "date": "2026-09-03",
-        "count": 0
-      },
-      {
-        "date": "2026-09-04",
-        "count": 0
-      },
-      {
-        "date": "2026-09-05",
-        "count": 0
-      },
-      {
-        "date": "2026-09-06",
-        "count": 0
-      },
-      {
-        "date": "2026-09-07",
-        "count": 5
-      },
-      {
-        "date": "2026-09-08",
-        "count": 1
-      }
-    ]
-  },
-  {
-    "name": "panpan",
-    "description": "✨ A personal webpage where you can find relevant technical information about me",
-    "url": "https://github.com/ThiagoPanini/panpan",
-    "language": "CSS",
-    "technologies": [
-      "CSS",
-      "Astro"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "front-end",
-      "website"
-    ],
-    "pushedAt": "2026-09-07T15:26:43Z",
-    "lastCommits": [
-      {
-        "sha": "0932b3f",
-        "message": "chore(data): daily refresh 2026-09-07",
-        "date": "2026-09-07T15:26:42Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/0932b3fece0f5bb8efbb4f8aaa98d296a19ea3d4"
-      },
-      {
-        "sha": "763ede2",
-        "message": "chore(data): daily refresh 2026-09-06",
-        "date": "2026-09-06T13:20:23Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/763ede278af5281cfec86d6d252afd3933fd7dad"
-      },
-      {
-        "sha": "bc8388b",
-        "message": "chore(data): daily refresh 2026-09-05",
-        "date": "2026-09-05T13:11:31Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/bc8388bab1175fd240a6e7f9f54c3e953386ecb2"
-      },
-      {
-        "sha": "b2263f6",
-        "message": "chore(data): daily refresh 2026-09-04",
-        "date": "2026-09-04T13:55:43Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/b2263f6fc39d8a2a48b85f360734817a27529ec8"
-      },
-      {
-        "sha": "f7ef9c4",
-        "message": "chore(data): daily refresh 2026-09-03",
-        "date": "2026-09-03T14:03:12Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/f7ef9c4104c8ee37cf63b2875f9d85779a80f17e"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-09-02",
-        "count": 0
-      },
-      {
-        "date": "2026-09-03",
-        "count": 0
-      },
-      {
-        "date": "2026-09-04",
-        "count": 0
-      },
-      {
-        "date": "2026-09-05",
-        "count": 0
-      },
-      {
-        "date": "2026-09-06",
-        "count": 0
-      },
-      {
-        "date": "2026-09-07",
-        "count": 0
-      },
-      {
-        "date": "2026-09-08",
+        "date": "2026-09-09",
         "count": 0
       }
     ]

@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-09-08T14:03:21.325Z",
+  "generatedAt": "2026-09-09T14:05:44.862Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
   "selectedRepos": [
-    "panlabs-docs",
     "panlabs-skills",
     "panpan",
+    "panlabs-docs",
     "overpower",
     "aidriven-resources"
   ],
@@ -24,27 +24,27 @@
   "topLanguages": [
     {
       "name": "JavaScript",
-      "score": 142.9,
-      "percentage": 46.8
+      "score": 140.6,
+      "percentage": 46.4
     },
     {
       "name": "CSS",
       "score": 81.1,
-      "percentage": 26.6
+      "percentage": 26.8
     },
     {
       "name": "Astro",
       "score": 29.3,
-      "percentage": 9.6
+      "percentage": 9.7
     },
     {
       "name": "HTML",
-      "score": 28.2,
-      "percentage": 9.2
+      "score": 28.6,
+      "percentage": 9.4
     },
     {
       "name": "Shell",
-      "score": 23.6,
+      "score": 23.2,
       "percentage": 7.7
     }
   ]
