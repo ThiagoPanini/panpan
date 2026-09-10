@@ -1,15 +1,15 @@
 {
-  "weekStart": "2026-09-02",
-  "weekEnd": "2026-09-08",
-  "generatedAt": "2026-09-09T14:05:43.246Z",
-  "summary": "16 commits, 32 PRs, 16 issues closed across panlabs-skills, panlabs-docs this week.",
+  "weekStart": "2026-09-03",
+  "weekEnd": "2026-09-09",
+  "generatedAt": "2026-09-10T14:00:19.987Z",
+  "summary": "19 commits, 38 PRs, 20 issues closed across panlabs-skills, panlabs-docs this week.",
   "stats": {
-    "commits": 16,
+    "commits": 19,
     "reposTouched": [
       "panlabs-skills",
       "panlabs-docs"
     ],
-    "pullRequests": 32
+    "pullRequests": 38
   },
   "source": "template"
 }
