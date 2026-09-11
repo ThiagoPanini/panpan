@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-10T14:00:21.322Z",
+  "generatedAt": "2026-09-11T13:59:21.940Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
   "selectedRepos": [
-    "panlabs-skills",
     "panpan",
+    "panlabs-skills",
     "panlabs-docs",
     "overpower",
     "aidriven-resources"
