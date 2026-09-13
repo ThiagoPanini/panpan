@@ -11,44 +11,40 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-09-12T03:38:42Z",
+    "pushedAt": "2026-09-13T00:45:08Z",
     "lastCommits": [
+      {
+        "sha": "2c0bbd4",
+        "message": "A jornada ganha o turno 0, e é provada sobre o benchmark pelas duas entradas (#240) (#252)",
+        "date": "2026-09-12T17:26:43Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/2c0bbd4ead55ac93f7e92bbecef3acf660d2f894"
+      },
+      {
+        "sha": "c4f5990",
+        "message": "O instrumento passa a ver a escrita pelo shell, e o protocolo aperta o ritual e as leituras (#250) (#251)",
+        "date": "2026-09-12T16:43:10Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/c4f599029907327b6f3337b87d7cc6d1526207c6"
+      },
+      {
+        "sha": "9c3ae30",
+        "message": "O esqueleto e o artigo: os dois modos novos do comando de construção (#239) (#249)",
+        "date": "2026-09-12T15:09:21Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/9c3ae30b04304b3915eb99c27b249a6946825fdb"
+      },
+      {
+        "sha": "c2f2f5f",
+        "message": "O reconhecimento sai da janela de implementação, e o mapa passa a rotear por seção (#247) (#248)",
+        "date": "2026-09-12T14:17:46Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/c2f2f5f56155b5bf22412d9679fa3bdde3808c5e"
+      },
       {
         "sha": "ad29f78",
         "message": "A procedência: o bloco de fontes, a citação por id, as quatro réguas e o extrator (#238) (#246)",
         "date": "2026-09-12T03:38:25Z",
         "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/ad29f78a5f1fe434a9b2817a53f8f5890d7c5fd9"
-      },
-      {
-        "sha": "0b0427c",
-        "message": "A bancada da panlabs-aws-diagrams sai da árvore, e as 26 citações que a apontavam são pagas (#235) (#236)",
-        "date": "2026-09-12T00:14:51Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/0b0427ce876254d01f9ba7f125b26660dfa7a340"
-      },
-      {
-        "sha": "29bef7c",
-        "message": "O benchmark do framework do Matt Pocock nasce medido, e o corpus passa a três (#220) (#234)",
-        "date": "2026-09-09T22:32:21Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/29bef7c424d020b7a8637322d2059333e4fbf05c"
-      },
-      {
-        "sha": "ec173e5",
-        "message": "Dois exemplos sintéticos cobrem o catálogo inteiro, um em cada tema (#219) (#232)",
-        "date": "2026-09-09T20:57:26Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/ec173e53d5c60b1f331c02960818e01879f30e7d"
-      },
-      {
-        "sha": "1d26890",
-        "message": "A porta de entrada conduz os três turnos, e a camada seis a mede (#218) (#231)",
-        "date": "2026-09-09T19:13:40Z",
-        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/1d26890a2a7089dcf15b71730961bfd042b3dfc9"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-09-06",
-        "count": 0
-      },
       {
         "date": "2026-09-07",
         "count": 5
@@ -71,7 +67,11 @@
       },
       {
         "date": "2026-09-12",
-        "count": 2
+        "count": 6
+      },
+      {
+        "date": "2026-09-13",
+        "count": 0
       }
     ]
   },
@@ -90,8 +90,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-09-11T13:59:23Z",
+    "pushedAt": "2026-09-12T13:18:13Z",
     "lastCommits": [
+      {
+        "sha": "d359097",
+        "message": "chore(data): daily refresh 2026-09-12",
+        "date": "2026-09-12T13:18:12Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/d359097cb76140d66793550f61749c45e7985943"
+      },
       {
         "sha": "cfeadc6",
         "message": "chore(data): daily refresh 2026-09-11",
@@ -115,19 +121,9 @@
         "message": "chore(data): daily refresh 2026-09-08",
         "date": "2026-09-08T14:03:21Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/4eb7031dd5918c672e11571d19a96ba91ac7aea9"
-      },
-      {
-        "sha": "0932b3f",
-        "message": "chore(data): daily refresh 2026-09-07",
-        "date": "2026-09-07T15:26:42Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/0932b3fece0f5bb8efbb4f8aaa98d296a19ea3d4"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-09-06",
-        "count": 0
-      },
       {
         "date": "2026-09-07",
         "count": 0
@@ -150,6 +146,10 @@
       },
       {
         "date": "2026-09-12",
+        "count": 0
+      },
+      {
+        "date": "2026-09-13",
         "count": 0
       }
     ]
@@ -206,10 +206,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-09-06",
-        "count": 0
-      },
-      {
         "date": "2026-09-07",
         "count": 4
       },
@@ -231,6 +227,10 @@
       },
       {
         "date": "2026-09-12",
+        "count": 0
+      },
+      {
+        "date": "2026-09-13",
         "count": 0
       }
     ]
