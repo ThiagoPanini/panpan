@@ -1,14 +1,12 @@
 {
-  "weekStart": "2026-09-13",
-  "weekEnd": "2026-09-19",
-  "generatedAt": "2026-09-20T13:52:25.944Z",
-  "summary": "1 PR across panlabs-skills this week.",
+  "weekStart": "2026-09-14",
+  "weekEnd": "2026-09-20",
+  "generatedAt": "2026-09-21T16:08:33.054Z",
+  "summary": "No recorded GitHub activity from 2026-09-14 to 2026-09-20.",
   "stats": {
     "commits": 0,
-    "reposTouched": [
-      "panlabs-skills"
-    ],
-    "pullRequests": 1
+    "reposTouched": [],
+    "pullRequests": 0
   },
   "source": "template"
 }
