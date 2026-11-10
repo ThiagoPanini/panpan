@@ -1,5 +1,80 @@
 [
   {
+    "name": "minimal-me",
+    "description": "Minimal Me: sistema operacional pessoal de conhecimento, com assistente de IA e blog público.",
+    "url": "https://github.com/ThiagoPanini/minimal-me",
+    "language": "Unknown",
+    "technologies": [
+      "Unknown"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "pushedAt": "2026-11-10T02:52:37Z",
+    "lastCommits": [
+      {
+        "sha": "62314ee",
+        "message": "chore(retro): prompt de Frames & Fables no repositorio e receitas do retro de 2026-11-09 (#32)",
+        "date": "2026-11-10T02:52:35Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/62314ee9fe82ea54cdf47f30c9d41ce9de38c955"
+      },
+      {
+        "sha": "d71fc37",
+        "message": "docs(design): identificadores do sistema de design em ingles e regra de idioma no AGENTS.md (#31)",
+        "date": "2026-11-10T01:51:23Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/d71fc3737d7bd0f567da2a6c8f72948f71eb2076"
+      },
+      {
+        "sha": "0725c21",
+        "message": "docs: renascimento do Minimal Me como hub de tres frentes e sistema de design v1 (#30)",
+        "date": "2026-11-10T01:38:35Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/0725c21b4be436eec1cbce084eae1262795b705a"
+      },
+      {
+        "sha": "b36debe",
+        "message": "docs(agents): gh 2.94+ no blockedBy e receita do mapa sem arquivo (#29)",
+        "date": "2026-11-08T00:17:21Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/b36debe5e2343a442b143713288059e8ecd32cb4"
+      },
+      {
+        "sha": "4742de0",
+        "message": "docs(brief): MVP como pagina com identidade validada e funcionalidades em breve (#28)",
+        "date": "2026-11-08T00:08:22Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/4742de08fd0726b8f5f405e1f155adf32f6bb15f"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-11-04",
+        "count": 0
+      },
+      {
+        "date": "2026-11-05",
+        "count": 0
+      },
+      {
+        "date": "2026-11-06",
+        "count": 0
+      },
+      {
+        "date": "2026-11-07",
+        "count": 6
+      },
+      {
+        "date": "2026-11-08",
+        "count": 2
+      },
+      {
+        "date": "2026-11-09",
+        "count": 0
+      },
+      {
+        "date": "2026-11-10",
+        "count": 3
+      }
+    ]
+  },
+  {
     "name": "panpan",
     "description": "✨ A personal webpage where you can find relevant technical information about me",
     "url": "https://github.com/ThiagoPanini/panpan",
@@ -14,8 +89,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-11-08T16:28:51Z",
+    "pushedAt": "2026-11-09T20:20:52Z",
     "lastCommits": [
+      {
+        "sha": "1c89c2a",
+        "message": "chore(data): daily refresh 2026-11-09",
+        "date": "2026-11-09T20:20:51Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/1c89c2a55732377f302dfb5e6d868a443ae258c0"
+      },
       {
         "sha": "0c4ed22",
         "message": "chore(data): daily refresh 2026-11-08",
@@ -39,19 +120,9 @@
         "message": "chore(data): daily refresh 2026-11-05",
         "date": "2026-11-05T17:48:07Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/fe861a59a94ee756cdf86b7d06cde3812619ce03"
-      },
-      {
-        "sha": "b19061a",
-        "message": "chore(data): daily refresh 2026-11-04",
-        "date": "2026-11-04T17:41:17Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/b19061a3387f9c9d433e4e4c83045e787e65416a"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-11-03",
-        "count": 0
-      },
       {
         "date": "2026-11-04",
         "count": 0
@@ -75,80 +146,9 @@
       {
         "date": "2026-11-09",
         "count": 0
-      }
-    ]
-  },
-  {
-    "name": "minimal-me",
-    "description": "Minimal Me: sistema operacional pessoal de conhecimento, com assistente de IA e blog público.",
-    "url": "https://github.com/ThiagoPanini/minimal-me",
-    "language": "Unknown",
-    "technologies": [
-      "Unknown"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-11-08T02:34:43Z",
-    "lastCommits": [
-      {
-        "sha": "b36debe",
-        "message": "docs(agents): gh 2.94+ no blockedBy e receita do mapa sem arquivo (#29)",
-        "date": "2026-11-08T00:17:21Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/b36debe5e2343a442b143713288059e8ecd32cb4"
       },
       {
-        "sha": "4742de0",
-        "message": "docs(brief): MVP como pagina com identidade validada e funcionalidades em breve (#28)",
-        "date": "2026-11-08T00:08:22Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/4742de08fd0726b8f5f405e1f155adf32f6bb15f"
-      },
-      {
-        "sha": "c4467a4",
-        "message": "chore(retro): docs de agentes na 1.3.2, GLOSSARY.md, .mcp.json provisorio e receita do mapa (#27)",
-        "date": "2026-11-07T23:13:41Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/c4467a4a300fbbaf320ea144a2e6e89247edae5b"
-      },
-      {
-        "sha": "81d4155",
-        "message": "docs(adr): dominio proprio para o Minimal Me (ADR 0001) (#26)",
-        "date": "2026-11-07T22:42:57Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/81d41559bb5e00e2453636cacbee0bf477d63bd7"
-      },
-      {
-        "sha": "4021d3d",
-        "message": "docs(brief): documentacao em Docusaurus se existir; reabre a decisao de dominio",
-        "date": "2026-11-07T21:50:02Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/4021d3d7f6dbd883b234ad627c41c328ea3f35ca"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-11-03",
-        "count": 0
-      },
-      {
-        "date": "2026-11-04",
-        "count": 0
-      },
-      {
-        "date": "2026-11-05",
-        "count": 0
-      },
-      {
-        "date": "2026-11-06",
-        "count": 0
-      },
-      {
-        "date": "2026-11-07",
-        "count": 6
-      },
-      {
-        "date": "2026-11-08",
-        "count": 2
-      },
-      {
-        "date": "2026-11-09",
+        "date": "2026-11-10",
         "count": 0
       }
     ]
@@ -182,10 +182,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-11-03",
-        "count": 0
-      },
-      {
         "date": "2026-11-04",
         "count": 0
       },
@@ -207,6 +203,10 @@
       },
       {
         "date": "2026-11-09",
+        "count": 0
+      },
+      {
+        "date": "2026-11-10",
         "count": 0
       }
     ]

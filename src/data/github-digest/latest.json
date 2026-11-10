@@ -1,7 +1,7 @@
 {
-  "weekStart": "2026-11-02",
-  "weekEnd": "2026-11-08",
-  "generatedAt": "2026-11-09T20:20:49.644Z",
+  "weekStart": "2026-11-03",
+  "weekEnd": "2026-11-09",
+  "generatedAt": "2026-11-10T17:25:25.653Z",
   "summary": "10 commits, 9 PRs, 15 issues closed across minimal-me, vscode-config, panlabs-tech/.github this week.",
   "stats": {
     "commits": 10,
