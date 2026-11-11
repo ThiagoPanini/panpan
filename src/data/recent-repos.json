@@ -10,8 +10,14 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-11-10T02:52:37Z",
+    "pushedAt": "2026-11-11T01:46:27Z",
     "lastCommits": [
+      {
+        "sha": "86bbf6d",
+        "message": "docs(design): prompt da home com spaces e descarte do prototipo de Frames & Fables (#33)",
+        "date": "2026-11-11T01:46:24Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/86bbf6d9ec07c754da41fadce5b4e6e8a3f11b38"
+      },
       {
         "sha": "62314ee",
         "message": "chore(retro): prompt de Frames & Fables no repositorio e receitas do retro de 2026-11-09 (#32)",
@@ -35,19 +41,9 @@
         "message": "docs(agents): gh 2.94+ no blockedBy e receita do mapa sem arquivo (#29)",
         "date": "2026-11-08T00:17:21Z",
         "url": "https://github.com/ThiagoPanini/minimal-me/commit/b36debe5e2343a442b143713288059e8ecd32cb4"
-      },
-      {
-        "sha": "4742de0",
-        "message": "docs(brief): MVP como pagina com identidade validada e funcionalidades em breve (#28)",
-        "date": "2026-11-08T00:08:22Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/4742de08fd0726b8f5f405e1f155adf32f6bb15f"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-11-04",
-        "count": 0
-      },
       {
         "date": "2026-11-05",
         "count": 0
@@ -71,6 +67,10 @@
       {
         "date": "2026-11-10",
         "count": 3
+      },
+      {
+        "date": "2026-11-11",
+        "count": 1
       }
     ]
   },
@@ -89,8 +89,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-11-09T20:20:52Z",
+    "pushedAt": "2026-11-10T17:25:28Z",
     "lastCommits": [
+      {
+        "sha": "6658ed4",
+        "message": "chore(data): daily refresh 2026-11-10",
+        "date": "2026-11-10T17:25:27Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/6658ed43dfc2430a81c9edc0c8c00d2575dd4303"
+      },
       {
         "sha": "1c89c2a",
         "message": "chore(data): daily refresh 2026-11-09",
@@ -114,19 +120,9 @@
         "message": "chore(data): daily refresh 2026-11-06",
         "date": "2026-11-06T17:05:35Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/4296bb395beadbaeeccb09a0dd730b7998a49650"
-      },
-      {
-        "sha": "fe861a5",
-        "message": "chore(data): daily refresh 2026-11-05",
-        "date": "2026-11-05T17:48:07Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/fe861a59a94ee756cdf86b7d06cde3812619ce03"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-11-04",
-        "count": 0
-      },
       {
         "date": "2026-11-05",
         "count": 0
@@ -149,6 +145,10 @@
       },
       {
         "date": "2026-11-10",
+        "count": 0
+      },
+      {
+        "date": "2026-11-11",
         "count": 0
       }
     ]
@@ -182,10 +182,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-11-04",
-        "count": 0
-      },
-      {
         "date": "2026-11-05",
         "count": 0
       },
@@ -207,6 +203,10 @@
       },
       {
         "date": "2026-11-10",
+        "count": 0
+      },
+      {
+        "date": "2026-11-11",
         "count": 0
       }
     ]
