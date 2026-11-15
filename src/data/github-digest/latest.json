@@ -1,16 +1,14 @@
 {
-  "weekStart": "2026-11-07",
-  "weekEnd": "2026-11-13",
-  "generatedAt": "2026-11-14T16:18:36.707Z",
-  "summary": "14 commits, 17 PRs, 18 issues closed across minimal-me, vscode-config, panlabs-tech/.github this week.",
+  "weekStart": "2026-11-08",
+  "weekEnd": "2026-11-14",
+  "generatedAt": "2026-11-15T16:44:45.735Z",
+  "summary": "6 commits, 8 PRs, 3 issues closed across minimal-me this week.",
   "stats": {
-    "commits": 14,
+    "commits": 6,
     "reposTouched": [
-      "minimal-me",
-      "vscode-config",
-      "panlabs-tech/.github"
+      "minimal-me"
     ],
-    "pullRequests": 17
+    "pullRequests": 8
   },
   "source": "template"
 }

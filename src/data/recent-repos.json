@@ -1,5 +1,80 @@
 [
   {
+    "name": "minimal-me",
+    "description": "Minimal Me: sistema operacional pessoal de conhecimento, com assistente de IA e blog público.",
+    "url": "https://github.com/ThiagoPanini/minimal-me",
+    "language": "Unknown",
+    "technologies": [
+      "Unknown"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "pushedAt": "2026-11-15T03:18:13Z",
+    "lastCommits": [
+      {
+        "sha": "1551e5b",
+        "message": "docs(design): protótipo do MVP arquivado como publicado (#44)",
+        "date": "2026-11-15T02:50:24Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/1551e5bedc4bc2c1e07c54c362a356adcefa14fd"
+      },
+      {
+        "sha": "e342139",
+        "message": "docs: MVP em dois marcos, spaces e ADRs do backend, da entrada e da guarda (#43)",
+        "date": "2026-11-15T02:48:40Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/e342139a24851255fad0255fa0e743c2461d79fd"
+      },
+      {
+        "sha": "86bbf6d",
+        "message": "docs(design): prompt da home com spaces e descarte do prototipo de Frames & Fables (#33)",
+        "date": "2026-11-11T01:46:24Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/86bbf6d9ec07c754da41fadce5b4e6e8a3f11b38"
+      },
+      {
+        "sha": "62314ee",
+        "message": "chore(retro): prompt de Frames & Fables no repositorio e receitas do retro de 2026-11-09 (#32)",
+        "date": "2026-11-10T02:52:35Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/62314ee9fe82ea54cdf47f30c9d41ce9de38c955"
+      },
+      {
+        "sha": "d71fc37",
+        "message": "docs(design): identificadores do sistema de design em ingles e regra de idioma no AGENTS.md (#31)",
+        "date": "2026-11-10T01:51:23Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/d71fc3737d7bd0f567da2a6c8f72948f71eb2076"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-11-09",
+        "count": 0
+      },
+      {
+        "date": "2026-11-10",
+        "count": 3
+      },
+      {
+        "date": "2026-11-11",
+        "count": 1
+      },
+      {
+        "date": "2026-11-12",
+        "count": 0
+      },
+      {
+        "date": "2026-11-13",
+        "count": 0
+      },
+      {
+        "date": "2026-11-14",
+        "count": 0
+      },
+      {
+        "date": "2026-11-15",
+        "count": 2
+      }
+    ]
+  },
+  {
     "name": "panpan",
     "description": "✨ A personal webpage where you can find relevant technical information about me",
     "url": "https://github.com/ThiagoPanini/panpan",
@@ -14,8 +89,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-11-13T17:27:21Z",
+    "pushedAt": "2026-11-14T16:18:39Z",
     "lastCommits": [
+      {
+        "sha": "4e6caea",
+        "message": "chore(data): daily refresh 2026-11-14",
+        "date": "2026-11-14T16:18:38Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/4e6caeae6387d15a843a3a6f747c556b0e805eb8"
+      },
       {
         "sha": "ee69e9d",
         "message": "chore(data): daily refresh 2026-11-13",
@@ -39,19 +120,9 @@
         "message": "chore(data): daily refresh 2026-11-10",
         "date": "2026-11-10T17:25:27Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/6658ed43dfc2430a81c9edc0c8c00d2575dd4303"
-      },
-      {
-        "sha": "1c89c2a",
-        "message": "chore(data): daily refresh 2026-11-09",
-        "date": "2026-11-09T20:20:51Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/1c89c2a55732377f302dfb5e6d868a443ae258c0"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-11-08",
-        "count": 0
-      },
       {
         "date": "2026-11-09",
         "count": 0
@@ -75,80 +146,9 @@
       {
         "date": "2026-11-14",
         "count": 0
-      }
-    ]
-  },
-  {
-    "name": "minimal-me",
-    "description": "Minimal Me: sistema operacional pessoal de conhecimento, com assistente de IA e blog público.",
-    "url": "https://github.com/ThiagoPanini/minimal-me",
-    "language": "Unknown",
-    "technologies": [
-      "Unknown"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-11-11T01:46:27Z",
-    "lastCommits": [
-      {
-        "sha": "86bbf6d",
-        "message": "docs(design): prompt da home com spaces e descarte do prototipo de Frames & Fables (#33)",
-        "date": "2026-11-11T01:46:24Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/86bbf6d9ec07c754da41fadce5b4e6e8a3f11b38"
       },
       {
-        "sha": "62314ee",
-        "message": "chore(retro): prompt de Frames & Fables no repositorio e receitas do retro de 2026-11-09 (#32)",
-        "date": "2026-11-10T02:52:35Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/62314ee9fe82ea54cdf47f30c9d41ce9de38c955"
-      },
-      {
-        "sha": "d71fc37",
-        "message": "docs(design): identificadores do sistema de design em ingles e regra de idioma no AGENTS.md (#31)",
-        "date": "2026-11-10T01:51:23Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/d71fc3737d7bd0f567da2a6c8f72948f71eb2076"
-      },
-      {
-        "sha": "0725c21",
-        "message": "docs: renascimento do Minimal Me como hub de tres frentes e sistema de design v1 (#30)",
-        "date": "2026-11-10T01:38:35Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/0725c21b4be436eec1cbce084eae1262795b705a"
-      },
-      {
-        "sha": "b36debe",
-        "message": "docs(agents): gh 2.94+ no blockedBy e receita do mapa sem arquivo (#29)",
-        "date": "2026-11-08T00:17:21Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/b36debe5e2343a442b143713288059e8ecd32cb4"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-11-08",
-        "count": 2
-      },
-      {
-        "date": "2026-11-09",
-        "count": 0
-      },
-      {
-        "date": "2026-11-10",
-        "count": 3
-      },
-      {
-        "date": "2026-11-11",
-        "count": 1
-      },
-      {
-        "date": "2026-11-12",
-        "count": 0
-      },
-      {
-        "date": "2026-11-13",
-        "count": 0
-      },
-      {
-        "date": "2026-11-14",
+        "date": "2026-11-15",
         "count": 0
       }
     ]
@@ -182,10 +182,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-11-08",
-        "count": 0
-      },
-      {
         "date": "2026-11-09",
         "count": 0
       },
@@ -207,6 +203,10 @@
       },
       {
         "date": "2026-11-14",
+        "count": 0
+      },
+      {
+        "date": "2026-11-15",
         "count": 0
       }
     ]
