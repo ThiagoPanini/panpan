@@ -10,44 +10,40 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-11-15T03:18:13Z",
+    "pushedAt": "2026-11-15T21:15:38Z",
     "lastCommits": [
       {
-        "sha": "1551e5b",
-        "message": "docs(design): protótipo do MVP arquivado como publicado (#44)",
-        "date": "2026-11-15T02:50:24Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/1551e5bedc4bc2c1e07c54c362a356adcefa14fd"
+        "sha": "c0ed7d7",
+        "message": "docs(adr): Home publicada como export estático do Next (ADR 0005) (#53)",
+        "date": "2026-11-15T21:15:35Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/c0ed7d7cec2ff9bd0447f15c344177c1b5c775af"
       },
       {
-        "sha": "e342139",
-        "message": "docs: MVP em dois marcos, spaces e ADRs do backend, da entrada e da guarda (#43)",
-        "date": "2026-11-15T02:48:40Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/e342139a24851255fad0255fa0e743c2461d79fd"
+        "sha": "2ce8007",
+        "message": "docs(agents): teto de gist no mapa e ponteiro para as docs de Cloudflare e Coolify (#51)",
+        "date": "2026-11-15T19:53:04Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/2ce80072fb4e38e4a4488b49b4a0e731ada30a0f"
       },
       {
-        "sha": "86bbf6d",
-        "message": "docs(design): prompt da home com spaces e descarte do prototipo de Frames & Fables (#33)",
-        "date": "2026-11-11T01:46:24Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/86bbf6d9ec07c754da41fadce5b4e6e8a3f11b38"
+        "sha": "2e884d4",
+        "message": "docs(adr): hospedagem da Home na nota do ADR 0001 (#48)",
+        "date": "2026-11-15T19:43:04Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/2e884d4d2ddee75458e417a77c5d617fbfb61fc0"
       },
       {
-        "sha": "62314ee",
-        "message": "chore(retro): prompt de Frames & Fables no repositorio e receitas do retro de 2026-11-09 (#32)",
-        "date": "2026-11-10T02:52:35Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/62314ee9fe82ea54cdf47f30c9d41ce9de38c955"
+        "sha": "3dcfbf1",
+        "message": "docs(adr): domínio escolhido no ADR 0001 (#47)",
+        "date": "2026-11-15T19:22:03Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/3dcfbf1a6f041cf6c80a30838395cd93442d664e"
       },
       {
-        "sha": "d71fc37",
-        "message": "docs(design): identificadores do sistema de design em ingles e regra de idioma no AGENTS.md (#31)",
-        "date": "2026-11-10T01:51:23Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/d71fc3737d7bd0f567da2a6c8f72948f71eb2076"
+        "sha": "51e591f",
+        "message": "docs: MVP só com a Home, Frames & Songs fora e um único protótipo de design (#46)",
+        "date": "2026-11-15T17:07:44Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/51e591fb6cd3d922e847661d6f4081f29efed593"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-11-09",
-        "count": 0
-      },
       {
         "date": "2026-11-10",
         "count": 3
@@ -70,7 +66,11 @@
       },
       {
         "date": "2026-11-15",
-        "count": 2
+        "count": 7
+      },
+      {
+        "date": "2026-11-16",
+        "count": 0
       }
     ]
   },
@@ -89,8 +89,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-11-14T16:18:39Z",
+    "pushedAt": "2026-11-15T16:44:48Z",
     "lastCommits": [
+      {
+        "sha": "c9bb9ad",
+        "message": "chore(data): daily refresh 2026-11-15",
+        "date": "2026-11-15T16:44:47Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/c9bb9ada399a03953a39c72aea3375ea0eb461ba"
+      },
       {
         "sha": "4e6caea",
         "message": "chore(data): daily refresh 2026-11-14",
@@ -114,19 +120,9 @@
         "message": "chore(data): daily refresh 2026-11-11",
         "date": "2026-11-11T17:38:24Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/b0eb65cf000dfbecc0e215fd1a106089e517de44"
-      },
-      {
-        "sha": "6658ed4",
-        "message": "chore(data): daily refresh 2026-11-10",
-        "date": "2026-11-10T17:25:27Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/6658ed43dfc2430a81c9edc0c8c00d2575dd4303"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-11-09",
-        "count": 0
-      },
       {
         "date": "2026-11-10",
         "count": 0
@@ -149,6 +145,10 @@
       },
       {
         "date": "2026-11-15",
+        "count": 0
+      },
+      {
+        "date": "2026-11-16",
         "count": 0
       }
     ]
@@ -182,10 +182,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-11-09",
-        "count": 0
-      },
-      {
         "date": "2026-11-10",
         "count": 0
       },
@@ -207,6 +203,10 @@
       },
       {
         "date": "2026-11-15",
+        "count": 0
+      },
+      {
+        "date": "2026-11-16",
         "count": 0
       }
     ]
