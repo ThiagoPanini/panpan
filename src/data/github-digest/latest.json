@@ -1,14 +1,14 @@
 {
-  "weekStart": "2026-11-10",
-  "weekEnd": "2026-11-16",
-  "generatedAt": "2026-11-17T18:54:07.814Z",
-  "summary": "11 commits, 22 PRs, 18 issues closed across minimal-me this week.",
+  "weekStart": "2026-11-11",
+  "weekEnd": "2026-11-17",
+  "generatedAt": "2026-11-18T18:34:41.706Z",
+  "summary": "8 commits, 16 PRs, 15 issues closed across minimal-me this week.",
   "stats": {
-    "commits": 11,
+    "commits": 8,
     "reposTouched": [
       "minimal-me"
     ],
-    "pullRequests": 22
+    "pullRequests": 16
   },
   "source": "template"
 }
