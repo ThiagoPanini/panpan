@@ -1,84 +1,5 @@
 [
   {
-    "name": "panpan",
-    "description": "✨ A personal webpage where you can find relevant technical information about me",
-    "url": "https://github.com/ThiagoPanini/panpan",
-    "language": "CSS",
-    "technologies": [
-      "CSS",
-      "Astro"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [
-      "front-end",
-      "website"
-    ],
-    "pushedAt": "2026-11-18T18:34:44Z",
-    "lastCommits": [
-      {
-        "sha": "487b007",
-        "message": "chore(data): daily refresh 2026-11-18",
-        "date": "2026-11-18T18:34:43Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/487b007220822fc419dd49e1f87b1cc67ff180c0"
-      },
-      {
-        "sha": "9e41b8b",
-        "message": "chore(data): daily refresh 2026-11-17",
-        "date": "2026-11-17T18:54:09Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/9e41b8b88398459c36489a555cf7c96c2b509cfb"
-      },
-      {
-        "sha": "0c92da8",
-        "message": "chore(data): daily refresh 2026-11-16",
-        "date": "2026-11-16T19:57:43Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/0c92da8cdb809de8da4d76431fc3d03597e17d99"
-      },
-      {
-        "sha": "c9bb9ad",
-        "message": "chore(data): daily refresh 2026-11-15",
-        "date": "2026-11-15T16:44:47Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/c9bb9ada399a03953a39c72aea3375ea0eb461ba"
-      },
-      {
-        "sha": "4e6caea",
-        "message": "chore(data): daily refresh 2026-11-14",
-        "date": "2026-11-14T16:18:38Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/4e6caeae6387d15a843a3a6f747c556b0e805eb8"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-11-13",
-        "count": 0
-      },
-      {
-        "date": "2026-11-14",
-        "count": 0
-      },
-      {
-        "date": "2026-11-15",
-        "count": 0
-      },
-      {
-        "date": "2026-11-16",
-        "count": 0
-      },
-      {
-        "date": "2026-11-17",
-        "count": 0
-      },
-      {
-        "date": "2026-11-18",
-        "count": 0
-      },
-      {
-        "date": "2026-11-19",
-        "count": 0
-      }
-    ]
-  },
-  {
     "name": "minimal-me",
     "description": "Minimal Me: sistema operacional pessoal de conhecimento, com assistente de IA e blog público.",
     "url": "https://github.com/ThiagoPanini/minimal-me",
@@ -89,8 +10,14 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-11-15T21:15:38Z",
+    "pushedAt": "2026-11-20T15:57:39Z",
     "lastCommits": [
+      {
+        "sha": "e40cbac",
+        "message": "docs(design): sistema de design v2 para a Home com spaces (#55)",
+        "date": "2026-11-20T15:54:48Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/e40cbac0b0b2f17e1e6978168dbc61315f0490b9"
+      },
       {
         "sha": "c0ed7d7",
         "message": "docs(adr): Home publicada como export estático do Next (ADR 0005) (#53)",
@@ -114,19 +41,9 @@
         "message": "docs(adr): domínio escolhido no ADR 0001 (#47)",
         "date": "2026-11-15T19:22:03Z",
         "url": "https://github.com/ThiagoPanini/minimal-me/commit/3dcfbf1a6f041cf6c80a30838395cd93442d664e"
-      },
-      {
-        "sha": "51e591f",
-        "message": "docs: MVP só com a Home, Frames & Songs fora e um único protótipo de design (#46)",
-        "date": "2026-11-15T17:07:44Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/51e591fb6cd3d922e847661d6f4081f29efed593"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-11-13",
-        "count": 0
-      },
       {
         "date": "2026-11-14",
         "count": 0
@@ -149,6 +66,89 @@
       },
       {
         "date": "2026-11-19",
+        "count": 0
+      },
+      {
+        "date": "2026-11-20",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name": "panpan",
+    "description": "✨ A personal webpage where you can find relevant technical information about me",
+    "url": "https://github.com/ThiagoPanini/panpan",
+    "language": "CSS",
+    "technologies": [
+      "CSS",
+      "Astro"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [
+      "front-end",
+      "website"
+    ],
+    "pushedAt": "2026-11-19T18:46:22Z",
+    "lastCommits": [
+      {
+        "sha": "aae65d3",
+        "message": "chore(data): daily refresh 2026-11-19",
+        "date": "2026-11-19T18:46:21Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/aae65d37287fe941701ab1bf08015395790a69fb"
+      },
+      {
+        "sha": "487b007",
+        "message": "chore(data): daily refresh 2026-11-18",
+        "date": "2026-11-18T18:34:43Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/487b007220822fc419dd49e1f87b1cc67ff180c0"
+      },
+      {
+        "sha": "9e41b8b",
+        "message": "chore(data): daily refresh 2026-11-17",
+        "date": "2026-11-17T18:54:09Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/9e41b8b88398459c36489a555cf7c96c2b509cfb"
+      },
+      {
+        "sha": "0c92da8",
+        "message": "chore(data): daily refresh 2026-11-16",
+        "date": "2026-11-16T19:57:43Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/0c92da8cdb809de8da4d76431fc3d03597e17d99"
+      },
+      {
+        "sha": "c9bb9ad",
+        "message": "chore(data): daily refresh 2026-11-15",
+        "date": "2026-11-15T16:44:47Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/c9bb9ada399a03953a39c72aea3375ea0eb461ba"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-11-14",
+        "count": 0
+      },
+      {
+        "date": "2026-11-15",
+        "count": 0
+      },
+      {
+        "date": "2026-11-16",
+        "count": 0
+      },
+      {
+        "date": "2026-11-17",
+        "count": 0
+      },
+      {
+        "date": "2026-11-18",
+        "count": 0
+      },
+      {
+        "date": "2026-11-19",
+        "count": 0
+      },
+      {
+        "date": "2026-11-20",
         "count": 0
       }
     ]
@@ -182,10 +182,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-11-13",
-        "count": 0
-      },
-      {
         "date": "2026-11-14",
         "count": 0
       },
@@ -207,6 +203,10 @@
       },
       {
         "date": "2026-11-19",
+        "count": 0
+      },
+      {
+        "date": "2026-11-20",
         "count": 0
       }
     ]
