@@ -3,51 +3,48 @@
     "name": "minimal-me",
     "description": "Minimal Me: sistema operacional pessoal de conhecimento, com assistente de IA e blog público.",
     "url": "https://github.com/ThiagoPanini/minimal-me",
-    "language": "Unknown",
+    "language": "TypeScript",
     "technologies": [
-      "Unknown"
+      "TypeScript",
+      "JavaScript"
     ],
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-11-20T15:57:39Z",
+    "pushedAt": "2026-11-21T16:25:49Z",
     "lastCommits": [
       {
-        "sha": "e40cbac",
-        "message": "docs(design): sistema de design v2 para a Home com spaces (#55)",
-        "date": "2026-11-20T15:54:48Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/e40cbac0b0b2f17e1e6978168dbc61315f0490b9"
+        "sha": "8e99b3c",
+        "message": "fix(ci): deploy roda na main depois do gate (#85)",
+        "date": "2026-11-21T16:25:34Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/8e99b3cf01f76d148842ee116a92a8c40d3042a4"
       },
       {
-        "sha": "c0ed7d7",
-        "message": "docs(adr): Home publicada como export estático do Next (ADR 0005) (#53)",
-        "date": "2026-11-15T21:15:35Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/c0ed7d7cec2ff9bd0447f15c344177c1b5c775af"
+        "sha": "78600af",
+        "message": "fix(ci): dependency-review na base do PR e zod sem a vulnerabilidade alta (#84)",
+        "date": "2026-11-21T16:07:17Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/78600af805ea2cbcd43c6b8693d4016971fbd823"
       },
       {
-        "sha": "2ce8007",
-        "message": "docs(agents): teto de gist no mapa e ponteiro para as docs de Cloudflare e Coolify (#51)",
-        "date": "2026-11-15T19:53:04Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/2ce80072fb4e38e4a4488b49b4a0e731ada30a0f"
+        "sha": "633ad54",
+        "message": "feat: Marco 1, a Home em Frestas II (#80)",
+        "date": "2026-11-21T15:40:33Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/633ad540e555a2789f2244c8bee37016e686522e"
       },
       {
-        "sha": "2e884d4",
-        "message": "docs(adr): hospedagem da Home na nota do ADR 0001 (#48)",
-        "date": "2026-11-15T19:43:04Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/2e884d4d2ddee75458e417a77c5d617fbfb61fc0"
+        "sha": "2b7e383",
+        "message": "docs(agents): ferramenta nova conferida no modo de permissão ao quebrar tickets (#81)",
+        "date": "2026-11-21T04:59:13Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/2b7e383977a548cca6f83e3a4d04a3ff91f4098d"
       },
       {
-        "sha": "3dcfbf1",
-        "message": "docs(adr): domínio escolhido no ADR 0001 (#47)",
-        "date": "2026-11-15T19:22:03Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/3dcfbf1a6f041cf6c80a30838395cd93442d664e"
+        "sha": "2152ed7",
+        "message": "docs(agents): quebra de tickets para o /implement-spec e leitura de uma seção da issue (#79)",
+        "date": "2026-11-20T23:22:45Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/2152ed7bbe54e5dd4a8889c627c06e23367f437b"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-11-14",
-        "count": 0
-      },
       {
         "date": "2026-11-15",
         "count": 7
@@ -70,7 +67,11 @@
       },
       {
         "date": "2026-11-20",
-        "count": 1
+        "count": 2
+      },
+      {
+        "date": "2026-11-21",
+        "count": 4
       }
     ]
   },
@@ -89,8 +90,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-11-19T18:46:22Z",
+    "pushedAt": "2026-11-20T18:13:07Z",
     "lastCommits": [
+      {
+        "sha": "54f88bc",
+        "message": "chore(data): daily refresh 2026-11-20",
+        "date": "2026-11-20T18:13:06Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/54f88bc080fbfccc917f1fcf8f66393becb1f3b8"
+      },
       {
         "sha": "aae65d3",
         "message": "chore(data): daily refresh 2026-11-19",
@@ -114,19 +121,9 @@
         "message": "chore(data): daily refresh 2026-11-16",
         "date": "2026-11-16T19:57:43Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/0c92da8cdb809de8da4d76431fc3d03597e17d99"
-      },
-      {
-        "sha": "c9bb9ad",
-        "message": "chore(data): daily refresh 2026-11-15",
-        "date": "2026-11-15T16:44:47Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/c9bb9ada399a03953a39c72aea3375ea0eb461ba"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-11-14",
-        "count": 0
-      },
       {
         "date": "2026-11-15",
         "count": 0
@@ -149,6 +146,10 @@
       },
       {
         "date": "2026-11-20",
+        "count": 0
+      },
+      {
+        "date": "2026-11-21",
         "count": 0
       }
     ]
@@ -182,10 +183,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-11-14",
-        "count": 0
-      },
-      {
         "date": "2026-11-15",
         "count": 0
       },
@@ -207,6 +204,10 @@
       },
       {
         "date": "2026-11-20",
+        "count": 0
+      },
+      {
+        "date": "2026-11-21",
         "count": 0
       }
     ]
