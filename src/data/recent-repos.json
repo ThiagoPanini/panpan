@@ -1,5 +1,81 @@
 [
   {
+    "name": "stunning-web-pages",
+    "description": "Catálogo pessoal e exploratório de interfaces e páginas web",
+    "url": "https://github.com/ThiagoPanini/stunning-web-pages",
+    "language": "TypeScript",
+    "technologies": [
+      "TypeScript",
+      "HTML"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "pushedAt": "2026-11-23T17:45:39Z",
+    "lastCommits": [
+      {
+        "sha": "e0947e1",
+        "message": "chore(catalogo): melhorias da retro do Ciclo 2 (#50)",
+        "date": "2026-11-23T17:45:34Z",
+        "url": "https://github.com/ThiagoPanini/stunning-web-pages/commit/e0947e1d776c040254e4ea36478ca76dc20a3270"
+      },
+      {
+        "sha": "292da56",
+        "message": "feat(portal-rai): Neônio, Refined e o Hélio com as Ondas (#49)",
+        "date": "2026-11-23T17:05:34Z",
+        "url": "https://github.com/ThiagoPanini/stunning-web-pages/commit/292da564401e810bd832ee0ce54fceffb51fa2de"
+      },
+      {
+        "sha": "d162145",
+        "message": "docs(catalogo): ajustes da retro antes do Ciclo 2 (#48)",
+        "date": "2026-11-23T13:23:40Z",
+        "url": "https://github.com/ThiagoPanini/stunning-web-pages/commit/d162145e94d3f79e8f2382adb851a0f83ca1cccf"
+      },
+      {
+        "sha": "d8d0746",
+        "message": "docs(glossario): dá forma em código a todo termo do glossário (#20)",
+        "date": "2026-11-23T03:24:59Z",
+        "url": "https://github.com/ThiagoPanini/stunning-web-pages/commit/d8d07463017ceb528f2070870e7d8971749d7614"
+      },
+      {
+        "sha": "e2c9cf7",
+        "message": "refactor(portal-rai): põe em inglês o código do Tema Hélio (#19)",
+        "date": "2026-11-23T03:23:50Z",
+        "url": "https://github.com/ThiagoPanini/stunning-web-pages/commit/e2c9cf75a85e4e74f8c31ac61f87b9ca9d76f0ae"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-11-17",
+        "count": 0
+      },
+      {
+        "date": "2026-11-18",
+        "count": 0
+      },
+      {
+        "date": "2026-11-19",
+        "count": 0
+      },
+      {
+        "date": "2026-11-20",
+        "count": 0
+      },
+      {
+        "date": "2026-11-21",
+        "count": 0
+      },
+      {
+        "date": "2026-11-22",
+        "count": 2
+      },
+      {
+        "date": "2026-11-23",
+        "count": 7
+      }
+    ]
+  },
+  {
     "name": "minimal-me",
     "description": "Minimal Me: sistema operacional pessoal de conhecimento, com assistente de IA e blog público.",
     "url": "https://github.com/ThiagoPanini/minimal-me",
@@ -11,44 +87,40 @@
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-11-21T19:07:55Z",
+    "pushedAt": "2026-11-23T03:30:46Z",
     "lastCommits": [
       {
-        "sha": "9d5df7c",
-        "message": "fix(scripts): roteiro aceita o certificado colado com as marcas do terminal (#87)",
-        "date": "2026-11-21T19:07:53Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/9d5df7c9b914656248e6fd0ec000e7323f0ad9c7"
+        "sha": "3f1fef9",
+        "message": "docs(agents): varredura das rodadas do Dependabot, saída das exceções e operações do GitHub (#94)",
+        "date": "2026-11-23T03:30:44Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/3f1fef9c33dfffed9abf0489e51f555e46b5fbb1"
       },
       {
-        "sha": "19b407c",
-        "message": "fix(scripts): roteiro reconhece o App privado do merge automático (#86)",
-        "date": "2026-11-21T17:49:19Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/19b407cdabf1195d467b8b9fba01d0a957d85a24"
+        "sha": "ff91eb9",
+        "message": "chore: saída do ignore do lefthook e comentário do teste do aviso (#93)",
+        "date": "2026-11-23T02:35:21Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/ff91eb9f13aa194fb27d3ed5ca8528173759ca56"
       },
       {
-        "sha": "8e99b3c",
-        "message": "fix(ci): deploy roda na main depois do gate (#85)",
-        "date": "2026-11-21T16:25:34Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/8e99b3cf01f76d148842ee116a92a8c40d3042a4"
+        "sha": "5fc41d9",
+        "message": "fix(web): aviso com nome fixo na transição de vista e teste estável (#92)",
+        "date": "2026-11-23T02:19:08Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/5fc41d9ddd7b13f54cb5a70db4a65a15f47241b1"
       },
       {
-        "sha": "78600af",
-        "message": "fix(ci): dependency-review na base do PR e zod sem a vulnerabilidade alta (#84)",
-        "date": "2026-11-21T16:07:17Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/78600af805ea2cbcd43c6b8693d4016971fbd823"
+        "sha": "0e7ab42",
+        "message": "ci(dependabot): ignora o lefthook 2.2.2, recusado pelo trustPolicy (#90)",
+        "date": "2026-11-23T02:10:13Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/0e7ab4244cfdf1ff772721ff0cb36a677f1a7df9"
       },
       {
-        "sha": "633ad54",
-        "message": "feat: Marco 1, a Home em Frestas II (#80)",
-        "date": "2026-11-21T15:40:33Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/633ad540e555a2789f2244c8bee37016e686522e"
+        "sha": "f433f92",
+        "message": "docs: guia de operações do agente para Coolify e Cloudflare (#89)",
+        "date": "2026-11-22T23:26:21Z",
+        "url": "https://github.com/ThiagoPanini/minimal-me/commit/f433f92477bdeba61b891a8818d81a72a2d24b68"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-11-16",
-        "count": 0
-      },
       {
         "date": "2026-11-17",
         "count": 0
@@ -71,7 +143,11 @@
       },
       {
         "date": "2026-11-22",
-        "count": 0
+        "count": 1
+      },
+      {
+        "date": "2026-11-23",
+        "count": 4
       }
     ]
   },
@@ -90,8 +166,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-11-21T17:02:54Z",
+    "pushedAt": "2026-11-22T17:32:58Z",
     "lastCommits": [
+      {
+        "sha": "6237438",
+        "message": "chore(data): daily refresh 2026-11-22",
+        "date": "2026-11-22T17:32:57Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/623743888afccdaf1f3d40b7e9278ed8fdd886c7"
+      },
       {
         "sha": "fa608cf",
         "message": "chore(data): daily refresh 2026-11-21",
@@ -115,19 +197,9 @@
         "message": "chore(data): daily refresh 2026-11-18",
         "date": "2026-11-18T18:34:43Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/487b007220822fc419dd49e1f87b1cc67ff180c0"
-      },
-      {
-        "sha": "9e41b8b",
-        "message": "chore(data): daily refresh 2026-11-17",
-        "date": "2026-11-17T18:54:09Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/9e41b8b88398459c36489a555cf7c96c2b509cfb"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-11-16",
-        "count": 0
-      },
       {
         "date": "2026-11-17",
         "count": 0
@@ -151,63 +223,9 @@
       {
         "date": "2026-11-22",
         "count": 0
-      }
-    ]
-  },
-  {
-    "name": "vscode-config",
-    "description": "Vesper Equilibrado e Symbols no VS Code: configurações JSONC e guia manual em português para Windows e Python.",
-    "url": "https://github.com/ThiagoPanini/vscode-config",
-    "language": "Python",
-    "technologies": [
-      "Python",
-      "Shell"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-11-07T22:20:36Z",
-    "lastCommits": [
-      {
-        "sha": "df58c31",
-        "message": "Adiciona instalador Python e launcher autossuficiente para Git Bash",
-        "date": "2026-11-07T22:20:31Z",
-        "url": "https://github.com/ThiagoPanini/vscode-config/commit/df58c312b2212a4043e49405ef65f8af68d037c9"
       },
       {
-        "sha": "8ab91b7",
-        "message": "Adiciona setup Vesper e guia de instalação manual",
-        "date": "2026-11-07T21:48:30Z",
-        "url": "https://github.com/ThiagoPanini/vscode-config/commit/8ab91b7d26736bafd9565d99799e79f9ef1366af"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-11-16",
-        "count": 0
-      },
-      {
-        "date": "2026-11-17",
-        "count": 0
-      },
-      {
-        "date": "2026-11-18",
-        "count": 0
-      },
-      {
-        "date": "2026-11-19",
-        "count": 0
-      },
-      {
-        "date": "2026-11-20",
-        "count": 0
-      },
-      {
-        "date": "2026-11-21",
-        "count": 0
-      },
-      {
-        "date": "2026-11-22",
+        "date": "2026-11-23",
         "count": 0
       }
     ]
