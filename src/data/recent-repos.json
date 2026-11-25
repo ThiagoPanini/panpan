@@ -6,13 +6,19 @@
     "language": "TypeScript",
     "technologies": [
       "TypeScript",
-      "HTML"
+      "JavaScript"
     ],
     "stars": 0,
     "forks": 0,
     "topics": [],
-    "pushedAt": "2026-11-24T03:19:24Z",
+    "pushedAt": "2026-11-25T17:32:59Z",
     "lastCommits": [
+      {
+        "sha": "34a0b09",
+        "message": "feat(portal-rai): um design por Projeto, com o laço e os cartões revistos (#63)",
+        "date": "2026-11-25T17:32:49Z",
+        "url": "https://github.com/ThiagoPanini/stunning-web-pages/commit/34a0b099b625e21e02d47685fd9ef56e813147b2"
+      },
       {
         "sha": "360313e",
         "message": "feat(portal-rai): Tema Curated com todas as versões dos tweaks (#51)",
@@ -36,19 +42,9 @@
         "message": "docs(catalogo): ajustes da retro antes do Ciclo 2 (#48)",
         "date": "2026-11-23T13:23:40Z",
         "url": "https://github.com/ThiagoPanini/stunning-web-pages/commit/d162145e94d3f79e8f2382adb851a0f83ca1cccf"
-      },
-      {
-        "sha": "d8d0746",
-        "message": "docs(glossario): dá forma em código a todo termo do glossário (#20)",
-        "date": "2026-11-23T03:24:59Z",
-        "url": "https://github.com/ThiagoPanini/stunning-web-pages/commit/d8d07463017ceb528f2070870e7d8971749d7614"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-11-18",
-        "count": 0
-      },
       {
         "date": "2026-11-19",
         "count": 0
@@ -72,6 +68,10 @@
       {
         "date": "2026-11-24",
         "count": 1
+      },
+      {
+        "date": "2026-11-25",
+        "count": 1
       }
     ]
   },
@@ -90,8 +90,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-11-23T21:51:32Z",
+    "pushedAt": "2026-11-24T20:27:40Z",
     "lastCommits": [
+      {
+        "sha": "fbf8c4b",
+        "message": "chore(data): daily refresh 2026-11-24",
+        "date": "2026-11-24T20:27:39Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/fbf8c4b2e7baec07f78a268fcb08ef1ab4be9e02"
+      },
       {
         "sha": "bb51da7",
         "message": "chore(data): daily refresh 2026-11-23",
@@ -115,19 +121,9 @@
         "message": "chore(data): daily refresh 2026-11-20",
         "date": "2026-11-20T18:13:06Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/54f88bc080fbfccc917f1fcf8f66393becb1f3b8"
-      },
-      {
-        "sha": "aae65d3",
-        "message": "chore(data): daily refresh 2026-11-19",
-        "date": "2026-11-19T18:46:21Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/aae65d37287fe941701ab1bf08015395790a69fb"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-11-18",
-        "count": 0
-      },
       {
         "date": "2026-11-19",
         "count": 0
@@ -150,6 +146,10 @@
       },
       {
         "date": "2026-11-24",
+        "count": 0
+      },
+      {
+        "date": "2026-11-25",
         "count": 0
       }
     ]
@@ -201,10 +201,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-11-18",
-        "count": 0
-      },
-      {
         "date": "2026-11-19",
         "count": 0
       },
@@ -226,6 +222,10 @@
       },
       {
         "date": "2026-11-24",
+        "count": 0
+      },
+      {
+        "date": "2026-11-25",
         "count": 0
       }
     ]
