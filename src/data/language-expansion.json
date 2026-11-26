@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-25T19:42:28.508Z",
+  "generatedAt": "2026-11-26T19:22:45.757Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
   "selectedRepos": [
-    "stunning-web-pages",
     "panpan",
+    "stunning-web-pages",
     "minimal-me",
     "vscode-config",
     "panlabs-skills"
