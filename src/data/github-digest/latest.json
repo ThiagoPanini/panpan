@@ -1,15 +1,15 @@
 {
-  "weekStart": "2026-11-19",
-  "weekEnd": "2026-11-25",
-  "generatedAt": "2026-11-26T19:22:44.387Z",
-  "summary": "24 commits, 38 PRs, 64 issues closed across stunning-web-pages, minimal-me this week.",
+  "weekStart": "2026-11-20",
+  "weekEnd": "2026-11-26",
+  "generatedAt": "2026-11-27T19:17:32.655Z",
+  "summary": "24 commits, 37 PRs, 58 issues closed across stunning-web-pages, minimal-me this week.",
   "stats": {
     "commits": 24,
     "reposTouched": [
       "stunning-web-pages",
       "minimal-me"
     ],
-    "pullRequests": 38
+    "pullRequests": 37
   },
   "source": "template"
 }
