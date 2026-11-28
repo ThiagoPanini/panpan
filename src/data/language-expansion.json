@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-27T19:17:34.485Z",
+  "generatedAt": "2026-11-28T17:54:17.456Z",
   "metric": "weighted_language_share",
   "metricDescription": "Aggregated language share across the 5 most recently active repositories, normalized to 100%.",
   "repoCount": 5,
   "selectedRepos": [
+    "panlabs-skills",
     "panpan",
     "stunning-web-pages",
     "minimal-me",
-    "vscode-config",
-    "panlabs-skills"
+    "vscode-config"
   ],
   "primaryStack": [
     "Python",

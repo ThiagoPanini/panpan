@@ -1,5 +1,81 @@
 [
   {
+    "name": "panlabs-skills",
+    "description": "🪚 My AI skills toolbox",
+    "url": "https://github.com/ThiagoPanini/panlabs-skills",
+    "language": "JavaScript",
+    "technologies": [
+      "JavaScript",
+      "Python"
+    ],
+    "stars": 0,
+    "forks": 0,
+    "topics": [],
+    "pushedAt": "2026-11-28T01:14:04Z",
+    "lastCommits": [
+      {
+        "sha": "2c0bbd4",
+        "message": "A jornada ganha o turno 0, e é provada sobre o benchmark pelas duas entradas (#240) (#252)",
+        "date": "2026-09-12T17:26:43Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/2c0bbd4ead55ac93f7e92bbecef3acf660d2f894"
+      },
+      {
+        "sha": "c4f5990",
+        "message": "O instrumento passa a ver a escrita pelo shell, e o protocolo aperta o ritual e as leituras (#250) (#251)",
+        "date": "2026-09-12T16:43:10Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/c4f599029907327b6f3337b87d7cc6d1526207c6"
+      },
+      {
+        "sha": "9c3ae30",
+        "message": "O esqueleto e o artigo: os dois modos novos do comando de construção (#239) (#249)",
+        "date": "2026-09-12T15:09:21Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/9c3ae30b04304b3915eb99c27b249a6946825fdb"
+      },
+      {
+        "sha": "c2f2f5f",
+        "message": "O reconhecimento sai da janela de implementação, e o mapa passa a rotear por seção (#247) (#248)",
+        "date": "2026-09-12T14:17:46Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/c2f2f5f56155b5bf22412d9679fa3bdde3808c5e"
+      },
+      {
+        "sha": "ad29f78",
+        "message": "A procedência: o bloco de fontes, a citação por id, as quatro réguas e o extrator (#238) (#246)",
+        "date": "2026-09-12T03:38:25Z",
+        "url": "https://github.com/ThiagoPanini/panlabs-skills/commit/ad29f78a5f1fe434a9b2817a53f8f5890d7c5fd9"
+      }
+    ],
+    "commitActivity": [
+      {
+        "date": "2026-11-22",
+        "count": 0
+      },
+      {
+        "date": "2026-11-23",
+        "count": 0
+      },
+      {
+        "date": "2026-11-24",
+        "count": 0
+      },
+      {
+        "date": "2026-11-25",
+        "count": 0
+      },
+      {
+        "date": "2026-11-26",
+        "count": 0
+      },
+      {
+        "date": "2026-11-27",
+        "count": 0
+      },
+      {
+        "date": "2026-11-28",
+        "count": 0
+      }
+    ]
+  },
+  {
     "name": "panpan",
     "description": "✨ A personal webpage where you can find relevant technical information about me",
     "url": "https://github.com/ThiagoPanini/panpan",
@@ -14,8 +90,14 @@
       "front-end",
       "website"
     ],
-    "pushedAt": "2026-11-26T19:22:47Z",
+    "pushedAt": "2026-11-27T19:17:36Z",
     "lastCommits": [
+      {
+        "sha": "405ccde",
+        "message": "chore(data): daily refresh 2026-11-27",
+        "date": "2026-11-27T19:17:34Z",
+        "url": "https://github.com/ThiagoPanini/panpan/commit/405ccdef469614052c09661f67d8da4a9dd8ace2"
+      },
       {
         "sha": "a4fa30a",
         "message": "chore(data): daily refresh 2026-11-26",
@@ -39,19 +121,9 @@
         "message": "chore(data): daily refresh 2026-11-23",
         "date": "2026-11-23T21:51:31Z",
         "url": "https://github.com/ThiagoPanini/panpan/commit/bb51da7bec2b128605d8451ec1ee9b60a3843710"
-      },
-      {
-        "sha": "6237438",
-        "message": "chore(data): daily refresh 2026-11-22",
-        "date": "2026-11-22T17:32:57Z",
-        "url": "https://github.com/ThiagoPanini/panpan/commit/623743888afccdaf1f3d40b7e9278ed8fdd886c7"
       }
     ],
     "commitActivity": [
-      {
-        "date": "2026-11-21",
-        "count": 0
-      },
       {
         "date": "2026-11-22",
         "count": 0
@@ -74,6 +146,10 @@
       },
       {
         "date": "2026-11-27",
+        "count": 0
+      },
+      {
+        "date": "2026-11-28",
         "count": 0
       }
     ]
@@ -125,10 +201,6 @@
     ],
     "commitActivity": [
       {
-        "date": "2026-11-21",
-        "count": 0
-      },
-      {
         "date": "2026-11-22",
         "count": 2
       },
@@ -151,81 +223,9 @@
       {
         "date": "2026-11-27",
         "count": 0
-      }
-    ]
-  },
-  {
-    "name": "minimal-me",
-    "description": "Minimal Me: sistema operacional pessoal de conhecimento, com assistente de IA e blog público.",
-    "url": "https://github.com/ThiagoPanini/minimal-me",
-    "language": "TypeScript",
-    "technologies": [
-      "TypeScript",
-      "JavaScript"
-    ],
-    "stars": 0,
-    "forks": 0,
-    "topics": [],
-    "pushedAt": "2026-11-23T03:30:46Z",
-    "lastCommits": [
-      {
-        "sha": "3f1fef9",
-        "message": "docs(agents): varredura das rodadas do Dependabot, saída das exceções e operações do GitHub (#94)",
-        "date": "2026-11-23T03:30:44Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/3f1fef9c33dfffed9abf0489e51f555e46b5fbb1"
       },
       {
-        "sha": "ff91eb9",
-        "message": "chore: saída do ignore do lefthook e comentário do teste do aviso (#93)",
-        "date": "2026-11-23T02:35:21Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/ff91eb9f13aa194fb27d3ed5ca8528173759ca56"
-      },
-      {
-        "sha": "5fc41d9",
-        "message": "fix(web): aviso com nome fixo na transição de vista e teste estável (#92)",
-        "date": "2026-11-23T02:19:08Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/5fc41d9ddd7b13f54cb5a70db4a65a15f47241b1"
-      },
-      {
-        "sha": "0e7ab42",
-        "message": "ci(dependabot): ignora o lefthook 2.2.2, recusado pelo trustPolicy (#90)",
-        "date": "2026-11-23T02:10:13Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/0e7ab4244cfdf1ff772721ff0cb36a677f1a7df9"
-      },
-      {
-        "sha": "f433f92",
-        "message": "docs: guia de operações do agente para Coolify e Cloudflare (#89)",
-        "date": "2026-11-22T23:26:21Z",
-        "url": "https://github.com/ThiagoPanini/minimal-me/commit/f433f92477bdeba61b891a8818d81a72a2d24b68"
-      }
-    ],
-    "commitActivity": [
-      {
-        "date": "2026-11-21",
-        "count": 6
-      },
-      {
-        "date": "2026-11-22",
-        "count": 1
-      },
-      {
-        "date": "2026-11-23",
-        "count": 4
-      },
-      {
-        "date": "2026-11-24",
-        "count": 0
-      },
-      {
-        "date": "2026-11-25",
-        "count": 0
-      },
-      {
-        "date": "2026-11-26",
-        "count": 0
-      },
-      {
-        "date": "2026-11-27",
+        "date": "2026-11-28",
         "count": 0
       }
     ]
